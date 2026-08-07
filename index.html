@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>每日 AI 新闻看板</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <h1>每日 AI 新闻看板</h1>
+      <p class="subtitle">AI coding · 具身智能 · 行业蓝海 · 副业机会 —— 数据实时来自 GitHub 仓库</p>
+    </div>
+    <div class="header-actions">
+      <span id="updated" class="updated">—</span>
+      <button id="refresh" class="btn">刷新</button>
+    </div>
+  </header>
+
+  <nav class="tabs" role="tablist">
+    <button class="tab active" data-tab="daily" role="tab">每日动态</button>
+    <button class="tab" data-tab="weekly" role="tab">周报</button>
+    <button class="tab" data-tab="monthly" role="tab">月报</button>
+  </nav>
+
+  <main>
+    <!-- 每日动态 -->
+    <section id="panel-daily" class="panel active">
+      <div class="controls">
+        <label class="control">
+          <span>月份</span>
+          <select id="month-select"></select>
+        </label>
+        <label class="control grow">
+          <span>搜索</span>
+          <input id="search" type="text" placeholder="按标题 / 关键词筛选…" />
+        </label>
+      </div>
+      <div class="daily-layout">
+        <aside class="timeline" id="timeline">
+          <p class="hint">选择月份后，这里会列出当月的每日新闻。</p>
+        </aside>
+        <div class="content">
+          <div class="chart-wrap">
+            <canvas id="dailyChart"></canvas>
+          </div>
+          <div id="day-detail" class="day-detail">
+            <p class="hint">点击左侧日期查看当天动态。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 周报 -->
+    <section id="panel-weekly" class="panel">
+      <div class="summary-list" id="weekly-list">
+        <p class="hint">加载中…</p>
+      </div>
+      <article id="weekly-detail" class="summary-detail">
+        <p class="hint">选择一份周报查看内容。</p>
+      </article>
+    </section>
+
+    <!-- 月报 -->
+    <section id="panel-monthly" class="panel">
+      <div class="summary-list" id="monthly-list">
+        <p class="hint">加载中…</p>
+      </div>
+      <article id="monthly-detail" class="summary-detail">
+        <p class="hint">选择一份月报查看内容。</p>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>数据归档于仓库 <code>每日新闻/</code> · 由 GitHub Pages 托管 · 每日 08:30 自动采集</span>
+  </footer>
+</body>
+</html>
