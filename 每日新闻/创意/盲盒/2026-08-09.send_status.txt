@@ -1,0 +1,5 @@
+send_status: error
+date: 2026-08-09
+to: 2364728886@qq.com
+subject: AI 冷知识盲盒 · 2026-08-09
+error: mcp__agent-mail__SendMessage 工具未在当前环境注册（ToolSearch 仅返回 upload_attachment / download_attachment，DeferExecuteTool 报 "not found"）。无法自动发送，已按任务要求"记录失败并继续"。盲盒正文已写入 每日新闻/创意/盲盒/2026-08-09.md。
