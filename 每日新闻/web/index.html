@@ -1,83 +1,145 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>每日 AI 新闻看板</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f2efe7">
+  <meta name="description" content="每日 AI 情报、趋势与机会雷达。">
+  <title>AI SIGNAL · 每日情报</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Noto+Serif+SC:wght@600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js" defer></script>
   <script src="assets/app.js" defer></script>
 </head>
 <body>
-  <header class="site-header">
-    <div class="brand">
-      <h1>每日 AI 新闻看板</h1>
-      <p class="subtitle">AI coding · 具身智能 · 行业蓝海 · 副业机会 —— 数据实时来自 GitHub 仓库</p>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <header class="masthead">
+    <a class="brand" href="#daily" aria-label="AI SIGNAL 首页">
+      <span class="brand-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span><b>AI SIGNAL</b><small>每日情报</small></span>
+    </a>
+    <div class="masthead-meta" aria-label="站点状态">
+      <span class="live-dot"></span><span>REPOSITORY LIVE</span>
+      <span id="updated">正在同步</span>
     </div>
-    <div class="header-actions">
-      <span id="updated" class="updated">—</span>
-      <button id="refresh" class="btn">刷新</button>
+    <div class="masthead-actions">
+      <button class="icon-button" id="theme-toggle" type="button" aria-label="切换深浅主题" title="切换主题">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3a9 9 0 1 0 9 9c0-.46-.04-.91-.1-1.35A7 7 0 0 1 13.35 3.1 9.3 9.3 0 0 0 12 3Z"/></svg>
+      </button>
+      <button class="icon-button" id="refresh" type="button" aria-label="刷新数据" title="刷新数据">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 6v5h-5M4 18v-5h5M6.1 9A7 7 0 0 1 18 6l2 2M17.9 15A7 7 0 0 1 6 18l-2-2"/></svg>
+      </button>
     </div>
   </header>
 
-  <nav class="tabs" role="tablist">
-    <button class="tab active" data-tab="daily" role="tab">每日动态</button>
-    <button class="tab" data-tab="weekly" role="tab">周报</button>
-    <button class="tab" data-tab="monthly" role="tab">月报</button>
-  </nav>
-
-  <main>
-    <!-- 每日动态 -->
-    <section id="panel-daily" class="panel active">
-      <div class="controls">
-        <label class="control">
-          <span>月份</span>
-          <select id="month-select"></select>
-        </label>
-        <label class="control grow">
-          <span>搜索</span>
-          <input id="search" type="text" placeholder="按标题 / 关键词筛选…" />
-        </label>
+  <div class="app-shell">
+    <nav class="side-nav" aria-label="主要导航">
+      <p class="eyebrow">SECTIONS</p>
+      <button class="nav-item active" data-tab="daily" type="button">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg><span>每日脉冲</span>
+      </button>
+      <button class="nav-item" data-tab="weekly" type="button">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg><span>周报</span>
+      </button>
+      <button class="nav-item" data-tab="monthly" type="button">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg><span>月报</span>
+      </button>
+      <button class="nav-item" data-tab="creative" type="button">
+        <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="4"/></svg><span>创意实验室</span>
+      </button>
+      <div class="nav-note">
+        <span>AI GENERATED</span>
+        <p>内容由自动化采集与辅助生成，请以原始信源为准。</p>
       </div>
-      <div class="daily-layout">
-        <aside class="timeline" id="timeline">
-          <p class="hint">选择月份后，这里会列出当月的每日新闻。</p>
-        </aside>
-        <div class="content">
-          <div class="chart-wrap">
-            <canvas id="dailyChart"></canvas>
+    </nav>
+
+    <main id="main" tabindex="-1">
+      <section class="view active" id="view-daily" aria-labelledby="daily-heading">
+        <header class="page-intro">
+          <div>
+            <p class="kicker"><span>01</span> DAILY INTELLIGENCE</p>
+            <h1 id="daily-heading">今日<span>脉冲</span></h1>
           </div>
-          <div id="day-detail" class="day-detail">
-            <p class="hint">点击左侧日期查看当天动态。</p>
-          </div>
+          <p class="intro-copy">从噪声中提取信号。聚焦 AI Coding、具身智能与正在成形的新机会。</p>
+        </header>
+
+        <div class="command-bar" role="search">
+          <label class="search-field" for="search">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+            <span class="sr-only">搜索情报</span>
+            <input id="search" type="search" placeholder="搜索标题、关键词或来源" autocomplete="off">
+            <kbd>⌘ K</kbd>
+          </label>
+          <label class="month-field" for="month-select"><span>ARCHIVE</span><select id="month-select" aria-label="选择月份"></select></label>
         </div>
-      </div>
-    </section>
 
-    <!-- 周报 -->
-    <section id="panel-weekly" class="panel">
-      <div class="summary-list" id="weekly-list">
-        <p class="hint">加载中…</p>
-      </div>
-      <article id="weekly-detail" class="summary-detail">
-        <p class="hint">选择一份周报查看内容。</p>
-      </article>
-    </section>
+        <div id="daily-status" class="status-line" aria-live="polite"></div>
+        <div class="daily-grid">
+          <aside class="date-rail" aria-label="日期列表">
+            <div class="rail-heading"><span>日期流</span><span id="day-total">—</span></div>
+            <div id="timeline" class="timeline skeleton-list" aria-busy="true"></div>
+          </aside>
 
-    <!-- 月报 -->
-    <section id="panel-monthly" class="panel">
-      <div class="summary-list" id="monthly-list">
-        <p class="hint">加载中…</p>
-      </div>
-      <article id="monthly-detail" class="summary-detail">
-        <p class="hint">选择一份月报查看内容。</p>
-      </article>
-    </section>
-  </main>
+          <section class="story-stage" aria-live="polite">
+            <div id="day-hero" class="day-hero skeleton-block"></div>
+            <div id="day-detail" class="story-list"></div>
+          </section>
 
-  <footer class="site-footer">
-    <span>数据归档于仓库 <code>每日新闻/</code> · 由 GitHub Pages 托管 · 每日 08:30 自动采集</span>
-  </footer>
+          <aside class="signal-panel">
+            <section class="signal-card chart-card">
+              <div class="module-heading"><div><span>7D SIGNAL</span><h2>新闻频率</h2></div><span id="signal-average">—</span></div>
+              <div class="chart-box"><canvas id="dailyChart" aria-label="每日新闻条数趋势图" role="img"></canvas></div>
+              <div id="chart-summary" class="sr-only"></div>
+            </section>
+            <section class="signal-card opportunity-card" id="opportunity-panel">
+              <div class="module-heading"><div><span>OPPORTUNITY</span><h2>机会雷达</h2></div></div>
+              <div id="opportunity-list"><p class="muted">选择日期后显示。</p></div>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section class="view" id="view-weekly" aria-labelledby="weekly-heading">
+        <header class="page-intro"><div><p class="kicker"><span>02</span> WEEKLY BRIEF</p><h1 id="weekly-heading">周度<span>观察</span></h1></div><p class="intro-copy">将碎片事件压缩为趋势线索，识别本周真正发生变化的方向。</p></header>
+        <div class="report-layout"><aside><div class="rail-heading"><span>周报索引</span></div><div id="weekly-list" class="report-list skeleton-list"></div></aside><article id="weekly-detail" class="report-paper"><div class="empty-state">选择一份周报开始阅读</div></article></div>
+      </section>
+
+      <section class="view" id="view-monthly" aria-labelledby="monthly-heading">
+        <header class="page-intro"><div><p class="kicker"><span>03</span> MONTHLY REVIEW</p><h1 id="monthly-heading">月度<span>纵深</span></h1></div><p class="intro-copy">拉长时间尺度，回看产业叙事、资本方向和技术拐点。</p></header>
+        <div class="report-layout"><aside><div class="rail-heading"><span>月报索引</span></div><div id="monthly-list" class="report-list skeleton-list"></div></aside><article id="monthly-detail" class="report-paper"><div class="empty-state">选择一份月报开始阅读</div></article></div>
+      </section>
+
+      <section class="view" id="view-creative" aria-labelledby="creative-heading">
+        <header class="page-intro creative-intro">
+          <div><p class="kicker"><span>04</span> CREATIVE LAB</p><h1 id="creative-heading">创意<span>实验室</span></h1></div>
+          <p class="intro-copy">同一组事实，换一种观察方式。这里收录人格播报、事实核验、机会排名与 AI 文化切片。</p>
+        </header>
+        <div class="lab-marquee" aria-hidden="true"><span>FACT CHECK · PERSONA · SIDE HUSTLE · COLD KNOWLEDGE · COMIC · QUOTE ·</span></div>
+        <div class="creative-tabs" id="creative-tabs" role="tablist" aria-label="创意内容分类"></div>
+        <div id="creative-status" class="status-line" aria-live="polite"></div>
+        <div class="creative-layout">
+          <aside class="creative-index">
+            <div class="rail-heading"><span>内容索引</span><span id="creative-total">—</span></div>
+            <div id="creative-list" class="report-list skeleton-list" aria-busy="true"></div>
+          </aside>
+          <article id="creative-detail" class="creative-paper">
+            <div class="empty-visual" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+            <div class="empty-state"><div><strong>选择一个创意切片</strong><p>换一种角度阅读 AI 世界。</p></div></div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="移动端导航">
+    <button class="active" data-tab="daily" type="button"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 5h16v14H4zM8 9h8M8 13h5"/></svg><span>每日</span></button>
+    <button data-tab="weekly" type="button"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M4 19V9M10 19V5M16 19v-7M22 19H2"/></svg><span>周报</span></button>
+    <button data-tab="monthly" type="button"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 8h8M8 12h8M8 16h5"/></svg><span>月报</span></button>
+    <button data-tab="creative" type="button"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1"/><circle cx="12" cy="12" r="4"/></svg><span>创意</span></button>
+  </nav>
 </body>
 </html>
