@@ -43,8 +43,16 @@ My-Workspace/
 
 ## 三、看板（GitHub Pages）
 
-看板页面位于 `每日新闻/web/`，通过 GitHub API 实时读取仓库内的 Markdown 数据并渲染。
+看板页面位于 `每日新闻/web/`，通过同目录下的静态 JSON 数据渲染，不调用 GitHub REST API。
 仓库根 `index.html` 仅作重定向，访问仓库 Pages 地址会自动跳转到看板。
+
+每个 Markdown 对应一个独立 JSON，目录索引位于 `每日新闻/web/data/index.json`。内容或创意产物更新后、提交代码前必须执行：
+
+```bash
+python 每日新闻/脚本/export_web_data.py
+```
+
+WorkBuddy 的每日、每周、每月和盲盒自动化均应在 `git add` 前执行该命令，使 Pages 数据与 Markdown 保持同步。
 
 ---
 

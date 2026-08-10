@@ -1,7 +1,1 @@
 sent
-to: 2364728886@qq.com
-subject: 每日 AI 动态 · 2026-08-10
-body_format: PLAIN
-time: 2026-08-10T08:20 GMT+8
-confirmation: 首调 42801，带 token 重发成功入队
-daily_quota_remaining: 49/50

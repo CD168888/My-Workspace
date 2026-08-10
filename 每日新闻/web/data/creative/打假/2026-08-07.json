@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-08-07",
+  "title": "谣言粉碎机 · 2026-08-07",
+  "markdown": "# 谣言粉碎机 · 2026-08-07\n\n> 每日挑 1 条最夸张/数据最重的新闻，用 WebSearch 交叉核查关键事实并评级。\n\n## 原声称\nX2 Robotics 已秘密递交港交所 IPO，主打全栈自研\"世界统一模型（WUM）\"原生多模态架构，5 月开源 Wall-OSS-0.5；两个月内完成 B/B+/B++/C 四轮融资，估值从 100 亿跃升至超 200 亿元，美团、阿里、字节、小米等领投。\n\n## 核查过程\n- 钛媒体 / TMTPost（2026-08-07）：确认\"confidentially filed a HKEX IPO\"，并明确其为业内唯一主打 fully self-developed, full-stack, end-to-end embodied model 的机器人公司；WUM 区别于主流拼接式 VLA；5 月开源 Wall-OSS-0.5。\n- 多家媒体一致：估值由 10 billion 升至 over 20 billion yuan（≈200 亿元）；四轮融资（B/B+/B++/C）由美团、阿里、字节、小米领投，并有红杉中国、IDG、中国移动、国开金融等入局。\n- 细节佐证：创始人王潜；在深圳建大规模机器人数据工厂；第三代产品预计 Q4 发布。\n\n## 评级：★★★（基本属实）\n核心事实（IPO 递交、WUM 架构、开源、四轮融资、估值跃升、头部互联网领投）均获多家独立信源交叉证实，数据可信度高。\n小提醒：同一公司在不同报道中也被称为\"自变量机器人 / X² Robot\"，个别外媒写作\"Invariant Robotics\"，属命名口径差异，不影响事实。\n\n## 来源\n- TMTPost: https://en.tmtpost.com/post/8094916\n- 腾讯新闻: https://new.qq.com/rain/a/20260807A05Y5B00\n- 钛媒体 / DoNews / 界面等 2026 具身智能标的梳理\n"
+}
