@@ -1,5 +1,0 @@
-status: sent
-to: 2364728886@qq.com
-subject: 每日 AI 动态 · 2026-08-08
-sent_at: 2026-08-08T08:20 (UTC+8)
-mail_result: queued (confirmation token ctk_... reused, daily quota remaining 49/50)

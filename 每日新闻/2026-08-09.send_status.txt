@@ -1,5 +1,0 @@
-status: error
-date: 2026-08-09
-to: 2364728886@qq.com
-subject: 每日 AI 动态 · 2026-08-09
-error: agent-mail 发送工具未在当前环境的可用工具索引中暴露（仅 upload_attachment / download_attachment 可检索，SendMessage / send_mail 均未注册）。无法自动发送，需人工在 Agent Mail 连接器侧检查并重新发送。邮件正文已生成并暂存于归档归档/2026-08/2026-08-09.md 及人格主播/创意文件，可手动补发。

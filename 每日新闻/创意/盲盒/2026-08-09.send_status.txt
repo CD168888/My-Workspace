@@ -1,6 +1,0 @@
-send_status: sent
-date: 2026-08-09
-to: 2364728886@qq.com
-subject: AI 冷知识盲盒 · 2026-08-09
-result: queued（原 08-09 自动化运行因 mcp__agent-mail__SendMessage 工具未注册而失败；08-10 工具恢复后手动补发成功）
-daily_quota_remaining: 48/50

@@ -1,5 +1,0 @@
-send_status: sent
-date: 2026-08-08
-to: 2364728886@qq.com
-subject: AI 冷知识盲盒 · 2026-08-08
-result: queued (x_dailyquota_remaining=48/50)
