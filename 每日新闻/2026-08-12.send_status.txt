@@ -1,0 +1,6 @@
+status: sent
+sent_at: 2026-08-12T08:22:00+08:00
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-08-12
+result: queued (confirmation token confirmed, 42801 -> retry with token succeeded)
+daily_quota_remaining: 49/50
