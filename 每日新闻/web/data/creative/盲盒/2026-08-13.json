@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-08-13",
+  "title": "AI 冷知识盲盒 · 2026-08-13",
+  "markdown": "# AI 冷知识盲盒 · 2026-08-13\n\n## [12:25] 比 Deep Blue、AlphaGo 早半个世纪的「机器学习」\n\n比 AlphaGo、深蓝早了半个世纪：1959 年 IBM 的 Arthur Samuel 在一篇讲西洋跳棋（checkers）的论文里，亲手写下了「机器学习（machine learning）」这个词，并让程序自己和自己下棋来不断变强——到 1961 年，它已经击败了时任康涅狄格州跳棋冠军 Robert Nealey。\n\n也就是说，AI 第一次在棋类上战胜人类高手，比深蓝击败卡斯帕罗夫（1997）早了 36 年，比 AlphaGo（2016）早了 55 年。今天我们张口闭口的「机器学习」，其实诞生在真空管计算机、内存以「千字节」计的年代——那会儿连「人工智能」这个名字都才刚满三岁（1956 年 Dartmouth 会议刚提出）。\n\n> 来源：Arthur Samuel, *Some Studies in Machine Learning Using the Game of Checkers*, IBM Journal of Research and Development, 1959（计算机历史博物馆 CHM 亦有记载）。\n"
+}
