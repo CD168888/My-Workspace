@@ -1,0 +1,5 @@
+status=sent
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-08-13
+sent_at=2026-08-13T08:21+08:00
+note=带 confirmation_token 重发后入队成功（queued=true），日额度余 49/50
