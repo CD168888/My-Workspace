@@ -1,0 +1,5 @@
+status=sent
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-08-14
+sent_at=2026-08-14T00:23Z
+detail=首调返回 42801（CONFIRMATION_REQUIRED），携带 confirmation_token 重发成功入队；日额度余 49/50
