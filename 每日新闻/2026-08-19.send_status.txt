@@ -1,0 +1,6 @@
+status: sent
+date: 2026-08-19
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-08-19
+result: 首调 42801 带 token 重发成功入队（queued）
+daily_quota_remaining: 49/50
