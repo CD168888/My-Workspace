@@ -1,0 +1,7 @@
+status: sent
+date: 2026-08-20
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-08-20
+format: PLAIN
+sent_at: 2026-08-20T07:52+08:00
+quota_remaining: 49/50
