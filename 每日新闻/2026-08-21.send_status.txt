@@ -1,0 +1,8 @@
+status: sent
+date: 2026-08-21
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-08-21
+format: PLAIN
+sent_at: 2026-08-21T09:58+08:00
+quota_remaining: 49/50
+note: 自动化 8:00 未执行，已由 WorkBuddy 手动补跑（含采集/归档/创意产物/web 导出/git 提交推送/邮件）
