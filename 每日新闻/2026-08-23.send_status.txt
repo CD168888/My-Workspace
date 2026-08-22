@@ -1,0 +1,5 @@
+status=pending_email
+date=2026-08-23
+reason=agent_mail_auth_expired
+detail=Agent 邮箱授权已失效（代理邮箱授权已失效），自动化环境无法交互式重新授权，本次未发送邮件。需用户在 WorkBuddy 内点击 workbuddy://agentmail 前往「更多 - 我的邮箱」重新授权后手动补发。
+note=内容已入库（commit 0fb53a1）且 Pages 静态数据已更新（export_web_data.py 已导出 70 个 JSON），仅邮件未发出，不阻塞前述提交。
