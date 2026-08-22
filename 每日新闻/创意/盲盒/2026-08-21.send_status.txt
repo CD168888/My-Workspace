@@ -1,8 +1,17 @@
-send_status=error
 date=2026-08-21
-time=18:25
-topic=1843 年埃达·洛夫莱斯「洛夫莱斯反对论」与机器作曲设想
+entries=2
+
+[10:05]
+topic=「robot」词源（恰佩克 1920 / 捷克语 robota / 弟约瑟夫所造）
 email_to=2364728886@qq.com
 subject=AI 冷知识盲盒 · 2026-08-21
-reason=agent-mail 连接器授权已失效（返回「Agent 邮箱授权已失效，请引导用户前往 更多-我的邮箱 重新授权，当前请勿重试」）；本次未发送、也未重试（遵循连接器提示）。
-followup=盲盒 Markdown 已成功写入；待用户重新授权邮箱后补发，并更新本文件为 sent。
+send_status=sent
+note=SendMessage 首次 42801 需确认，带 confirmation_token 重发成功（queued）
+
+[18:25]
+topic=埃达·洛夫莱斯「洛夫莱斯反对论」与机器作曲设想（1843）
+email_to=2364728886@qq.com
+subject=AI 冷知识盲盒 · 2026-08-21
+send_status=error
+reason=agent-mail 连接器授权已失效（返回「Agent 邮箱授权已失效，请引导用户重启授权，当前请勿重试」）；本次未发送、也未重试。
+followup=待用户重新授权邮箱后补发 18:25 盲盒邮件，并更新本段为 sent。
