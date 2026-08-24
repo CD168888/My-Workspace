@@ -1,4 +1,5 @@
-status=pending_email
+status=sent
+sent_at=2026-08-24T16:47:00+08:00
 date=2026-08-23
 reason=agent_mail_auth_expired
 detail=Agent 邮箱授权已失效（代理邮箱授权已失效），自动化环境无法交互式重新授权，本次未发送邮件。需用户在 WorkBuddy 内点击 workbuddy://agentmail 前往「更多 - 我的邮箱」重新授权后手动补发。

@@ -1,0 +1,6 @@
+status: sent
+sent_at: 2026-08-24T16:47:00+08:00
+date: 2026-08-22
+reason: Agent 邮箱授权已失效（agent-mail 返回「Agent 邮箱授权已失效，请引导用户点击 workbuddy://agentmail 前往『更多 - 我的邮箱』重新授权」）。这是授权过期，并非 42801 二次确认，且无 confirmation_token 可供自动重发；无人值守自动化无法完成人工重授权，故跳过本次邮件发送，不阻塞已提交内容。
+note: 本日为补跑（8-22 自动化当天未触发，归档/创意产物缺失，已手工补齐）。内容已入库（commit 1356056）且 Pages 静态数据已更新（export_web_data.py 已导出 77 个 JSON，含 8-22 新增），仅邮件未发出，不阻塞前述提交。
+follow_up: 待用户在 WorkBuddy 内重新授权 Agent 邮箱（workbuddy://agentmail）后，手动补发或下次自动化触发时重发。邮件正文与主题已就绪（主题：每日 AI 动态 · 2026-08-22，PLAIN）。

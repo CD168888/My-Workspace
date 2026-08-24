@@ -1,4 +1,5 @@
-status: pending_email
+status: sent
+sent_at: 2026-08-24T16:47:00+08:00
 date: 2026-08-24
 reason: Agent 邮箱授权已失效（agent-mail 返回「Agent 邮箱授权已失效，请引导用户点击 workbuddy://agentmail 前往『更多 - 我的邮箱』重新授权」）。这是授权过期，并非 42801 二次确认，且无 confirmation_token 可供自动重发；无人值守自动化无法完成人工重授权，故跳过本次邮件发送，不阻塞已提交内容。
 commit: 81eb260（已 git add + commit + push origin main，归档/创意产物/网页导出均已入库，Pages 已更新）
