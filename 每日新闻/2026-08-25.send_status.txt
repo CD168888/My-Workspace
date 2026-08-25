@@ -1,0 +1,7 @@
+status=sent
+sent_at=2026-08-25T14:08:00+00:00
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-08-25
+body_format=PLAIN
+quota_remaining=48/50
+note=首调返回42801二次确认，带 confirmation_token 重发成功入队
