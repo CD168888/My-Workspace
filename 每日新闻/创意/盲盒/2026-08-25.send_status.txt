@@ -1,0 +1,1 @@
+sent: 2026-08-25 18:20，首次 42801 带 confirmation_token 重发成功（queued，配额 49/50）
