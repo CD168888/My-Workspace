@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-28T00:21:12+00:00",
+  "generatedAt": "2026-08-28T10:27:50+00:00",
   "latestDate": "2026-08-27",
   "daily": {
     "2026-08": [
@@ -113,6 +113,11 @@
   },
   "reports": {
     "weekly": [
+      {
+        "name": "周报_2026-W35",
+        "title": "每周 AI 动态汇总 · 2026-W35",
+        "url": "reports/weekly/周报_2026-W35.json"
+      },
       {
         "name": "周报_2026-W34",
         "title": "每周 AI 动态汇总 · 2026-W34",
