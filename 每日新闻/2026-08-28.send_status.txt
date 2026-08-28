@@ -1,0 +1,7 @@
+status: pending_email
+date: 2026-08-28
+channel: agent-mail
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-08-28
+reason: 自动发送失败 —— 本自动化运行环境中 agent-mail 的 SendMessage 发送工具未注册（仅 upload_attachment / download_attachment 可检索），无法发起发送；非 42801 二次确认、非授权失效。今日归档、创意产物、网页导出与代码提交均已成功入库并推送 Pages，不阻塞。
+action: 需在支持 agent-mail 发送工具的环境中人工补发，或检查 Agent Mail 连接器工具暴露情况后重跑补发。
