@@ -1,0 +1,7 @@
+status: sent
+sent_at: 2026-08-29T14:01:00+00:00
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-08-29
+method: skip_confirmation=true (无人值守自动化直发，无 42801 二次确认阻断)
+quota_remaining: 47
+quota_limit: 50
