@@ -1,1 +1,6 @@
 sent
+sent_at: 2026-08-29T00:30 UTC (本地周五 2026-08-28 18:30 MDT)
+channel: agent-mail (skip_confirmation=true)
+to: 2364728886@qq.com
+subject: 每周 AI 动态汇总 · 2026-W35
+result: queued=true, daily_quota_remaining=48/50
