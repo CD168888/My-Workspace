@@ -1,0 +1,6 @@
+sent
+queued_at=2026-08-31T07:54 (MDT)
+to=2364728886@qq.com
+subject=每月 AI 动态汇总 · 2026-08
+mode=skip_confirmation (unattended automation, no user interruption)
+daily_quota_remaining=49/50
