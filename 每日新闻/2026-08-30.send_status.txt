@@ -1,0 +1,8 @@
+status: sent
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-08-30
+sent_at: 2026-08-30T21:58:01+0800
+method: skip_confirmation=true (无 42801 阻断，直发入队)
+quota_remaining: 48/50
+items: 3
+streak: 24
