@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-08-30",
+  "title": "谣言粉碎机 · 2026-08-30",
+  "markdown": "# 谣言粉碎机 · 2026-08-30\n\n## 今日核查：「OpenAI 以 30 亿美元收购 Windsurf（Codeium）」\n\n- **原声称**：在多条\"AI 编程 6000 亿整合潮\"综述中，常被一并列为已发生的三笔交易之一——\"OpenAI 以 30 亿美元收购 Windsurf（原 Codeium）\"。\n- **核查**：\n  - OpenAI 确实曾在 2025 年春同意以约 30 亿美元收购 Windsurf，但该交易包含独占期，于 **2025 年 7 月 11 日因独占权到期而告破裂**，从未交割。\n  - 破裂同日，Google DeepMind 以\"反向收编（reverse acquihire）\"方式招入 Windsurf CEO 与联合创始人，并支付约 24 亿美元获得部分技术非独占授权，但未收购公司、未持股。\n  - 三天后（2025 年 7 月 14 日），**Cognition（Devin 背后团队）收购了 Windsurf 的产品、品牌、IP 与团队**；2026 年 6 月 Cognition 将其编辑器更名为 **Devin Desktop**。\n  - 结论：**OpenAI 从未持有 Windsurf**，\"收购\"描述的是一笔从未成交的交易，属于流传已久的误读（连部分早期文章自身都曾更正）。同期真正坐实的两笔是 SpaceX–Cursor（600 亿，已交割）与 Stripe–OpenRouter（75 亿，已官宣）。\n- **评级**：★★★☆（部分属实 / 严重过时）——交易框架确有其事，但\"已收购\"为不实结论，且长期被当作既成事实传播。\n- **来源**：LumiChats《OpenAI Never Bought Windsurf: What Really Happened》(2026)、Bloomberg/TechCrunch 相关报道、Cognition 官方公告、Europa Press 与财联社/每经对 SpaceX–Cursor 的交割核实、NYT/TechCrunch/InsideAI 对 Stripe–OpenRouter 的官宣报道。\n"
+}
