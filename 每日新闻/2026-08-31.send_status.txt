@@ -1,0 +1,7 @@
+status=sent
+sent_at=2026-08-31T21:59:53+0800
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-08-31
+method=skip_confirmation=true (无 42801 阻断)
+quota_remaining=47/50
+items=5
