@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-08-31",
+  "title": "AI 冷知识盲盒 · 2026-08-31",
+  "markdown": "# AI 冷知识盲盒 · 2026-08-31\n\n## [08:20] Marvin Minsky 的「暑假作业」：一个夏天该做完的项目，熬成了 60 年的计算机视觉\n\n1966 年，人工智能刚在达特茅斯会议（1956）被正式命名满十年，MIT 的 Marvin Minsky 就给一名本科生布置了一个听起来很轻松的「暑假项目」(Summer Vision Project)：把一台摄像机连到电脑上，让机器「看懂」并描述它看到的东西。他原以为这顶多一个夏天就能搞定，备忘录里把它当成给学生的练手小任务。\n\n反常识的点在于：这个被当成「小作业」的任务，长成了今天仍在攻坚的整门学科——计算机视觉（Computer Vision）。从边缘检测、ImageNet、CNN 到 ViT（视觉Transformer），人类花了近 60 年，还没能让机器真正\"彻底看懂世界\"。AI 史上最著名的「轻敌」：一个暑假的作业，写成了几代研究者的毕生课题。\n\n> 来源：Minsky 1966 年 MIT AI Lab 内部备忘录《Summer Vision Project》（由 P. Winston 整理归档）；计算机视觉史综述如 Szeliski《Computer Vision: Algorithms and Applications》导言\n"
+}
