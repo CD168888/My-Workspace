@@ -1,0 +1,7 @@
+sent
+sent_at: 2026-09-03T21:57:00+08:00
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-09-03
+channel: agent-mail (智能体邮箱)
+skip_confirmation: true
+quota_remaining: 48/50
