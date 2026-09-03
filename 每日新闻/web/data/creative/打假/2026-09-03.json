@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-09-03",
+  "title": "谣言粉碎机 · 2026-09-03",
+  "markdown": "# 谣言粉碎机 · 2026-09-03\n\n## 原声称\nOpenAI 将于 2026 年 11 月 12 日终止向 Cursor 提供模型接入，原因是 SpaceX 以约 600 亿美元全股票收购 Cursor 母公司 Anysphere，触发合同\"控制权变更\"条款；OpenAI 称不信任马斯克旗下公司遵守服务条款。Cursor 回应称 OpenAI 模型仅占其约 5% 流量，Anthropic 则表态增加 Claude 在 Cursor 的算力支持。\n\n## 核查\n- **核心事实高度一致**：OpenAI 官方博客（our-decision-on-cursor-following-its-acquisition-by-spacex）、Storyboard18、TechEchelon、TipRanks、ai-master.dev 等多家中外媒体均确认\"11月12日 cutoff + SpaceX 600亿收购 + 5% 流量 + Anthropic 增援 Claude\"这一主线，口径统一。\n- **收购完成日期略有出入**：部分报道称交易于 8 月 14 日完成（TechEchelon / ai-master），另有报道指 8 月 28–29 日 OpenAI 发出终止通知、收购\"本月早些时候\"落定（Storyboard18 / Unblock Media）。属知情时间线细节差异，不影响主体结论。\n- **\"5% 流量\"出处清晰**：Cursor CEO Michael Truell 在 X 上对 CNBC/媒体明确披露，且强调用户仍可自带 API Key 或经 Azure/Bedrock 网关调用 OpenAI，终止的是平台级供应而非全面禁用。\n\n## 评级\n**靠谱度：★★★★**\n> 主体事实（断供、600亿收购、11/12 生效、5% 占比、Anthropic 反向下场）被官方声明与多家独立媒体交叉印证，可信度高；仅\"收购完成精确日期\"在不同 outlets 间有数日出入，属轻微时间线分歧，不构成失真。\n\n## 来源\n- OpenAI 官方博客：our-decision-on-cursor-following-its-acquisition-by-spacex\n- Storyboard18 / Unblock Media（2026-08-29）\n- TechEchelon（2026-08-29）\n- TipRanks（2026-08-30）\n- ai-master.dev 时间线梳理\n- Cursor CEO Michael Truell 在 X 的公开回应（经 CNBC 转述）\n"
+}
