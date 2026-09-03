@@ -1,0 +1,7 @@
+status=sent
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-09-04
+sent_at=2026-09-04T07:53:00+08:00
+quota_remaining=49/50
+channel=agent-mail(jsag9948@agent.qq.com)
+note=skip_confirmation=true 直发入队成功，无 42801 二次确认阻断，无 token 匹配
