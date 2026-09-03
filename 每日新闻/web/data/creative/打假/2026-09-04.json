@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-09-04",
+  "title": "谣言粉碎机 · 2026-09-04",
+  "markdown": "# 谣言粉碎机 · 2026-09-04\n\n> 核查对象：Figure 与 Nscale 签下 35–60 亿美元、最多 10 万张 GPU 的算力大单，破解人形机器人\"数据与算力\"瓶颈。\n\n## 原声称\n9月3日多家媒体称，人形机器人公司 Figure 与云基建商 Nscale 达成最高 **60 亿美元**、部署最多 **10 万张 NVIDIA Vera Rubin GPU** 的算力合作，用于在德州 Barstow 训练其 Helix 具身模型，标志具身智能瓶颈已从硬件转向训练算力。\n\n## 核查\nFigure 官网于 9月3日发布官方新闻稿，原文为 \"initial commitment of **$3.5 billion**（初始 35 亿美元算力承诺），intent to scale to **over $6 billion**（意向扩展至超 60 亿美元）\"；部署规模为 \"**up to 100,000 GPUs**\" 的 NVIDIA Vera Rubin 平台，初始落地 2027 年下半年于德州 Barstow。unite.ai、Humanoids Daily、The AI Insider、AlphaSignal 等至少 4 家独立媒体逐字转述同一组数字，口径完全一致；Nscale 同时做战略股权投资，并探索在自身数据中心供应链中部署 Figure 人形机器人。\n\n需厘清的两点口径：① 60 亿是\"可扩展上限（scale to over $6B）\"而非一次性到账全额，初始承诺为 35 亿；② 10 万张是 \"up to（最多）\" 目标值，且 Vera Rubin 平台 2026 下半年才上市，Figure 当下训练仍依赖 Hopper/Blackwell 集群，10 万卡真正就位要等到 2027 下半年以后。另有研究界提醒：单靠堆算力 + 被动视频 ingestion 能否攻克接触密集型物理动力学仍是开放议题。\n\n## 评级\n★★★★（官宣背书 + 4 家以上独立来源同口径交叉印证，核心数字属实；\"60 亿 / 10 万卡\"为上限与目标值而非即时全额，属可核实的精确表述，非夸张或失实）\n\n## 来源\n- figure.ai 官方新闻稿《Figure and Nscale Sign Strategic Partnership For Up to 100,000 GPUs on the NVIDIA Vera Rubin Platform》（2026-09-03）\n- unite.ai / Humanoids Daily / The AI Insider / AlphaSignal（2026-09-03 多源转载）\n"
+}
