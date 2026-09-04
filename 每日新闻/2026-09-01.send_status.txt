@@ -1,0 +1,8 @@
+status=sent
+sent_at=2026-09-04T02:02:35+00:00
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-09-01
+body_format=PLAIN
+confirmation=skip_confirmation(true)
+quota_remaining=47/50
+note=9.1 补推（原自动化当日未触发），内容锚定 2026-09-01 当天及前一日发布事实
