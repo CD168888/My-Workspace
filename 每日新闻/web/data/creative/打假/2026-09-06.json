@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-09-06",
+  "title": "谣言粉碎机 · 2026-09-06",
+  "markdown": "# 谣言粉碎机 · 2026-09-06\n\n## 今日核查对象：OpenAI 宣称 GPT-6 Astra 开启\"AGI 时代\"\n\n### 原声称\nOpenAI 9 月 3 日发布 GPT-6 Astra，总裁 Greg Brockman 在发布会上宣告\"欢迎来到 AGI 时代（Welcome to the AGI era）\"，多家中文媒体据此以\"OpenAI 宣告 AGI 时代起点\"\"代际跃迁\"为标题报道，并引用 105 万上下文、ARC-AGI-3 99.9%、ExploitBench 100% 等\"封神\"数据。\n\n### 核查\n- **硬指标属实**：105 万 token 上下文、12.8 万最大输出、$10/$50（输入/输出每百万 token）API 定价、原生 computer use 与 MCP、9/3 发布——上述由新华网（9/4 旧金山电）、TechWeb（9/4）、OpenAI 官方公告与 API 文档多方印证，确为事实。\n- **\"AGI 时代\"属营销话术，无据**：ARC Prize（提供 ARC-AGI-3 基准方）明确指出，99.9% 是在 OpenAI 自有 provider-adapter（保留其不透明推理状态）下测得，改用统一标准 harness 仅为 62.7%；且\"饱和基准不能证明 AGI\"。VentureBeat、ai2sql 等指出 Brockman 本人称 AGI\"已不再是合同触发词，而是使命/精神概念\"，并无任何独立机构判定 AGI 达成。\n- **数字口径存在出入**：FrontierMath Tier 4 分数在不同媒体间出现 97.6% 与 98% 两种说法；ExploitBench 100% 等均为厂商自报、自家 harness 运行，独立评测尚未跟上。\n\n### 评级\n**★★★☆（三星半）** —— 模型发布与全部硬技术指标真实可信，是一次真实的代际跃迁；但\"AGI 时代已至\"的定性夸大、证据不足，属典型发布会营销叙述，需与实测能力区分看待。\n\n### 来源\n- OpenAI 官方公告（2026-09-03）\n- 新华网（2026-09-04 旧金山电）\n- TechWeb（2026-09-04）\n- ARC Prize《GPT-6 Astra on ARC-AGI-3》（2026-09）\n- VentureBeat《Welcome to the AGI era》（2026-09-03）\n- ai2sql《OpenAI launches GPT-6 Astra》（2026-09）\n"
+}
