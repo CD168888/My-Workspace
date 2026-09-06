@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-09-06",
+  "title": "AI 冷知识盲盒 · 2026-09-06",
+  "markdown": "# AI 冷知识盲盒 · 2026-09-06\n\n## [18:25] 反向传播：点燃 AI 革命的算法，曾在书架上躺了 26 年\n\n驱动今天 ChatGPT、AlphaGo 的灵魂算法「反向传播（backpropagation）」，并不是一个 2010 年代的新发明——它的数学骨架早在 **1960 年**就被控制论学者 Henry J. Kelley 写出来了，1961 年 Arthur E. Bryson 又独立推导，1962 年 Stuart Dreyfus 用链式法则给出了更简版本。Paul Werbos 在 1974 年的博士论文里就提出它可用于神经网络，却几乎无人问津，整篇论文被淹没在第一场 AI 寒冬里。直到 **1986 年**，David Rumelhart、Geoffrey Hinton 与 Ronald Williams 在《Nature》发表那篇仅两页半的《Learning representations by back-propagating errors》，反向传播才被真正「认领」，并一举破解了 Minsky 与 Papert 1969 年对多层感知机的死刑判决（单层学不会 XOR，但多层 + 反向传播能学会）。也就是说：让现代深度学习起死回生的核心公式，比它改变世界早诞生了 **26 年**——AI 史上最值钱的算法之一，曾经只是一份被雪藏的控制论笔记。\n\n> 出处/来源：Rumelhart, Hinton & Williams, \"Learning representations by back-propagating errors\", *Nature* 323, 533–536 (1986)；历史前身见 Kelley (1960)、Bryson (1961)、Werbos (1974)，retroaisim.com / Wikipedia \"Backpropagation\" 词条。\n"
+}
