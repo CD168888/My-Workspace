@@ -1,0 +1,8 @@
+status=sent
+sent_at=2026-09-07T07:50:00+08:00
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-09-07
+channel=agent-mail
+skip_confirmation=true
+quota_remaining=49/50
+note=邮件经 skip_confirmation 直发入队，无 42801 阻断；内容主提交与 Pages 导出已先于邮件完成并 push。
