@@ -1,0 +1,1 @@
+[19:26] status=error reason="mcp__agent-mail__SendMessage not registered in this run's tool index (ToolSearch only returns upload/download attachment; DeferExecuteTool reports 'Tool not found'); email deferred" action="pending_email (retry on next run or manual re-send after tool reload)"
