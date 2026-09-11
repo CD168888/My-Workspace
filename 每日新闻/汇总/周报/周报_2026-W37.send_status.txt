@@ -1,0 +1,7 @@
+sent
+# 2026-W37 周报邮件发送状态
+# 发送时间：2026-09-11（自动化触发）
+# 方式：mcp__agent-mail__SendMessage，skip_confirmation=true（自动化授权不询问、不中断）
+# 结果：queued（已入队），日配额剩余 47/50
+# 收件人：2364728886@qq.com
+# 主题：每周 AI 动态汇总 · 2026-W37
