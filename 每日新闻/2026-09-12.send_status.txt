@@ -1,0 +1,6 @@
+status=sent
+sent_at=2026-09-12T07:55:00+08:00
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-09-12
+method=skip_confirmation=true (no 42801 confirmation required)
+quota_remaining=49/50
