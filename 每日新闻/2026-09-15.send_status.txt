@@ -1,0 +1,6 @@
+status=sent
+sent_at=2026-09-15T07:55:00+08:00
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-09-15
+channel=agent-mail (skip_confirmation=true, queued)
+daily_quota_remaining=49/50
