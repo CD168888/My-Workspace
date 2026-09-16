@@ -1,0 +1,3 @@
+2026-09-16 [18:25] error (pending_email)
+SendMessage 未注册于本运行工具索引（仅 upload/download 附件可检索，类 2026-09-09 情形）；
+ToolSearch 两次仅返回附件工具、DeferExecuteTool 报 not found。待工具重载后补发。
