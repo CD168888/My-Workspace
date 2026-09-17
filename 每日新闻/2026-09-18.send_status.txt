@@ -1,0 +1,6 @@
+status: sent
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-09-18
+sent_at: 2026-09-18T07:50:00+08:00
+channel: mcp__agent-mail__SendMessage (skip_confirmation=true)
+daily_quota_remaining: 49/50
