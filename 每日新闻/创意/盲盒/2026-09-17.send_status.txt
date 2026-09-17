@@ -1,0 +1,4 @@
+2026-09-17 [18:25] error (pending_email)
+- mcp__agent-mail__SendMessage 未注册于本运行工具索引（ToolSearch 两次仅返回 upload/download 附件工具，DeferExecuteTool 报 "not found"）。
+- 类 2026-09-09 / 2026-09-16 情形，属平台工具偶发未加载，非逻辑错误。
+- 待连接器/工具重载后补发；盲盒内容已落库（2026-09-17.md）并同步 Pages。
