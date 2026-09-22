@@ -1,0 +1,4 @@
+[2026-09-22 18:25] sent
+主题：AI 冷知识盲盒 · 2026-09-22
+to：2364728886@qq.com
+状态：SendMessage 调用成功（skip_confirmation=true，queued），每日配额剩余 48/50
