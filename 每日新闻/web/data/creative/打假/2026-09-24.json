@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-09-24",
+  "title": "谣言粉碎机 · 2026-09-24",
+  "markdown": "# 谣言粉碎机 · 2026-09-24\n\n## 原声称\nOpenAI 9/22 上线 GPT-6 Sol 与 Luna，API 定价较 5.6 系列下调 50%；Sol 在 Agents' Last Exam 得分 56.4%、成本比 Claude Opus 5 低 60%；Anthropic 同日发布 Claude Opus 5.5，Terminal-Bench 4.0 得分 66.4%，实际花费比 Opus 5 少 40%，输入输出价格降至每百万 Token $4/$20。\n\n## 核查\n- **价格下调 50% 属实（多方同口径）**：网易、Yahoo Finance/Quartz、VentureBeat、Tech Wire Asia、Business Insider 五源一致——GPT-6 Sol 定价 $2/$10 每百万 Token，较 GPT-5.6 Sol 的 $4/$20 正好砍半；GPT-6 Luna $0.10/$0.50，输入降 50%、输出较 $1.20 降幅约 58%；OpenAI 发言人对 VentureBeat 确认\"永久费率、非限时促销\"。\n- **Opus 5.5 定价 $4/$20、较 Opus 5 降 40% 属实**：Tech Wire Asia 核查——Opus 5.5 输入从 $5 降至 $4、输出从 $25 降至 $20，Anthropic 称典型工作负载因单任务 token 消耗更少而便宜约 40%。\n- **Terminal-Bench 4.0 66.4% 有出处**：网易转述 Anthropic 评测汇总，Opus 5.5 66.4%、Sol 57.9%（评测来自厂商自测，跨模型推理强度与测试设置不同，不宜据此定绝对排名）。\n- **\"Aeon 个人智能体 9/29 DevDay 前发布\" 尚属代码泄露传闻，未获官方确认**，需以 OpenAI 官方发布为准。\n\n## 评级\n★★★★（核心数字——价格腰斩、成本降 40%、Terminal-Bench 66.4%——均经 5+ 独立信源交叉印证，口径一致；唯一提醒：评测含厂商自测成分，绝对排名需谨慎，且 Aeon 发布时间属未证实传闻）\n\n## 来源\n网易《AI 开始拼低价:GPT-6 Sol 砍半,Opus 5.5 成本降 40%》/ Yahoo Finance(Quartz)《OpenAI cuts GPT-6 Sol and Luna API prices by 50%》/ VentureBeat 转述 OpenAI 发言人 / Tech Wire Asia / Business Insider\n"
+}
