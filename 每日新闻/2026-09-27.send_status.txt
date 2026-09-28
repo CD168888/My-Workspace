@@ -1,0 +1,7 @@
+sent
+sent_at: 2026-09-28T16:26:00+08:00
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-09-27
+channel: agent-mail (skip_confirmation=true, queued)
+quota_remaining: 47/50
+note: 补跑发送（原 2026-09-27 08:00 定时任务因应用未运行漏跑，backfill）
