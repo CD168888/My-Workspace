@@ -1,0 +1,9 @@
+status: sent
+sent_at: 2026-09-30T07:50:00+08:00
+to: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-09-30
+body_format: PLAIN
+method: skip_confirmation=true (no 42801 secondary confirmation)
+daily_quota_remaining: 49/50
+items: 4
+persona: 毒舌网友
