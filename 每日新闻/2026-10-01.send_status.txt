@@ -1,0 +1,6 @@
+status=sent
+sent_at=2026-10-01T07:55:00+0800
+channel=agent-mail
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-10-01
+quota_remaining=49/50
