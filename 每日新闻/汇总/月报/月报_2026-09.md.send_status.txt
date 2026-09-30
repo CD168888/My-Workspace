@@ -1,0 +1,6 @@
+sent
+to=2364728886@qq.com
+subject=每月 AI 动态汇总 · 2026-09
+sent_at=2026-09-30T17:56
+channel=agent-mail (skip_confirmation=true)
+quota_remaining=48/50
