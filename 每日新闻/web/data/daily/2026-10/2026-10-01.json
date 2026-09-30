@@ -1,0 +1,37 @@
+{
+  "type": "daily",
+  "date": "2026-10-01",
+  "title": "每日 AI 动态 · 2026-10-01",
+  "items": [
+    {
+      "title": "AI 编程模型密集上新：OpenAI GPT-6.1 Sol 与 Google Gemini 4 Argon 重写编码性价比",
+      "desc": "9/30–10/1 两天内，OpenAI 发布 GPT-6.1 Sol 高吞吐推理模型（300 token/秒超高速档、token 价格仅为 GPT-6 Astra 旗舰款的五分之一，瞄准高频自动化编码与实时终端智能体）；Google DeepMind 发布 Gemini 4 Argon 前沿模型（100 万 token 输出上限，面向长程软件工程、法律金融与网络防御），由 Koray Kavukcuoglu 于 9/30 官宣，系 Gemini 4 代首款。",
+      "reason": "编码智能体的成本与上下文天花板同时被压低/抬高，长程多步软件工程与\"常驻执行\"成为新主战场；把旗舰级 Agent 能力打到亚旗舰单价，直接重塑高频编码流水线的成本结构。",
+      "source": "AI Frontier briefing（blog.oinchain.com/en/ai-frontier-2026-10-01-gpt-6-1-sol-openclaw）；ai-tldr.dev/releases/model（MODEL SEISMIC 2026-09-30 Gemini 4 Argon）；InfoQ AI/ML news"
+    },
+    {
+      "title": "具身智能量产加速：智元第 2 万台整机下线，全球首个具身智能主题乐园开园",
+      "desc": "人民日报报道，智元机器人第 2 万台整机在珠海横琴正式下线，全球首个大规模具身智能主题乐园同日开门迎客，数百台机器人常态化投入服务岗位；从第 1 万台到第 2 万台仅用半年。中国上半年人形机器人出货量占全球 97%，宇树登陆科创板并将消费级产品价格下探至 10 万元以内，柏林 IFA 超 100 家中国具身企业参展创历史之最。",
+      "reason": "中国率先把人形机器人从\"展馆演示\"推向\"规模化应用\"，完整全产业链配套支撑量产速度刷新；消费级门槛下降叠加欧洲老龄化刚需，出海贸易（1–7 月速卖通中国 AI 硬件出海同比翻倍）进入实质性跃迁。",
+      "source": "人民日报人民号《零时差｜从展厅到客厅，中国机器人跑出量产加速》（peopleapp.com/column/30053247587，2026-09-30/10-01）"
+    },
+    {
+      "title": "智能体开发范式转向\"常驻执行\"：微软 Scout、GitHub Copilot 桌面中心、Stack Overflow for Agents、Chrome WebMCP 集中落地",
+      "desc": "微软在 Build 2026 推出基于开源 OpenClaw 的常驻智能体 Scout（自带身份、无需每次提示、自主运行）；GitHub 发布 Copilot 桌面控制中心，统一管理多个编码智能体；Stack Overflow 上线面向智能体而非人类的 API（Stack Overflow for Agents），弥合\"智能体重复踩坑\"的临时智能鸿沟；Google 将 WebMCP 标准送入 Chrome 149 源试用，让网页向浏览器内 AI 智能体暴露工具函数与表单。",
+      "reason": "开发工具正从\"人指挥单次生成\"升级为\"智能体常驻、跨应用异步执行、可审计治理\"，MCP/WebMCP 成为智能体接入真实系统的标准接口，企业级权限与隔离成为刚需。",
+      "source": "InfoQ AI/ML & Data Engineering news（2026-10）；Google WebMCP Chrome origin trials（Chrome 149）"
+    }
+  ],
+  "blue": [
+    {
+      "title": "一人公司 + AI 智能体搭建代运营",
+      "desc": "面向中小实体店、电商商家、ToB 服务商，用成熟大模型工具（无代码/低代码）定制专属行业 AI 智能体，替代人工完成获客、答疑、内容生产，一次性搭建后按月收取运维、知识库优化、代运营费。",
+      "why": "2026 年无代码平台（Coze、百炼、千帆等）已将门槛降到拖拽式，半天可做可用智能体；单人年盈利 20–50 万案例频出；上海/杭州/青岛等地一人公司政策红利（注册 0 元、办公免费、采购补贴最高 5 万）；叠加 GEO 生成式引擎优化让智能体在 AI 搜索优先曝光，形成\"一次搭建、长期复购\"的高毛利生意，是普通人最稳的 AI 副业切口。",
+      "source": "AI 创业之家 cy211.cn/aizixun/7021.html；ima.qq.com 一人公司 OPC 知识库；新浪财经《数智时代如何打造新的财富增长点》（finance.sina.com.cn，2026-09-22）"
+    }
+  ],
+  "notes": [
+    "今日为 2026-10 月首条归档，连续观察天数自 2026-09-30（55 天）顺延至 56 天（非 10 倍数，徽章不触发）。",
+    "GPT-6.1 Sol 的\"300 token/秒超高速档\"存在动态 fallback 与配额限制，标准档峰值性能需路由至该档；Gemini 4 Argon 与 Claude Sonnet 5.5 的基准对比需以第三方独立评测为准。"
+  ]
+}
