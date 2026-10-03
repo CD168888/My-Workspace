@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-10-04",
+  "title": "谣言粉碎机 · 2026-10-04",
+  "markdown": "# 谣言粉碎机 · 2026-10-04\n\n## 原声称\nFigure AI 完成超 10 亿美元 Series C，投后估值 390 亿美元（较 2024 年 B 轮约 26 亿涨约 15 倍），NVIDIA、Intel、Salesforce、T-Mobile、Qualcomm 等跟投；Figure 03 已发往宝马斯帕坦堡工厂做物流分拣实战，BotQ 工厂每 60 分钟下线一台。\n\n## 核查\n- **融资金额与估值**：5 个独立来源（Robot Magazine、SterlingCharts、EmbodiedAIInsights、FundraisingFox、荣润铭拓）口径一致——Series C 为「超 10 亿美元 committed capital（承诺资本）」，投后估值 390 亿美元，18 个月内涨约 15 倍。需提醒：估值 ≠ 现金到账，「committed capital」是承诺额而非实际募资总额，且 Figure 未披露完整资本表。\n- **宝马实战**：宝马官方确认 Figure 02 在斯帕坦堡工厂参与了真实生产——累计协助生产 30,000+ 辆 X3、处理 90,000+ 零件、运行 1,250+ 小时、工作日 10 小时班次；Figure 03 于 2026 年返回该厂做更变体的物流分拣流程。这是客户方（宝马）公开背书，可信度高。\n- **BotQ 产能**：多家资料确认 BotQ 首线年产能 12,000 台、目标四年 10 万台；「每 60 分钟一台」对应的是 2026 年 4 月达到的**峰值节拍**（peak rate），并非全期平均产能。截至 2026 年 5 月已交付 350+ 台 Figure 03。\n- **关键修正**：该 Series C 实际落定时间为 **2025 年 9 月**（非 2026 年），「2026 年中跑通量产+实战+数据闭环」指的是 BotQ 爬坡与宝马物流项目的节奏，而非融资时间。\n\n## 评级\n★★★★（核心数字——10 亿美元 C 轮、390 亿估值、宝马 30,000+ 辆 X3 实战、BotQ 峰值 1 台/小时——经 5+ 独立源交叉印证且含宝马官方背书，基本属实；仅须注意「committed capital」非到账现金、「60 分钟一台」为峰值非均值、C 轮时间为 2025-09 而非 2026）\n\n## 来源\nRobot Magazine（2025/2026 公司复盘）、SterlingCharts、EmbodiedAIInsights、FundraisingFox、荣润铭拓 rrmt.cn、宝马官方生产披露\n"
+}
