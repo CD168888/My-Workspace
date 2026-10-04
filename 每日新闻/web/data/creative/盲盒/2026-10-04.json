@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-10-04",
+  "title": "AI 冷知识盲盒 · 2026-10-04",
+  "markdown": "# AI 冷知识盲盒 · 2026-10-04\n\n## [21:48] 撑起今天所有大模型的数学，最早是「数元音」数出来的\n\n今天的 ChatGPT 之所以能一个字一个字地「猜」下一个词，靠的是**马尔可夫链**思想——当前字符出现的概率取决于前一个字符。可这套数学的第一个实证，离代码、离电脑都差了一百多年：\n\n1913 年，俄国数学家安德雷·马尔可夫（Andrey Markov，1856–1922）坐在圣彼得堡的书房里，没读普希金的诗，而是把《叶甫盖尼·奥涅金》前 **20,000 个字母**抄成一长串、去掉所有标点和空格，再按「元音 / 辅音」两类手工清点。他数出元音共 8,638 个、辅音 11,362 个，并统计相邻字母组合——发现「元音+元音」只有 1,104 对，远少于「若前后字母相互独立」时应有的约 3,731 对。也就是说，**字母的出现并非随机独立，而是明显交替偏好**。\n\n这篇论文《An Example of Statistical Investigation of the Text Eugene Onegin…》就是马尔可夫链的首次应用。后来克劳德·香农（1948）顺着这个思路，用同样的字母统计模型反向「生成」出无意义的句子（如 XFOML RXKHRJFFJUJ…），奠定了信息论与机器生成文本的基础。换言之，**今天万亿参数大模型的「下一个 token 预测」，其最原始的那颗种子，是 1913 年一位数学家用纸笔在俄文诗里数元音数出来的**。\n\n> 来源：A. A. Markov, *An Example of Statistical Investigation of the Text Eugene Onegin Concerning the Connection of Samples in Chains*, Bulletin de l'Académie Impériale des Sciences de St. Pétersbourg, Ser. 6, vol. 7 (1913), pp. 153–162；IEEE Spectrum / American Scientist 均有述评。\n"
+}
