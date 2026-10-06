@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-10-06",
+  "title": "冷知识盲盒 · 2026-10-06",
+  "markdown": "# 冷知识盲盒 · 2026-10-06\n\n## [18:25] IBM Watson：从《危险边缘》冠军到医疗「翻车」的反差\n\n2011 年 2 月，IBM 的问答系统 Watson 在智力竞赛节目《Jeopardy!（危险边缘）》中击败两位最顶尖的人类冠军 Ken Jennings 与 Brad Rutter——它一边实时读取线索文本、一边在毫秒级精准抢答。IBM 随即把它包装成「医疗革命」：Watson for Oncology 要给医生当肿瘤诊断副驾，豪掷约 40 亿美元收购医疗数据公司、铺进数十家医院。但现实很骨感：STAT News 调查揭露，Watson 在内部训练与测试中给出过不安全、与专家意见相悖的癌症治疗建议；多家医院悄然撤装，2021–2022 年 IBM 陆续卖掉 Watson Health。「能赢答题节目」与「真懂看病」之间，差着一整个医学世界——这大概是大模型落地史上最昂贵的「高估自己」案例之一。\n\n来源：IBM / STAT News（\"IBM's Watson supercomputer recommended 'unsafe and incorrect' cancer treatments, internal documents show\"，2017–2018 系列调查）；维基百科 Watson (computer)。\n"
+}
