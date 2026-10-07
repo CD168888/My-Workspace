@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-10-07",
+  "title": "AI 冷知识盲盒 · 2026-10-07",
+  "markdown": "# AI 冷知识盲盒 · 2026-10-07\n\n## [18:25] Nimatron：1940 年世博会那台「会赢人类」的机器\n\n1939–1940 年，物理学家爱德华·康登（Edward Condon）设计、西屋电气（Westinghouse）造出一台名为 **Nimatron** 的机器，专门在 1940 年纽约世界博览会上跟游客玩「尼姆」（Nim，一种取火柴的二人博弈）。它纯靠**继电器机电**实现、压根不是电子计算机，却能把尼姆玩到近乎无解——整个展会期间对战超过 10 万局，只输掉大约一成。\n\n反常识点：一台能稳定「击败人类」的游戏机器，比「人工智能」这个词（1956）早 **16 年**、比 ENIAC（1945）早 **5 年**就已存在，而且它连电子都不是。AI「跟人对弈、赢下人类」的血脉，比我们以为的老得多——深度学习时代的 AlphaGo、AlphaZero 不过是把这条线推到了极致。\n\n— 来源：Westinghouse / 1940 New York World's Fair 官方档案；参见 Wikipedia「Nimatron」词条及 IEEE Annals of the History of Computing 相关记述。\n"
+}
