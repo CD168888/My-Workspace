@@ -1,0 +1,7 @@
+status=sent
+sent_at=2026-10-08T07:55:00+08:00
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-10-08
+skip_confirmation=true
+quota_remaining=49/50
+note=邮件直发入队成功，无 42801 二次确认、无 token 匹配
