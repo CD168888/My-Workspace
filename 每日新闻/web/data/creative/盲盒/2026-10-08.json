@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-10-08",
+  "title": "AI 冷知识盲盒 · 2026-10-08",
+  "markdown": "# AI 冷知识盲盒 · 2026-10-08\n\n## [18:25] DENDRAL：史上第一个\"做科学\"的 AI，不是来下棋的\n\n1965 年，斯坦福的 Edward Feigenbaum 与诺贝尔奖遗传学家 Joshua Lederberg 造出 **DENDRAL**——公认史上第一个专家系统。它既不跟人对弈也不陪聊，而是干一件很\"无聊\"的事：从质谱仪（mass spectrometry）数据反推未知有机分子的结构。\n\n最反常识的点在于：AI 最早真正\"做科学\"、甚至做出人类此前没发现的化学发现的，不是什么聪明的机器人，而是个 1965 年帮人\"认分子\"的规则程序。它的诞生还带点\"偷懒\"动机——Lederberg 嫌手工解谱太累，干脆让程序代劳；结果 DENDRAL 不仅顶替了研究生，还催生了整个\"专家系统\"产业与后来的 Lisp 机工业（Symbolics、Teknowledge 等），Feigenbaum 后来也拿了图灵奖（1994）。\n\n一句话来源：DENDRAL，1965 斯坦福（Feigenbaum & Lederberg），公认首个专家系统，Buchanan et al. 多篇文献及《IEEE Annals of the History of Computing》均有记载。\n"
+}
