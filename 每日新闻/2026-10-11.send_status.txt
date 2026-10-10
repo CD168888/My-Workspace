@@ -1,0 +1,7 @@
+sent
+sent_at=2026-10-11T07:53:00+08:00
+to=2364728886@qq.com
+subject=每日 AI 动态 · 2026-10-11
+body_format=PLAIN
+skip_confirmation=true
+daily_quota_remaining=49/50
