@@ -1,0 +1,7 @@
+status: sent
+email: 2364728886@qq.com
+subject: 每日 AI 动态 · 2026-10-12
+queued: true
+skip_confirmation: true
+daily_quota_remaining: 49/50
+note: 纯文本 PLAIN，无附件；skip_confirmation=true 直发入队成功（无 42801、无 token 匹配）
