@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-10-12",
+  "title": "AI 冷知识盲盒 · 2026-10-12",
+  "markdown": "# AI 冷知识盲盒 · 2026-10-12\n\n## [18:25] 能\"伪造巴赫\"的 AI，比 ChatGPT 早了 40 年\n\n1980 年代（约 1981 起），作曲家 David Cope 为了克服自己的\"创作瓶颈\"，在苹果电脑上写了一个叫 EMI（Experiments in Musical Intelligence，读作\"Emmy\"）的程序：它把巴赫、肖邦、莫扎特等人的乐谱拆成\"风格签名\"再重新组合，生成听感以假乱真的新曲。最反常识的是\"音乐图灵测试\"——在 Douglas Hofstadter 的讲座上，听众面对\"真巴赫 / EMI 仿巴赫 / 真人作曲家 Steve Larson 仿巴赫\"三选一，结果把 EMI 的作品当成真巴赫、把 Larson 的当成机器产物；Larson 事后感慨\"人竟能被一个程序骗过，令人不安\"。这比今天 Suno/Udio 之类的 AI 作曲热早了约 40 年，而且它一开始只是作者用来对付写不下去的歌剧委约。\n\n来源：Wikipedia「David Cope」条目、Douglas Hofstadter 讲座与《纽约时报》相关报道（EMI 约 1981 年起；2001 年约 2 万行 Lisp 代码）。\n"
+}
