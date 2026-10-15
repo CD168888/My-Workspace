@@ -1,1 +1,2 @@
 sent
+[18:30] sent (ELIZA 效应 冷知识；skip_confirmation，queued，当日配额剩余 47/50)
