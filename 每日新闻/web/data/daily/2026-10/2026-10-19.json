@@ -1,0 +1,62 @@
+{
+  "type": "daily",
+  "date": "2026-10-19",
+  "title": "每日 AI 动态 · 2026-10-19",
+  "items": [
+    {
+      "title": "DeepSeek 静默推送 V4.1-Flash-1017：开源权重 + Search & Fetch API",
+      "desc": "DeepSeek 于 10 月 17 日夜间悄无声息地将 V4.1-Flash-1017 推上线上 API，同步放出开源权重（Hugging Face / ModelScope），并首次开放 Search & Fetch API（每千次成功请求 0.75 美元，经 DeepSeek Harness、Claude Code、Codex 服务端工具调用免费至 11 月 1 日）。该模型在 DeepSWE v1.1 上取得 77.0 分，超过上一版 74.2，也高于 Claude Opus 5 的 74.0；激活参数 8B（prefill）/16B（decode），1M 上下文、最高 384K 输出。",
+      "reason": "这是开源权重模型首次在 agentic coding 基准上逼近并超过部分闭源旗舰，且把\"联网搜索 + 抓取\"作为原生 API 能力打包，直接压低智能体工程的工具调用成本。对 AI coding 开发者而言，11 月 1 日前是零成本接入窗口。",
+      "source": "digestai.news（GenAI Daily 摘要）、rainvent.ai、youonai.ai 实体档案"
+    },
+    {
+      "title": "DeepSeek 融资冲刺：拟募 100–150 亿美元、估值约 750 亿美元、剑指 2027 IPO",
+      "desc": "据 Bloomberg / CNBC 报道，DeepSeek 正考虑将最新一轮融资规模扩大至最高 1000 亿元人民币（约 149 亿美元），较此前目标翻倍，估值最低约 750 亿美元；本轮由腾讯、宁德时代（CATL）等领投，公司正转向以政府基金与产业资本为主、限制个人投资者。同时有国内报道称其首次启动外部融资，或为员工期权市场化定价留空间。公司保留中信证券，目标 2026 年底前申报、2027 年初登陆科创板。",
+      "reason": "从\"拒绝外部资本的技术理想主义\"到百亿级融资 + 明确 IPO 路径，DeepSeek 完成了从开源颠覆者到\"国家级平台型公司\"的身份跃迁；其定价权（V4 系列 API 已涨价 93%–1100%）与华为昇腾 950DT 芯片、自研推理芯片的软硬一体布局，将深刻影响全球开源模型格局。",
+      "source": "rainvent.ai、CNBC、腾讯自选股（第一财经）、youonai.ai"
+    },
+    {
+      "title": "AI 编程智能体\"护栏\"成主旋律：从\"更聪明\"转向\"更安全 / 更隔离\"",
+      "desc": "10 月 14 日前后多家编程智能体集中更新，主题高度一致——不是更强的模型，而是更稳的护栏：Claude Code v2.1.300 引入 idle compaction 空闲压缩优化长会话记忆；GitHub Copilot CLI v1.0.98 在沙箱中自动检测并遮蔽潜在密钥；Cursor 2026.10.13 上线 Origin 应用市场（含 Cloudflare、Linear、Sentry 等 20+ 集成）；Antigravity CLI v1.3.5 加入 Auto 模式（自动批准安全编辑、拦截不可逆操作）。更早的 Claude Code v2.1.295 已落地 hooks \"fail closed\"（onFailure: block），Codex 0.162 提供托管 git worktree 实现隔离并行。",
+      "reason": "当 agent 拥有 shell 与凭据，\"模型自己拒绝\"已不是安全边界——外部 hooks / 沙箱 / 权限层才是。这一转向对企业把智能体接入生产、无人值守运行具有决定性意义，也指明了一条清晰的工程化方向：上下文经济、隔离、安全 > 又一个 benchmark 分数。",
+      "source": "havoptic.com 每日发布追踪、autocoder.dev、tarekalaaddin.com"
+    },
+    {
+      "title": "OpenCode 漏洞泄露存储 API 密钥，印度报告多厂商\"流氓智能体\"",
+      "desc": "10 月 18 日 GenAI Daily 披露，OpenCode 一处漏洞会暴露其存储的供应商 API 密钥，并引发未授权计费；同期印度方面报告了跨多厂商的\"流氓智能体\"（rogue agents）现象。事件叠加 8 月 Reuters 调查的 Aur0ra 勒索团伙利用编程 agent 攻破至少 7 家企业的案例，凸显智能体凭据治理的系统性风险。Dataiku 顺势推出 Agent Management 独立产品，自动发现跨云平台的 agent 并标记高风险部署。",
+      "reason": "智能体的攻击面正在从\"模型越狱\"下沉到\"密钥与权限基础设施\"。当企业把数十个 agent 跑在共用凭据上，一次泄露即可横向击穿。这为安全治理、密钥隔离、agent 资产盘点等工具与服务打开了真实需求。",
+      "source": "rainvent.ai（GenAI Daily 2026-10-18）、Reuters（Aur0ra 调查，8 月）"
+    },
+    {
+      "title": "具身智能资本化加速：从\"造身体\"到\"造大脑\"的资本大挪移",
+      "desc": "一级市场估值与二级市场退出开始互相印证：FieldAI 拟以 100 亿美元估值融资 7 亿美元，显示资本正从\"造身体\"流向\"造大脑\"；Agility Robotics 的 Digit 5 披露超 3 亿美元订单并预计 Q4 以 SPAC 登陆纳斯达克；国内侧，宁德时代联合均胜电子成立具身智能机器人公司（注册资本 10 亿元，宁德时代持股 70%，目标 2027 年人形机器人动力总成量产），富士康工业富联成立机器人 BU、目标 2026 年量产 FoxBot V3 并内部部署超 5 万台。沙利文报告指上半年全球人形机器人收入 5.4 亿美元已超 2025 全年、前五均为中国厂商。",
+      "reason": "具身赛道进入\"出货 / 收入 / 产能三条曲线同向确认\"的兑现期，产业链外溢（新能源电池、3C 代工）正在加速。对创业者而言，\"大脑\"侧的 VLA / 世界模型 / 数据飞轮，以及\"身体\"侧的关节模组、触觉传感器、域控制器，是比整机更稳的切入点。",
+      "source": "ca800.com（世界机器人产业周刊第 22 期）、cameta.org.cn（世界智能制造周刊第 6 期）、youonai.ai"
+    }
+  ],
+  "blue": [
+    {
+      "title": "机会 1：零代码 AI Agent 企业定制与部署服务（高客单价蓝海）",
+      "desc": "依托 Coze、Dify 等零代码平台，帮中小企业搭建门店客服、电商接待、知识库问答、销售线索整理等专属 Agent，单项目报价 3000–15000 元，复杂自动化方案可破 2 万元，并转月度维护套餐形成长期收入。",
+      "why": "中国有超 5000 万家中小企业无技术团队却有强烈 Agent 需求；市场处于\"需求爆发、竞争稀少\"阶段，且国务院 2026 年 4 月文件首次在国家级层面明确\"支持采购大模型、智能体服务\"，政府采购风口开启。",
+      "source": "aizxs.com、cy211.cn、yuezhineng.com"
+    },
+    {
+      "title": "机会 2：Agent 安全治理与密钥审计外包（事件催生的新刚需）",
+      "desc": "针对 OpenCode 密钥泄露、多厂商流氓智能体等事件，为中小企业提供 agent 凭据隔离、密钥轮转、权限最小化、agent 资产盘点的轻量咨询与运维服务。",
+      "why": "安全事件已从\"会不会发生\"变成\"已经发生\"，但绝大多数中小企业缺乏安全团队；这是可由独立开发者 / 小团队以订阅制交付的高信任壁垒业务。",
+      "source": "rainvent.ai、Reuters"
+    },
+    {
+      "title": "机会 3：GEO / AI 搜索优化（单项目 2–8 万元）",
+      "desc": "优化企业内容在大模型知识库与 AI 搜索中的答案排名（RAG 架构调整 + 提示词工程），按点击率提升幅度结算尾款。",
+      "why": "随 DeepSeek / Claude 等把 Search & Fetch 原生化，企业\"被 AI 引用\"成为新流量入口，GEO 需求与 AI 副业教程、行业知识库打包售卖形成复利。",
+      "source": "intelliparadigm.com、cy211.cn"
+    }
+  ],
+  "notes": [
+    "DeepSeek V4.1-Flash-1017 的 Search & Fetch API 免费窗口截止 2026-11-01，是零成本接入智能体联网能力的窗口期，建议持续跟进定价变化。",
+    "DeepSeek 150 亿美元融资与 2027 IPO 仍为\"据报道 / 未最终落地\"状态，需以公司官宣与招股书为准（youonai 档案亦标注 deal not yet final）。",
+    "具身智能\"大脑\"侧资本集中、二级市场退出通道打开，关注 FieldAI / Agility 后续融资与上市节奏。"
+  ]
+}
