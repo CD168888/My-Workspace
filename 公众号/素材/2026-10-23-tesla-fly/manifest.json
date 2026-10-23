@@ -1,8 +1,8 @@
 {
   "article": "反着看_2026-10-23",
-  "title": "它能飞 6 秒，补一次气要 6 到 7 小时",
-  "updated_at": "2026-10-23 18:05",
-  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqqL-Y6MdtJv0vcs4CRGIZumpUVehR17EFLTEnNMozJ7e",
+  "title": "别被特斯拉首飞骗了，它只能飞 6 秒",
+  "updated_at": "2026-10-23 19:28",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqsNkZXLyx8o_udAS6yVanNeqPjvUax7WOOXje4HBcEwX",
   "cover": {
     "file": "cover_news.png",
     "size": "900x383",
@@ -79,5 +79,6 @@
     "二级标题使用单条强调线，不使用大色块标签",
     "图片 8px 圆角 + 轻阴影，图注 13px 中灰居中",
     "封面 900x383，标题安全区固定在左侧"
-  ]
+  ],
+  "digest": "演示画面是真的，但满推力悬停只有 6.25 秒，补一次气 6 到 7 小时。三个版本里，能飞的那台不能上路。"
 }
