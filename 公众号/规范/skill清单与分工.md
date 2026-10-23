@@ -1,9 +1,13 @@
 # Skill 清单与分工
 
 > 安装位置：**项目级** `.workbuddy/skills/`（仅本工作区可用，不影响全局）
-> 安装时间：2026-10-23 ｜ 来源：skillhub.cn ｜ 迁移记录：先装用户级，当日迁至项目级
+> 安装时间：2026-10-23 ｜ 来源：skillhub.cn ｜ 迁移记录：先装用户级 → 当日迁至项目级 `.workbuddy/skills/` → 当日又被迁到 `.codex/skills/`
+>
+> ⚠️ **2026-10-23 现状：两份并存**。`.codex/skills/` 是当前生效的那份，已复制一份回 `.workbuddy/skills/`（两边各 213 个文件，内容一致）。
+> `publish_article.py` 用 `SKILL_CANDIDATES` 按序查找（`.workbuddy` 优先 → `.codex`），两份都在时读 `.workbuddy`。
+> **改动 skill 要两边同步**，否则会出现"改了没生效"。
 
-> ⚠️ **版本库注意**：`.gitignore` 第 71 行忽略了整个 `.workbuddy/`，因此这 6 个 skill **不会进入 git**。
+> ⚠️ **版本库注意**：`.gitignore` 第 71 行忽略整个 `.workbuddy/`、第 74 行忽略整个 `.codex/`，因此这些 skill（含 `.env` 凭据）**不会进入 git**。
 > 若希望随仓库备份/共享，需在 `.gitignore` 追加例外规则：
 > ```
 > !.workbuddy/skills/
@@ -37,9 +41,13 @@
 | 写作 | `wechatarticle` | **只产出 Markdown**，不用它自带的 HTML |
 | 去 AI 味 | `unclecheng-reduce-ai-perception-v2` | 唯一权威，其他两个的自带去味 prompt 不用 |
 | 封面 | `wechat-cover-maker` | 需先完成 Beatra 授权 |
-| 排版 + 推草稿箱 | `md-to-wechat` | **样式只由它的 `THEME_ID` 控制**，保证每期视觉一致 |
+| **排版 + 推草稿箱** | **`脚本/publish_article.py`** | 2026-10-23 起改为自家脚本。`md-to-wechat` 的渲染走第三方 `feishu2weixin`，文章内容会出本机；且样式不可控。**不再使用** |
+| 配图抓取 | `extract-images` + `脚本/fetch_via_browser.py` | 自制数据图、官方棚拍图（用户明确否决） |
 
 > 原则：**Markdown 出处唯一，样式出口唯一。** 中间任何一环自带样式都不要用。
+>
+> 版式 token 集中在 `publish_article.py`（三套主题 signal / editorial / swiss），
+> 详见 `内容生产SOP.md` 阶段 ③。改样式只改脚本，不要改 Markdown。
 
 ## 三、安全处置记录（2026-10-23）
 
@@ -68,7 +76,8 @@
 | lxml | 6.1.3 | ✅ 2026-10-23 安装 |
 | **trafilatura** | 2.3.1 | ✅ 2026-10-23 安装 —— 正文抽取主力 |
 | markdown | 3.11.2 | ✅ 2026-10-23 安装 |
-| Playwright | — | ❌ 未安装 —— 影响 JS 渲染站（机器之心）与强反爬站（OpenAI，403） |
+| Playwright | 1.64.1 | ✅ 2026-10-23 安装，内核 `chromium-1248`。**必须走国内镜像**，官方 CDN 只有 33KB/s：
+`export PLAYWRIGHT_DOWNLOAD_HOST="https://cdn.npmmirror.com/binaries/playwright"`（约 4 分钟，版本必须匹配 chromium-1248） |
 
 ### 抓取实测结论（2026-10-23）
 
@@ -93,9 +102,9 @@
 对照流水线，以下环节目前**没有**现成 skill 承担，需要自建或在 prompt 里补：
 
 1. **RSS / API 线索池与事件去重** —— 现在只有"单页抓取"，没有"今天有哪些事"的枚举能力。
-2. **配图批量下载 + 转存微信图床** —— `md-to-wechat` 能处理 md 里已给出的图，但"从源站找到图、判版权、批量转存"没有覆盖。
+2. ~~配图批量下载 + 转存微信图床~~ —— ✅ 2026-10-23 已解决：`fetch_via_browser.py` 按正文容器取图，`build_assets.py` 加工，`publish_article.py` 自动转存图床。
 3. **引用校验闸门** —— 链接可达性 + 标题比对，防 AI 编造引文。
-4. **草稿箱幂等与状态管理** —— 重跑会重复建草稿。
+4. **草稿箱幂等与状态管理** —— 半解决：`draft/batchget` 查重 + `manifest.json` 记 `draft_media_id` 已是约定，但没做成脚本自动执行。
 5. **发布后数据复盘** —— 阅读/完读/关注转化回填。
 
 > 这五项正好对应 `docs/公众号自动化流水线可行性评估.md` 的 P2、P4、P5 阶段。
