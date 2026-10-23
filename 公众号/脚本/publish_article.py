@@ -25,7 +25,13 @@ SKILL = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
 API = "https://api.weixin.qq.com/cgi-bin"
 
 # 版式 token —— 取值参考 doocs/md default(经典) 主题骨架 + 主流公众号实践
-PRIMARY = "#2F54EB"   # 主色：geekblue，做标题标签与强调
+THEMES = {
+    "signal": {"primary": "#0B6EFD", "accent": "#00B8D9", "fg": "#0F172A", "body": "#334155", "muted": "#64748B", "quote": "#F0F7FF", "line": "#D9E7F5"},
+    "editorial": {"primary": "#111827", "accent": "#FF4D4F", "fg": "#111827", "body": "#27303F", "muted": "#6B7280", "quote": "#FFF5F5", "line": "#E5E7EB"},
+    "swiss": {"primary": "#E11D48", "accent": "#F59E0B", "fg": "#111111", "body": "#262626", "muted": "#737373", "quote": "#FFF7ED", "line": "#E5E5E5"},
+}
+THEME = THEMES["signal"]
+PRIMARY = THEME["primary"]
 FG = "#1A1A1A"        # 标题/强调文字
 BODY = "#333333"      # 正文
 MUTED = "#8C8C8C"     # 图注/尾注
@@ -36,9 +42,9 @@ LINE = "#E8E8E8"      # 分隔线
 FS = "15px"           # 正文字号
 LH = "1.75"           # 行高
 LS = "0.5px"          # 中文字距
-GAP_P = "15px"        # 段间距
-GAP_H2_TOP = "34px"   # 节标题上间距
-GAP_H2_BOT = "18px"   # 节标题下间距
+GAP_P = "12px"        # 段间距
+GAP_H2_TOP = "28px"   # 节标题上间距
+GAP_H2_BOT = "14px"   # 节标题下间距
 
 
 def load_env():
@@ -82,27 +88,38 @@ def upload(path, token, kind):
         return json.loads(r.read().decode("utf-8"))
 
 
-P_STYLE = ("font-size:%s;line-height:%s;color:%s;letter-spacing:%s;margin:0 0 %s;"
-           % (FS, LH, BODY, LS, GAP_P))
-LEAD_STYLE = ("font-size:16px;line-height:%s;color:#1F1F1F;letter-spacing:%s;margin:0 0 18px;"
-              % (LH, LS))
-CAP_STYLE = ("font-size:13px;line-height:1.6;color:%s;text-align:center;"
-             "letter-spacing:0.2px;margin:8px 0 %s;" % (MUTED, GAP_P))
-NOTE_STYLE = ("font-size:13px;line-height:1.7;color:%s;letter-spacing:0.2px;margin:0 0 10px;"
-              % (MUTED,))
+def styles():
+    """按当前 THEME 生成四类段落样式。
+
+    必须做成函数而不是模块级常量：主题由 main() 的 --theme 才确定，
+    常量会在 import 时就固化成默认主题的颜色，切主题后正文/图注/尾注不跟着变。
+    """
+    return {
+        "p": ("font-size:%s;line-height:%s;color:%s;letter-spacing:%s;margin:0 0 %s;"
+              % (FS, LH, BODY, LS, GAP_P)),
+        "lead": ("font-size:16px;line-height:%s;color:%s;letter-spacing:%s;margin:0 0 18px;"
+                 % (LH, FG, LS)),
+        "cap": ("font-size:13px;line-height:1.6;color:%s;text-align:center;"
+                "letter-spacing:0.2px;margin:8px 0 %s;" % (MUTED, GAP_P)),
+        "note": ("font-size:13px;line-height:1.7;color:%s;letter-spacing:0.2px;margin:0 0 10px;"
+                 % (MUTED,)),
+    }
 
 
 def inline(html):
     """Markdown HTML -> 微信安全的内联样式 HTML。
 
-    版式骨架取自 doocs/md 经典(default)主题：
-      - h2  主色底白字的居中标签（该主题的标志性 h2）
-      - 正文 1.5em 段距、0.1em 字距
-      - 引用 浅底 + 4px 主色左描边 + 6px 圆角
-      - 图片 圆角 + 居中灰字图注
-    取值按「短段落文章」收紧：段距 15px(原 24)、行高 1.75(原 1.9)、标题上距 34px(原 48)。
+    版式骨架取自 doocs/md 经典(default)主题，再按公众号主流做法调整：
+      - h2  深色标题 + 3px 强调色下划线（杂志的 editorial 走法，不用大色块标签）
+      - 正文 15px / 行高 1.75 / 字距 0.5px，段距按短段落文章收紧到 12px
+      - 引用 浅底 + 4px 强调色左描边 + 6px 圆角
+      - 图片 8px 圆角 + 轻投影 + 居中灰字图注
     全部内联 style，不用 class / 外部 CSS / flex / grid（微信会剥）。
     """
+    S = styles()
+    P_STYLE, LEAD_STYLE = S["p"], S["lead"]
+    CAP_STYLE, NOTE_STYLE = S["cap"], S["note"]
+
     # 列表 -> 段落
     html = re.sub(r"<li>\s*<p>(.*?)</p>\s*</li>", r"<p>• \1</p>", html, flags=re.S)
     html = re.sub(r"<li>(.*?)</li>", r"<p>• \1</p>", html, flags=re.S)
@@ -111,18 +128,17 @@ def inline(html):
     # ---- 节标题：主色标签，居中 ----
     def h2_block(m):
         inner = m.group(1).strip()
-        return ('<section style="margin:%s 0 %s;text-align:center;">'
-                '<span style="display:inline-block;background:%s;color:#ffffff;'
-                'font-size:15px;font-weight:bold;letter-spacing:1px;padding:7px 18px;'
-                'border-radius:4px;line-height:1.4;">%s</span></section>'
-                % (GAP_H2_TOP, GAP_H2_BOT, PRIMARY, inner))
+        return ('<section style="margin:%s 0 %s;">'
+                '<span style="display:inline-block;color:%s;font-size:18px;font-weight:bold;'
+                'letter-spacing:0.5px;padding:0 0 7px;border-bottom:3px solid %s;line-height:1.4;">%s</span></section>'
+                % (GAP_H2_TOP, GAP_H2_BOT, THEME["fg"], THEME["accent"], inner))
     html = re.sub(r"<h2[^>]*>(.*?)</h2>", h2_block, html, flags=re.S)
 
     def h3_block(m):
         inner = m.group(1).strip()
         return ('<p style="font-size:16px;font-weight:bold;color:%s;margin:26px 0 %s;'
                 'padding-left:10px;border-left:4px solid %s;line-height:1.5;">%s</p>'
-                % (PRIMARY, GAP_P, PRIMARY, inner))
+                % (THEME["primary"], GAP_P, THEME["accent"], inner))
     html = re.sub(r"<h3[^>]*>(.*?)</h3>", h3_block, html, flags=re.S)
 
     # ---- 正文段落 ----
@@ -133,7 +149,7 @@ def inline(html):
                         '<blockquote style="margin:%s 0;padding:14px 16px;background:%s;'
                         'border-left:4px solid %s;border-radius:6px;'
                         'font-size:14px;line-height:1.75;color:#4A4A4A;">'
-                        % (GAP_P, QUOTE_BG, PRIMARY))
+                        % (GAP_P, THEME["quote"], THEME["accent"]))
     html = html.replace("<blockquote>\n<p style=\"%s\">" % P_STYLE,
                         '<blockquote>\n<p style="margin:0;font-size:14px;line-height:1.75;">')
 
@@ -147,7 +163,7 @@ def inline(html):
         src = re.search(r'src="([^"]+)"', tag)
         alt = re.search(r'alt="([^"]*)"', tag)
         out = ('<section style="margin:22px 0 0;">'
-               '<img src="%s" style="width:100%%;display:block;border-radius:8px;" />'
+               '<img src="%s" style="width:100%%;display:block;border-radius:8px;box-shadow:0 6px 18px rgba(15,23,42,0.12);" />'
                '</section>' % (src.group(1) if src else ""))
         if alt and alt.group(1).strip():
             out += '<p style="%s">%s</p>' % (CAP_STYLE, alt.group(1).strip())
@@ -188,9 +204,13 @@ def main():
     ap.add_argument("--title", required=True)
     ap.add_argument("--digest", default="")
     ap.add_argument("--author", default="小P")
+    ap.add_argument("--theme", choices=sorted(THEMES), default="signal")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
 
+    global THEME, PRIMARY, FG, BODY, MUTED, QUOTE_BG, LINE
+    THEME = THEMES[a.theme]
+    PRIMARY, FG, BODY, MUTED, QUOTE_BG, LINE = (THEME[k] for k in ("primary", "fg", "body", "muted", "quote", "line"))
     md_path = os.path.abspath(a.md)
     base = os.path.dirname(md_path)
     text = open(md_path, encoding="utf-8").read()
