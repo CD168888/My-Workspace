@@ -20,9 +20,20 @@ import uuid
 
 import markdown
 
-SKILL = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),
-                                     "..", "..", ".workbuddy", "skills", "md-to-wechat"))
+ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
+# 凭据位置：skill 目录可能被迁移（最早在 .workbuddy/skills，现迁到 .codex/skills），
+# 按顺序找第一个存在 .env 的位置，避免迁移后脚本直接挂掉。
+SKILL_CANDIDATES = [os.path.join(ROOT, d, "skills", "md-to-wechat")
+                    for d in (".workbuddy", ".codex")]
 API = "https://api.weixin.qq.com/cgi-bin"
+
+
+def find_env():
+    for d in SKILL_CANDIDATES:
+        p = os.path.join(d, ".env")
+        if os.path.isfile(p):
+            return p
+    raise FileNotFoundError("找不到 md-to-wechat 的 .env，已尝试：%s" % SKILL_CANDIDATES)
 
 # 版式 token —— 取值参考 doocs/md default(经典) 主题骨架 + 主流公众号实践
 THEMES = {
@@ -49,7 +60,7 @@ GAP_H2_BOT = "14px"   # 节标题下间距
 
 def load_env():
     env = {}
-    p = os.path.join(SKILL, ".env")
+    p = find_env()
     with open(p, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
