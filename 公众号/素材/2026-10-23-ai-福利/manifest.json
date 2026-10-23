@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-23",
+  "column": "今日可领",
+  "title": "Qoder 明天到期，这 8 个 AI 额度月底清零",
+  "digest": "最快明天到期的是 Qoder 的 DeepSeek-Flash。另外 7 笔月底前陆续结束，按到期日排好了。",
+  "theme": "signal",
+  "cover": {
+    "file": "cover.png",
+    "design": "信息图式封面（用户提供，AI额度到期倒计时信息图.png）：自带主标题/日历/五张到期卡片/24h倒计时，霓虹科技风；取 top=115 窗口裁 2.35:1，主标题与到期日文字完整",
+    "generated": true
+  },
+  "images": [
+    "assets/qoder.png",
+    "assets/autoclaw.png",
+    "assets/workbuddy.png"
+  ],
+  "sources": [
+    "Qoder 官方活动页（DeepSeek-V4.1-Flash-1017 免费至 10/24）",
+    "AutoClaw 官方博客 M10W3 / 官网横幅（每日登录 + 新用户 2 亿）",
+    "WorkBuddy 与混元联合项目团队 9/30 延期公告（Hy3/Hy4 至 10/31）",
+    "腾讯新闻 / 53AI / 今日头条（Step 5 Preview 限免至 10/25）",
+    "MiniMax 天猫旗舰店（首月五折至 10/31）",
+    "AI 模型优惠速报 2026-10-22 期（火山方舟 kimi-k3 5折、基元律动折扣）"
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqpNOFBdVJEdL44ioTReJ9k_NKd8-oPFcKg5gBGDnao8S",
+  "updated_at": "2026-10-23 20:24"
+}
