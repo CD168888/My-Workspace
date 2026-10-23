@@ -1,0 +1,83 @@
+{
+  "article": "反着看_2026-10-23",
+  "title": "它能飞 6 秒，补一次气要 6 到 7 小时",
+  "updated_at": "2026-10-23 15:24",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqjy9sQqqdpEcej3ZpUhTKR8XpTa-lt2vBamk58Gl9Y0i",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "source": "assets/01_flight.jpg",
+    "design": "纯照片 + 白字（柔和投影），无任何色块/色条/遮罩/栏目标记"
+  },
+  "body_images": [
+    {
+      "file": "assets/01_flight.jpg",
+      "w": 1400,
+      "src": "photo_toutiao/001_9deae95c5fec.jpg",
+      "src_page": "https://www.toutiao.com/article/7699271222571450920",
+      "credit": "光明网转载视频截图",
+      "subject": "车从一排特斯拉上空越过"
+    },
+    {
+      "file": "assets/08_burst.jpg",
+      "w": 900,
+      "src": "photo_sznews/002.jpg",
+      "credit": "深圳新闻网",
+      "subject": "俯拍，车与喷流"
+    },
+    {
+      "file": "assets/03_upside.jpg",
+      "w": 900,
+      "src": "photo_163_all/002_dee20b76d7fc.jpg",
+      "src_page": "https://www.163.com/dy/article/L9C8ISE905568W0A.html",
+      "credit": "果壳",
+      "subject": "倒挂悬停，下方人群"
+    },
+    {
+      "file": "assets/05_config.jpg",
+      "w": 1080,
+      "src": "photo_sznews/003.jpg",
+      "credit": "特斯拉官网截图",
+      "subject": "Performance 版订单页，意向金 332,000"
+    },
+    {
+      "file": "assets/04_nozzles.jpg",
+      "w": 900,
+      "src": "photo_163_all/007_bc2457f3f2bd.jpg",
+      "src_page": "https://www.163.com/dy/article/L9C8ISE905568W0A.html",
+      "credit": "果壳",
+      "subject": "车尾推进器组 + 马斯克在台边，白线圈出 4 个喷口"
+    },
+    {
+      "file": "assets/06_xpeng_factory.jpg",
+      "w": 1400,
+      "src": "photo_toutiao/002_f931dbc37b7b.jpg",
+      "credit": "新华社，记者邓华",
+      "subject": "小鹏汇天飞行汽车量产工厂"
+    },
+    {
+      "file": "assets/07_xpeng_fly.jpg",
+      "w": 900,
+      "src": "photo_sznews/005.jpg",
+      "credit": "深圳新闻网",
+      "subject": "小鹏旅航者 X2 飞行"
+    }
+  ],
+  "stats": {
+    "body_images": 7,
+    "cover": 1,
+    "total": 8,
+    "article_chars": 1689
+  },
+  "scripts": [
+    "build_assets.py（整理+标注）",
+    "fetch_via_browser.py（Playwright 取图）",
+    "publish_article.py（排版+推草稿）"
+  ],
+  "design_rules": [
+    "图片不加色块/色条/遮罩面板",
+    "文字可读性用柔和投影",
+    "图注 13px 中性灰居中",
+    "h2 纯加粗无装饰边框"
+  ]
+}
