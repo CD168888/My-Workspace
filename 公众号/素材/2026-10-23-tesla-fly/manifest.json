@@ -7,7 +7,7 @@
     "file": "cover_news.png",
     "size": "900x383",
     "source": "assets/01_flight.jpg",
-    "design": "纯照片 + 白字（柔和投影），无任何色块/色条/遮罩/栏目标记"
+    "design": "纯照片 + 白字（柔和投影），不加色块/色条/遮罩/栏目标记"
   },
   "body_images": [
     {
@@ -67,7 +67,7 @@
     "body_images": 7,
     "cover": 1,
     "total": 8,
-    "article_chars": 1689
+    "article_chars": 2313
   },
   "scripts": [
     "build_assets.py（整理+标注）",
@@ -75,9 +75,9 @@
     "publish_article.py（排版+推草稿）"
   ],
   "design_rules": [
-    "图片不加色块/色条/遮罩面板",
-    "文字可读性用柔和投影",
-    "图注 13px 中性灰居中",
-    "h2 纯加粗无装饰边框"
+    "主题可切换：signal / editorial / swiss",
+    "二级标题使用单条强调线，不使用大色块标签",
+    "图片 8px 圆角 + 轻阴影，图注 13px 中灰居中",
+    "封面 900x383，标题安全区固定在左侧"
   ]
 }
