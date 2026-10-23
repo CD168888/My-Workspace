@@ -147,11 +147,13 @@
 | 项 | 值 |
 |---|---|
 | 昵称 | 课代表小P |
-| AppID | `wx506e3c3bbe5b8c45` |
-| 原始 ID | `gh_20677745c6ac` |
+| AppID | **不写入仓库**，见本地 `.workbuddy/skills/md-to-wechat/.env` |
+| 原始 ID | **不写入仓库**，见后台「设置与开发 → 账号设置」 |
 | 主体 | 蒋**（个人） |
 | 认证状态 | 暂未认证 |
 | 出口 IP（已加白名单） | `159.226.5.173` |
+
+> **为什么 AppID 也不写？** AppID 本身不是密钥（没有 AppSecret 调不动任何接口），但 GitHub 密钥扫描会把 Tencent AppID 判定为 possible secret 并告警。账号标识对仓库没有任何价值，一律不入库。AppSecret 更是只存在于本地 `.env`。
 
 ### P0 验证结果（2026-10-23 11:23）
 
