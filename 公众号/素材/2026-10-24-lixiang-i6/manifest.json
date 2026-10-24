@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-24",
+  "column": "反着看",
+  "topic": "理想 i6 环太湖 104% 续航达成率的工况边界",
+  "title": "理想i6跑出104%续航，平均时速只有45公里",
+  "digest": "96度电跑811.4公里是真的。但这811公里没有一米高速，测试车上不去；跑120定速只剩六成。",
+  "word_count": 1261,
+  "word_count_note": "汉字数；含数字与英文的非空白字符约 1900",
+  "cover": "cover_news.png",
+  "cover_note": "信息图式封面。底图 ImageGen 生成（环湖公路蓝调航拍），文字 PIL 后叠，无任何色块/色条/遮罩",
+  "images": [
+    {
+      "file": "assets/01_result_poster.png",
+      "size": "923x2000",
+      "desc": "理想官方发布的环太湖续航实测成绩单",
+      "source_page": "https://news.qq.com/rain/a/20261024A05ADD00",
+      "publisher": "腾讯新闻「百姓评车」"
+    },
+    {
+      "file": "assets/02_lixiang_preheat.png",
+      "size": "1100x1886",
+      "desc": "李想微博截图，含测试车辆/载重/路线的三项条件",
+      "source_page": "https://www.ithome.com/1/016/849.htm",
+      "publisher": "IT之家"
+    },
+    {
+      "file": "assets/03_road_a.png",
+      "size": "960x572",
+      "desc": "2026 款理想 i6（正文插图）",
+      "source_page": "https://news.qq.com/rain/a/20261024A05ADD00",
+      "publisher": "腾讯新闻「百姓评车」"
+    },
+    {
+      "file": "assets/04_road_b.png",
+      "size": "864x606",
+      "desc": "2026 款理想 i6（正文插图）",
+      "source_page": "https://news.qq.com/rain/a/20261024A05ADD00",
+      "publisher": "腾讯新闻「百姓评车」"
+    },
+    {
+      "file": "assets/05_road_c.png",
+      "size": "960x656",
+      "desc": "2026 款理想 i6（正文插图）",
+      "source_page": "https://news.qq.com/rain/a/20261024A05ADD00",
+      "publisher": "腾讯新闻「百姓评车」"
+    },
+    {
+      "file": "assets/06_road_d.png",
+      "size": "960x702",
+      "desc": "2026 款理想 i6（正文插图）",
+      "source_page": "https://news.qq.com/rain/a/20261024A05ADD00",
+      "publisher": "腾讯新闻「百姓评车」"
+    }
+  ],
+  "sources": {
+    "primary": [
+      "理想汽车官微：2026 款理想 i6 环太湖续航直播挑战成功，实测 811.4km、达成率 104%、平均电耗 11.8kWh/100km",
+      "李想微博（2026-10-22 预热、2026-10-23 复盘）：测试条件 13-20℃、城区限速、空调 24℃ 前后排全开、4 人约 300kg + 50kg 设备；路线常州—无锡—苏州—湖州；96 度电池、20 寸轮毂、CLTC 780km",
+      "易车配置库 car.m.yiche.com/lixiangi6/peizhi：2026 款后驱标准版 96kWh / CLTC 780km / 整备 2395kg / 满载 2935kg / 电芯品牌中创新航；2025 款后驱版 87.3kWh / CLTC 720km",
+      "GB/T 38146.1—2019 CLTC-P：循环 1800s、14.48km、平均 28.96km/h、最高 114km/h、怠速 22.1%、高速段占 24.1%"
+    ],
+    "secondary": [
+      "新浪汽车（测试路线与条件）：测试车挂测试牌照，无法上高速，本次未包含高速路段",
+      "车质网/快科技：18 小时不间断直播，电量归零时表显 811.4km，平均电耗 11.7-11.8kWh/100km",
+      "媒体长测：上海—南京往返 120km/h 定速，折算全程高速约 450km；另有实测 467.3km、达成率 68%"
+    ]
+  },
+  "verification": [
+    "811.4 × 11.8 ÷ 100 = 95.7 kWh，标称 96 kWh，榨干率 99.7%",
+    "811.4 ÷ 780 = 104.0%",
+    "811.4 ÷ 18h = 45.1 km/h 平均时速",
+    "整备 2395 + 300 + 50 = 2745 kg，占满载 2935kg 的 93.6%",
+    "96 ÷ 19.5 kWh/100km ≈ 492 km，492 ÷ 780 ≈ 63%",
+    "3 kWh ÷ 12.31 kWh/100km = 24 km；24 + 30 = 54 km，CLTC 实际提升 60 km"
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqrpOR2v0tbfWo_8kUggS7c6vqZN6cbpNPSoBwtztEu6z",
+  "draft_status": "created",
+  "preview": "preview.png",
+  "updated_at": "2026-10-24T14:18:00+08:00"
+}
