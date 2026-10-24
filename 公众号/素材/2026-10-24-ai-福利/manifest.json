@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-24",
+  "column": "今日可领",
+  "title": "TRAE 今晚关窗，10 个 AI 额度最晚用到 11 月",
+  "digest": "今天 18 点 TRAE 的 1024 打卡关窗，Qoder 限免明晚零点结束。其余 9 条按到期日排好了，最晚能用到 11 月 1 日。",
+  "theme": "signal",
+  "cover": {
+    "file": "cover.png",
+    "design": "生图底（ImageGen，1536x1024，深夜笔记本+窗外夜灯，左留负空间）+ PIL 叠字：主标题三行（TRAE 今晚关窗 / 10 个 AI 额度 / 最晚用到 11 月）+ 底部三条倒计时（今晚18:00 / 明天00:00 / 周一09:00）。2.35:1 取 top=17% 窗口切掉底部水印，无任何色块/色条/遮罩，仅左侧线性压暗保证白字可读。",
+    "generated": true,
+    "source": "ai_cover/Wide_cinematic_banner_photogra_2026-10-24T01-15-07.png"
+  },
+  "images": [
+    "assets/trae.png",
+    "assets/qoder.png",
+    "assets/autoclaw.png",
+    "assets/minimax.png",
+    "assets/zcode.png",
+    "assets/workbuddy.png"
+  ],
+  "image_sources": {
+    "assets/trae.png": "trae.cn 官网产品界面（TRAE 客户端 · 项目任务面板）",
+    "assets/qoder.png": "qoder.cn 官网首页截图（含「续费活动再升级」横幅）",
+    "assets/autoclaw.png": "autoclaw.z.ai 官网产品界面（AutoClaw 任务执行页）",
+    "assets/minimax.png": "agent.minimax.io 官网 MiniMax Code 启动页",
+    "assets/zcode.png": "zcode.z.ai/cn 官网首页截图",
+    "assets/workbuddy.png": "workbuddy.cn 官网产品界面（WorkBuddy 客户端）"
+  },
+  "sources": [
+    "TRAE 官方活动规则页 docs.trae.cn/ide_million-credits-giveaway-on-oct-24（10/19 00:00–10/24 18:00，19:00 直播抽奖）",
+    "Qoder 官方邮件（官方图内原文）：DeepSeek-V4.1-Flash-1017 个人版 0 Credits 至 2026-10-25 00:00 UTC+8，之后回 0.1x",
+    "Qoder 客户端权益弹窗：每日 10:00 领 100 Credits，30 天有效",
+    "AutoClaw 官方博客 M10W3 每日登录活动（10/19–10/25，当天 24:00 清零）",
+    "阶跃星辰 × WorkBuddy 独家限免公告，经界面新闻/腾讯新闻/凤凰网转载（10/12–10/25）",
+    "MiniMax 官网活动页 agent.minimax.io：M3.1 Flash 订阅用户不限量至 2026-10-25 23:59，M Plan 首月五折至 10/31 23:59",
+    "智谱 ZCode 官方客户端公告与弹窗（10/23 20:00 领，10/23 23:00–10/26 09:00 可用，20 万份），经小众软件 appinn.com 交叉核实",
+    "国家超算互联网 MaaS 特惠，经界面新闻/环球网报道（Auto 模型夜间免费 10/21–10/30，每晚 21:00–次日 09:00）",
+    "WorkBuddy 与混元联合项目团队 9/30 延期公告（Hy3/Hy4 preview 至 10/31）",
+    "DeepSeek 官方更新日志（Search/Fetch 免调用费至 2026-11-01）",
+    "讯飞星辰 MaaS 模型页 maas.xfyun.cn（Spark-X2.6 10 亿 Tokens，实名领取，31 天有效）",
+    "智谱 bigmodel.cn/activity/trial-card/（GLM Coding Plan 体验卡 2000 积分，7 天，每日 1 万张）"
+  ],
+  "expired_checked": [
+    "Qoder 2000 SOTA Credits：窗口 10/14 18:00–10/24 10:00，已结束",
+    "智谱 AutoClaw v2.1.0 的 2 亿 Tokens：领取截止 10/21",
+    "WorkBuddy DeepSeek 故障补偿 500 积分：10/22 24:00 截止"
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqn__aHUXUgo3xY8SUrmhwiZUJOMnhO4Jil0WOcS7eIPK",
+  "updated_at": "2026-10-24 09:32"
+}
