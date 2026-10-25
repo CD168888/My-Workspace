@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-10-25",
+  "title": "谣言粉碎机 · 2026-10-25",
+  "markdown": "# 谣言粉碎机 · 2026-10-25\n\n## 今日核查对象：Instinct 一个月估值从 25 亿跳到 100 亿美元、完成 10 亿美元 C 轮\n\n### 原声称\nAI 智能体初创 Instinct 在不到一个月时间里，估值从 25 亿美元（8 月 B 轮）跃升至 100 亿美元，并完成 10 亿美元 C 轮融资，由红杉资本、Benchmark、Coatue 联合领投；团队仅 14 人，产品处于邀请制内测。\n\n### 核查\n- TechCrunch 报道并援引 The Information 早前披露，确认 Instinct 于 2026-09-28 完成 10 亿美元 C 轮、投后估值 100 亿美元，领投方为 Sequoia、Benchmark、Coatue；上一轮（8 月）为 2.5 亿美元 B 轮、估值 25 亿美元，一个月估值翻约 4 倍。\n- Venture Capital Tracker、InforCapital、CornerForAI 等多家融资追踪媒体一致给出相同交易条款（10 亿美元 / 100 亿美元 / Sequoia+Benchmark+Coatue / 9-28 官宣）。\n- 百度百科词条确认公司主体为 Spear Street Technology，2025-10 由 Noah Shinn（23 岁，前 Sierra AI 研究科学家）创立，团队 14 人，平台年交易规模逼近 10 亿美元门槛，产品仍为邀请制内测、无移动 App、用户数突破 10 万。\n- 需保留的疑点：估值 4 倍跳涨发生在产品尚未大规模公开可用、未披露用户与营收之前；14 人团队配 10 亿美元融资，对安全、客服、基础设施的履约预期极高。TechCrunch 亦指出其 8 月隐私条款曾因过度收集用户数据引发争议后修订。核心交易事实属实，但「估值」是投资人意愿定价，不等于经营兑现。\n\n### 评级\n**靠谱度 ★★★★（高）**\n核心融资事实（金额、估值、投资方、日期）被 TechCrunch（Reuters 源）、多家融资追踪机构与百度百科交叉证实，可信度高。扣一星仅因：4 倍月内重定价属激进 conviction bet，产品仍处 early access、未披露规模化使用或营收，估值领先于基本面。\n\n### 来源\n- TechCrunch（2026-09-28，援引 The Information / Reuters）\n- Venture Capital Tracker《Instinct Raises $1B at $10B Valuation》\n- InforCapital / CornerForAI 融资追踪\n- 百度百科「Instinct」词条\n"
+}
