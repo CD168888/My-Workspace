@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-25",
+  "column": "今日可领",
+  "title": "四个 AI 额度今晚清零，七牛云每天送 1 亿",
+  "digest": "今晚 24 点四个 AI 额度到期，ZCode 五亿 Tokens 明早 9 点归零。其余十条最晚能用到 11 月底。",
+  "word_count_cn": 1370,
+  "item_count": 11,
+  "sorted_by": "deadline_asc",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "source": "ai_cover/Wide_cinematic_banner__photore_2026-10-25T01-18-21.png",
+    "method": "ImageGen 生图（深夜书桌 + 挂钟，1536x1024）+ PIL 叠三行文字",
+    "crop": "top=100, h=653（保留顶部挂钟，切掉右下角 AI 生成水印）",
+    "design_note": "暗调现场图打底，左半留负空间放主标题；文字用白 / #E2E8F0 + 偏移(1,2) 黑色 alpha190 高斯模糊投影，无任何色块色条遮罩，图上无栏目标记。",
+    "credits_used": "约 5-10（1 张）"
+  },
+  "assets": [
+    {
+      "file": "assets/autoclaw.png",
+      "caption": "AutoClaw 官网首页",
+      "source": "https://autoclaw.zhipuai.cn",
+      "source_level": "一手（官方站）"
+    },
+    {
+      "file": "assets/minimax.png",
+      "caption": "MiniMax Code · M3.1 Flash 活动弹窗",
+      "source": "https://code.minimaxi.com",
+      "source_level": "一手（客户端内公告）",
+      "note": "弹窗原文：即日起至 10 月 25 日，所有订阅用户在 MiniMax Code 内使用 M3.1 Flash 模型，不限量"
+    },
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟 · Agent Plan 套餐概览",
+      "source": "https://ark.volcengine.com/docs/agent-plan-personal-plan-overview",
+      "source_level": "一手（官方文档，2026-10-24 更新）"
+    },
+    {
+      "file": "assets/zcode.png",
+      "caption": "ZCode 客户端 · 工作台",
+      "source": "https://zcode.z.ai/cn",
+      "source_level": "一手（官方客户端）"
+    },
+    {
+      "file": "assets/raccoon.png",
+      "caption": "商汤小浣熊 · 模型选择面板",
+      "source": "商汤小浣熊官方公众号 v1.1.0 更新说明（mp.weixin.qq.com，Mzk2NDAzNTU5MA）",
+      "source_level": "一手（官方更新日志配图）",
+      "note": "图中标注 DeepSeek-V4.1-Flash-1017 限免中，卡片写「活动至 11 月 1 日」，正文口播为 10 月 31 日"
+    },
+    {
+      "file": "assets/qiniu.png",
+      "caption": "七牛云 · Conatus 模型页",
+      "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "source_level": "一手（官方模型页）",
+      "note": "页面原文：2026 年 10 月 24 日 00:00 至 2026 年 11 月 30 日 23:59；认证用户每日 1 亿 Token，充值后最高 10 亿"
+    }
+  ],
+  "verification": {
+    "expired_logged": [
+      "TRAE 1024 打卡抽锦鲤 — 10/24 18:00 停签到",
+      "Qoder 国内版 DeepSeek-V4.1-Flash-1017 限免 — 10/25 00:00",
+      "腾讯 OrcaTerm 敲 1024 送 3 个月专业版 — 10/24 23:59",
+      "Qoder 2000 SOTA Credits — 10/24 10:00",
+      "国家超算 GLM-5.3-Flash 特惠量包 99 元 — 10/24"
+    ],
+    "dropped_for_no_first_party": [
+      "Today AI 注册送 3 亿 Token（未见官方活动页，仅速报转述）",
+      "UCloud 星图 50 元算力金（算力金，非 AI 工具额度，且属补贴类）",
+      "华为云码道 4000 积分（活动页未直查，为控密度删除）",
+      "Qoder 国际版 Community Boost（需申请审核，为控密度删除）",
+      "国家超算 Auto 夜间免费（需订阅 Token Plan，门槛高，为控密度删除）"
+    ]
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqv4pIaiPwQkoG41cgdJLRgXk9cT19sgl3iZ3Lnmhj1g2",
+  "pushed_at": "2026-10-25T09:26:00+08:00"
+}
