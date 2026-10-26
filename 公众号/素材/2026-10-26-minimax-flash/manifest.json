@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-26",
+  "column": "反着看",
+  "topic": "MiniMax M3.1 Flash 的「成本降 70%」口径：单价只降 50%，差额靠缓存命中率约 95% 才凑得出来",
+  "title": "MiniMax的70%从哪来？单价只降了50%",
+  "title_type": "⑤ 揭秘避坑型",
+  "title_generated_at": "2026-10-26T14:20:00+08:00",
+  "title_candidates": [
+    "② 悬念反转型：MiniMax说省70%，价目表上只降了50%",
+    "⑤ 揭秘避坑型：MiniMax的70%从哪来？单价只降了50%（采用）",
+    "⑥ 极简清单型：M3.1 Flash报价单，输入1元输出4元，省70%"
+  ],
+  "title_type_note": "上一期（10-25 尊界）与 10-23、10-24 均为「反常事实 + 反差」的 ② 型，本期换 ⑤ 型（疑问 + 隐藏限制），问号只在 ⑤ 型使用",
+  "digest": "差的 20 个百分点来自缓存计价。命中率约 95% 才够七成，单轮问答只省一半，这个前提官方没写。",
+  "word_count": 1553,
+  "word_count_note": "汉字数；含数字与英文的非空白字符约 2400",
+  "sources": [
+    {"level": 1, "desc": "MiniMax 官方 API 定价页 platform.minimax.io/docs/guides/pricing（本次直接抓取）：M3.1-Flash 输入 $0.15 / 输出 $0.60 / 缓存读取 $0.015；M3 折后 $0.30 / $1.20 / $0.06（原价 $0.60 / $2.40 / $0.12，永久 5 折，>512K 翻倍）"},
+    {"level": 2, "desc": "新民晚报 2026-10-21《MiniMax发布新Flash模型》：人民币价 输入 1 元 / 输出 4 元 / 缓存 0.1 元；「输入和输出单价均降低 50% 以上」「缓存读取单价降低超 70%」「使用成本降低了 70%」"},
+    {"level": 2, "desc": "腾讯新闻（中国经营报）2026-10-20：428B 总参数、每日 200+ TPS、P50 170+ TPS、速度提升近 3 倍、Space Bunny 处理超 200T Token"},
+    {"level": 2, "desc": "腾讯新闻（彭博社）2026-10-21：「两项结果均未经独立核实」；Space Bunny 即 M3.1 Flash 早期版本"},
+    {"level": 2, "desc": "IT之家 2026-10-23：开源权重、428B/23B、稀疏注意力 + W4A4 + Q8KV4 + Power-aware scheduling、72 小时 100 万亿 Token"},
+    {"level": 2, "desc": "量子位 2026-10 实测稿：跑分明细（Automation-Bench 62.8 / BankerToolBench 76.2 / LOCA-Bench 256K 60.3 / OSWorld 61.7 / ALE 29.6 / DeepSWE 73.7% / SWE Refactor 23.0）、Artificial Analysis 智能指数 43"}
+  ],
+  "key_numbers": {
+    "单价降幅": "对折后价：输入 50.0% / 输出 50.0% / 缓存读取 75.0%；对原价：75.0% / 75.0% / 87.5%",
+    "加权曲线": "缓存命中 0%→50.0% ｜ 50%→54.2% ｜ 75%→59.4% ｜ 90%→66.1% ｜ 95%→69.8% ｜ 100%→75.0%",
+    "反解": "要正好降 70%，输入侧缓存命中率约为 95.2%（r=0.95238）",
+    "账单示例": "每月 10 亿输入 tokens：全不命中 300→150 美元；命中 80% 108→42 美元；命中 95% 72→21.75 美元",
+    "对不上的两处": "中文稿「近 3 倍」在英文标题里变 3x；Hugging Face 仓库页参数 220B vs 模型卡 428B"
+  },
+  "images": [
+    {"file": "assets/01_launch.jpg", "size": "1080x360", "desc": "MiniMax M3.1 Flash 发布主视觉", "publisher": "智东西", "source_page": "https://zhidx.com/p/604017.html"},
+    {"file": "assets/02_cost_curve.jpg", "size": "1080x810", "desc": "官方给出的分数与单任务成本对照图（DeepSWE v1.1）", "publisher": "智东西", "source_page": "https://zhidx.com/p/604017.html"},
+    {"file": "assets/03_bench_table.jpg", "size": "1080x809", "desc": "全套跑分对照表（勾选列为 MiniMax 自报）", "publisher": "量子位", "source_page": "https://www.qbitai.com/2026/10/504517.html"},
+    {"file": "assets/04_space_bunny.jpg", "size": "1080x1086", "desc": "Space Bunny 匿名期间的社区图（萝卜火箭）", "publisher": "量子位", "source_page": "https://www.qbitai.com/2026/10/504517.html"},
+    {"file": "assets/05_hf_repo.jpg", "size": "1080x532", "desc": "Hugging Face 仓库页截图，右侧参数标注 220B", "publisher": "智东西", "source_page": "https://zhidx.com/p/604017.html"},
+    {"file": "assets/06_aa_index.jpg", "size": "1080x523", "desc": "Artificial Analysis 智能指数榜，M3.1 Flash 为 43 分", "publisher": "量子位", "source_page": "https://www.qbitai.com/2026/10/504517.html"},
+    {"file": "assets/07_dev_tweet.jpg", "size": "1080x443", "desc": "开发者晒匿名期 OpenRouter 调用量排名", "publisher": "智东西", "source_page": "https://zhidx.com/p/604017.html"}
+  ],
+  "image_note": "腾讯新闻两篇正文容器里抓到的图均为装修广告，已整批弃用（photo_qq / photo_qq2）；faxai.cn 抓到的是火山引擎广告位，同样弃用",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "ImageGen 生成 1536x653 深海军蓝 GPU 机柜 + 玻璃立方体 + 电路地板；下裁 52px 去「AI生成」水印后重采样回 1536x653",
+    "copy": {
+      "主数字": "70%",
+      "主文案": "藏在缓存里",
+      "副标": "命中率得跑到 95%",
+      "副文案": "长会话成立，单轮不行",
+      "胶囊": "价目表原文 | 账单复算 | 判断三问"
+    },
+    "render": "python 脚本/cover_2026_10_26_minimax.py（数字 base 76 / baseline 108；三行 base 46 / baseline0 184；末行基线 292，距胶囊 31px）",
+    "note": "主线 51 / 副线 47 / 尾线 36 成阶梯；右侧最远 394px 未出界"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEql7cW5XzM8Bwq7NjlOW9-PiIB2Y7Nnnbtjq6JvPs7zrG",
+  "updated_at": "2026-10-26T14:35:00+08:00"
+}
