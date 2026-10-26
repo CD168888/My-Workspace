@@ -88,3 +88,21 @@ out/
 公众号/配置/
 *.secret
 *.token
+
+# ---------- 9. 公众号素材中间产物（派生文件，不进版本库） ----------
+# 封面：底图中转态、试验稿、旧版备份，都是可随时重跑脚本再生成的，入了库只会堆垃圾
+公众号/素材/**/ai_cover_v2/_*.png
+公众号/素材/**/ai_cover_v2/bg_clean.png
+公众号/素材/**/ai_cover_v2/bg_shift.png
+公众号/素材/**/ai_cover_v2/cover_news_a.png
+公众号/素材/**/ai_cover_v2/cover_news_b.png
+# 被霓虹拼贴取代的纪实风候选底图，以及最终图的重复副本
+公众号/素材/**/ai_cover_v2/Documentary_*.png
+公众号/素材/**/ai_cover_v2/Extreme_*.png
+公众号/素材/**/ai_cover_v2/cover_neon_final.png
+公众号/素材/**/ai_cover_v2/cover_news.png
+公众号/素材/**/cover_news_v*.png
+# 抓图脚本落下的原始目录（photo_*），用得到时重抓即可
+公众号/素材/**/photo_*/
+# 被 cover_neon.py 取代的旧封面脚本，留档在本地不入库
+公众号/脚本/cover_2026_10_26_v2.py
