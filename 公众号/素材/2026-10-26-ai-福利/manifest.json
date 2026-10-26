@@ -1,8 +1,12 @@
 {
   "date": "2026-10-26",
   "column": "今日可领",
-  "title": "十条 AI 额度还在送，最急的 4 天后到期",
-  "digest": "Qoder 的 1024 积分还剩 4 天，混元限免本周收官。ZCode 那 5 亿今早九点已经清零。",
+  "title": "5 亿 Tokens 今早清零！还有 10 项 AI 免费福利，最晚 12 月底到期",
+  "title_type": "① 事件冲击型",
+  "title_generated_at": "2026-10-26T10:05:00+08:00",
+  "title_note": "前 12 字『5 亿 Tokens 今早清零』= 具体数字 + 刚发生的事，无泛量词、无代词。感叹号 1 个。三层时效词（今早 / 最晚 12 月底）均为绝对或当天成立的表述。",
+  "digest": "最急的是阿里 Qoder，10 月 30 日关窗。七牛云每天 1 亿还在，另有 5 条已停。",
+  "digest_note": "46 字符 / 100 字节，压在微信 45004 阈值下；不复读标题，给的是「最早哪天」和「今天新增什么」。",
   "word_count_cn": 1271,
   "item_count": 10,
   "sorted_by": "deadline_asc",
@@ -10,11 +14,20 @@
     "file": "cover_news.png",
     "size": "900x383",
     "ratio": "2.35:1",
-    "source": "ai_cover/Wide_cinematic_banner__photore_2026-10-26T01-20-09.png",
-    "method": "ImageGen 生图（暗桌上一排由大到小的沙漏，1536x1024）+ PIL 叠两行标题与一行数据",
-    "crop": "top=300, h=653（保全整组沙漏，切掉右下角 AI 生成水印）",
-    "design_note": "沙漏对应「倒计时」这一期的主题；文字放在右半负空间，白字 + 偏移(1,2) 黑色 alpha190 高斯模糊投影；无任何色块色条遮罩，图上无栏目标记。",
-    "credits_used": "约 5-10（1 张，未重复刷图）"
+    "style": "霓虹拼贴（SOP 1.4 定稿版，用户 2026-10-26 亲手样张）",
+    "source": "ai_cover_v2/Cyberpunk_tech_poster_backgrou_2026-10-26T02-11-42.png",
+    "bg_clean": "ai_cover_v2/bg_clean.png（下裁 52px 去 AI 水印，重采样回 1536x653）",
+    "bg_final": "ai_cover_v2/bg_shift.png（左 70px 镜像补边，把主数字整体右移给文字让位）",
+    "method": "ImageGen 出 2.35:1 科技底（1536x653，含 3D 数字 5、日历、沙漏、图标卡片）+ 脚本 cover_neon.py 叠三行混色文字与胶囊",
+    "copy": {
+      "main": "5亿 Tokens 今早清零！",
+      "sub": "还有 10 项 AI 免费福利",
+      "tail": "最晚 12 月底 到期",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_neon.py --bg bg_shift.png --base 38 --baseline0 226 --left 36",
+    "design_note": "五元素齐：主数字（3D 5）、时间意象（日历高亮 + 沙漏）、清单卡片（礼物/云/代码）、三行混色标题、右下信息胶囊。逐段上色：白打底→硬词暖橙渐变→技术词冷青；10 与 12 放大 1.28 倍按基线对齐；每行暗描边+同色外发光。底图整体右移 70px 让出的左侧暗区专门承字。",
+    "credits_used": "约 5-10（科技底 1 张）；此前 v1 沙漏、v2 纪实图各 1-2 张，均已作废但保留备查"
   },
   "assets": [
     {
@@ -65,6 +78,26 @@
       "小浣熊：官方公众号 10/20 活动文写「10 月 20 日-10 月 31 日」，此前客户端卡片写「活动至 11 月 1 日」，稿件按更早的 10/31 写"
     ]
   },
-  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqtOxC4kdcC5it_jtCtF2yioKpLKwwNiQmfBnEs3Kc9SM",
-  "pushed_at": "2026-10-26T09:28:00+08:00"
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqmvnF4pZIv8RE-cIBD1dzPItYD0kJbHn6d4u3QSGJTl6",
+  "pushed_at": "2026-10-26T10:15:00+08:00",
+  "revisions": [
+    {
+      "at": "2026-10-26T10:06:00+08:00",
+      "reason": "标题封面按 SOP 2.3 三版 / 1.4 三版重做，用户选定 ① 事件冲击型",
+      "title_before": "十条 AI 额度还在送，最急的 4 天后到期",
+      "title_after": "5 亿 Tokens 今早清零！还有 10 项 AI 免费福利，最晚 12 月底到期",
+      "cover_before": "ImageGen 沙漏概念图 + 雅黑粗（已备份为 cover_news_v1_sandglass.png）",
+      "cover_after": "纪实夜桌 + 宋体三层文案（cover_news.png）",
+      "draft_action": "旧草稿 nTPzuxPRT0j1_f2IUQZEqtOxC4kdcC5it_jtCtF2yioKpLKwwNiQmfBnEs3Kc9SM 已删除，重推一条"
+    },
+    {
+      "at": "2026-10-26T10:14:00+08:00",
+      "reason": "用户亲手定稿「霓虹拼贴」封面风格并要求以后照此执行，标题不变，封面按新风格重做",
+      "title_before": "5 亿 Tokens 今早清零！还有 10 项 AI 免费福利，最晚 12 月底到期",
+      "title_after": "（未改）",
+      "cover_before": "纪实夜桌 + 宋体三层（已备份为 cover_news_v2_desk.png）",
+      "cover_after": "霓虹拼贴：科技底 + 3D 数字 5 + 三行混色标题 + 信息胶囊（cover_neon_final.png）",
+      "draft_action": "旧草稿删除后按同一标题重推，封面换新"
+    }
+  ]
 }
