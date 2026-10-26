@@ -29,19 +29,47 @@ NAVY = (0x01, 0x08, 0x2F)
 FONT_BOLD = r"C:\Windows\Fonts\msyhbd.ttc"   # 极粗黑体，本机最接近普惠体 Heavy
 FONT_UI = r"C:\Windows\Fonts\msyh.ttc"
 
-# ---- 本期文案：三行，每行若干段 (文字, 颜色, 字号倍数) ----
-# 规则：白打底 → 硬词换暖色 → 技术词换冷色；数字必须放大 1.2–1.3 倍
+# 字体档（SOP 1.4 三档可选）。书法体只给纯中文短语——它们没有像样的西文字形，
+# 一旦同段出现英文或阿拉伯数字就会掉格成乱形，实测见 _font_specimen.png。
+FONTS = {
+    "hei": FONT_BOLD,                              # A 极粗黑体（默认）
+    "song": r"C:\Windows\Fonts\simsun.ttc",        # 宋体
+    "kai": r"C:\Windows\Fonts\STKAITI.TTF",        # B 华文楷体
+    "xingkai": r"C:\Windows\Fonts\STXINGKA.TTF",   # B 华文行楷
+    "xinwei": r"C:\Windows\Fonts\STXINWEI.TTF",    # B 华文新魏
+    "lishu": r"C:\Windows\Fonts\SIMLI.TTF",        # B 隶书
+}
+
+# ---- 本期文案：三行，一行一个 dict ----
+#   scale = 该行整体字号（相对 BASE_SIZE）。三行必须成阶梯，一样大就没有主次。
+#   segs  = [(文字, 颜色, 字号倍数[, 字体键]), ...]
 LINES = [
-    [("5亿", WHITE, 1.0), ("Tokens", WARM, 1.0), ("今早清零！", WARM, 1.0)],
-    [("还有", WHITE, 1.0), ("10", COOL, 1.28), ("项", WHITE, 1.0),
-     ("AI", WHITE, 1.0), ("免费福利", WHITE, 1.0)],
-    [("最晚", WHITE, 1.0), ("12", WARM, 1.28), ("月底", WHITE, 1.0), ("到期", WHITE, 1.0)],
+    dict(scale=1.00, segs=[("5亿", WHITE, 1.10), ("Tokens", WARM, 0.86),
+                           ("今早清零！", WARM, 1.00)]),
+    dict(scale=0.88, segs=[("还有", WHITE, 1.00), ("10", COOL, 1.16), ("项", WHITE, 1.00),
+                           ("AI", WHITE, 0.90), ("免费福利", WHITE, 1.00)]),
+    dict(scale=0.82, segs=[("最晚", WHITE, 1.00), ("12", WARM, 1.13), ("月底", WHITE, 1.00),
+                           ("到期", WHITE, 1.00)]),
+]
+
+# 书法体混排预设（--calligraphy）：中文走行楷、数字与英文切回黑体。
+# 书法体同字号偏轻，统一放大约 8% 补偿，否则压不住旁边的粗黑数字。
+LINES_CALLIGRAPHY = [
+    dict(scale=1.00, segs=[("今早清零", WHITE, 1.08, "xingkai"), ("5亿", WARM, 1.12, "hei"),
+                           ("Tokens", WARM, 0.74, "hei")]),
+    dict(scale=0.87, segs=[("还有", WHITE, 1.08, "xingkai"), ("10", COOL, 1.18, "hei"),
+                           ("项", WHITE, 1.08, "xingkai"), ("AI", WHITE, 0.88, "hei"),
+                           ("免费福利", WHITE, 1.08, "xingkai")]),
+    dict(scale=0.81, segs=[("最晚", WHITE, 1.08, "xingkai"), ("12", WARM, 1.15, "hei"),
+                           ("月底到期", WHITE, 1.08, "xingkai")]),
 ]
 
 PILL = ["截止时间整理", "领取方式", "避坑提醒"]
 
-BASE_SIZE = 44      # 正文字号（1 倍段）
-LINE_H = 1.06       # 行高倍数，紧排
+BASE_SIZE = 44      # 第一行的字号基准（1 倍段）
+LINE_H = 1.18       # 行高倍数：按相邻两行的实际字号取均值算基线步长
+TRACK = 0.10        # 段间距（em，相对 BASE_SIZE）：不同字体的接缝要留气口
+TRACK_X2 = 2.0      # 中西文交界处的间距倍数——中文与英文/数字贴在一起最显挤
 LEFT = 42           # 标题左边距
 BASELINE0 = 196     # 第一行基线（900×383 坐标）
 STROKE = 2.0        # 深色外描边宽度（1 倍像素）
@@ -84,17 +112,52 @@ def draw_segment(layer, xy, text, font, color):
         layer.paste(grad, (int(xy[0]), int(xy[1] - h * 0.78)), mask)
 
 
-def render_text(bg, lines, left, baseline0, base_size):
-    """三行逐段混色，每段独立字号，按基线对齐；先暗描边，再外发光，最后填色。"""
-    # 1) 统一定位：算出每段的位置
-    placed = []
-    for li, segs in enumerate(lines):
-        y = baseline0 + li * base_size * LINE_H
+def is_cjk(ch):
+    return ch != "" and ("\u4e00" <= ch <= "\u9fff" or "\u3000" <= ch <= "\u303f")
+
+
+def gap_after(prev_text, next_text, gap):
+    """行首不留空隙；中文与英文/数字贴在一起最显挤，交界处把间距放大 TRACK_X2 倍。"""
+    if not prev_text:
+        return 0
+    if not next_text:
+        return gap
+    if is_cjk(prev_text[-1]) != is_cjk(next_text[0]):
+        return gap * TRACK_X2
+    return gap
+
+
+def render_text(bg, lines, left, baseline0, base_size, default_font="hei",
+                line_h=LINE_H, track=TRACK):
+    """三行逐段混色，每段独立字号与字体，按基线对齐；先暗描边，再外发光，最后填色。
+
+    行距不按基准字号算，而是**按相邻两行的实际最大字号取均值**——
+    否则放大的数字会顶穿上一行，这是行挤的根因。
+    """
+    gap = track * base_size * S
+
+    # 1) 逐行算字号与基线
+    placed, baselines, prev_max = [], [], None
+    for line in lines:
+        segs = line["segs"]
+        max_px = max(base_size * line["scale"] * s[2] for s in segs)
+        if prev_max is None:
+            y = baseline0
+        else:
+            y = baselines[-1] + (prev_max + max_px) / 2 * line_h
+        baselines.append(y)
+        prev_max = max_px
+
         x = left
-        for text, color, scale in segs:
-            f = ImageFont.truetype(FONT_BOLD, int(base_size * scale * S))
+        prev_text = ""
+        for seg in segs:
+            text, color, scale = seg[0], seg[1], seg[2]
+            key = seg[3] if len(seg) > 3 else default_font
+            f = ImageFont.truetype(FONTS[key], int(base_size * line["scale"] * scale * S))
+            x += gap_after(prev_text, text, gap) / S
             placed.append((x * S, y * S, text, f, color))
             x += f.getlength(text) / S
+            prev_text = text
 
     # 2) 深色外描边（保证压在杂底上不糊）
     stroke = Image.new("RGBA", bg.size, (0, 0, 0, 0))
@@ -168,7 +231,15 @@ def main():
     ap.add_argument("--base", type=int, default=BASE_SIZE, help="正文基准字号")
     ap.add_argument("--baseline0", type=int, default=BASELINE0, help="第一行基线 y")
     ap.add_argument("--left", type=int, default=LEFT, help="标题左边距 x")
+    ap.add_argument("--font", default="hei", choices=sorted(FONTS),
+                    help="默认字体档；段内可写第四位覆盖")
+    ap.add_argument("--calligraphy", action="store_true",
+                    help="改用书法体预设（中文行楷 + 数字英文黑体）")
+    ap.add_argument("--line-h", type=float, default=LINE_H, help="行高倍数，默认 1.18")
+    ap.add_argument("--track", type=float, default=TRACK, help="段间距 em，默认 0.06")
     args = ap.parse_args()
+
+    lines = LINES_CALLIGRAPHY if args.calligraphy else LINES
 
     if args.bg:
         bg = Image.open(args.bg).convert("RGB")
@@ -180,7 +251,8 @@ def main():
     else:
         bg = placeholder_bg()
 
-    im = render_text(bg, LINES, args.left, args.baseline0, args.base)
+    im = render_text(bg, lines, args.left, args.baseline0, args.base, args.font,
+                     line_h=args.line_h, track=args.track)
     im = render_pill(im, PILL)
 
     out = im.convert("RGB").resize((W, H), Image.LANCZOS)
@@ -188,15 +260,29 @@ def main():
     print("→ %s  %dx%d  %dKB" % (args.out, out.width, out.height,
                                  os.path.getsize(args.out) // 1024))
 
-    # 出界自检
-    d = ImageDraw.Draw(out)
-    for li, segs in enumerate(LINES):
-        y = args.baseline0 + li * args.base * LINE_H
+    # 排版自检：横向出界 + 纵向压到胶囊 + 行间距是否够
+    gap = args.track * args.base
+    baselines, prev_max = [], None
+    for i, line in enumerate(lines):
+        max_px = max(args.base * line["scale"] * s[2] for s in line["segs"])
+        y = args.baseline0 if prev_max is None else baselines[-1] + (prev_max + max_px) / 2 * args.line_h
+        baselines.append(y)
+        prev_max = max_px
         x = args.left
-        for text, _, scale in segs:
-            f = ImageFont.truetype(FONT_BOLD, int(args.base * scale))
-            x += f.getlength(text)
-        print("  行%d 右端 %d %s" % (li + 1, int(x), "出界!" if x > 878 else "ok"))
+        prev_text = ""
+        for seg in line["segs"]:
+            key = seg[3] if len(seg) > 3 else args.font
+            x += gap_after(prev_text, seg[0], gap)
+            x += ImageFont.truetype(FONTS[key], int(args.base * line["scale"] * seg[2])).getlength(seg[0])
+            prev_text = seg[0]
+        tags = []
+        if x > 878:
+            tags.append("右侧出界")
+        print("  行%d 字号 %2d 基线 %3d 右端 %3d %s"
+              % (i + 1, int(max_px), int(y), int(x), " ".join(tags) or "ok"))
+    print("  末行基线 %d，胶囊上沿约 %d %s"
+          % (int(baselines[-1]), H - 22 - 37,
+             "压到胶囊!" if baselines[-1] > H - 22 - 37 else "不冲突"))
 
 
 if __name__ == "__main__":
