@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-26",
+  "column": "今日可领",
+  "title": "十条 AI 额度还在送，最急的 4 天后到期",
+  "digest": "Qoder 的 1024 积分还剩 4 天，混元限免本周收官。ZCode 那 5 亿今早九点已经清零。",
+  "word_count_cn": 1271,
+  "item_count": 10,
+  "sorted_by": "deadline_asc",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "source": "ai_cover/Wide_cinematic_banner__photore_2026-10-26T01-20-09.png",
+    "method": "ImageGen 生图（暗桌上一排由大到小的沙漏，1536x1024）+ PIL 叠两行标题与一行数据",
+    "crop": "top=300, h=653（保全整组沙漏，切掉右下角 AI 生成水印）",
+    "design_note": "沙漏对应「倒计时」这一期的主题；文字放在右半负空间，白字 + 偏移(1,2) 黑色 alpha190 高斯模糊投影；无任何色块色条遮罩，图上无栏目标记。",
+    "credits_used": "约 5-10（1 张，未重复刷图）"
+  },
+  "assets": [
+    {
+      "file": "assets/qoder.png",
+      "caption": "Qoder 官方文档 · 1024 创造力集结福利表",
+      "source": "https://docs.qoder.com/zh/events/communityboost",
+      "source_level": "一手（官方文档）",
+      "note": "页面原文：活动时间 2026 年 10 月 22 日开始，10 月 30 日 23:59 结束；见面礼 1,024 SOTA Credits，三轮补给 2,048 / 3,072 / 4,096"
+    },
+    {
+      "file": "assets/deepseek.png",
+      "caption": "DeepSeek API 文档 · 模型与价格",
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "source_level": "一手（官方文档）",
+      "note": "页面原文：Search/Fetch 调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收取"
+    },
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟文档 · 各模型活动时间表",
+      "source": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "source_level": "一手（官方文档，2026-10-24 更新）",
+      "note": "页面原文：Auto 模式 2026年6月10日18:00:00 至 2026年11月8日23:59:59，Agent Plan 抵扣系数 0.5；kimi-k3.1-pro 2026年10月24日00:00:00 至 2026年11月9日23:59:59，5 折；deepseek-v4.1-flash 至 2026年12月30日23:59:59"
+    },
+    {
+      "file": "assets/qiniu_rule.png",
+      "caption": "七牛云 · Conatus 免费额度规则",
+      "source": "https://www.qiniu.com/ai/free-models/conatus-2026",
+      "source_level": "一手（官方活动页）",
+      "note": "页面原文：2026 年 10 月 24 日 00:00 至 2026 年 11 月 30 日 23:59；已认证每日 1 亿 Token，已认证+充值大于 100 元每日 10 亿；每日 00:00 重置不结转"
+    }
+  ],
+  "verification": {
+    "expired_logged": [
+      "智谱 ZCode 5 亿 Tokens — 固定 2026-10-26 09:00 清零，本次核查时已归零",
+      "智谱 AutoClaw 每日 500 credits — 2026-10-25 24:00 停止",
+      "阶跃 Step 5 Preview 在 WorkBuddy 零积分 — 2026-10-25 结束",
+      "MiniMax Code M3.1 Flash 订阅不限量 — 2026-10-25 23:59 结束",
+      "火山方舟 kimi-k3 抵扣系数五折 — 2026-10-25 23:59 结束"
+    ],
+    "dropped_for_no_first_party": [
+      "智谱 ZCode 邀请赠额（1 亿/3 亿/4000 万，11-13）— 仅有自媒体转述，官方活动页 404，删除",
+      "华为云码道 4000 积分（11-15）— 活动页未直查",
+      "小米 MiMo Claw 每日 3 小时 — 活动页未直查，为控密度删除",
+      "MiniMax M Plan 首月五折（10-31）— 开放平台定价页无订阅档位，未找到一手活动页",
+      "阿里云百炼 decision-model-preview 限时免费 — 官方未公布截止日，按规矩不进正文"
+    ],
+    "conflicts": [
+      "小浣熊：官方公众号 10/20 活动文写「10 月 20 日-10 月 31 日」，此前客户端卡片写「活动至 11 月 1 日」，稿件按更早的 10/31 写"
+    ]
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqtOxC4kdcC5it_jtCtF2yioKpLKwwNiQmfBnEs3Kc9SM",
+  "pushed_at": "2026-10-26T09:28:00+08:00"
+}
