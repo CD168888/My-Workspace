@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-27",
+  "column": "反着看",
+  "topic": "苹果首款折叠屏 iPhone Duo 开售 3 天即承认内屏开裂：官网维修价 7998 元正好是 15999 元的一半，同款实测能开合 5.5 万次，坏机撑不到 20 次，开合寿命至今没公布",
+  "title": "iPhone Duo开售3天：7998元的屏撑不过20次",
+  "title_type": "⑥ 极简清单型",
+  "title_generated_at": "2026-10-27T14:30:00+08:00",
+  "title_candidates": [
+    "② 悬念反转型：iPhone Duo开合20次就裂，苹果说只影响极少数（弃用：② 型 10-23/24/25/26 已连用四期，超出四周两限）",
+    "⑤ 揭秘避坑型：iPhone Duo能开合多少次？20次就裂，苹果没公布（弃用：10-26 MiniMax 一期刚用过 ⑤）",
+    "⑥ 极简清单型：iPhone Duo开售3天：7998元的屏撑不过20次（采用）"
+  ],
+  "title_type_note": "上一期（10-26 问界）为 ② 型，本期按 ②→⑤→⑥ 顺序轮换取 ⑥；标题 28 字符，冒号前为具体信息，无感叹号问号",
+  "digest": "同款实测 5.5 万次没坏，坏的那批撑不到 20 次。苹果没公布 Duo 开合寿命，第二批 1 月 22 日出货。",
+  "digest_chars": 57,
+  "word_count": 1548,
+  "word_count_note": "汉字数；含数字与英文的非空白字符约 2430",
+  "sources": [
+    {"level": 1, "desc": "苹果官方声明（10-26，澎湃新闻/央视财经 10-27 转引中文版）：「已留意到极少数 iPhone Duo 的内屏出现问题，遇到显示问题的用户请联系 AppleCare 换机」；Reuters/CGTN/Bloomberg 引用英文原句"},
+    {"level": 1, "desc": "苹果官网维修预估价（10-14 公布）：内屏 7998 元 / 外屏 3198 元 / 外屏+背面玻璃 4298 元 / 电池 1898 元 / 相机 1798 元 / 表层 398 元 / 其他 11998 元；AppleCare+ 两年 2599 元，内屏服务费 628 元（澎湃、什么值得买、快科技三源一致）"},
+    {"level": 1, "desc": "iFixit 拆解 + CT 扫描 + 3D 模拟（Reuters/CGTN 引用）：损伤集中在屏幕排线经过、中央支撑条附近的同一位置；CEO Kyle Wiens 「一点制造公差或一粒沙子就可能毁掉屏幕」"},
+    {"level": 1, "desc": "Bloomberg（Mark Gurman，10-27）：向六位以上用户独立核实；用户 Surya Mangi 到手约 30 小时开裂；iPhone Duo 研发超过十年；CEO John Ternus 此前称安卓折叠屏 cheap and crappy，硬件工程负责人 Tom Marieb 让用户对折痕耐用性向苹果追责；美版起售价 1999 美元"},
+    {"level": 2, "desc": "腾讯新闻转载深蓝科技（10-27）：澳大利亚用户开合不到 20 次开裂；Joanna Stern 机器开合 3.2 万余次（每天 45 次连用两年）；另一台铰链测试机超 5.5 万次；三星 Z Fold6 标称 20 万次、Fold8 标称 50 万次；富士康良率六成出头（引界面新闻独家）、新日兴良率偏低；苹果考虑过推迟到 11 月底；MacRumors 发现部分裂屏图系 AI 生成"},
+    {"level": 2, "desc": "澎湃新闻（10-26/27）：门店黄牛加价 2000 元；国行四档价格 15999/17999/21499/26499 元；苹果对澎湃提供中文声明；证券时报 10-10 报道加单 30%、总量不超 1000 万台、分析师预估今年出货约 600 万台"},
+    {"level": 2, "desc": "凤凰网转载快科技（10-26）：沈阳万象城售后内屏漏液无配件可修；iPhone 18 Pro Max 换屏 3198 元对照"},
+    {"level": 2, "desc": "IT之家（10-25）：JerryRigEverything 反向弯折测试，7.6 英寸内屏裂开"},
+    {"level": 2, "desc": "光明网转央视财经（10-27）：有媒体称苹果曾下调良率质检标准，接近供应链人士否认（两边说法对不上，稿件中如实记录）"}
+  ],
+  "key_numbers": {
+    "维修占比": "7998 ÷ 15999 = 50.0%（官网价目表直接可查）；对照 iPhone 18 Pro Max 换屏 3198 元，Duo 内屏为 2.5 倍",
+    "开合次数对照": "同型号实测 5.5 万次与 3.2 万次（每天 45 次 × 711 天 ≈ 1.95 年）没事；坏机最短不到 20 次；20 ÷ 5.5 万 ≈ 1/2750",
+    "时间": "10-23 开售 → 10-26 苹果承认 = 3 天；第二批 2027-01-22 出货",
+    "AC+ 账": "2599 + 628 = 3227 元 vs 自费 7998 元，省 4771 元；盈亏平衡点 2599 ÷ (7998-628) ≈ 35.3%"
+  },
+  "images": [
+    {"file": "assets/07_ginza_display.jpg", "size": "1024x576", "desc": "东京银座 Apple Store 的 iPhone Duo 展台", "publisher": "CGTN/VCG", "source_page": "https://news.cgtn.com/news/2026-10-27/Apple-says-it-will-replace-iPhone-Duo-units-showing-screen-problems-1RzWB33iHAs/share_amp.html"},
+    {"file": "assets/06_store_launch.jpg", "size": "1024x576", "desc": "纽约门店 10-23 开售现场，顾客上手体验", "publisher": "CGTN/VCG", "source_page": "同上"},
+    {"file": "assets/01_user_crack.jpg", "size": "640x480", "desc": "用户实拍，裂痕沿铰链中线延伸", "publisher": "腾讯新闻转载深蓝科技", "source_page": "https://news.qq.com/rain/a/20261027A068RW00"},
+    {"file": "assets/02_crack_collage.jpg", "size": "960x1024", "desc": "多位用户裂痕拼图，位置高度一致", "publisher": "腾讯新闻转载深蓝科技", "source_page": "同上"},
+    {"file": "assets/04_leak_video.jpg", "size": "600x406", "desc": "网友视频截图：激活完掰两下，内屏中央漏液", "publisher": "凤凰网转载快科技", "source_page": "https://tech.ifeng.com/c/8xWtiDBWML2"},
+    {"file": "assets/05_duo_box.jpg", "size": "600x450", "desc": "iPhone Duo 包装盒", "publisher": "凤凰网转载快科技", "source_page": "同上"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "bg/cyberpunk_tech_background__dar_2026-10-27T06-15-19.png（ImageGen 1536x653，quality high，一次生成；下裁 52px 去「AI生成」水印后重采样）",
+    "copy": {"主数字": "7998元", "主文案": "维修正好半台新机", "副标": "同款实测5.5万次没事", "副文案": "开合寿命苹果没公布", "胶囊": ["官网价目表", "铰链拆解", "实测次数"]},
+    "render": "python 公众号/脚本/cover_2026_10_27_duo.py（per-issue wrapper，import cover_neon）",
+    "self_check": "数字右端 278、标题右端 442/442/358 均未出界；末行基线 291，胶囊上沿 324，留白 32px"
+  },
+  "preview": "preview.png",
+  "status": "草稿已推送（个人号仅到草稿箱，发布需人工在后台点）",
+  "updated_at": "2026-10-27T14:40:00+08:00",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqowhKuCM7efiUODzaqjtKw9MczGf5Sq7Fsv55vcVj0E8"
+}
