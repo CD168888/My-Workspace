@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-27",
+  "column": "今日可领",
+  "title": "Qoder 还剩 3 天关窗，Auto 夜间免费也快收了",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-10-27T09:20:00+08:00",
+  "title_note": "上期为 ① 事件冲击型，本期按轮换规则换 ③。前 12 字『Qoder 还剩 3 天关窗』= 真名 + 具体数字 + 状态，无泛量词、无代词。长度 28 字（不含空格 24），感叹号 0 个，冒号 0 处。『还剩 3 天』今天成立（10/27 → 10/30）。另写两条备选：④『别急着给 Qoder 续费，1024 Credits 还能白拿 3 天』、⑤『这些 AI 额度到底能白用到几号？12 项的截止日和门槛』，均未采用。",
+  "digest": "超算互联网那个夜间免费只到 10/28，今晚 21 点后是最后一个窗口，最晚那条排到 12 月 31 日。",
+  "digest_note": "53 字，压在微信 45004 阈值下；不复读标题（标题讲 Qoder 3 天，摘要讲超算 10/28 与最晚 12/31）。",
+  "word_count_cn": 1465,
+  "item_count": 12,
+  "sorted_by": "deadline_asc",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4 定稿版）",
+    "source": "Cyberpunk_tech_poster_backgrou_2026-10-27T01-12-40.png（1536x640）",
+    "bg_clean": "bg_clean.png（下裁 76px 去右下 AI 水印，重采样回 1536x653）",
+    "bg_final": "bg_shift.png（右移 60px，左侧 60px 镜像补边，让 3D 数字 12 与标题层分离）",
+    "method": "ImageGen 出 2.35:1 科技底（3D 数字 12、双沙漏、日历高亮橙格、三张图标卡片、左下暖橙溢出）+ 脚本 cover_neon.py 叠三行混色文字与胶囊",
+    "copy": {
+      "main": "12 项福利 最急的今夜",
+      "sub": "最晚排到 12 月 31 日",
+      "tail": "12 条都追到官方页面",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_neon.py --bg bg_shift.png --base 43 --baseline0 200 --left 40",
+    "design_note": "五元素齐：主数字（3D 12）、时间意象（日历高亮 + 双沙漏）、图标卡片（礼物/云/代码）、三行混色标题、右下胶囊。逐段上色：白打底 → 硬词暖橙 → 数字冷青；行阶梯 1.00 / 0.88 / 0.80，字号 49 / 42 / 37；自检末行基线 301，胶囊上沿 324，不冲突。副标讲的是标题没提的最晚截止日，副文案交代核验方式，三层均不复读标题。",
+    "credits_used": "约 5-10（科技底 1 张，未重跑）"
+  },
+  "assets": [
+    {
+      "file": "assets/qoder.png",
+      "caption": "Qoder 官方文档 · 1024 创造力集结福利表",
+      "source": "https://docs.qoder.com/zh/events/communityboost",
+      "source_level": "一手（官方文档）",
+      "note": "页面原文：活动时间 2026 年 10 月 22 日开始，10 月 30 日 23:59 结束；见面礼 1,024 SOTA Credits，三轮补给 2,048 / 3,072 / 4,096"
+    },
+    {
+      "file": "assets/deepseek.png",
+      "caption": "DeepSeek API 文档 · 模型与价格",
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "source_level": "一手（官方文档）",
+      "note": "页面原文：Search/Fetch 目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收取"
+    },
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟文档 · 各模型活动时间表",
+      "source": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "source_level": "一手（官方文档，2026-10-24 更新）",
+      "note": "Auto 至 2026-11-08 23:59:59；kimi-k2.8-preview 至 2026-12-14 23:59:59；kimi-k3.1-pro 至 2026-11-09 23:59:59；deepseek-v4.1-flash 至 2026-12-30 23:59:59"
+    },
+    {
+      "file": "assets/qiniu.png",
+      "caption": "七牛云 · Conatus 免费额度规则",
+      "source": "https://www.qiniu.com/ai/free-models/conatus-2026",
+      "source_level": "一手（官方活动页）",
+      "note": "页面原文：2026 年 10 月 24 日 00:00 至 2026 年 11 月 30 日 23:59；已认证每日 1 亿 Token，已认证+充值大于 100 元每日 10 亿；每日 00:00 重置不结转"
+    }
+  ],
+  "verification": {
+    "expired_logged": [
+      "智谱 ZCode 5 亿 Tokens — 固定 2026-10-26 09:00 清零",
+      "智谱 AutoClaw 每日 500 credits — 2026-10-25 24:00 停止",
+      "阶跃 Step 5 Preview 在 WorkBuddy 零积分 — 2026-10-25 结束",
+      "MiniMax Code M3.1 Flash 订阅不限量 — 2026-10-25 23:59 结束",
+      "火山方舟 kimi-k3 抵扣系数五折 — 2026-10-25 23:59 结束"
+    ],
+    "dropped_for_no_first_party": [
+      "美团 LongCat 注册送 1000 万 Tokens — longcat.chat 平台页需登录、longcat.ai 首页与 LongCat-2.0 技术博文均无赠送条款，仅自媒体转述，删除",
+      "360 纳米 Work 首批用户 1 亿 Token — 2026-07-28 发布会口径，无活动页与截止日，且为企业向，不收",
+      "商汤小浣熊三端共 9000 新人积分 — 仅搜狐自媒体转述，官方更新说明未直查，本期不写",
+      "金山 WPS 灵犀每月 800 灵点 — 办公软件周边，按栏目范围不收",
+      "华为云码道 4000 积分 / 小米 MiMo Claw 每日 3 小时 — 活动页未直查，控密度删除",
+      "OpenAI ChatGPT Plus 学生 4 个月免费（10/31 领取截止）— 仅限美国学位授予院校在读学生，国内读者无法兑现，避免误导删除"
+    ],
+    "conflicts": [
+      "国家超算互联网夜间 Auto 免费：官方公众号原文写「限时 10 月 21 日~28 日每晚 21:00~09:00」，2026-10-23 那批媒体稿（环球网/中国能源网/中国工业新闻网）统一写「10 月 21 日至 30 日」。稿件按更早的 10/28 写并在『坑在哪』前的截止字段说明出入。",
+      "商汤小浣熊：官方公众号 10/20 活动文写「10 月 20 日-10 月 31 日」，客户端卡片曾写「活动至 11 月 1 日」，按 10/31 写。"
+    ]
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqrCPEBo_gW7BiozBJlUV2N3qnuz5Mk8uKuQIMVM3LHGj",
+  "pushed_at": "2026-10-27T09:35:00+08:00"
+}
