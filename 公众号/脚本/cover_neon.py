@@ -44,12 +44,11 @@ FONTS = {
 #   scale = 该行整体字号（相对 BASE_SIZE）。三行必须成阶梯，一样大就没有主次。
 #   segs  = [(文字, 颜色, 字号倍数[, 字体键]), ...]
 LINES = [
-    dict(scale=1.00, segs=[("5亿", WHITE, 1.10), ("Tokens", WARM, 0.86),
-                           ("今早清零！", WARM, 1.00)]),
-    dict(scale=0.88, segs=[("还有", WHITE, 1.00), ("10", COOL, 1.16), ("项", WHITE, 1.00),
-                           ("AI", WHITE, 0.90), ("免费福利", WHITE, 1.00)]),
-    dict(scale=0.82, segs=[("最晚", WHITE, 1.00), ("12", WARM, 1.13), ("月底", WHITE, 1.00),
-                           ("到期", WHITE, 1.00)]),
+    dict(scale=1.00, segs=[("12", WARM, 1.15), ("项福利", WHITE, 1.00),
+                           ("最急的今夜", WARM, 1.00)]),
+    dict(scale=0.88, segs=[("最晚排到", WHITE, 1.00), ("12", COOL, 1.12), ("月", WHITE, 1.00),
+                           ("31", COOL, 1.08), ("日", WHITE, 1.00)]),
+    dict(scale=0.80, segs=[("12", COOL, 1.10), ("条都追到官方页面", WHITE, 1.00)]),
 ]
 
 # 书法体混排预设（--calligraphy）：中文走行楷、数字与英文切回黑体。
