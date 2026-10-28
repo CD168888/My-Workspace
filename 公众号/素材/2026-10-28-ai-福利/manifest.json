@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-28",
+  "column": "今日可领",
+  "title": "Qoder 今天放出 4096 Credits，当天不用就作废",
+  "title_type": "① 事件冲击型",
+  "title_generated_at": "2026-10-28T09:40:00+08:00",
+  "title_note": "上期（10-27）为 ③ 紧迫提醒型，本期按轮换规则换 ①。事件真实发生在 24 小时内：Qoder 第 4 轮补给包 10-28 00:00 开放、当天 23:59 失效，一手源为 docs.qoder.com 领取期限表。前 12 字『Qoder 今天放出 4』= 真名 + 今天 + 具体数字，无泛量词、无代词。长度 28 字（不含空格），感叹号 0，无冒号。另写两条备选未采用：④『别急着给 Qoder 续费，今天的 4096 Credits 还没领』、⑤『这些 AI 额度看着能领，一半要在当天用完』。",
+  "digest": "今晚 23:59 就作废，Qoder 这 4096 只是第一份，另有十二项最晚排到 12 月 31 日。",
+  "digest_note": "51 字，压在微信 45004 阈值下。不复读标题：标题讲 Qoder 4096 当天作废，摘要讲『只是第一份』与最晚 12/31。『十二项』与正文条数对齐（正文 13 条可领，扣掉今天这条 = 12）。",
+  "word_count_cn": 1496,
+  "item_count": 13,
+  "item_count_detail": "10 条有明确截止日 + 3 条长期可领；另有 5 条已过期进『别白跑』",
+  "sorted_by": "deadline_asc",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4 定稿版）",
+    "source": "Cyberpunk_tech_poster_backgrou_2026-10-28T01-14-54.png（1536x640）",
+    "bg_clean": "bg_clean.png（下裁 76px 去右下 AI 水印，重采样回 1536x653）",
+    "bg_final": "bg_up.png（上裁 22px 后重采样，让 3D 数字整体上移，给三行标题腾出净空）",
+    "method": "ImageGen 出 2.35:1 科技底（3D 数字 4096、日历高亮橙格 + 沙漏、三张玻璃图标卡片、左下暖橙溢出）+ 脚本 cover_2026_10_28.py 叠三行混色文字与胶囊",
+    "copy": {
+      "main": "今晚 23:59 作废",
+      "sub": "明后天还有 8192 可领",
+      "tail": "只在 Sonus 上，别白领",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_10_28.py --bg bg_up.png --base 38 --baseline0 206 --left 36",
+    "design_note": "五元素齐：主数字（3D 4096，占宽约 35%）、时间意象（日历高亮 + 沙漏）、图标卡片（礼物/云/代码）、三行混色标题、右下胶囊。逐段上色：白打底 → 硬词暖橙 → 技术词冷青；行阶梯 1.00 / 0.88 / 0.78，字号 42 / 37 / 30；自检末行基线 293，胶囊上沿 324，不冲突。副标讲『明后天还有 8192』，是标题没给的信息；副文案讲『只在 Sonus 上』这个坑，三层均不复读标题。",
+    "note": "3D 数字底缘与首行贴得较近，靠三层描边保证可读，未重出图（一张封面只生一次）。前两版（base 40 / baseline0 172、base 36 / baseline0 198）文字压数字更狠，已弃。",
+    "credits_used": "约 5-10（科技底 1 张，未重跑）"
+  },
+  "assets": [
+    {
+      "file": "assets/qoder.png",
+      "caption": "Qoder 官方文档 · 1024 创造力集结福利表与时限",
+      "source": "https://docs.qoder.com/zh/events/communityboost",
+      "source_level": "一手（官方文档）",
+      "note": "原文：活动 2026-10-22 开始、10-30 23:59 结束；见面礼 1,024；第 4 轮 10-28/29/30 每天 00:00 开放 4,096，当天 23:59 失效；见面礼可用到 10-31 23:59"
+    },
+    {
+      "file": "assets/qoder-deepseek.png",
+      "caption": "Qoder 官方文档 · DeepSeek-Flash 限时免费活动说明",
+      "source": "https://docs.qoder.com/zh/events/deepseek-flash-free",
+      "source_level": "一手（官方文档）",
+      "note": "原文：2026-10-20 00:00 起，原定 10-24 24:00 结束，已延长至 10-31 24:00（即 11-01 00:00）；每日免费次数，系数 0.1× 降至 0.0×"
+    },
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟文档 · 各模型活动时间表",
+      "source": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "source_level": "一手（官方文档，2026-10-24 更新）",
+      "note": "Auto 至 2026-11-08 23:59:59；kimi-k3.1-pro 至 11-09 23:59:59；kimi-k2.8-preview 至 12-14 23:59:59；deepseek-v4.1-flash 与 flash-economy 至 12-30 23:59:59；kimi-k3 时间表写到 10-25 23:59"
+    },
+    {
+      "file": "assets/qiniu.png",
+      "caption": "七牛云 · Conatus Free 活动页",
+      "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "source_level": "一手（官方活动页）",
+      "note": "页面原文：限时免费活动 活动进行中，2026-10-24 00:00 至 2026-11-30 23:59；认证用户每日 1 亿 Token，充值后最高 10 亿"
+    },
+    {
+      "file": "assets/tokenhub.png",
+      "caption": "腾讯云文档 · TokenHub 新人免费体验包规则",
+      "source": "https://www.tencentcloud.com/zh/document/product/1300/80423",
+      "source_level": "一手（官方文档）",
+      "note": "原文：本期活动时间截至 2026-12-31；所有语言模型提供 100 万 Tokens，有效期 1 年；每领取一个模型自动冻结账户 10 美金"
+    },
+    {
+      "file": "assets/bailian.png",
+      "caption": "阿里云百炼文档 · 新人免费额度规则",
+      "source": "https://help.aliyun.com/zh/model-studio/new-free-quota",
+      "source_level": "一手（官方文档，2026-10-20 更新）",
+      "note": "原文：免费额度有效期 90 天，从开通/发布/申请通过之日起算；每个模型通常 100 万 Token，互不共享；仅华北2（北京）地域"
+    }
+  ],
+  "sources_notes": [
+    "国家超算互联网夜间 Auto 免费：界面新闻（10-23）、环球网、津滨海统一写『10 月 21 日至 30 日』；上期在官方公众号读到的是到 10-28。两处不一致，正文按早的算并写明出入，今晚 21:00 那场两种口径都成立。",
+    "Qoder 每日 100 Credits 与 Qwen3.8-Flash 免费，官方文档均写『结束时间另行公告』，故归入长期条目、不写具体截止日。",
+    "智谱 GLM-4.7-Flash / GLM-4.6V-Flash 免费，来源 bigmodel.cn/pricing 的 FAQ 原文，价格页未写截止时间。"
+  ],
+  "excluded": [
+    "商汤小浣熊三款零积分：官网首页已无活动说明，公众号更新日志无法在 headless 下取证，一手源缺失，暂不收录。",
+    "智谱 ZCode 蹬蹬卡（邀新赠 token）：只有聚合站转述，未找到官方活动页。",
+    "华为码道、千问办公每日积分：仅三级源（CSDN 对比文），未追到官方活动页。",
+    "美团 LongCat 1000 万 Tokens：官方无活动页，延续上期结论删除。",
+    "库库 AI 签到送网盘 SVIP：非 AI 工具福利，按栏目范围排除。"
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqpulNsnoEqNMNyr8e-3gwD9nZuSTXOVIJECRiwNBJU5k"
+}
