@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-28",
+  "column": "反着看",
+  "topic": "谷歌 Genie 4 的「两分钟」是简报会口头口径，官方博客只写 short sessions；分辨率 / 帧率 / 跑分 / 价格全未公布，官方自己列了七项短板",
+  "title": "Genie 4 的两分钟是真的吗？官方博客只写了短会话",
+  "title_type": "⑤ 揭秘避坑型",
+  "title_generated_at": "2026-10-28T16:40:00+08:00",
+  "title_candidates": [
+    "⑤ 揭秘避坑型：Genie 4 的两分钟是真的吗？官方博客只写了短会话（采用，26 字，问号型与 ⑤ 匹配）",
+    "① 事件冲击型：Genie 4 发布了，官方给的硬指标是 0 个（弃用：反着看优先序为 ②→⑤→⑥，① 不在本栏目优先型内）",
+    "⑥ 极简清单型：Genie 4 发布：五项短板，零个硬参数（弃用：10-27 为 ⑥，相邻两期不许同型）"
+  ],
+  "title_type_note": "10-23/24/25/26 四期连用 ②，已超四周两限；10-27 为 ⑥；本期按 ②（禁用）→⑤ 取 ⑤，四周内 ⑤ 此前仅 10-26 用过一次，合规。标题含被拆穿的数字「两分钟」，前 12 字有真名 Genie 4 + 数字锚点，问号仅用于 ⑤ 型，无红线词。",
+  "digest": "谷歌自己列的短板有七项，物体恒存排在最前面。分辨率、帧率、跑分、价格，一个都没公布。",
+  "digest_chars": 42,
+  "word_count": 1567,
+  "word_count_note": "汉字数；含数字与英文的非空白字符约 2300",
+  "sources": [
+    {"level": 1, "desc": "Google DeepMind 官方博客《Genie 4: A new generation of world simulation》（2026-10-27，作者 Raia Hadsell / Diego Rivas / Hang Qi）：正文只写「maintain coherent environments over short sessions」「runs longer」，无时长数字、无分辨率、无帧率、无跑分；limitations 段列五项 ongoing research；全部输出带 SynthID 水印；以 research preview 身份发布", "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"},
+    {"level": 1, "desc": "Google DeepMind 官方 X 账号（@GoogleDeepMind）发布帖：「This is Genie 4, our most realistic and interactive world model yet.」截图为 150 万次浏览"},
+    {"level": 2, "desc": "IT之家（10-28）转 TechCrunch / 新浪财经：谷歌在媒体简报会给出「最长维持两分钟，时长是前代模型的两倍」；Tejas Kulkarni 谈混合世界模型；Diego Rivas 称仍处早期、完整产品形态未定"},
+    {"level": 2, "desc": "澎湃新闻（10-28）：写成「能够维持长达 2 分钟的一致场景，时长达到前代产品的 2 倍」；Genie 3 vs Genie 4 对比视频截图来源标注为 DeepMind", "url": "https://www.thepaper.cn/newsDetail_forward_34349070"},
+    {"level": 2, "desc": "智东西（10-28 编译）：Gemini Omni 负责外观与行为、其他 Gemini 模型负责连贯性；Argon 实验里 Gemini 4 Argon 拆步骤、Genie 4 实时仿真；Pichai 与海外开发者评论截图", "url": "https://www.zhidx.com/p/604791.html"},
+    {"level": 2, "desc": "TSNMedia 汇总（引 TechCrunch / Google 模型页 / Google 官方公告）：模型页写「a few minutes of continuous interaction」；「Google has published no benchmark scores, resolution, frame rate or price」；受信任测试者用新闻摄影把单张 2D 档案照片做成可探索场景"},
+    {"level": 2, "desc": "AILog / aimodeling 报道：Hang Qi 称跑到两分钟上限不代表全程一致；Tejas Kulkarni 称两分钟完全一致需要模型真正理解日常物理；Diego Rivas 称仍在研究探索、未进入最终产品开发；Genie 3 于 2025 年 8 月发布；Project Genie 原型 1 月单次最多 60 秒"},
+    {"level": 2, "desc": "网易科技《谷歌 Genie4 发布：一边坦诚短板，一边模糊参数》（10-28）：官方博客正文未给可复现时长；Runway GWM Worlds 2（9-03）官方页写 720p / 24fps / 48,000Hz；Tencent Hy-Nomas 开源权重 + 280 例测试集；Odyssey-3 给了自家数字", "url": "https://dy.163.com/article/LAB8NUKR0556KJNO.html"}
+  ],
+  "key_numbers": {
+    "两分钟": "120 秒；Genie 3 一次 60 秒（Project Genie 原型 1 月单次上限 60 秒），120 ÷ 60 = 2，媒体所述「两倍」算术成立",
+    "帧数反推": "按竞品公开的 24fps 计，120 秒 = 2880 帧；Genie 4 未公布帧率，故该数无法核算——本篇明确写「这 2880 我算不出来」",
+    "硬指标计数": "时长（仅 short sessions / a few minutes，无数字）、分辨率、帧率、跑分、价格 = 5 类全缺，可对齐工程口径的硬指标 0 个；对照 Runway GWM Worlds 2 给出 3 个数（720p / 24fps / 48kHz）",
+    "短板计数": "官方 limitations 段点名的短板共 7 项：视觉细节、物体恒存、复杂物理交互、实时音频准确性、可读文字渲染、空间准确性、长期一致性；其中漂移类 2 项、ongoing research 5 项",
+    "漂移触发条件": "3 个：跑得越久、复杂提示词编辑越多、场景里移动越远；其中 2 个正是本期主打卖点（实时改天气、实时操控镜头）",
+    "代际间隔": "2025-08 Genie 3 → 2026-10 Genie 4，14 个月；两次发布身份同为 research preview"
+  },
+  "images": [
+    {"file": "assets/01_deepmind_post.jpg", "size": "886x880", "desc": "Google DeepMind 官方账号 Genie 4 发布帖截图，带 150 万次浏览与鹤的演示画面", "publisher": "Google DeepMind / X", "source_page": "https://www.zhidx.com/p/604791.html"},
+    {"file": "assets/02_genie3_vs_4.jpg", "size": "1034x581", "desc": "Genie 3 与 Genie 4 同场景并排对比，左侧旧版、右侧新版", "publisher": "DeepMind / 澎湃新闻", "source_page": "https://www.thepaper.cn/newsDetail_forward_34349070"},
+    {"file": "assets/03_crane_piano.jpg", "size": "1024x576", "desc": "雪地里一只鹤低头啄琴键，提示词为 It presses a key", "publisher": "澎湃新闻", "source_page": "https://www.thepaper.cn/newsDetail_forward_34349070"},
+    {"file": "assets/04_prompt_ui.jpg", "size": "704x704", "desc": "提示词面板 Environment: A backyard race track，含第三人称视角与重置控件", "publisher": "Google DeepMind", "source_page": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"},
+    {"file": "assets/05_world_grid.jpg", "size": "624x624", "desc": "一次生成的九个场景拼图，右下角为方向键与镜头控件", "publisher": "Google DeepMind", "source_page": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"},
+    {"file": "assets/06_argon_checkers.jpg", "size": "1080x367", "desc": "左栏 Gemini 4 Argon 拆出的第 12 步动作描述，右栏 Genie 4 生成的机械手下棋仿真", "publisher": "智东西", "source_page": "https://www.zhidx.com/p/604791.html"},
+    {"file": "assets/07_knight_phone.jpg", "size": "1024x576", "desc": "盔甲骑士坐在草地上看手机，左下角为 WASD 移动控件", "publisher": "澎湃新闻", "source_page": "https://www.thepaper.cn/newsDetail_forward_34349070"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4）",
+    "bg": "bg/cyberpunk_tech_background__dar_2026-10-28T08-27-53.png（ImageGen 1536x653 直出 2.35:1，右下 AI 生成水印下裁 52px 后重采样回 1536x653）",
+    "copy": {
+      "num": "120 秒",
+      "main": "卡在两分钟",
+      "sub": "分辨率帧率跑分 0 个",
+      "foot": "研究预览 还没开卖",
+      "pill": ["七项短板", "硬参数", "能不能重来"]
+    },
+    "render": "python 公众号/脚本/cover_2026_10_28_genie4.py（wrapper import cover_neon，不改共享 LINES）",
+    "self_check": "数字基线 116 / 标题 190·244·292 / 右端最大 381 未出界 / 末行基线 292 vs 胶囊上沿 324，留白 31px",
+    "out": "cover_news.png 900x383 525KB"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqsFV9gwSzyvwmqfrohlbbrFDxtF9VXtTSki3F6o52o7J",
+  "updated_at": "2026-10-28T16:45:00+08:00"
+}
