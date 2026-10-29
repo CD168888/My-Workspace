@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-10-29",
+  "title": "谣言粉碎机 · 2026-10-29",
+  "markdown": "# 谣言粉碎机 · 2026-10-29\n\n## 今日核查对象：Heal 基准声称\"AI 代码审查会漏掉 70% 的运行时缺陷\"\n\n### 原声称\n测试智能体 Heal（heal.dev）于 2026 年 10 月发布基准：在重放 5 个产品、236 个 PR 后，其用失败测试\"证明\"的面向用户缺陷中，有 70%（202 个中的 141 个）从未被 CodeRabbit、Greptile、cubic 等 AI 代码审查机器人标记。联合创始人还在 Product Hunt 评论区称\"堆叠两三个审查机器人也补不上这个缺口\"。\n\n### 核查\n- 该数字确为 Heal 官方基准，方法学已公开（重放真实 PR 历史、用 LLM 当裁判判定\"是否同一问题\"），但**缺陷语料由开发该工具的团队自行选取**，并非独立第三方复现——explainx.ai 明确指出它是\"vendor figure, not independently reproduced\"。\n- 横向证据支持\"类别缺口\"真实存在：静态/差异审查看不到运行时状态，这点多家独立评测（chatgate、veonib、Product Hunt 第三方用户 Mark Ridgeon 报告在自家应用跑出存储型 XSS 与跨租户数据泄漏）一致佐证。\n- 但存在明显保留项：① 基准仅 5 个产品、样本小且由厂商判定；② 审查机器人在 CI 配置、迁移脚本等 Heal 主动跳过的文件上反而占优；③ 单遍运行会漏掉竞态条件类缺陷。\n\n### 评级\n★ ★ ★（靠谱，但需打折看）\n类别缺口（代码审查看不到运行时行为）是真实趋势；但\"70%\"这个精确数字属于厂商自证口径，会被独立测试稀释，勿被标题党带成\"AI 审查完全没用\"。\n\n### 来源\n- explainx.ai《AI PR Reviewers Miss 70% of Bugs? Heal Benchmark Checked》(2026-10-27)\n- heal.dev 官方基准页与 Product Hunt 发布页 (2026-10-22)\n- chatgate.ai、veonib.com 第三方评测与用户实测\n"
+}
