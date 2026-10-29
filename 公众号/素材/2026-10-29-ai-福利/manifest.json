@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-29",
+  "column": "今日可领",
+  "title": "Qoder 4096 今晚 23:59 作废，腾讯云明天中午恢复原价",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-10-29T09:40:00+08:00",
+  "title_note": "上期（10-28）为 ① 事件冲击型，按轮换规则本期换 ③ 紧迫提醒型：状态（作废）+ 最早到期（今晚 23:59）+ 次日一条。前 12 字『Qoder 4096 今晚 2』= 真名 + 具体数字 + 今天，无泛量词、无代词。去空格 30 字，感叹号 0，冒号 0。另按三个不同型各写过一条备选未采用：④『别急着续费腾讯云，这档积分价明天中午就涨回去』、②『火山文档写着「进行中」，kimi-k3 那条四天前就停了』。",
+  "digest": "最急那份撑不到明天零点，另外四份全挤在 10 月 31 日前，最长的一份能用到 12 月 31 日。",
+  "digest_note": "50 字（含空格与 ASCII），压在 45004 阈值下。不复读标题：标题给的是两家、两个时点，摘要给的是『还有四份、最晚到 12 月底』这个量级。与正文对齐：10 月 31 日前会停的确实是四份（腾讯云 10-30 12:00、见面礼领取 10-30 23:59、极致档 10-31 08:00、DeepSeek-Flash 10-31 24:00）。",
+  "word_count_cn": 1478,
+  "item_count": 13,
+  "item_count_detail": "11 条有明确截止日 + 2 条长期可领（含智谱 2 款、Qoder 3 项权益）；另有 5 条已过期进『别白跑』",
+  "sorted_by": "deadline_asc",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4 定稿版）",
+    "source": "Cyberpunk_tech_poster_backgrou_2026-10-29T01-14-53.png（ImageGen 出的 1536x640）",
+    "bg_clean": "下裁 76px 去右下『AI生成』水印",
+    "bg_final": "bg_up.png：纵向压到 1536x470 让 3D 数字变矮，底部用镜像条 + 渐变蒙版补到 653",
+    "method": "ImageGen 出 2.35:1 科技底（3D 数字 3、沙漏、三张玻璃图标卡片、底部暖橙溢出）+ 脚本 cover_2026_10_29.py 叠三行混色文字与胶囊",
+    "copy": {
+      "main": "十月最后三天",
+      "sub": "四份免费额度连着停",
+      "tail": "13 项可领，5 项别白跑",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_10_29.py --bg bg_up.png --base 36 --baseline0 212 --left 34",
+    "design_note": "主数字 3D『3』（对应十月剩三天）左上；三行阶梯 41 / 31 / 29；逐段上色：白打底、硬词暖橙（三、连着停）、数字冷青（13、5）。副标讲『四份连着停』、副文案讲『13 项可领 / 5 项别白跑』，标题未提，三层均不复读标题。自检末行基线 290，胶囊上沿 324，不冲突。",
+    "note": "① 时间意象只出了沙漏，没有日历高亮格——按『一张封面只生一次』未重跑，在五元素里算缺一件。② 3D 数字原本过高，压到首行文字上；用『纵向压缩 + 底部镜像渐变』解决，未用纯色平涂（会留竖直接缝）。③ 前两版（base 36 / baseline0 208 与 216）首行压数字更狠，已弃。",
+    "credits_used": "约 5-10（科技底 1 张，未重跑）"
+  },
+  "assets": [
+    {
+      "file": "assets/qoder.png",
+      "caption": "Qoder 官方文档 · 1024 集结福利表与活动规则",
+      "source": "https://docs.qoder.com/zh/events/communityboost",
+      "source_level": "一手（官方文档）",
+      "note": "原文：活动 2026-10-22 开始、10-30 23:59 结束；见面礼 1,024，领取至 10-30 23:59、使用至 10-31 23:59；第 4 轮 10-28/29/30 每天 00:00 开放 4,096，当天 23:59 失效"
+    },
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟文档 · 各模型活动时间表",
+      "source": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "source_level": "一手（官方文档，2026-10-28 更新）",
+      "note": "Auto 至 2026-11-08 23:59:59；kimi-k3.1-pro 至 11-09 23:59:59；kimi-k2.8-preview 至 12-14；deepseek-v4.1-flash 与 economy 至 12-30；kimi-k3 时间表写到 10-25 23:59 但状态列仍标『进行中』"
+    },
+    {
+      "file": "assets/qiniu.png",
+      "caption": "七牛云 · Conatus Free 活动页",
+      "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "source_level": "一手（官方活动页）",
+      "note": "原文：2026-10-24 00:00 至 11-30 23:59；认证用户每日 1 亿 Token，充值后最高 10 亿；仅支持活动免费额度"
+    },
+    {
+      "file": "assets/tokenhub.png",
+      "caption": "腾讯云文档 · TokenHub 新人免费体验包规则",
+      "source": "https://www.tencentcloud.com/zh/document/product/1300/80423",
+      "source_level": "一手（官方文档，2026-10-21 更新）",
+      "note": "原文：本期活动截至 2026-12-31；所有语言模型 100 万 Tokens，有效期 1 年；每领取一个模型自动冻结账户 10 美金"
+    },
+    {
+      "file": "assets/wechat.png",
+      "caption": "微信开放文档 · 小程序成长计划两期额度对照",
+      "source": "https://developers.weixin.qq.com/minigame/dev/wxcloud/billing/ai-inspire-plan.html",
+      "source_level": "一手（官方文档）",
+      "note": "原文：二期 2026-07-01 ~ 2026-12-31，Token 10 亿、生图 10 万张，资源包自申请成功起 6 个月有效；仅限小程序与云开发服务端"
+    }
+  ],
+  "sources_notes": [
+    "腾讯云 Token Plan 积分价：一手源为 intl.cloud.tencent.com/zh/document/product/1300/81316『限时优惠活动 1』，时间 2026-10-01 00:30 至 10-30 12:00，GLM-5.3-Flash 17/55/4、GLM-5.2 99/310/19、Kimi K3 352/1758/36；刊例价 23.438/78.125。该页截图被 Cookie 横幅挡住活动表，故未配图。",
+    "Qoder 极致档：docs.qoder.com/zh/events/offpeakrate，2× → 0.4×，结束 2026-10-31 08:00 SGT，最后一档为 10-30 22:00 至 31 08:00。",
+    "Qoder 经济档免费：docs.qoder.com/zh/events/efficientunlimited，0.3× → 0.0×，2026-09-03 14:00 起，结束时间待定。",
+    "DeepSeek Search/Fetch：api-docs.deepseek.com/zh-cn/guides/search，11-01 00:00 起按次收费，5 元/1000 次成功请求，QPS 100/25。",
+    "智谱：bigmodel.cn/pricing 的 FAQ 原文写 GLM-4.7-Flash、GLM-4.6V-Flash 输入输出缓存全免费，未写截止。"
+  ],
+  "excluded": [
+    "移动云 2500 万 Tokens（活动至 2026-12-31）：帮助中心为 SPA，headless 取不到正文，只有搜索摘要，按『查无实据不放过期』弃。",
+    "云知声 U2-Flash 免费到 10-31：官网模型页已无活动条款，仅媒体稿转述，一手源缺失，弃。",
+    "商汤日日新通用积分池翻倍（10-27）：只有聚合站转述，未找到官方公告页。",
+    "阶跃星辰 Step Plan 最高 75 天：仅第三方教程站，官方平台页未核到，弃。",
+    "美团 LongCat 1000 万 Tokens：官方无活动页，延续前三期结论删除。",
+    "Qoder 18 元奶茶券（10-29 23:59 兑换）：属消费券，非 AI 工具额度，按栏目范围排除。"
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqrKIYKCHP4zgThQcDHkXoGx7cIh63TzyK4io2287rBNo"
+}
