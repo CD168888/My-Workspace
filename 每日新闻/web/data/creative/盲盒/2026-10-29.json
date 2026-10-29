@@ -1,0 +1,6 @@
+{
+  "type": "creative:盲盒",
+  "name": "2026-10-29",
+  "title": "AI 冷知识盲盒 · 2026-10-29",
+  "markdown": "# AI 冷知识盲盒 · 2026-10-29\n\n## [18:30] 史上第一位\"AI 怀疑论者\"是位 19 世纪女性，而且她恰好是史上第一位程序员\n\n1843 年，英国数学家埃达·洛夫莱斯（Ada Lovelace）在翻译意大利工程师梅纳布雷亚介绍巴贝奇\"分析机\"的文章时，附上了一份长达原文三倍的附录，其中最后、也最著名的一篇\"笔记 G\"里，她写下了那句后来被图灵专门拎出来反驳的话：「分析机没有任何宣称要'原创'任何东西的资格。它只能做我们已经懂得如何命令它去做的事。」也就是说，在\"人工智能\"这个词尚未诞生（1956 年达特茅斯会议才被麦卡锡正式发明）整整 113 年之前，已经有人给\"机器到底能不能真正思考\"泼了第一盆冷水——而泼这盆冷水的人，恰恰是被公认为\"史上第一位程序员\"的那位。一个多世纪后，图灵在 1950 年的名篇《计算机器与智能》里把这一观点正式命名为\"洛夫莱斯夫人的反对\"（Lady Lovelace's Objection），并主张机器仍可能\"出乎其程序设计者的预料\"。\n\n来源：A. Lovelace, \"Notes upon L. F. Menabrea's Sketch of the Analytical Engine\", Note G, Taylor's Scientific Memoirs, 1843；A. M. Turing, \"Computing Machinery and Intelligence\", Mind, 1950（将之命名为 Lady Lovelace's Objection）。\n"
+}
