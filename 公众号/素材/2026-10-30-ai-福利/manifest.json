@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-30",
+  "column": "今日可领",
+  "title": "Qoder 1024 集结今晚 23:59 关窗，最后一份 4096 别留过夜",
+  "title_type": "① 事件冲击型",
+  "title_generated_at": "2026-10-30T09:05:00+08:00",
+  "title_note": "上期（10-29）为 ③ 紧迫提醒型，按轮换规则本期换 ①：事件是 Qoder 1024 集结今晚 23:59 停领 + 第 4 轮 4,096 日包当天清零。前 12 字「Qoder 1024 集结今晚」= 真名 + 具体日期，无泛量词、无代词。去空格 39 字符（英文数字各按 1 字计约 19 字），感叹号 0，冒号 0。另按 ③ / ④ 各写过一条未采用：③「腾讯云中午 12 点涨回原价，超算夜间也到最后一晚」、④「别急着续费腾讯云，今晚三处免费口子先后关」。",
+  "digest": "腾讯云中午 12 点恢复原价，超算夜间免费也只剩今晚。13 项里最晚到 11 月 30 日。",
+  "digest_note": "46 字（含空格与 ASCII），压在 45004 阈值下。不复读标题：标题给的是 Qoder 一个点，摘要给的是腾讯云与超算两个点 + 全篇最晚截止日。与正文对齐：七牛云 Conatus 到 11 月 30 日 23:59，是全篇最晚的固定截止日。",
+  "word_count_cn": 1498,
+  "item_count": 13,
+  "item_count_detail": "11 条有明确截止日 + 2 条按领取日起算（讯飞 31 天、OpenAI 当期账单周期）；另有 2 条长期可领（智谱 2 款、Qoder 3 项）与 5 条已过期进『别白跑』",
+  "sorted_by": "deadline_asc",
+  "sorted_note": "同一天内按钟点排：腾讯云 12:00 → 超算 21:00 → Qoder 23:59；次日按 08:00 / 24:00 排；Qoder 一节内 4 条也按此序（第 4 轮 → 见面礼 → 极致档 08:00 → DeepSeek-Flash 24:00）",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4 定稿版）",
+    "source": "Cyberpunk_tech_poster_backgrou_2026-10-30T01-15-17.png（ImageGen 出的 1536x640，第 2 张备选）",
+    "bg_clean": "下裁 76px 去右下『AI生成』水印，重采样回 1536x653",
+    "method": "ImageGen 出 2.35:1 科技底（四个独立玻璃数字 4/0/9/6、日历高亮格、两只沙漏、三张图标卡片）+ 脚本 cover_2026_10_30.py 叠三行混色文字与胶囊",
+    "copy": {
+      "main": "4,096 今天清零",
+      "sub": "超算夜间免费只剩今晚",
+      "tail": "13 项在架，5 项已停",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_10_30.py --bg 素材/2026-10-30-ai-福利/bg_clean.png --out 素材/2026-10-30-ai-福利/cover_news.png --base 32 --baseline0 214 --left 32",
+    "design_note": "主数字 3D『4096』左上，与正文第 4 轮日包对应；日历高亮 + 双沙漏右上；三张图标卡片右中；三行阶梯 36 / 28 / 28（1.00 / 0.88 / 0.80）；逐段上色：白打底、硬词暖橙（今天清零、只剩今晚）、数字冷青（13、5）。副标讲的是标题没提的超算，副文案给条数，均不复读标题。自检末行基线 285，胶囊上沿 324，不冲突。",
+    "note": "① 第 1 张备选（…01-14-57.png）的 3D 数字糊成『40%6』，主数字必须是真的那个数，故按『一次最多 2 张备选』出了第 2 张，四个数字逐个写明后一次出对；没有为文字清晰度重跑。② 底图为 1536x640，实际比 653 少 13px，下裁 76 后重采样回 653，纵向拉伸约 13%，抽象背景看不出形变。",
+    "credits_used": "约 10-20（科技底 2 张）"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqn8AAebdvHKOwp1kWrGzf3wBV4-PigaMVgNpHHGgyVqW",
+  "assets": [
+    {
+      "file": "assets/qoder-deadline.png",
+      "caption": "Qoder 官方文档 · 领取期限与使用期限，第 4 轮按日清零",
+      "source": "https://docs.qoder.com/zh/events/communityboost",
+      "source_level": "一手（官方文档）",
+      "note": "原文：活动 2026-10-22 开始、10-30 23:59 结束；见面礼 1,024 领取至 10-30 23:59、使用至 10-31 23:59；第 4 轮 10-28/29/30 每天 00:00 开放一份 4,096，每账号每天限领一次，当天 23:59 截止领取且当天失效、不结转"
+    },
+    {
+      "file": "assets/tencent-tokenplan.png",
+      "caption": "腾讯云 Token Hub 文档 · 十月积分价优惠活动 1",
+      "source": "https://intl.cloud.tencent.com/zh/document/product/1300/81316",
+      "source_level": "一手（官方文档）",
+      "note": "优惠活动 1：2026-10-01 00:30 至 2026-10-30 12:00（北京时间）；GLM-5.3-Flash 17/55/4、GLM-5.2 99/310/19、Kimi K3 352/1758/36（积分/百万 tokens）。cloud.tencent.com 域名会弹 Cookie 横幅，截图走 intl 站并用 --hide 去掉横幅"
+    },
+    {
+      "file": "assets/deepseek.png",
+      "caption": "DeepSeek 官方文档 · Search / Fetch 计费说明",
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "source_level": "一手（官方文档）",
+      "note": "原文：Harness/Claude Code/Codex 中的 Search/Fetch 调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收取，Search 与 Fetch 各 5 元/1,000 次成功请求"
+    },
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟文档 · 各模型活动时间表",
+      "source": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "source_level": "一手（官方文档，2026-10-28 更新）",
+      "note": "Auto 至 2026-11-08 23:59:59；kimi-k3.1-pro 至 11-09 23:59:59；kimi-k2.8-preview 至 12-14；deepseek-v4.1-flash 与 economy 至 12-30；kimi-k3 时间表写到 10-25 23:59 但状态列仍标「进行中」（本期写进「别白跑」）"
+    },
+    {
+      "file": "assets/qiniu.png",
+      "caption": "七牛云 Conatus Free 模型页 · 活动到 11 月 30 日",
+      "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "source_level": "一手（官方活动页）",
+      "note": "页面原文：限时免费活动 2026 年 10 月 24 日 00:00 至 2026 年 11 月 30 日 23:59；认证用户每日 1 亿 Token，充值后最高 10 亿；仅支持活动免费额度，额度用完即停止调用，不支持付费调用或资源包抵扣"
+    },
+    {
+      "file": "assets/openai.png",
+      "caption": "OpenAI 帮助中心 · 各档订阅对应的 API 赠额",
+      "source": "https://help.openai.com/en/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+      "source_level": "一手（官方帮助中心）",
+      "note": "Pro 100 / 200 / 500 档分别每月 100 / 200 / 500 美元；Business Standard 席位 20 美元、Premium 席位 100 美元，工作区每月封顶 500 美元；付费订阅须满 7 天；首笔按剩余计费周期折算"
+    }
+  ],
+  "sources_dropped": [
+    "商汤小浣熊 3 款零积分限免：xiaohuanxiong.com 首页无活动说明，官方公众号 v1.1.0 更新日志未取到原文，只有二级汇总页在转述，按「缺一手源即弃」处理，未进正文也未进「别白跑」",
+    "阿里云百炼双 11 超 1 亿 Tokens：官方开发者社区一处写「超 1 亿」、另一处写「超 7000 万，每款约 100 万」，两个口径未统一且活动结束日未见明确公告，弃",
+    "智谱 ZCode 蹬蹬卡邀新（到 11/13）：只查到二级汇总，官方活动页未取到，弃",
+    "DeepSeek 官方建议 Harness 用户首登领 6 元赠金：只有自媒体提到，官方更新日志未取到，弃"
+  ],
+  "expired_list": [
+    "火山 kimi-k3 五折（时间表 10-25 23:59，状态列仍写进行中）",
+    "智谱 ZCode 5 亿 Token（10-26 09:00 归零）",
+    "智谱 AutoClaw 每日 500 credits（10-25）",
+    "阶跃 Step 5 Preview 零积分（10-25，WorkBuddy 内）",
+    "腾讯云 Token Plan Hy4-preview 优惠（10-15 12:00）"
+  ],
+  "notes": [
+    "国家超算 Auto 夜间免费存在口径冲突：官方公众号原文写 10 月 21 日至 28 日，10 月 23 日之后新浪科技、雷锋网、津滨海等媒体稿统一写 10 月 21 日至 30 日。本期按 30 日写，并在「坑在哪」里标明出入与未实测。",
+    "本期新增脚本 shot_anchor.py：按锚点文字滚动定位并裁切截图（支持 --hide 去 Cookie 横幅），解决 shot_first_screen 抓不到文档正文段的问题。火山文档的锚点会命中页头同文副本，已改为取文档坐标最大的可见元素。"
+  ]
+}
