@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-31",
+  "column": "今日可领",
+  "title": "Qoder DeepSeek 今晚停免，11 项福利最早今天到期",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-10-31T09:05:00+08:00",
+  "title_note": "上期（10-30）为 ① 事件冲击型，按轮换规则本期换 ③：状态是 Qoder 国际版 DeepSeek-Flash 免费期今晚 24:00 结束（官方文档已核实），最早到期日就是今天。前 12 字「Qoder DeepSeek」= 真名，无泛量词开场、无代词；「11 项」只放后半句交代信息量。去空格 29 字（英文数字各按 1 字计），感叹号 0，冒号 0。另按 ④ / ② 各写过一条未采用：④「别急着充 Token，七牛云每天送 1 亿，最晚用到 11 月底」、②「礼包没关，领取却停了！Qoder 1024 集结今天只能消化库存」。",
+  "digest": "DeepSeek-Flash 与 WorkBuddy 限免今夜停，11 项里最晚用到 12 月底。",
+  "digest_note": "49 字（含空格与 ASCII），压在 45004 阈值下。不复读标题：标题给 Qoder 一个点 + 最早今天到期，摘要补 WorkBuddy 与全篇最晚截止（12 月底）。与正文对齐：火山 v4.1-flash 两款到 12/30、小程序成长计划二期与 TokenHub 到 12/31。",
+  "word_count_cn": 1218,
+  "item_count": 11,
+  "item_count_detail": "11 条有固定截止日（Qoder Flash、WorkBuddy、DeepSeek SF、火山 Auto / k3.1-pro / k2.8 / v4.1 两款、七牛云、小程序二期、TokenHub）+ 3 条按领取日起算（讯飞 31 天、OpenAI 账单周期、Qoder 每日 100）+ 长期 3 组（智谱两款、Qoder Qwen3.8/经济档/邀请好友）与 6 条已过期进『别白跑』",
+  "sorted_by": "deadline_asc",
+  "sorted_note": "同日内 Qoder Flash（24:00）→ WorkBuddy（10/31）→ DeepSeek SF（11/1 00:00）→ 火山 Auto（11/8）→ k3.1-pro（11/9）→ 七牛云（11/30）→ 火山 k2.8（12/14）→ v4.1 两款（12/30）→ 小程序二期、TokenHub（12/31）；邀请好友（待定）移入长期节，不占固定截止位",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4 定稿版）",
+    "source": "cyberpunk_tech_poster_backgrou_2026-10-31T01-25-12.png（ImageGen 出的 1536x640，一次出对，未重跑）",
+    "bg_clean": "下裁 76px 去右下『AI生成』水印，重采样回 1536x653",
+    "method": "ImageGen 出 2.35:1 科技底（3D 玻璃数字 11、日历高亮格、双沙漏、礼物/云/图表/代码图标卡片）+ 脚本 cover_2026_10_31.py 叠三行混色文字与胶囊",
+    "copy": {
+      "main": "11 项免费最后一天",
+      "sub": "七牛云每天送 1亿 Token",
+      "tail": "最晚用到 12 月底",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_10_31.py --bg 素材/2026-10-31-ai-福利/bg_clean.png --out 素材/2026-10-31-ai-福利/cover_news.png --base 34 --baseline0 212 --left 36",
+    "design_note": "主数字 3D『11』左上，对应正文 11 项固定截止福利；日历高亮 + 双沙漏右上；四张图标卡片右中；三行阶梯 39 / 33 / 29；逐段上色：白打底、硬词暖橙（最后一天、1亿）、技术词冷青（Token、12）。副标讲的是标题没提的七牛云，副文案给全篇最晚期限，均不复读标题。自检：末行基线 292，胶囊上沿 324，不冲突。",
+    "note": "生图一次出对：3D 数字『11』两个 1 并排无糊字，左下留白够放三行标题；水印按惯例下裁 76px。",
+    "credits_used": "约 5-10（科技底 1 张）"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqsq-atAUBK6_cwLaf_juJYH7qBCXd0xcoeEKQ5zUgrah",
+  "assets": [
+    {
+      "file": "assets/qoder-deepseek-flash.png",
+      "caption": "Qoder 官方文档 · DeepSeek-Flash 免费期延至 10 月 31 日 24:00",
+      "source": "https://docs.qoder.com/zh/events/deepseek-flash-free",
+      "source_level": "一手（官方文档）",
+      "note": "原文：活动延期公告「原定 10 月 24 日 24:00 结束的免费期现已延长至 10 月 31 日 24:00（即 11 月 1 日 00:00）」；活动时间 2026-10-20 00:00 起；Teams/Enterprise 不适用；系数 0.1×→0.0×"
+    },
+    {
+      "file": "assets/deepseek-pricing.png",
+      "caption": "DeepSeek 官方文档 · Search / Fetch 11 月 1 日起计费",
+      "source": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing",
+      "source_level": "一手（官方文档）",
+      "note": "原文：Search/Fetch 接口调用目前未计费，将于北京时间 2026 年 11 月 1 日 00:00 起按次收取，Search 与 Fetch 各 5 元/1,000 次成功请求"
+    },
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟文档 · 各模型活动时间表（2026-10-28 更新）",
+      "source": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "source_level": "一手（官方文档）",
+      "note": "Auto 至 2026-11-08 23:59:59（系数 0.5）；kimi-k3.1-pro 至 11-09（5 折）；kimi-k2.8-preview 至 12-14（6 折）；deepseek-v4.1-flash 与 economy 至 12-30（5 折）；kimi-k3 时间表写到 10-25 但状态列仍标「进行中」"
+    },
+    {
+      "file": "assets/qiniu.png",
+      "caption": "七牛云 Conatus Free 模型页 · 活动进行中至 11 月 30 日",
+      "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "source_level": "一手（官方活动页）",
+      "note": "页面原文：限时免费活动 2026-10-24 00:00 至 2026-11-30 23:59；认证用户每日 1 亿 Token，充值后最高 10 亿；仅支持活动免费额度，额度用完即停止调用"
+    },
+    {
+      "file": "assets/wx-miniprogram.png",
+      "caption": "微信开放文档 · 小程序成长计划一期/二期权益对照",
+      "source": "https://developers.weixin.qq.com/minigame/dev/wxcloud/billing/ai-inspire-plan.html",
+      "source_level": "一手（官方文档）",
+      "note": "二期（2026-07-01 ~ 2026-12-31）：Token 额度 10 亿、图片生成额度 10 万张，自申请成功起 6 个月有效；一个小程序账号只能参与一次；报名入口在微信公众平台-行业能力"
+    },
+    {
+      "file": "assets/tencent-tokenhub.png",
+      "caption": "腾讯云 TokenHub 文档 · 新人免费体验包",
+      "source": "https://tencentcloud.com/zh/document/product/1300/80423",
+      "source_level": "一手（官方文档，2026-10-21 更新）",
+      "note": "原文：本期活动时间截至 2026 年 12 月 31 日；语言模型均 100 万 Tokens、有效期 1 年；每领一个模型自动冻结 10 美金，余额不足领取失败。tencentcloud.com 域名正常，未串页"
+    }
+  ],
+  "sources_dropped": [
+    "Qoder 1024 集结（communityboost）：活动整体 10-30 23:59 结束，见面礼与第 1-4 轮补给包领取均已关闭，本期整体移入「别白跑」，只保留「已领见面礼可用至 10-31 23:59」的提示",
+    "Qoder 极致档错峰 2 折（offpeakrate）：官方文档明确写 2026-10-31 08:00 SGT 结束，今早已过，入「别白跑」",
+    "Qoder 新人首购 BOGO / SOTA 免费体验（bogo/newbogo/sotafree）：未能在一轮核验内取到明确截止与当前状态，按「拿不准按过期」不进正文",
+    "国家超算 Auto 夜间免费：官方公众号口径 10-28、媒体稿口径 10-30，两个口径的最后窗口都已在今早 09:00 前结束，入「别白跑」",
+    "腾讯云 Token Plan 十月积分价：10-30 12:00 已恢复刊例，入「别白跑」；新一期积分优惠文档未见更新"
+  ],
+  "expired_list": [
+    "Qoder 1024 集结整场（见面礼 1,024、第 1-4 轮补给包）：10-30 23:59 全部停领，已领见面礼可用至 10-31 23:59",
+    "Qoder 极致档错峰 2 折：10-31 08:00 SGT 结束",
+    "国家超算 Auto 夜间免费：最后一轮至 10-31 09:00（口径 10-28 / 10-30 均已过）",
+    "腾讯云 Token Plan 十月积分价：10-30 12:00 恢复刊例",
+    "火山 kimi-k3 五折：时间表 10-25 23:59，状态列仍标「进行中」",
+    "智谱 ZCode 5 亿 Token（10-26 09:00 归零）、AutoClaw 每日 500 credits（10-25）"
+  ],
+  "notes": [
+    "本期最重要的变化：Qoder 1024 集结整场落幕，上一期的主力条目（见面礼、第 4 轮 4,096、极致档 2 折）全部失效，正文主力换成 DeepSeek-Flash 最后一天 + 火山/七牛云/微信小程序/TokenHub 的中长尾额度。",
+    "Qoder 新增「邀请好友」活动（2026-10-29 起，结束待定，最高 1150 Credits），官方文档一手源，因无固定截止日放入「长期可领」一节。",
+    "WorkBuddy Hy3/Hy4 限免的 10-31 截止来自上一期客户端公告，本期能核到的公开渠道没有延期说明，稿内已注明「以客户端显示为准」。",
+    "全部 6 张配图为官方文档/活动页公开页面截图（Playwright 截取，未登录任何账号），来源与原文引文记录在 assets 各条 note 里。"
+  ]
+}
