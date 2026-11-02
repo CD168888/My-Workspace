@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-02",
+  "column": "今日可领",
+  "title": "双 11 别急着给方舟续费，这 12 项 AI 额度还免费用",
+  "title_type": "④ 信息差型",
+  "title_generated_at": "2026-11-02T09:20:00+08:00",
+  "title_note": "上期（11-01）为 ① 事件冲击型，按轮换规则本期换 ④（①→③→④ 顺位中 ③ 已在 10-31 用过，④ 为本栏目首次使用）。前 12 字「双 11 别急着给方舟」= 具体事件（双 11）+ 真名（方舟），无泛量词开场、无代词；「12 项」只放后半句交代信息量，与正文条目数一致（固定截止 7 + 按领取日起算 5）。去空格 24 字，感叹号 0，冒号 0。另按 ① / ③ 各写过一条未采用：①「智谱 ZCode 每天送 3 亿，今晚 19 点开领」（事件为 10-27 起的日常活动，非 24 小时内新发生，不满足 ① 型硬要求，弃）、③「方舟 0.5 折扣 11 月 8 日停，这 12 项 AI 额度还免费用」（③ 型 10-31 刚用过，弃）。",
+  "digest": "方舟 Auto 0.5 系数 11 月 8 日停，还剩 6 天；七牛云日送 1 亿、TokenHub 到年底。",
+  "digest_note": "55 字（含空格与 ASCII），压在 45004 阈值下。不复读标题：标题给双 11 / 方舟续费 / 12 项，摘要补最急那条（Auto 0.5 还剩 6 天）与两个长尾档。与正文对齐：方舟 Auto 11-08、七牛云 11-30、TokenHub 12-31。",
+  "word_count_cn": 1226,
+  "item_count": 12,
+  "item_count_detail": "12 条主条目（固定截止 7 条：方舟 Auto / k3.1-pro / k2.8 / v4.1 两款合并、七牛云、微信小程序二期、TokenHub；按领取日起算 5 条：百炼 7000 万 90 天、移动云 MoMA 2500 万 30 天、讯飞 X2.6 十亿 31 天、Qoder 每日 100、智谱 ZCode 每日 3 亿滚动）+ 长期 3 组（智谱两款、Qoder Qwen3.8/经济档、OpenAI 订阅返额）与 4 组已过期进『别白跑』",
+  "sorted_by": "deadline_asc",
+  "sorted_note": "公司分节按各家最早截止排：方舟（11-08）→ 七牛云（11-30）→ 微信小程序、TokenHub（12-31）；节内同家按截止排（Auto 11-08 → k3.1-pro 11-09 → k2.8 12-14 / v4.1 两款 12-30）；按领取日起算与长期分别单列",
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4 定稿版）",
+    "source": "cyberpunk_tech_background__dar_2026-11-02T01-14-18.png（ImageGen 出的 1536x640，一次出对，未重跑）",
+    "bg_clean": "下裁 76px 去右下『AI生成』水印，重采样回 1536x653 存为 bg_clean.png",
+    "method": "ImageGen 出 2.35:1 科技底（电路板 + 霓虹青/橙光带 + 玻璃数据卡片，无 3D 主数字，主数字由文字层第一行大字号段承担）+ 脚本 cover_neon.py 叠三行混色文字与胶囊",
+    "copy": {
+      "main": "智谱每晚送 3 亿",
+      "sub": "ZCode 编程额度 19 点开领",
+      "tail": "方舟 0.5 只剩 6 天",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_neon.py --bg 素材/2026-11-02-ai-福利/bg_clean.png --out 素材/2026-11-02-ai-福利/cover_news.png --base 40 --baseline0 168 --left 36",
+    "design_note": "主数字 3 由文字层承担（WARM 放大 1.15，行字号 46）；三行阶梯 46 / 35 / 35；逐段上色：白打底、硬词暖橙（3 亿、6）、技术词冷青（ZCode）。主文案讲的是标题没提的 ZCode 每日 3 亿（本期新收录的最大日常额度），尾行给最早截止（标题只说了续费与 12 项），均不复读标题。自检：行1 右端 295、行2 右端 439、行3 右端 303 不出界，末行基线 257，胶囊上沿 324，不冲突。",
+    "note": "生图一次出对；底图无 3D 主数字雕塑，靠文字层大字号段补位，视觉上仍是『数字先砸脸』的构图。",
+    "credits_used": "约 5-10（科技底 1 张）"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqsfeJHuY6iOyAbxZP-ver_NPTiZnKMt2w96RcMRiFpJx",
+  "assets_note": "6 张正文配图复用 2026-11-01 期已核验截图（均为官方文档/活动页公开页面，今日 WebFetch 逐一重核，页面内容与日期未变更；DeepSeek 定价页截图因对应条目已过期未复用）。未登录任何账号。",
+  "assets": [
+    {
+      "file": "assets/volc.png",
+      "caption": "火山方舟文档 · 各模型活动时间表",
+      "source": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "source_level": "一手（官方文档，本期 WebFetch 重核）",
+      "note": "原文：Auto 2026-06-10 18:00 至 11-08 23:59:59（系数 0.5）；kimi-k3.1-pro 至 11-09（5 折）；kimi-k2.8-preview 至 12-14（6 折）；deepseek-v4.1-flash 与 economy 至 12-30（5 折）；kimi-k3 时间表写到 10-25 但状态列仍标「进行中」"
+    },
+    {
+      "file": "assets/qiniu.png",
+      "caption": "七牛云 Conatus Free 模型页 · 活动进行中至 11 月 30 日",
+      "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "source_level": "一手（官方活动页，本期 WebFetch 重核）",
+      "note": "页面原文：限时免费活动 2026-10-24 00:00 至 2026-11-30 23:59；认证用户每日 1 亿 Token，充值后最高 10 亿；1000K 上下文；仅支持活动免费额度，额度用完即停止调用"
+    },
+    {
+      "file": "assets/wx-miniprogram.png",
+      "caption": "微信开放文档 · 小程序成长计划一期/二期权益对照",
+      "source": "https://developers.weixin.qq.com/minigame/dev/wxcloud/billing/ai-inspire-plan.html",
+      "source_level": "一手（官方文档，本期 WebFetch 重核）",
+      "note": "二期（2026-07-01 ~ 2026-12-31）：Token 额度 10 亿、图片生成额度 10 万张，自申请成功起 6 个月有效；一个小程序账号只能参与一次；报名入口在微信公众平台-行业能力"
+    },
+    {
+      "file": "assets/tencent-tokenhub.png",
+      "caption": "腾讯云 TokenHub 文档 · 新人免费体验包",
+      "source": "https://tencentcloud.com/zh/document/product/1300/80423",
+      "source_level": "一手（官方文档，本期 WebFetch 重核）",
+      "note": "原文：本期活动时间截至 2026 年 12 月 31 日；语言模型均 100 万 Tokens、有效期 1 年；每领取一个模型自动冻结 10 美金，余额不足领取失败"
+    },
+    {
+      "file": "assets/aliyun-bailian.png",
+      "caption": "阿里云开发者社区 · 百炼免费额度权益说明",
+      "source": "https://developer.aliyun.com/article/1776316",
+      "source_level": "二级（阿里云开发者社区署名文章，与官方双 11 口径一致）",
+      "note": "原文：完成实名认证即可领取超 7000 万免费 Token（每款主流模型约 100 万），有效期 90 天；仅限华北 2（北京）地域，不支持微调与超高并发"
+    },
+    {
+      "file": "assets/cmcc-moma.png",
+      "caption": "移动云帮助中心 · 2500 万 Tokens 免费试用指南",
+      "source": "https://ecloud.10086.cn/op-help-center/doc/article/92837",
+      "source_level": "一手（官方帮助中心）",
+      "note": "原文：营销活动时间至 2026-12-31；每位用户 2500 万 tokens 免费额度，限时 30 天（自确认起）；限流 3000 tokens/min"
+    }
+  ],
+  "sources_dropped": [
+    "国家超算普惠词元 3000 万：唯一一手级报道为 2026 年 3 月人民日报/财联社，当前是否仍在发放无官方页面可核，按「查无实据」不进正文",
+    "百度千帆新用户每模型 100 万（3 个月）、腾讯混元新人包 100 万（1 年）：多源交叉可核但与已收条目重叠，为控篇幅未单列（混元新人包已在 TokenHub 一节带了一句）",
+    "腾讯云 Hy3/Auto/GLM-5.3 双 11 折扣档（延至 11-02）：为付费折扣而非免费额度，不属本栏目收录范围",
+    "智谱 ZCode 周末包 5 亿（11-02 09:00 到期）：仍仅三级源，且今天 09:00 已过，按过期处理",
+    "美团 LongCat、360 纳米 Work、云知声 U2-Flash、商汤小浣熊、华为云码道：连续多期查无一手源，继续弃"
+  ],
+  "expired_list": [
+    "DeepSeek Search/Fetch 免费调用：11-01 00:00 起按次收费（两项各 5 元每千次成功请求），官方价格文档一手源",
+    "Qoder DeepSeek-Flash 限免、WorkBuddy 混元 Hy3 全天 / Hy4-preview 夜间限免：10-31 24:00 结束",
+    "国家超算 Auto 夜间免费、腾讯云 Token Plan 十月积分价：最后窗口已过",
+    "火山 kimi-k3 五折（时间表 10-25）、智谱 ZCode 周末包 5 亿（11-02 09:00）、AutoClaw 每日 500 credits、阶跃 Step 5 限免：10 月下旬至今晨陆续清零"
+  ],
+  "notes": [
+    "本期基调：双 11 各家推付费订阅折扣，免费的容易被忽略，正文以「别被付费折扣带偏」切入；无 24 小时内新清零事件，标题型轮换到从未用过的 ④ 信息差型。",
+    "本期新收录：智谱 ZCode 每天 3 亿 GLM-5.3-Flash（10-27 官方公告起常态化，每天 19:00 领、23:00-次日 09:00 用、滚动无截止）；火山方舟 10 月 8 日起的 Agent Plan 1000 次专业数据集免费调用（11-08 截止，与 Auto 同日，因需订阅 Plan 才有、非纯免费额度，仅记 manifest 不进正文）。",
+    "火山方舟、七牛云、微信小程序、TokenHub 四个关键截止日今日全部 WebFetch 重核，与上期一致，无延期。",
+    "配图 6 张复用上期已核验截图（官方文档页未变更），新增条目 ZCode 为客户端内活动、无法公开截图，未配图。"
+  ]
+}
