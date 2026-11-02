@@ -1,0 +1,71 @@
+{
+  "page": "https://news.qq.com/rain/a/20261030A0BBQN00",
+  "title": "Kimi半年三次道歉：偷跑、停售、重置_腾讯新闻",
+  "at": "2026-11-02 14:08:24",
+  "items": [
+    {
+      "image_url": "https://inews.gtimg.com/om_bt/OFN-PISlg7kdJ_80zUUSTrQFDUDgcss2_11o8fnExfZqsAA/641",
+      "dom_width": 960,
+      "alt": "图片",
+      "ok": true,
+      "file": "001_2f86213c2ef6.jpg",
+      "bytes": 112488
+    },
+    {
+      "image_url": "https://inews.gtimg.com/om_bt/O5H6EtzKiQYOonqxB9LaSMZ3xLUEJytM2ZDkHAohYzJcEAA/641",
+      "dom_width": 960,
+      "alt": "图片",
+      "ok": true,
+      "file": "002_d1535a16705e.jpg",
+      "bytes": 30168
+    },
+    {
+      "image_url": "https://inews.gtimg.com/om_bt/O45rUw7rDHFJAyfaQz4bYSUz8yob3HTIqxzWmiTEPX16QAA/641",
+      "dom_width": 839,
+      "alt": "图片",
+      "ok": true,
+      "file": "003_3d0b516d1226.jpg",
+      "bytes": 105469
+    },
+    {
+      "image_url": "https://inews.gtimg.com/om_bt/O_BLtdl5nZNGBSRP7UxsuTS09nbO8F1PdAAJ0aOHXJpPQAA/641",
+      "dom_width": 960,
+      "alt": "图片",
+      "ok": true,
+      "file": "004_552e3ea518b8.jpg",
+      "bytes": 37525
+    },
+    {
+      "image_url": "https://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6a327983000ee4220e5b058d4bd615150000008d00004eec?ck=4447eac97312c7306fb42078739d97cf&m=4447eac97312c7306fb42078739d97cf&sha256=0973a576933b06389693b7072b50426c78a915dd942593b54d60c45a4d78fcff",
+      "dom_width": 960,
+      "alt": "",
+      "ok": true,
+      "file": "005_0973a576933b.jpg",
+      "bytes": 309450
+    },
+    {
+      "image_url": "https://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6a327983000ee4220e5b058d4bd615150000008d00004eec?ck=4447eac97312c7306fb42078739d97cf&m=4447eac97312c7306fb42078739d97cf&sha256=0973a576933b06389693b7072b50426c78a915dd942593b54d60c45a4d78fcff",
+      "dom_width": 960,
+      "alt": "Thumbplayer Poster Plugin Image",
+      "skip": "dup"
+    },
+    {
+      "image_url": "https://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6a327983000ee4220e5b058d4bd615150000008d00004eec?ck=4447eac97312c7306fb42078739d97cf&m=4447eac97312c7306fb42078739d97cf&sha256=0973a576933b06389693b7072b50426c78a915dd942593b54d60c45a4d78fcff",
+      "dom_width": 960,
+      "alt": "",
+      "skip": "dup"
+    },
+    {
+      "image_url": "https://pgdt.gtimg.cn/141/20204/snscosdownload/SZ/reserved/6a327983000ee4220e5b058d4bd615150000008d00004eec?ck=4447eac97312c7306fb42078739d97cf&m=4447eac97312c7306fb42078739d97cf&sha256=0973a576933b06389693b7072b50426c78a915dd942593b54d60c45a4d78fcff",
+      "dom_width": 960,
+      "alt": "",
+      "skip": "dup"
+    },
+    {
+      "image_url": "https://news.qq.com/rain/a/20261030A0BBQN00",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "http200"
+    }
+  ]
+}

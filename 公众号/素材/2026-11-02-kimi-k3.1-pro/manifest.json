@@ -1,0 +1,50 @@
+{
+  "topic": "Kimi K3.1 Pro 官方称单价降约三分之一，但同任务实测 token 多烧 2.36 倍，总价反高约六成",
+  "栏目": "反着看",
+  "date": "2026-11-02",
+  "title_type": "④ 信息差型",
+  "title_generated_at": "2026-11-02T06:00:00+08:00",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqlT6vLt59KzDIaTzjkQScPFtnNSTyaLUmvJf-sEaS4-D",
+  "updated_at": "2026-11-02T14:18:05+0800",
+  "draft_status": "pushed",
+  "title": "Kimi K3.1 Pro便宜三成，实测多烧一倍Token",
+  "title_type_candidates": [
+    "④ 信息差型（选用）：Kimi K3.1 Pro便宜三成，实测多烧一倍Token",
+    "② 悬念反转型（未选用，四周内已用3次超上限）：单价降三成，账单却贵六成：K3.1 Pro的账算反了",
+    "⑤ 揭秘避坑型（未选用，上一期刚用、相邻避让）：Kimi说便宜三成，没人告诉你token多烧2.4倍",
+    "⑥ 极简清单型（未选用，两周内已用2次到限）：看Kimi报价先问三句"
+  ],
+  "rotation_note": "上一期(11-01)为⑤、10-31为④；②四周内3次、⑤本周已用且四周内3次、⑥两周内2次到限。④在10-31与11-02各用一次（间隔一期、非相邻同型），达4周2次临界但合规，选其把'单价降vs总量涨'的口径差讲透",
+  "prev_issue_title_type": "⑤ 揭秘避坑型（2026-11-01）",
+  "digest": "两天致歉补偿 25% 额度。实测输出超 Astra 2.5 倍，它和 DeepSeek 同题账单差十几倍。",
+  "sources": [
+    {"level": 1, "desc": "月之暗面官方 10-24 发布 Kimi K3.1 Pro：3万亿参数、100万token上下文、Terminal-Bench 4.0 65.7%（超GPT-6 Astra 58.2%、低于Claude Opus 5.5 66.4%）；11月4日前开源完整权重"},
+    {"level": 1, "desc": "Kimi 官方定价页：K3.1 Pro 输入13/输出68每百万token，缓存命中输入1.3；K3 输入20/输出100（降幅35%/32%）；Highspeed 输入26/输出136（标准版2倍）"},
+    {"level": 1, "desc": "Kimi 10-26 致歉信（置顶评论区）：'会员使用K3.1 Pro时出现的限流及不必要的额度消耗'，补偿25%月度额度、已用不足25%清零"},
+    {"level": 1, "desc": "36氪报道：开发者实测同任务 K3.1 Pro 144万token vs K3 61万=2.36×；用户实测5子Agent跑601次调用、1.1M token、9分45秒返回429；Artificial Analysis 测试 K3.1 Pro 输出1.5亿token（Astra 6000万=2.5×、中位8700万），单任务2.11 vs 3.26美元，速度73.5 vs 中位81.1"},
+    {"level": 1, "desc": "中国企业家/腾讯新闻转载：K3.1 Pro 发布图与执行记录图；Fireworks AI 博客（去除反复检查步骤对性能几乎无影响）；杨植麟表态'提升智能必然需要更多token是取舍'"},
+    {"level": 2, "desc": "DeepSeek V4.1 Flash 1017（10月）：帕累托改进、KV缓存890字节/token、价格不变；致知大模型成本榜同Rust任务 K3.1 Pro 221.21元 vs DeepSeek 12.32元"}
+  ],
+  "verified_facts": {
+    "kimi_release": "10-24 发布 K3.1 Pro：3万亿参数、100万token上下文、Terminal-Bench 4.0 65.7%（超GPT-6 Astra 58.2%、低于Claude Opus 5.5 66.4%）；11-04前开源完整权重",
+    "pricing": "K3.1 Pro 输入13/输出68每百万token，缓存命中输入1.3；K3 输入20/输出100（降幅35%/32%）；Highspeed 输入26/输出136（标准版2倍）",
+    "apology": "10-26 致歉信'会员使用K3.1 Pro时出现的限流及不必要的额度消耗'；补偿25%月度额度，已用不足25%清零",
+    "dev_measure": "同任务 K3.1 Pro 144万token vs K3 61万=2.36×；账单 K3 61元(100×0.61) vs K3.1 Pro 97.9元(68×1.44)，总价+约60%",
+    "aa_test": "Artificial Analysis Intelligence Index K3.1 Pro 输出1.5亿token；Astra 6000万=2.5×；中位8700万；单任务2.11 vs Astra 3.26美元；速度73.5 vs 中位81.1",
+    "deepseek_contrast": "V4.1 Flash 1017 价格不变、KV缓存890字节/token；致知榜同Rust任务 K3.1 Pro 221.21元 vs DeepSeek 12.32元（约18×）",
+    "three_questions": "看报价问三句：单价降多少 / 同任务token多烧几倍 / 是否只开思考模式强制为推理付费；补一句缓存命中率"
+  },
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4）",
+    "bg": "bg/Cyberpunk_tech_poster_backgrou_2026-11-02T06-12-26.png",
+    "wrapper": "脚本/cover_2026_11_02_kimi.py",
+    "main_number": "2.4×",
+    "copy": {"主文案": "一句指令，5个子Agent", "副线": "9分钟烧光5小时额度", "尾线": "单价降了，账单没降", "胶囊": ["单价降幅", "用量倍数", "真实账单"]},
+    "note": "ImageGen 1536x653 一次直出，下裁52px去「AI生成」水印后重采样；自检：数字96基线112右端228、三行46/39/32成阶梯、末行基线267 vs 胶囊上沿324留白56px"
+  },
+  "images": {
+    "fetched": 6,
+    "files": ["01_kimi_k3pro_phone.jpg", "04_kimi_logo.jpg", "02_quota_burn.jpg", "05_agent_trace.jpg", "03_cost_leaderboard.jpg", "06_deepseek_bench.jpg"],
+    "note": "腾讯新闻转载中国企业家（content容器干净）取图4张留3张（phone/logo/agent_trace，弃1张阿布扎比广告）；36氪（article-content容器干净）取图5张留3张（quota截图/cost榜/DeepSeek基准，弃2张离题）；sohu/头条源懒加载data-src+协议相对URL(//pX.itc.cn)被fetch脚本跳过，弃用"
+  }
+}
