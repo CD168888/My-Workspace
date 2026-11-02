@@ -44,10 +44,9 @@ FONTS = {
 #   scale = 该行整体字号（相对 BASE_SIZE）。三行必须成阶梯，一样大就没有主次。
 #   segs  = [(文字, 颜色, 字号倍数[, 字体键]), ...]
 LINES = [
-    dict(scale=1.00, segs=[("10", WARM, 1.15), ("项免费还开着", WHITE, 1.00)]),
-    dict(scale=0.88, segs=[("百炼新人送", WHITE, 1.00), ("7000", WARM, 1.12), ("万", WHITE, 1.00)]),
-    dict(scale=0.80, segs=[("最早的", WHITE, 1.00), ("11", COOL, 1.10), ("月", WHITE, 1.00),
-                           ("8", COOL, 1.10), ("号关窗", WHITE, 1.00)]),
+    dict(scale=1.00, segs=[("智谱每晚送", WHITE, 0.88), ("3", WARM, 1.15), ("亿", WARM, 1.00)]),
+    dict(scale=0.88, segs=[("ZCode", COOL, 0.78), ("编程额度", WHITE, 1.00), ("19 点开领", WHITE, 1.00)]),
+    dict(scale=0.80, segs=[("方舟 0.5 只剩", WHITE, 1.00), ("6", WARM, 1.10), ("天", WHITE, 1.00)]),
 ]
 
 # 书法体混排预设（--calligraphy）：中文走行楷、数字与英文切回黑体。
