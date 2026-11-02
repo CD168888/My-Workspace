@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-29",
+  "column": "反着看",
+  "title": "ChatGPT Pro 说送 200 美元，弹窗只给 86",
+  "title_type": "② 悬念反转型",
+  "title_generated_at": "2026-10-29T17:20:00+08:00",
+  "title_note": "同栏目上一期（反着看_2026-10-29 星舰7）为 ⑥ 极简清单型，本期换 ②，符合轮换规则。前 12 字「ChatGPT Pro 」是真名锚点，无代词、无泛量词。29 字（英文数字各按 1 字），感叹号 0，冒号 0，问号 0。另写过两条备选未采用：⑥「ChatGPT Pro 每月送的额度，Codex 一分用不上」、①「OpenAI 昨天给 Pro 加了接口额度，Plus 一分没有」。",
+  "digest": "首笔按当期剩余天数折算，月底领等于零。Plus 一分没有，Codex 走 API key 也抵扣不了。",
+  "digest_note": "51 字。不复读标题：标题给的是 200 与 86 的反差，摘要给的是三个限制（折算、清零、用途排除）。",
+  "word_count_cn": 1577,
+  "image_count": 5,
+  "sources": {
+    "primary": [
+      "https://developers.openai.com/api/docs/guides/chatgpt-api-credits（正文已存档到 www 素材目录 source.txt）",
+      "https://developers.openai.com/api/docs/changelog（Oct 28 Feature 条目，确认发布日）"
+    ],
+    "note": "Help Center 原文页 403/404，未采用；developers.openai.com 为同一政策的官方开发者文档，且 changelog 有发布日期，两处互证。"
+  },
+  "verified_facts": [
+    "changelog 原文：Eligible ChatGPT Pro and Business subscribers can now claim up to $500 per month in free API credits as a subscription benefit（Oct 28, 2026）",
+    "额度表：Pro 100→$100、Pro 200→$200、Pro 500→$500；Business Standard $20/付费席位、Premium $100/付费席位",
+    "Business 池化，每月每工作区封顶 $500；年付一次性发全年，上限 $6000，年周期末过期",
+    "首笔按当期剩余时间折算（prorated），并在当期计费周期结束过期",
+    "资格三条：付费订阅满 7 天、同邮箱、同时是订阅/工作区 owner 与 API 组织 owner；免费试用与赠送订阅不算",
+    "覆盖：Responses、Agents（含 OpenAI 托管 sandbox 费用）、Decisions、GPT-Live/Realtime、Images、内置工具（web search/file search/Code Interpreter）及存储费",
+    "排除：Codex usage through API keys is not supported；且不提高 ChatGPT 或已登录 Codex 的用量上限",
+    "先用免费额度、再用自购额度；都空则 HTTP 429，错误码 credit_balance_exhausted",
+    "取消订阅不再发新的，已发额度可用到过期；降级至 Plus/Go/Free 则当期结束移除链接；Pro→Business 需 Business 满 7 天后重新关联；换接收组织需联系客服",
+    "额度受 API 条款与 rate limits 约束，不提升速率限制"
+  ],
+  "cover": {
+    "file": "cover_news.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4 定稿版）",
+    "copy": {
+      "main": "额度到手先打 4 折",
+      "sub": "首笔按当期剩余天数折算",
+      "tail": "Plus 没有，Codex 不给用",
+      "pill": "官方原文 | 折算规则 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_10_29_chatgpt.py --bg bg_num2.png --base 40 --baseline0 228 --left 34 --line-h 1.10",
+    "bignum": "python 脚本/draw_bignum.py --bg bg_clean.png --out bg_num.png --text 86 --x 30 --y 6 --size 168（新建脚本，见下 note）",
+    "note": "① 第 1 张生图让模型直接画 86，结果画成了「2018」四个数字，主数字错误，弃用；第 2 张改为纯背景（no numbers），数字 86 用新建的 draw_bignum.py 叠，做法是投影 + 12 层暗橙挤出侧壁 + 深色描边 + 橙金渐变填充，得到伪 3D 效果。② bg_num2 是在 bg_num 上叠了径向渐晕（文字区中心压到 45%，向外回到 100%），属于摄影后期暗角，不是事后糊色条，用来让三行字压住背景光带。③ 三行阶梯 40/34.8/32（1.00/0.87/0.80），自检末行基线 311，胶囊上沿 324。④ 底图原图 1536x640，下裁至 548 去右下「AI生成」水印，再重采样到 1536x653 后由脚本缩放至 900x383。",
+    "credits_used": "约 10-20（2 张：第 1 张画错数字作废，第 2 张采用）"
+  },
+  "assets": [
+    {
+      "file": "assets/benefit-card.png",
+      "caption": "OpenAI 开发者文档 · 订阅附带额度说明",
+      "source": "微信截图（用户提供）",
+      "note": "ChatGPT 侧「月度订阅权益」卡片：订阅 Pro 每月可获得 US$200 的 API 额度，关联 API 组织即可使用"
+    },
+    {
+      "file": "assets/popup-86.png",
+      "caption": "领取弹窗 · 首笔金额按当期剩余时间折算",
+      "source": "微信截图（用户提供）",
+      "note": "这是全文的核心证据：弹窗显示 US$86.00，说明文案为 You'll receive US$200.00 in API credits at the start of each billing cycle，下方说明 Your first credit grant is calculated based on your billing cycle"
+    },
+    {
+      "file": "assets/amounts.png",
+      "caption": "OpenAI 开发者文档 · 各档位每月额度表",
+      "source": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+      "note": "含 prorated 与 Business 封顶 $500 / 年付 $6000 的原文"
+    },
+    {
+      "file": "assets/cover-scope.png",
+      "caption": "OpenAI 开发者文档 · 额度覆盖范围与 Codex 例外",
+      "source": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+      "note": "含提示框原文 Codex usage through API keys is not supported by this benefit"
+    },
+    {
+      "file": "assets/exhausted.png",
+      "caption": "OpenAI 开发者文档 · 余额耗尽后的行为",
+      "source": "https://developers.openai.com/api/docs/guides/chatgpt-api-credits",
+      "note": "含 HTTP 429 与 credit_balance_exhausted"
+    },
+    {
+      "file": "assets/summary-card.jpg",
+      "caption": "（未采用）第三方整理的规则要点图",
+      "source": "用户提供",
+      "note": "信息与官方文档一致，已逐条核对，但非官方出品，正文未使用，仅存档备查"
+    }
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqvkcLeMGN3beVa4FG1lgJBIbaNAJSxnMfEZQ1tEbHFUZ",
+  "open_questions": [
+    "截图账号的计费周期进度未知，43% 是按 86/200 反推并标注为「我自己算的」，未当作官方数据",
+    "该福利是否长期有效未写截止日，官方措辞为「while these benefits are available」，正文按「长期但可被调整」处理，未给截止日"
+  ]
+}

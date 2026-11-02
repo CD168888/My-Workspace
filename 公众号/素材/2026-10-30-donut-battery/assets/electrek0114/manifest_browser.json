@@ -1,0 +1,87 @@
+{
+  "page": "https://electrek.co/2026/01/14/batter-about-change-world-or-make-this-guy-fool/",
+  "title": "This battery is about to change the world in 3 months, or make this guy a fool | Electrek",
+  "at": "2026-10-30 14:50:33",
+  "items": [
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/01/Donut-Lab-solid-state-battery.png?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 0,
+      "alt": "",
+      "ok": true,
+      "file": "001_60a118cbe2d3.jpg",
+      "bytes": 28162
+    },
+    {
+      "image_url": "https://electrek.co/wp-content/uploads/sites/3/2026/01/Screenshot-2026-01-14-at-2.18.54-PM.png",
+      "dom_width": 589,
+      "alt": "",
+      "skip": "HTTPSConnectionPool(host='electrek.co', "
+    },
+    {
+      "image_url": "https://electrek.co/wp-content/themes/ninetofive/dist/images/google-preferred-source-badge-dark.png",
+      "dom_width": 676,
+      "alt": "Add Electrek as a preferred source on Google",
+      "skip": "HTTPSConnectionPool(host='electrek.co', "
+    },
+    {
+      "image_url": "https://electrek.co/wp-content/themes/ninetofive/dist/images/google-preferred-source-badge-light.png",
+      "dom_width": 676,
+      "alt": "Add Electrek as a preferred source on Google",
+      "skip": "HTTPSConnectionPool(host='electrek.co', "
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2025/03/Rivian-electric-commercial-van.jpeg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1344,
+      "alt": "Rivian-electric-commercial-van",
+      "skip": "HTTPSConnectionPool(host='i0.wp.com', po"
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/06/Toyota-EV-sales-gas-prices.jpeg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1344,
+      "alt": "Toyota-EV-sales-September",
+      "ok": true,
+      "file": "002_155e71311a42.jpg",
+      "bytes": 139414
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/10/rivian-r2-exterior.jpg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1440,
+      "alt": "Rivian R2 in white, rear three-quarter view",
+      "ok": true,
+      "file": "003_d027c274bd37.jpg",
+      "bytes": 271309
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/10/EcoFlow-Segway-EGO-East-Oak-Anker-SOLIX-GDs-FI.jpg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1440,
+      "alt": "",
+      "ok": true,
+      "file": "004_1da9b7900ea7.jpg",
+      "bytes": 224525
+    },
+    {
+      "image_url": "https://electrek.co/wp-content/themes/ninetofive/dist/images/default-electrek-guide.png",
+      "dom_width": 0,
+      "alt": "solid-state",
+      "skip": "HTTPSConnectionPool(host='electrek.co', "
+    },
+    {
+      "image_url": "https://electrek.co/wp-content/themes/ninetofive/dist/images/default-electrek-guide.png",
+      "dom_width": 0,
+      "alt": "Donut Lab",
+      "skip": "small:1KB"
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2015/05/Screenshot-2025-01-03-at-5.47.46%E2%80%AFPM.jpg?resize=140%2C79&quality=82&strip=all&ssl=1",
+      "dom_width": 0,
+      "alt": "Combat Edge",
+      "skip": "HTTPSConnectionPool(host='i0.wp.com', po"
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2015/05/Screenshot-2025-01-03-at-5.51.00%E2%80%AFPM.jpg?resize=140%2C79&quality=82&strip=all&ssl=1",
+      "dom_width": 0,
+      "alt": "EnergySage",
+      "skip": "HTTPSConnectionPool(host='i0.wp.com', po"
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "page": "https://electrek.co/2026/06/08/donut-lab-solid-state-battery-exposed-lithium-ion-fraud",
+  "title": "Donut Lab's 'solid-state' battery exposed as regular li-ion in damning investigation | Electrek",
+  "at": "2026-10-30 14:42:48",
+  "items": [
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/02/Donut-Lab-solid-state-battery.jpg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1440,
+      "alt": "Donut Lab solid state battery",
+      "ok": true,
+      "file": "001_74fd92d8d1a4.jpg",
+      "bytes": 40961
+    },
+    {
+      "image_url": "https://electrek.co/wp-content/themes/ninetofive/dist/images/google-preferred-source-badge-dark.png",
+      "dom_width": 676,
+      "alt": "Add Electrek as a preferred source on Google",
+      "skip": "small:7KB"
+    },
+    {
+      "image_url": "https://electrek.co/wp-content/themes/ninetofive/dist/images/google-preferred-source-badge-light.png",
+      "dom_width": 676,
+      "alt": "Add Electrek as a preferred source on Google",
+      "skip": "small:7KB"
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2025/03/Rivian-electric-commercial-van.jpeg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1344,
+      "alt": "Rivian-electric-commercial-van",
+      "ok": true,
+      "file": "002_9446bfe69d6a.jpg",
+      "bytes": 80402
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/06/Toyota-EV-sales-gas-prices.jpeg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1344,
+      "alt": "Toyota-EV-sales-September",
+      "ok": true,
+      "file": "003_155e71311a42.jpg",
+      "bytes": 139414
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/10/rivian-r2-exterior.jpg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1440,
+      "alt": "Rivian R2 in white, rear three-quarter view",
+      "ok": true,
+      "file": "004_d027c274bd37.jpg",
+      "bytes": 271309
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2026/10/EcoFlow-Segway-EGO-East-Oak-Anker-SOLIX-GDs-FI.jpg?w=1500&quality=82&strip=all&ssl=1",
+      "dom_width": 1440,
+      "alt": "",
+      "ok": true,
+      "file": "005_1da9b7900ea7.jpg",
+      "bytes": 224525
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2015/05/Screenshot-2025-01-03-at-5.47.46%E2%80%AFPM.jpg?resize=140%2C79&quality=82&strip=all&ssl=1",
+      "dom_width": 0,
+      "alt": "Combat Edge",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://i0.wp.com/electrek.co/wp-content/uploads/sites/3/2015/05/Screenshot-2025-01-03-at-5.51.00%E2%80%AFPM.jpg?resize=140%2C79&quality=82&strip=all&ssl=1",
+      "dom_width": 0,
+      "alt": "EnergySage",
+      "skip": "small:2KB"
+    }
+  ]
+}
