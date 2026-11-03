@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-03",
+  "column": "每日AI新闻",
+  "title": "Agility 机器人 11 月 5 日上市：去年只卖 180 万",
+  "title_type": "①",
+  "title_generated_at": "2026-11-03T00:15:00+08:00",
+  "digest": "美国人形机器人第一股本周挂牌，25 亿估值配一台月租 8500 美元的机器，账本藏不住。",
+  "word_count_approx": 1600,
+  "cover": {
+    "style": "neon",
+    "bg": "cyberpunk_tech_background__dar_2026-11-03T00-09-32.png",
+    "copy": ["1400 倍市销率", "营收只有 180 万美元", "11 月 5 日纳斯达克挂牌"],
+    "pill": ["市值 25 亿", "订单簿 8 倍", "11/5 挂牌"],
+    "render": "python 公众号/素材/2026-11-03-ai新闻/build_cover.py（内部 cover_neon.py --bg <bg> --out cover_ai_news.png --base 40 --baseline0 168 --left 36）",
+    "file": "cover_ai_news.png",
+    "note": ""
+  },
+  "assets": [],
+  "assets_note": "配图抓取失败：Playwright 未安装于托管环境，轻量抓取所得 8 张图均为广告/推荐位（2022 产业大会横幅、红外热像仪广告、无关插画），已全部弃用。正文暂为纯文字，需人工补图。",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqgIdZqsiU-CsFYR1kouEIFaF72CvvlMfwD6oh87ksKAa",
+  "updated_at": "2026-11-03T00:20:00+08:00"
+}
