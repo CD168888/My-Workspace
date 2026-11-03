@@ -1,1 +1,1 @@
-[18:30] email_failed: agent-mail SendMessage 工具未就绪（MCP 索引中仅有 upload/download attachment，SendMessage 未加载；重试 ToolSearch 仍不可得），待重试
+[18:30] email_failed: agent-mail SendMessage 工具未就绪（MCP 索引中仅有 upload/download attachment，SendMessage 未加载；多次重试 ToolSearch 仍不可得），未发送，待下次重试
