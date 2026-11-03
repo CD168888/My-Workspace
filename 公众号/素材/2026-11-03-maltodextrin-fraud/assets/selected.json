@@ -1,0 +1,50 @@
+[
+  {
+    "file": "assets/01_shipin_maltodextrin.jpg",
+    "w": 720,
+    "h": 1280,
+    "caption": "央视《食安中国》栏目截图：所谓“神药”实为麦芽糊精，一种常见的食品添加剂",
+    "source": "成都日报微信公众号转载央视财经报道",
+    "origin_json": "imgs_chengdu.json"
+  },
+  {
+    "file": "assets/02_product_qingdu.jpg",
+    "w": 720,
+    "h": 1280,
+    "caption": "涉案产品“清毒通管化瘀修细胞素”，包装印有“特殊膳食食品”字样",
+    "source": "大河报微信公众号转载央视财经报道",
+    "origin_json": "imgs_dahahe.json"
+  },
+  {
+    "file": "assets/03_boxes_orange.jpg",
+    "w": 720,
+    "h": 1280,
+    "caption": "查获现场：一盒30瓶的产品成本仅30元，最高卖到6000元",
+    "source": "成都日报微信公众号转载央视财经报道",
+    "origin_json": "imgs_chengdu.json"
+  },
+  {
+    "file": "assets/04_wushaoshe.jpg",
+    "w": 720,
+    "h": 1280,
+    "caption": "涉案产品“乌梢蛇牛磺酸冻干粉”，被宣称“稳压降脂、调理百病、防癌延寿”",
+    "source": "大河报微信公众号转载央视财经报道",
+    "origin_json": "imgs_dahahe.json"
+  },
+  {
+    "file": "assets/05_lan_maozi.jpg",
+    "w": 720,
+    "h": 1280,
+    "caption": "辨别方法一：认准保健食品“蓝帽子”标志及批准文号",
+    "source": "成都日报微信公众号转载央视财经报道",
+    "origin_json": "imgs_chengdu.json"
+  },
+  {
+    "file": "assets/06_xujia_xuanchuan.jpg",
+    "w": 720,
+    "h": 1280,
+    "caption": "辨别方法二：保健食品只有24项获批功能，听到“降血糖”“降尿酸”即虚假宣传",
+    "source": "成都日报微信公众号转载央视财经报道",
+    "origin_json": "imgs_chengdu.json"
+  }
+]
