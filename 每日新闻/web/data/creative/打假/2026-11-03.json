@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-11-03",
+  "title": "谣言粉碎机 · 2026-11-03",
+  "markdown": "# 谣言粉碎机 · 2026-11-03\n\n## 原声称\nAgility Robotics（Digit 人形机器人）借 SPAC 于 11 月 5 日以代码 AGLT 登陆纳斯达克，25 亿美元投前估值对应 2025 年约 178 万美元确认营收，市销率超 1400 倍；另有超 3 亿美元 Digit 5 多年期订单簿。\n\n## 核查\n- 来源查到一级文件：Agility 与 Churchill Capital Corp XI 的 Form S-4（SEC 注册文件，333-298781）。文件中写明 2025 年净销售额约 180 万美元（即约 178.2 万美元口径一致）、2025 年经营亏损约 1.4 亿美元、25 亿美元投前估值 → 市值 / 营收 ≈ 1400 倍。多家二级媒体（OFweek、Venture Atlas、ai-jarvis、tech-quire）均引用同一 S-4 数字，口径一致。\n- 募资规模：10 月 30 日公告，赎回后预计总融资约 4.65 亿美元，由约 1.64 亿美元信托 + 富士康领投 2.01 亿美元 PIPE + 已到账 1 亿美元股权组成，与 S-4 路径吻合。\n- Digit 5 超 3 亿美元订单：S-4 及投资者日幻灯片列为\"contracted backlog subject to milestones（受里程碑约束的签约积压）\"，明确不是当期收入。累计运行超 6.5 万小时、搬运超 10 万物流箱为公司在 GXO 等场地的部署数据。\n- 估值分母之争属实：SEC 文件坐实的 178 万营收 vs 25 亿估值，确实撑出约 1400 倍市销率；而订单簿折算不到 8 倍——差距来自\"确认\"二字，非技术落差。\n\n## 评级\n★★★ ★（靠谱，但需加一句限定）\n- 依据：数字全部能追到 SEC S-4 一级源，且多源交叉一致，无夸大。\n- 限定：1400 倍是\"当前极低收入 vs 投前估值\"的比值，属 pre-revenue 定价的正常放大，不代表基本面健康；3 亿美元订单是受里程碑约束的签约积压，非已确认营收。结论\"估值靠梦想、工厂靠开机率\"成立。\n\n## 来源\n- SEC Form S-4（333-298781），Agility Robotics / Churchill Capital Corp XI，2026-10-13 effective\n- OFweek 机器人网《Agility 冲刺\"美国纯人形机器人第一股\"》（2026-11）\n- Venture Atlas（agility-robotics 条目，更新 2026-11-01）\n- tech-quire《Agility Robotics Nears 465 Million SPAC Close…》（2026-11）\n"
+}
