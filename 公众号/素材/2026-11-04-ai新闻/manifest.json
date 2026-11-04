@@ -7,8 +7,17 @@
   "title_generated_at": "2026-11-04T08:20:00+08:00",
   "digest": "开源模型用补丁空窗自主偷文件，每个版本成本约千元；今天另三条 AI 新闻也值得看。",
   "body_chars": 3140,
-  "body_images": 0,
-  "body_images_note": "托管环境未装 Playwright，来源页截图无法抓取，按降级规则出稿，配图需人工补",
+  "body_images": 4,
+  "body_images_note": "已回补：fetch_article_shot.py 锁正文容器取图（优先抠 DOM 图，失败时正文容器截图兜底），4 张来源页配图已上传微信图床",
+  "assets": {
+    "dir": "公众号/稿件/每日AI新闻/assets/",
+    "items": [
+      { "file": "assets/news1.png", "source": "https://epoch.ai/publications/open-weight-models-patch-gap", "note": "epoch.ai 研究页首屏，已关 Cookie 弹窗" },
+      { "file": "assets/news2.png", "source": "https://www.nasdaq.com/press-release/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise", "note": "Nasdaq 新闻稿正文（含 11-04 交割、11-05 AGLT 挂牌信息）" },
+      { "file": "assets/news3.png", "source": "https://www.toutiao.com/article/7703518552824824354", "note": "头条·环球时报转引路透，已裁右侧推荐流" },
+      { "file": "assets/news4.png", "source": "https://www.yuezhineng.com/?chanshi/1806.html", "note": "月智能副业文正文" }
+    ]
+  },
   "cover": {
     "style": "霓虹拼贴（SOP 1.4 定稿）",
     "bg": "bg_clean.png（ImageGen 1536x640 底图，下裁 52px 去「AI生成」水印后重采样）",
@@ -50,6 +59,6 @@
     }
   ],
   "dedup_note": "AGLT 上市、数据按小时计价、AI 副业落地为 11-03 已发主题；本期仅以「11-04 交割」等新进展回炉并换角度重写，主锚点为未发过的 GLM 5.3 补丁空窗事件",
-  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqlt4Sx1Px9e37SOdfnPdWPB31E99kp56lLm-qrCAf6Wt",
-  "updated_at": "2026-11-04T08:25:00+08:00"
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqvaLkC2EUVvPzhUzV25ahAkLFpGBk4fIOmFndwTMb_bG",
+  "updated_at": "2026-11-04T09:05:00+08:00"
 }
