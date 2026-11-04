@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-04",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqkGKc6P-Zza6-Puvn_ihAokh2qDmQsXX0_kkFdhcXkTE",
+  "title": "魔芋 2.7 亿双十一开领，OiiOii 剩 3 天",
+  "title_type": "① 事件冲击型",
+  "title_note": "上期（11-03）为 ⑤ 揭秘避坑型，按轮换规则本期不同型。本栏目优先序 ①→③→④，① 自 11-01 后未用过，故取 ①。前 12 字「魔芋 2.7 亿双十一开领」= 真名 + 具体数字 + 正在进行的事件，无泛量词开场、无代词；「OiiOii 剩 3 天」是本期第二锚点（官网横幅原文「倒计时 3 天」），条数未入题。去空格 20 字，感叹号 0，冒号 0。备选曾写 ③「抓紧：AutoClaw 5000 万 8 号清零」（引子式开头不合冒号规矩，弃）、④「魔芋实名就送 1000 万 Token，别去拉人头」（信息差型但钩子弱于 2.7 亿，弃）。注：初版标题「OiiOii 今夜关窗」因官网横幅今日实际挂「倒计时 3 天」、与多渠道称 11-04 截止矛盾而改为「剩 3 天」，按一手源+保守口径处理。",
+  "digest": "新客实名白拿 1000 万 Token，企业档 1 亿，全场 11-11 关窗；快讯另收 4 条新变福利。",
+  "digest_note": "44 字（publish_article.py len() 口径），远低于 45004 阈值。不复读标题：标题给魔芋 2.7 亿 + OiiOii 剩 3 天，摘要补实名档具体量级（1000 万）、企业档（1 亿）、全场截止（11-11）与条目数。",
+  "headline": {
+    "vendor": "魔芋AI",
+    "benefit": "双十一 Token 狂欢季",
+    "value_estimate": "个人实名档 1000 万 Token ≈ 200 篇 3000 字长文或数千次问答，够轻度用户用 1-2 个月；企业认证 1 亿；全任务上限 2.7 亿（含邀请 1.6 亿，不建议硬凑）",
+    "deadline": "2026-11-11",
+    "source": "https://www.moyu.cn 双十一主会场（官方活动页，11-04 实访）"
+  },
+  "items": [
+    {"vendor": "OiiOii", "status": "new", "deadline_note": "官网横幅今日挂「倒计时 3 天」与多渠道称 11-04 截止矛盾，按保守口径 11-07 前办完", "source": "https://www.oiioii.tv（官网横幅实访）"},
+    {"vendor": "智谱 AutoClaw", "status": "new", "note": "5000 万为 11-02~11-08 本周档，官网另挂新用户注册领 2 亿 tokens（标价 120 元）新人礼，两份独立", "source": "https://autoclaw.zhipuai.cn + 官方博客公告（11-04 复核）"},
+    {"vendor": "商汤小浣熊", "status": "change", "note": "官方 11-03 明确限免延至 12-01，之后恢复 0.5 倍计费", "source": "https://www.xiaohuanxiong.com + sensetime 官方公告"},
+    {"vendor": "豆包工作", "status": "change", "note": "11-03 起新规：简单问答免额度 + 签到 30 天滚动最高 8800", "source": "豆包电脑版客户端内公告"}
+  ],
+  "expired_confirmed": [
+    {"vendor": "智谱 ZCode", "benefit": "周末包 5 亿 GLM-5.3-Flash", "expired": "2026-11-02 09:00，本周不再有该档"}
+  ],
+  "cover": {
+    "style": "neon_collage_v2",
+    "bg": "cyberpunk_tech_background__dar_2026-11-04T01-24-32.png（ImageGen 1536x653 直出，下裁 76px 去 AI 水印后重采样 bg_clean.png）",
+    "copy": {"main": "魔芋双十一 2.7亿 Token", "sub": "实名就送 1000 万起步", "third": "OiiOii 剩 3 天", "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"},
+    "render_cmd": "cover_neon.py --bg bg_clean.png --out cover.png --base 40 --baseline0 168 --left 36",
+    "note": "中文全部脚本叠字，生图未带文字无需三级处置"
+  },
+  "images": [
+    {"file": "assets/moyu.png", "alt": "魔芋双11活动页：11.1-11.11 五重免费福利一站领", "source": "https://www.moyu.cn（正文容器抠图）"},
+    {"file": "assets/oiioii.png", "alt": "OiiOii 官网横幅：倒计时 3 天，20 款模型免费畅用最高 7 天", "source": "https://www.oiioii.tv（首屏截图，DOM 抠图为示例帧弃用）"},
+    {"file": "assets/autoclaw.png", "alt": "AutoClaw 官网：下载入口与新用户注册福利", "source": "https://autoclaw.zhipuai.cn（首屏截图兜底）"},
+    {"file": "assets/xiaohuanxiong2.png", "alt": "商汤小浣熊官网", "source": "https://www.xiaohuanxiong.com（首屏截图，DOM 抠图为纯白装饰图弃用）"},
+    {"file": "assets/doubao.png", "alt": "豆包电脑版下载弹窗", "source": "https://www.doubao.com（首屏截图兜底）"}
+  ],
+  "dedup": {
+    "covered_file": "公众号/.runtime/jinri_keling_covered.json",
+    "rule": "近 7 天已覆盖且无变化不收；本期 5 条均为 new/change，LibTV/讯飞/千帆/火山方舟等老面孔无变化未回炉"
+  }
+}
