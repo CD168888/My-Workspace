@@ -41,7 +41,8 @@ CONTAINER_JS = """() => {
   }
   const scope = best || document.body;
   const imgs = Array.from(scope.querySelectorAll('img')).map(i => ({
-    src: i.currentSrc || i.src || '',
+    src: i.currentSrc || i.getAttribute('data-src') || i.getAttribute('data-lazy-src') ||
+         i.getAttribute('data-original') || i.getAttribute('data-lazy') || i.src || '',
     w: i.naturalWidth || 0,
     h: i.naturalHeight || 0,
     alt: i.alt || i.title || ''
@@ -57,6 +58,18 @@ CONTAINER_JS = """() => {
 
 
 def collect(page):
+    # 强制把懒加载占位图（data-src 等）写成真实 src，避免 headless 下 IO 不触发
+    try:
+        page.evaluate("""() => {
+          const sel = 'img[data-src],img[data-lazy-src],img[data-original],img[data-lazy]';
+          document.querySelectorAll(sel).forEach(i => {
+            const s = i.getAttribute('data-src') || i.getAttribute('data-lazy-src') ||
+                      i.getAttribute('data-original') || i.getAttribute('data-lazy');
+            if (s) i.src = s;
+          });
+        }""")
+    except Exception:
+        pass
     # 滚动触发懒加载
     for _ in range(6):
         page.mouse.wheel(0, 1400)
@@ -113,8 +126,13 @@ def main():
         if kept >= a.max:
             break
         u, w = it["src"], it["w"]
+        if u.startswith("//"):
+            u = "https:" + u
+        elif u.startswith("/"):
+            u = urllib.parse.urljoin(a.url, u)
         if not u.startswith("http") or SKIP.search(u):
-            continue
+            rec = {"image_url": u, "dom_width": w, "alt": it["alt"][:60], "skip": "not-http-or-skip"}
+            manifest.append(rec); continue
         if w and w < a.min_width:
             continue
         rec = {"image_url": u, "dom_width": w, "alt": it["alt"][:60]}
