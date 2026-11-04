@@ -1,0 +1,55 @@
+{
+  "issue": "2026-11-04",
+  "column": "每日AI新闻",
+  "title": "智谱 GLM 5.3 趁你没更新，就能偷走 Firefox 里的文件",
+  "title_type": "② 悬念反转型",
+  "title_type_prev_issue": "① 事件冲击型（2026-11-03）",
+  "title_generated_at": "2026-11-04T08:20:00+08:00",
+  "digest": "开源模型用补丁空窗自主偷文件，每个版本成本约千元；今天另三条 AI 新闻也值得看。",
+  "body_chars": 3140,
+  "body_images": 0,
+  "body_images_note": "托管环境未装 Playwright，来源页截图无法抓取，按降级规则出稿，配图需人工补",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "bg_clean.png（ImageGen 1536x640 底图，下裁 52px 去「AI生成」水印后重采样）",
+    "copy": {
+      "lines": ["一个开源模型 自己偷文件", "6 个 Firefox 版本 12 小时", "每个版本 约千元 成本"],
+      "pill": ["补丁空窗原理", "怎么防", "更新到 159 >"]
+    },
+    "render": "cover_neon.py --bg bg_clean.png --out cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "self_check": "行1 42/行2 38/行3 33 阶梯通过；末行基线 258，胶囊上沿 324，不冲突"
+  },
+  "sources": [
+    {
+      "item": "GLM 5.3 补丁空窗攻破 Firefox",
+      "urls": [
+        "https://epoch.ai/publications/open-weight-models-patch-gap",
+        "https://www.explainx.ai/blog/epoch-glm-5-3-firefox-patch-gap-exploits-six-releases-1000-dollars-each-open-weight-2026"
+      ]
+    },
+    {
+      "item": "Agility Robotics AGLT 交割挂牌",
+      "urls": [
+        "https://www.nasdaq.com/press-release/agility-robotics-and-churchill-capital-corp-xi-announce-expected-gross-capital-raise",
+        "https://www.sec.gov/Archives/edgar/data/2074973/000121390026115034/ea031051701ex99-1.htm"
+      ]
+    },
+    {
+      "item": "路透：造身体→造大脑 / 经济日报降温",
+      "urls": [
+        "https://www.toutiao.com/article/7703518552824824354",
+        "http://mp.weixin.qq.com/s?__biz=Mzk0MjQxMDY1Mg==&mid=2247505163&idx=1"
+      ]
+    },
+    {
+      "item": "智能体副业三轨",
+      "urls": [
+        "https://www.yuezhineng.com/?chanshi/1806.html",
+        "https://dong.xs91.com/?p=3604"
+      ]
+    }
+  ],
+  "dedup_note": "AGLT 上市、数据按小时计价、AI 副业落地为 11-03 已发主题；本期仅以「11-04 交割」等新进展回炉并换角度重写，主锚点为未发过的 GLM 5.3 补丁空窗事件",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqlt4Sx1Px9e37SOdfnPdWPB31E99kp56lLm-qrCAf6Wt",
+  "updated_at": "2026-11-04T08:25:00+08:00"
+}
