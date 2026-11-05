@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-05",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqjP1kUR_GQaYksRCAujqvhUnsEJCCYS1mWJzr63tWGIO",
+  "title": "混元 Hy4 限免 11 天，三笔新福利最快 8 号关窗",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-11-05T09:40:00+08:00",
+  "title_note": "上期（11-04）为 ① 事件冲击型，按轮换规则本期不同型；本栏目优先序 ①→③→④，① 上期刚用故取 ③。前 12 字「混元 Hy4 限免 11」= 真名 + 具体数字，无泛量词开场、无代词；「三笔新福利」条数放后半句，「最快 8 号关窗」给最早截止（TRAE 宝 11-08）。去空格约 22 字，感叹号 0，冒号 0。备选 ④「别去搜 Hy4 平替，WorkBuddy 里它正免费用到 15 号」（钩子弱）、⑤「Hy4 限免真免费吗？WorkBuddy 里用到 15 号」（问号型节奏偏软），均未用。",
+  "digest": "Hy4 在 WorkBuddy 免费用到 11-15；超算新客送 1000 万、TRAE 宝免积分，最快 8 号收。",
+  "digest_note": "约 58 字（len() 口径含空格与 ASCII），低于 45004 阈值。不复读标题：标题给 Hy4 限免 11 天 + 最快 8 号，摘要补平台入口（WorkBuddy）、另两笔内容与量级。",
+  "headline": {
+    "vendor": "腾讯混元",
+    "benefit": "Hy4/Hy3 在 WorkBuddy/CodeBuddy 客户端限免（0.00x）",
+    "value_estimate": "770B MoE 旗舰、官方称开源第一梯队，平时按积分消耗；11 天 0 倍率等于重度日用省下小半个月订阅折算的积分，重要是白嫖窗口而非绝对金额",
+    "deadline": "2026-11-15 23:59",
+    "source": "WorkBuddy 官方公众号 11-04 发布稿 + hy.tencent.com/research/hy4（11-05 实访截图）+ igetoken.com/deals 交叉核实"
+  },
+  "items": [
+    {"vendor": "TRAE", "status": "new", "note": "官方文档页一手源：docs.trae.cn 限免公告，问答/任务不消耗积分，截止 11-08 23:59", "source": "https://docs.trae.cn/ide_use-trae-bao-for-free-with-no-credits-required（11-05 实访截图）"},
+    {"vendor": "国家超算互联网", "status": "new", "note": "MaaS 特惠专场新客尝鲜 1000 万 GLM-5.3-Flash（到账 30 天有效）；0.1 元秒 5000 万为付费档，稿件中明确区分", "source": "https://www.scnet.cn（11-05 首页横幅实访）+ igetoken.com/deals、aipromonow.com 交叉核实"}
+  ],
+  "expired_confirmed": [],
+  "expired_note": "本期无硬确认过期项；LibTV 0 积分档活动页标注约 11-05 收尾且未核到延期公告，稿中按「疑似收尾、以页面为准」口径处理，不进正文四字段。",
+  "cover": {
+    "style": "neon_collage_v2",
+    "bg": "cyberpunk_tech_background__dar_2026-11-05T01-27-09.png（ImageGen 1536x640 直出，下裁 76px 去 AI 水印后重采样 1536x653 bg_clean.png）",
+    "copy": {"main": "0 倍率免费用", "sub": "WorkBuddy 里换 Hy4", "third": "每日送额度，用完转积分", "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"},
+    "render_cmd": "cover_neon.py --bg bg_clean.png --out cover.png --base 40 --baseline0 168 --left 36",
+    "note": "无 3D 主数字底图，主数字由第一行大字号「0」承担（WARM 1.15），沿用 11-02 做法；自检三行阶梯 46/35/25、末行基线 251 不压胶囊，中文全部脚本叠字"
+  },
+  "images": [
+    {"file": "assets/hy4.png", "alt": "腾讯混元官网 Hy4 正式发布页", "source": "https://hy.tencent.com/research/hy4（首屏截图，11-05）"},
+    {"file": "assets/workbuddy.png", "alt": "WorkBuddy 官网客户端下载入口", "source": "https://workbuddy.cn（首屏截图，11-05）"},
+    {"file": "assets/trae.png", "alt": "TRAE 官方文档限免公告（截止 11-08）", "source": "https://docs.trae.cn/ide_use-trae-bao-for-free-with-no-credits-required（首屏截图，11-05）"},
+    {"file": "assets/scnet.png", "alt": "超算互联网官网 MaaS 特惠专场横幅（0.1 元档）", "source": "https://www.scnet.cn（首屏截图，11-05）"}
+  ],
+  "dedup": {
+    "covered_file": "公众号/.runtime/jinri_keling_covered.json",
+    "rule": "近 7 天已覆盖且无变化不收；本期 3 条均为 new（Hy4 于 11-04 12:52 发布、晚于上期出稿，故上期未收录），魔芋/OiiOii/AutoClaw/火山/七牛等老面孔无变化未回炉，稿末已向读者说明"
+  }
+}

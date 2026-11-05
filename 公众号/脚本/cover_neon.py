@@ -44,13 +44,12 @@ FONTS = {
 #   scale = 该行整体字号（相对 BASE_SIZE）。三行必须成阶梯，一样大就没有主次。
 #   segs  = [(文字, 颜色, 字号倍数[, 字体键]), ...]
 LINES = [
-    dict(scale=1.00, segs=[("Agility", COOL, 1.00, "hei"), ("今天", WHITE, 1.00), ("挂牌", WARM, 1.05)]),
-    dict(scale=0.88, segs=[("募资", WHITE, 0.88), ("4.65亿", WARM, 1.15, "hei"), ("美元", WHITE, 0.78)]),
-    dict(scale=0.80, segs=[("机器人真干", WHITE, 0.82), ("6.5万小时", COOL, 1.05, "hei")]),
+    dict(scale=1.00, segs=[("0", WARM, 1.15, "hei"), ("倍率免费用", WHITE, 1.00)]),
+    dict(scale=0.88, segs=[("WorkBuddy", COOL, 0.88, "hei"), ("里换", WHITE, 0.88), ("Hy4", WARM, 1.00, "hei")]),
+    dict(scale=0.80, segs=[("每日送额度，用完转", WHITE, 0.80), ("积分", COOL, 0.80)]),
 ]
 
 # 书法体混排预设（--calligraphy）：中文走行楷、数字与英文切回黑体。
-# 书法体同字号偏轻，统一放大约 8% 补偿，否则压不住旁边的粗黑数字。
 LINES_CALLIGRAPHY = [
     dict(scale=1.00, segs=[("今早清零", WHITE, 1.08, "xingkai"), ("5亿", WARM, 1.12, "hei"),
                            ("Tokens", WARM, 0.74, "hei")]),
@@ -61,7 +60,7 @@ LINES_CALLIGRAPHY = [
                            ("月底到期", WHITE, 1.08, "xingkai")]),
 ]
 
-PILL = ["首日挂牌", "估值怎么算", "机器人股 >"]
+PILL = ["截止时间整理", "领取方式", "避坑提醒 >"]
 
 BASE_SIZE = 44      # 第一行的字号基准（1 倍段）
 LINE_H = 1.18       # 行高倍数：按相邻两行的实际字号取均值算基线步长
