@@ -1,0 +1,70 @@
+{
+  "issue": "2026-11-05",
+  "column": "每日AI新闻",
+  "title": "Agility 今天登陆纳斯达克，25 亿估值背后 178 万营收",
+  "title_type": "① 事件冲击型",
+  "title_type_prev_issue": "② 悬念反转型（2026-11-04）",
+  "title_generated_at": "2026-11-05T08:10:00+08:00",
+  "digest": "人形机器人纯标的今日美股挂牌；Claude 取消限速、AI 萌宠有人月入几十万；还有一条让小偷都用上大模型的黑产。",
+  "body_chars": 1848,
+  "body_images": 5,
+  "body_images_note": "fetch_article_shot.py 锁正文容器取图（优先抠 DOM 图，失败时正文容器截图兜底），5 张来源页配图已上传微信图床",
+  "assets": {
+    "dir": "公众号/稿件/每日AI新闻/assets/",
+    "items": [
+      { "file": "assets/news1.jpg", "source": "https://www.xueqiu.com/1367827451/415029330", "note": "雪球 AGLT 挂牌页（正文容器 article__bd，抠到首图）" },
+      { "file": "assets/news2.jpg", "source": "https://finance.sina.com.cn/tech/roll/2026-11-01/doc-inixeyiz3196328.shtml", "note": "新浪财经 Claude 订阅调整报道正文图" },
+      { "file": "assets/news3.png", "source": "https://tech.ifeng.com/c/8x6p6drtk7E", "note": "凤凰网科技 阿里 Qoder Fast 模式正文图" },
+      { "file": "assets/news4.png", "source": "https://k.sina.com.cn/article_5952915720_162d24908067053w4e.html", "note": "新浪财经 AI 萌宠副业报道，无干净 DOM 图，截正文容器顶部兜底（1000x720）" },
+      { "file": "assets/news5.jpg", "source": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/", "note": "Cisco Talos 博客 VOLTA 披露正文图" }
+    ]
+  },
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "bg_clean.png（ImageGen 1536x640 底图，下裁 52px 去「AI生成」水印后重采样至 1536x653）",
+    "copy": {
+      "lines": ["Agility 今天 挂牌", "募资 4.65亿 美元", "机器人真干 6.5万小时"],
+      "pill": ["首日挂牌", "估值怎么算", "机器人股 >"]
+    },
+    "render": "cover_neon.py（LINES 三行阶梯 1.00/0.88/0.80，PILL 三个胶囊，输出 900x383 微信封面）",
+    "self_check": "行1 42/行2 40/行3 33 阶梯通过；末行基线 260，胶囊上沿 324，不冲突；无内部栏目标记、无水印"
+  },
+  "sources": [
+    {
+      "item": "Agility Robotics AGLT 挂牌纳斯达克",
+      "urls": [
+        "https://www.sec.gov/Archives/edgar/data/2074973/000121390026114063/ea031030301ex99-1.htm",
+        "https://www.xueqiu.com/1367827451/415029330"
+      ]
+    },
+    {
+      "item": "Anthropic Ultra 取消 5h 窗口 + OpenAI Codex 翻倍",
+      "urls": [
+        "https://finance.sina.com.cn/tech/roll/2026-11-01/doc-inixeyiz3196328.shtml",
+        "https://www.toutiao.com/article/7702674640543646218/"
+      ]
+    },
+    {
+      "item": "阿里 Qoder Fast 模式（首响 3s，-27% credits）",
+      "urls": [
+        "https://developer.aliyun.com/article/1769999",
+        "https://tech.ifeng.com/c/8x6p6drtk7E"
+      ]
+    },
+    {
+      "item": "AI 萌宠副业爆款（闲鱼 +1732%）",
+      "urls": [
+        "https://k.sina.com.cn/article_5952915720_162d24908067053w4e.html"
+      ]
+    },
+    {
+      "item": "Cisco Talos VOLTA-AUTODOXER 木马",
+      "urls": [
+        "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/"
+      ]
+    }
+  ],
+  "dedup_note": "AGLT 上市为 11-03/11-04 已发主题，本期以「11-05 正式挂牌 + 25 亿估值 vs 178 万营收」做持续跟进；Claude 订阅调整、阿里 Qoder Fast、AI 萌宠副业、VOLTA 木马均为本期首次发；各条均换角度重写，与归档/邮件不逐字复制",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqjxowN2F_0W6saaUlhy6n7ojzg1UOHCPC-mq6lRFD4g2",
+  "updated_at": "2026-11-05T08:20:00+08:00"
+}

@@ -44,9 +44,9 @@ FONTS = {
 #   scale = 该行整体字号（相对 BASE_SIZE）。三行必须成阶梯，一样大就没有主次。
 #   segs  = [(文字, 颜色, 字号倍数[, 字体键]), ...]
 LINES = [
-    dict(scale=1.00, segs=[("魔芋双十一", WHITE, 1.00), ("2.7亿", WARM, 1.12, "hei"), ("Token", COOL, 0.70, "hei")]),
-    dict(scale=0.88, segs=[("实名就送", WHITE, 1.00), ("1000万", COOL, 1.12, "hei"), ("起步", WHITE, 1.00)]),
-    dict(scale=0.80, segs=[("OiiOii", WHITE, 0.92, "hei"), ("剩 3 天", WARM, 1.05)]),
+    dict(scale=1.00, segs=[("Agility", COOL, 1.00, "hei"), ("今天", WHITE, 1.00), ("挂牌", WARM, 1.05)]),
+    dict(scale=0.88, segs=[("募资", WHITE, 0.88), ("4.65亿", WARM, 1.15, "hei"), ("美元", WHITE, 0.78)]),
+    dict(scale=0.80, segs=[("机器人真干", WHITE, 0.82), ("6.5万小时", COOL, 1.05, "hei")]),
 ]
 
 # 书法体混排预设（--calligraphy）：中文走行楷、数字与英文切回黑体。
@@ -61,7 +61,7 @@ LINES_CALLIGRAPHY = [
                            ("月底到期", WHITE, 1.08, "xingkai")]),
 ]
 
-PILL = ["截止时间整理", "领取方式", "避坑提醒 >"]
+PILL = ["首日挂牌", "估值怎么算", "机器人股 >"]
 
 BASE_SIZE = 44      # 第一行的字号基准（1 倍段）
 LINE_H = 1.18       # 行高倍数：按相邻两行的实际字号取均值算基线步长
