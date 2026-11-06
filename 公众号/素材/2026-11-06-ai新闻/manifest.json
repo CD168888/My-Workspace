@@ -1,0 +1,64 @@
+{
+  "issue": "2026-11-06",
+  "column": "每日AI新闻",
+  "title": "千问钻进了 iPhone：Siri 背后这次换成了国产模型",
+  "title_type": "② 悬念反转型",
+  "title_type_prev_issue": "① 事件冲击型（2026-11-05）",
+  "title_generated_at": "2026-11-06T08:20:00+08:00",
+  "digest": "Anthropic上半年入账163亿美元，模型圈集体降价；机器人公司再融数亿；还有一条普通人能上手的副业路子。",
+  "body_chars": 1265,
+  "body_images": 4,
+  "body_images_note": "fetch_article_shot.py 锁正文容器取图（DOM 抠图失败时正文容器截图兜底）+ OFweek 手选，4 张来源页配图已上传微信图床",
+  "assets": {
+    "dir": "公众号/稿件/每日AI新闻/assets/",
+    "items": [
+      { "file": "assets/news1.png", "source": "https://kdcube.tech/", "note": "KDCube 行业日报编码智能体盘点截图（原 terminalblog 源为订阅弹窗，换干净源重取）" },
+      { "file": "assets/news2.jpg", "source": "https://www.ofweek.com/ai/2026-11-02-306913.html", "note": "OFweek RoboScience A2 轮融资报道官方配图（8 图中手选 2 张在题，此为融资图）" },
+      { "file": "assets/news3.jpg", "source": "https://www.163.com/dy/article/LAP0UVSA0556L4CJ.html", "note": "网易《AI 周报》题图（fetch_article_shot.py 正文容器截图抠图成功）" },
+      { "file": "assets/news4.jpg", "source": "https://h5detail.yiyouliao.com/rivers/newsfeed/1536235174142947329/ID3G08ALQYKI7FY.html", "note": "易有料数字员工赛道报道配图（正文容器截图抠图成功）" }
+    ]
+  },
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "bg_clean.png（ImageGen 1536x653 底图，下裁 52px 去「AI生成」水印后重采样）",
+    "copy": {
+      "lines": ["千问钻进 iPhone", "Siri 背后换成 国产模型", "12月随 iOS 27.3 正式推送"],
+      "pill": ["降价放量", "智能体有工号", "副业蓝海 >"]
+    },
+    "render": "cover_neon.py（LINES 三行阶梯 1.00/0.86-0.90/0.78-0.82，PILL 三个胶囊，输出 900x383 微信封面）",
+    "self_check": "行1 44/行2 35/行3 32 阶梯通过（首版 44/35/35 因 12 放大 1.10 压平阶梯，改 1.00 后复渲通过）；末行基线 260，胶囊上沿 324，不冲突；无内部栏目标记、无水印"
+  },
+  "sources": [
+    {
+      "item": "千问集成 Apple 智能（iOS 27.3 推送）+ Anthropic S-1 + GPT-6.1 Terra/Gemini 4 Carbon 降价",
+      "urls": [
+        "https://www.163.com/dy/article/LAP0UVSA0556L4CJ.html",
+        "https://www.upnorth.ai/en/news/2026-11-02"
+      ]
+    },
+    {
+      "item": "编码智能体团队基建化（AmpCode Service Accounts / Cursor Agent SDK / Qwen Code v0.26.5）",
+      "urls": [
+        "https://terminalblog.com/blog/ai-coding-agents-became-team-infrastructure-november-2026",
+        "https://danielkeller.com/ai-tracker/2026-11-02-weekly"
+      ]
+    },
+    {
+      "item": "机器科学 RoboScience A2 轮数亿元融资",
+      "urls": [
+        "https://www.163.com/dy/article/LAR7C8MT05568W0A.html",
+        "https://www.ofweek.com/ai/2026-11-02-306913.html"
+      ]
+    },
+    {
+      "item": "数字员工落地中介副业（月费 500-3000 元/店）",
+      "urls": [
+        "https://h5detail.yiyouliao.com/rivers/newsfeed/1536235174142947329/ID3G08ALQYKI7FY.html",
+        "https://guijiagi.com/tags/%E5%8F%98%E7%8E%B0/page/2"
+      ]
+    }
+  ],
+  "dedup_note": "RoboScience 融资与 Anthropic 为 11-03~11-05 已覆盖主题，本期不再作主标题锚点，改以「千问钻进 iPhone」为首发新锚点；RoboScience 只作第三条跟进（补 0.05 元/条核查结论），Anthropic 降价放进第一条佐证段；编码智能体团队化、数字员工副业为本期首次发；各条均换角度重写，与归档/邮件不逐字复制",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqniaoKkH9yRTUQUF8PnwH1ItnsD96jgrN-4_cpzMBCql",
+  "updated_at": "2026-11-06T08:24:00+08:00"
+}

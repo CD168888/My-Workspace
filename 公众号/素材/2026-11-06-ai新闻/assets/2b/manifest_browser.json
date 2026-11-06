@@ -1,0 +1,107 @@
+{
+  "page": "https://znyj.ofweek.com/news/2026-11/ART-23013-12005-30709977.html",
+  "title": "能把具身数据成本压到1/200，机器科学主完成A2轮数亿元融资 - OFweek智能硬件网",
+  "at": "2026-11-06 08:11:08",
+  "items": [
+    {
+      "image_url": "https://images.ofweek.com/znyj/images/logo.png",
+      "dom_width": 222,
+      "alt": "",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://d1.ofweek.com/www/images/e3e6895288301eeff5763d5ae69bdf24.jpg",
+      "dom_width": 728,
+      "alt": "",
+      "ok": true,
+      "file": "001_615caf28074f.jpg",
+      "bytes": 80342
+    },
+    {
+      "image_url": "https://d1.ofweek.com/www/images/6c499c9a3700af9b8c16d5c551a4b520.png",
+      "dom_width": 728,
+      "alt": "",
+      "ok": true,
+      "file": "002_3ca5915ecde6.png",
+      "bytes": 64516
+    },
+    {
+      "image_url": "data:image/png;base64,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",
+      "dom_width": 100,
+      "alt": "Scan me!",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mp.ofweek.com/Upload/News/Img/member99968646/202611/wx_article__9ec47d0f59c849b69c702b22016bc978.jpg",
+      "dom_width": 1080,
+      "alt": "",
+      "ok": true,
+      "file": "003_f2b523ac983f.jpg",
+      "bytes": 33839
+    },
+    {
+      "image_url": "https://mp.ofweek.com/Upload/News/Img/member99968646/202611/wx_article__b1566f535e7315825f0587478e28110f.jpg",
+      "dom_width": 1080,
+      "alt": "",
+      "ok": true,
+      "file": "004_e1a5a269e9c6.jpg",
+      "bytes": 61793
+    },
+    {
+      "image_url": "data:image/png;base64,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",
+      "dom_width": 100,
+      "alt": "Scan me!",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mallimages.ofweek.com/Upload/product/2018/09/04/thumb_900_900_0da171a5997aea28185f801afdcbcabd.jpg",
+      "dom_width": 750,
+      "alt": "",
+      "ok": true,
+      "file": "005_528fc9a48709.jpg",
+      "bytes": 35128
+    },
+    {
+      "image_url": "https://images.ofweek.com/Upload/project/2018-9/201891119156439.jpg",
+      "dom_width": 700,
+      "alt": "OFweek（第二届）中国人工智能产业大会“AI+智能硬件论坛”",
+      "ok": true,
+      "file": "006_8d8950613a90.jpg",
+      "bytes": 105220
+    },
+    {
+      "image_url": "https://images.ofweek.com/ofweek/images/znyjhrlogo.png",
+      "dom_width": 104,
+      "alt": "",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://d1.ofweek.com/www/images/e3e6895288301eeff5763d5ae69bdf24.jpg",
+      "dom_width": 728,
+      "alt": "",
+      "skip": "dup"
+    },
+    {
+      "image_url": "https://s0.2mdn.net/simgad/1483979490661931957",
+      "dom_width": 728,
+      "alt": "Advertisement",
+      "ok": true,
+      "file": "007_9be0ee322ee1.jpg",
+      "bytes": 36477
+    },
+    {
+      "image_url": "https://s0.2mdn.net/simgad/9622498645015350080",
+      "dom_width": 728,
+      "alt": "Advertisement",
+      "ok": true,
+      "file": "008_00c5d9bd0ebb.jpg",
+      "bytes": 30558
+    },
+    {
+      "image_url": "https://images.ofweek.com/images/logo/2026.png",
+      "dom_width": 51,
+      "alt": "????????????????",
+      "skip": "not-http-or-skip"
+    }
+  ]
+}
