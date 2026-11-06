@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-06",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqigmpgrwtAgsDUgl0aawdrKJoomiE8xSbUo5Qwgnq_Gn",
+  "title": "阿里云千问 AI 双 11，免费额度与五折到月底",
+  "title_type": "① 事件冲击型",
+  "title_generated_at": "2026-11-06T01:35:00+08:00",
+  "title_note": "上期（11-05）为 ③ 紧迫提醒型，按栏目优先序 ①→③→④ 且相邻期不许同型，本期取 ①。前 12 字「阿里云千问 AI 双 11」= 真名 + 具体事件，无泛量词开场、无代词；「免费额度与五折」给利益点，未写条数（条数非必填）。去空格 22 字，感叹号 0，冒号 0。备选 ④「阿里云双 11 的五折，别等月底才想起领」（信息差型节奏偏软）、③「免费 7000 万到月底，阿里云这波别错过」（紧迫型与上期同型禁用），均未用。",
+  "digest": "本期 3 条新福利：阿里云会场五折到月底、华为云码道 11-15 截止、云知声 U2 续发，免费额度先领别拖。",
+  "digest_note": "55 字（len() 口径含空格与 ASCII），低于 45004 阈值。不复读标题：标题给阿里云千问双11+五折到月底，摘要补另两笔（华为云码道 11-15、云知声 U2 续发）与行动提醒。",
+  "headline": {
+    "vendor": "阿里云",
+    "benefit": "千问 AI 双 11 会场：新户免费 7000 万 Token（90 天、华北2）+ Token Plan 新客首购 5 折（Lite 19.5/月）+ 150 款模型节省计划 4.5 折起",
+    "value_estimate": "7000 万 Token 对个人开发者够跑两三个月轻量 API 调用，等于白拿原型验证额度；Token Plan Lite 每月省 19.5 元，重度用户走 150 款模型的 4.5 折把调用成本砍半",
+    "deadline": "会场 2026-11-30；Token Plan 与节省计划为双 11 限时新客权益",
+    "source": "阿里云开发者社区 11-05 官宣长文（developer.aliyun.com）+ 百炼产品页一手核验；截图 assets/aliyun.png 页面 title 确认为「大模型服务平台百炼」"
+  },
+  "items": [
+    {"vendor": "华为云", "status": "new", "note": "码道 CodeArts 活动 10-27 至 11-15；新户买个人版领 4000 积分、每日登录再领、邀友各 1000（单人上限 5 万）、学生认证至 12-31 另领 4000（90 天）。坑：Tokens 制须先换积分制；积分 1 个月有效过期清零", "source": "华为云码道活动页（assets/huawei_codearts.png，title 确认为「华为云码道有礼」）"},
+    {"vendor": "云知声", "status": "new", "note": "U2-Flash 新用户注册即领 1 亿 Token（266B MoE 激活 10B，主打代码/Agent），OpenAI 兼容。9 月那波写明 9/30 结束，但首页仍挂「注册送 1 亿」横幅、近期多篇官方接入教程仍写「注册即领、自动到账」，视作延续活动，有效期以页面为准", "source": "云知声 MaaS 平台 maas.unisound.com（assets/unisound.png，title 确认为「云知声 Token Hub」）+ 多篇官方接入教程交叉佐证"}
+  ],
+  "expired_confirmed": ["360 纳米 Work"],
+  "expired_note": "360 纳米 Work「首批用户 1 亿 Token」为 7 月发布会首波权益，三个月过去未从官方找到仍在放量证据，归入「别白跑」提醒读者别冲；云知声 9 月那波虽已写明结束但平台仍在发，归到「以页面为准」一档，不进过期清单。",
+  "cover": {
+    "style": "neon_collage_v2",
+    "bg": "cyberpunk_tech_background__dar_2026-11-06T01-17-36.png（ImageGen 1536x640 直出，下裁 76px 去 AI 水印后重采样 1536x653 bg_clean.png）",
+    "copy": {"main": "双11 会场开", "sub": "新户领 7000 万免费额度", "third": "Lite 19.5 元/月，五折起", "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"},
+    "render_cmd": "cover_2026_11_06_keling.py（封装 cover_neon.py --bg bg_clean.png --out cover.png --base 40 --baseline0 168 --left 36）",
+    "note": "无单一超大硬数字，主视觉由第一行「双11」放大（WARM 1.20）承担；自检三行阶梯 48/41/30、末行基线 263 不压胶囊（上沿约 324），中文全部脚本叠字"
+  },
+  "images": [
+    {"file": "assets/aliyun.png", "alt": "阿里云百炼双 11 会场", "source": "developer.aliyun.com / 百炼产品页（首屏截图，11-06）"},
+    {"file": "assets/huawei_codearts.png", "alt": "华为云码道活动页", "source": "华为云码道有礼活动页（首屏截图，11-06）"},
+    {"file": "assets/unisound.png", "alt": "云知声 MaaS 平台", "source": "maas.unisound.com（首屏截图，11-06）"}
+  ],
+  "dedup": {
+    "covered_file": "公众号/.runtime/jinri_keling_covered.json",
+    "rule": "近 7 天已覆盖且无变化不收；本期 3 条均为 new（阿里云千问AI双11 11-05 官宣、华为云码道 11-15、云知声 U2-Flash 以页面为准），魔芋/OiiOii/AutoClaw/火山/七牛/腾讯混元/TRAE/超算等老面孔无变化未回炉，稿末已向读者说明"
+  }
+}
