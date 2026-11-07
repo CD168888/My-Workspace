@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-07",
+  "column": "今日可领",
+  "media_id": "nTPzuxPRT0j1_f2IUQZEqk2Hqjbsm7dX9IdlPc-YL9IAdGLsOJ1ddNqobFxxP72L",
+  "title": "视频生成先别充钱，天工 0 积分免到 11 月 11 日",
+  "title_type": "④ 信息差型",
+  "title_type_prev": "③ 紧迫提醒型 (2026-11-05)",
+  "title_generated_at": "2026-11-07T09:15",
+  "digest": "本期新捡3条：天工视频模型0积分剩4天关窗，千问0.01月卡、InferX免费DeepSeek API刚冒头。",
+  "headline": {
+    "vendor": "天工/昆仑万维",
+    "benefit": "SkyProduction 双11 视频模型 0 积分（Seedance 2.5 / 可灵 4.0 / Wan 3.0 / MiniMax H3）",
+    "deadline": "2026-11-11 24:00",
+    "value": "0 积分档分档额度（30/20/10 条），Seedance 2.5 低至 0.16 元/秒；年包会员另享最高 60 天免费"
+  },
+  "items": [
+    {
+      "vendor": "天工/昆仑万维",
+      "benefit": "SkyProduction 双11 视频模型 0 积分",
+      "deadline": "2026-11-11 24:00",
+      "fields_ok": true,
+      "source": "天工官方公众号原文 + skyproduction.cn 活动页（一手）"
+    },
+    {
+      "vendor": "千问办公",
+      "benefit": "个人基础版会员月卡 0.01 元（天猫双11）",
+      "deadline": "兑换码激活截止 2026-12-30，售完即止",
+      "fields_ok": true,
+      "source": "天猫千问办公官方旗舰店商品页 + 官方直播口径（一手）"
+    },
+    {
+      "vendor": "InferX",
+      "benefit": "DeepSeek V4.1 Flash 1017 Basic API 0 美元",
+      "deadline": "官方未公布，创始人称暂无到期日，可能随时回调",
+      "fields_ok": true,
+      "source": "inferx.net 价目表归零 + 创始人 10-31 公开回复（一手）"
+    }
+  ],
+  "expired_confirmed": [
+    {"vendor": "LibTV", "benefit": "万相3.0/可灵4.0 0积分畅用包", "reason": "领取档约 11-05 截止，未核到延期公告"},
+    {"vendor": "智谱", "benefit": "ZCode 周末包（5亿 GLM-5.3-Flash）", "reason": "11-02 09:00 已收口，本周未再发新一轮"},
+    {"vendor": "OiiOii", "benefit": "首开会员20款模型7天畅用", "reason": "保守截止 11-07，本期仅开头提醒未回炉"}
+  ],
+  "cover": {
+    "path": "公众号/素材/2026-11-07-ai-福利/cover.png",
+    "style": "霓虹拼贴 (SOP 1.4)",
+    "note": "ImageGen 深色科技底 + cover_neon.py 叠三行混色标题与底部胶囊；主数字 3 项，副标讲标题未提的另两条"
+  },
+  "images": [
+    {"path": "公众号/素材/2026-11-07-ai-福利/assets/skyproduction.png", "caption": "天工工作台官网 · 双十一活动期间的视频创作入口"},
+    {"path": "公众号/素材/2026-11-07-ai-福利/assets/inferx_home.png", "caption": "InferX 官网顶部横幅 · DeepSeek V4.1 Flash 1017 is live — free"}
+  ],
+  "dedup": {
+    "covered_json": "公众号/.runtime/jinri_keling_covered.json",
+    "window_days": 14,
+    "new_this_issue": ["天工/昆仑万维", "千问办公", "InferX"],
+    "skipped_no_change": ["魔芋AI","OiiOii","AutoClaw","智谱体验卡","商汤小浣熊","豆包","火山方舟","七牛云","微信小程序","腾讯云TokenHub","阿里云百炼","移动云MoMA","讯飞星火","千问AI双11会场","华为码道","混元Hy4","TRAE宝","超算互联网"],
+    "threshold_met": true
+  },
+  "selfcheck": {
+    "column_8": true,
+    "sop_12": true,
+    "deai_3layer": true,
+    "no_credential_leak": true
+  }
+}
