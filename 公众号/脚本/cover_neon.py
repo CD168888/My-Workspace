@@ -44,12 +44,12 @@ FONTS = {
 #   scale = 该行整体字号（相对 BASE_SIZE）。三行必须成阶梯，一样大就没有主次。
 #   segs  = [(文字, 颜色, 字号倍数[, 字体键]), ...]
 LINES = [
-    dict(scale=1.00, segs=[("千问", WHITE, 1.00, "hei"), ("钻进", WHITE, 1.00), ("iPhone", COOL, 1.12, "hei")]),
-    dict(scale=0.88, segs=[("Siri", COOL, 0.88, "hei"), ("背后换成", WHITE, 0.88), ("国产模型", WARM, 1.02, "hei")]),
-    dict(scale=0.80, segs=[("12", WARM, 1.00, "hei"), ("月随", WHITE, 0.80), ("iOS 27.3", COOL, 0.80, "hei"), ("正式推送", WHITE, 0.80)]),
+    dict(scale=1.00, segs=[("9998", WARM, 1.12, "hei"), ("元", WHITE, 1.00), ("机器人", WHITE, 1.00)]),
+    dict(scale=0.88, segs=[("破万目标", WHITE, 0.88), ("只完成一半", WARM, 0.98, "hei")]),
+    dict(scale=0.80, segs=[("价格战转向", WHITE, 0.80), ("能不能干活", COOL, 0.88, "hei")]),
 ]
 
-PILL = ["降价放量", "智能体有工号", "副业蓝海 >"]
+PILL = ["万元机交付", "上下文战争", "副业按结果收费"]
 
 BASE_SIZE = 44      # 第一行的字号基准（1 倍段）
 LINE_H = 1.18       # 行高倍数：按相邻两行的实际字号取均值算基线步长

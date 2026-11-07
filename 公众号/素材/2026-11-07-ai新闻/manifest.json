@@ -1,0 +1,55 @@
+{
+  "issue": "2026-11-07",
+  "column": "每日AI新闻",
+  "title": "9998元小布米只交五千 万元机器人改看交付力",
+  "title_type": "④ 信息差型",
+  "title_type_prev_issue": "② 悬念反转型（2026-11-06）",
+  "title_generated_at": "2026-11-07T08:20:00+08:00",
+  "digest": "9998元小布米只交5000台，万元机器人从比便宜改比谁真能干活。本周AI三件事，主线就一个词：兑现。",
+  "body_chars": 1391,
+  "body_images": 3,
+  "body_images_note": "fetch_via_browser.py 锁头条正文容器取图（2 张小布米/N2 实拍）+ fetch_article_shot.py 正文容器截图兜底（1 张易有料数字员工），3 张来源页配图已上传微信图床",
+  "assets": {
+    "dir": "公众号/稿件/每日AI新闻/assets/",
+    "items": [
+      { "file": "assets/n1107_1.jpg", "source": "https://www.toutiao.com/article/7702671036504031785/", "note": "今日头条《每日经济新闻》转载：小布米家庭陪伴场景实拍（凤凰WEEKLY财经 图源）" },
+      { "file": "assets/n1107_2.jpg", "source": "https://www.toutiao.com/article/7702671036504031785/", "note": "今日头条同文：松延动力 N2 机器人在实验室实拍（凤凰WEEKLY财经 图源）" },
+      { "file": "assets/n1107_3.jpg", "source": "https://h5detail.yiyouliao.com/rivers/newsfeed/1536235174142947329/ID3G08ALQYKI7FY.html", "note": "易有料数字员工赛道报道配图（fetch_article_shot.py 正文容器截图抠图成功）" }
+    ]
+  },
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "bg_clean.png（ImageGen 1536x653 底图，下裁 52px 去「AI生成」水印后重采样）",
+    "copy": {
+      "lines": ["9998元 机器人", "破万目标 只完成一半", "价格战转向 能不能干活"],
+      "pill": ["万元机交付", "上下文战争", "副业按结果收费"]
+    },
+    "render": "cover_neon.py（LINES 三行阶梯 1.00/0.88/0.80，PILL 三个胶囊，输出 900x383 微信封面）",
+    "self_check": "行1 字号44 基线168 右端316 ok；行2 字号34 基线214 右端330 ok；行3 字号28 基线251 右端305 ok；末行基线251，胶囊上沿约324 不冲突；无内部栏目标记、无水印"
+  },
+  "sources": [
+    {
+      "item": "松延动力小布米 9998 元，年初「破万台」目标至 9 月仅交付 5000+ 台（B/C 各半为创始人体感）",
+      "urls": [
+        "https://www.toutiao.com/article/7702671036504031785/",
+        "https://www.nbd.com.cn/"
+      ]
+    },
+    {
+      "item": "GitLab Orbit 10/29 GA：agent 接上下文图谱最高少 45 倍幻觉、省 4.5 倍 token；Atlassian 87% 更快但 65% 在审改；LinearB 810 万 PR 首审等待 4.6 倍、接受率 32.7%",
+      "urls": [
+        "https://about.gitlab.com/blog/",
+        "https://www.atlassian.com/blog/engineering"
+      ]
+    },
+    {
+      "item": "AI 副业按结果收费：客服/内容/周报月费 500-3000 元/店，销售助手按成交抽佣、设计工具按稿件通过率计费",
+      "urls": [
+        "https://h5detail.yiyouliao.com/rivers/newsfeed/1536235174142947329/ID3G08ALQYKI7FY.html"
+      ]
+    }
+  ],
+  "dedup_note": "松延小布米「破万目标只交一半」为本期首发新锚点；编码智能体（上下文战争）、数字员工副业为 11-06 已覆盖主题，本期换角度重写——编码智能体从「团队基建化」转向「上下文战争 + 谁来审卷子」，数字员工副业从「落地中介」转向「按结果收费」；与归档/邮件不逐字复制",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqrBmRZx-_cxowKLcAw1KsdtK-s6BRZgJDNsaebQdVgAI",
+  "updated_at": "2026-11-07T08:20:00+08:00"
+}
