@@ -1,0 +1,91 @@
+{
+  "page": "https://newmarketpitch.com/blogs/news/humanoid-robotics-funding-deals",
+  "title": "What are the current funding trends in humanoid robotics? – New Market Pitch",
+  "at": "2026-11-08 08:11:39",
+  "items": [
+    {
+      "image_url": "https://newmarketpitch.com/cdn/shop/files/humanoid-robotics-cover-blog.webp?v=1790865578&width=1200",
+      "dom_width": 1200,
+      "alt": "Cover of NewMarketPitch's humanoid robotics report",
+      "ok": true,
+      "file": "001_615dfe65dbc1.png",
+      "bytes": 975851
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-09-01.webp?v=1793191493",
+      "dom_width": 2400,
+      "alt": "Bar chart of where investors put their money in humanoid rob",
+      "skip": "HTTPSConnectionPool(host='cdn.shopify.co"
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-10-01.webp?v=1793337184",
+      "dom_width": 2400,
+      "alt": "Market grid of the top humanoid robotics startups and compan",
+      "ok": true,
+      "file": "002_3f1842d1d4ae.png",
+      "bytes": 882577
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-03-02.webp?v=4006144743195003171",
+      "dom_width": 2400,
+      "alt": "Donut chart splitting the humanoid robotics market size betw",
+      "ok": true,
+      "file": "003_1395c32edf8f.png",
+      "bytes": 710471
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-03-01.webp?v=1793171859",
+      "dom_width": 0,
+      "alt": "Bar chart of the humanoid robotics market size year by year ",
+      "ok": true,
+      "file": "004_4e3eb10fc79b.png",
+      "bytes": 661690
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-05-01.webp?v=1793171859",
+      "dom_width": 0,
+      "alt": "Comparison table of the tech offered by leading humanoid rob",
+      "ok": true,
+      "file": "005_8cb5c045d8be.png",
+      "bytes": 746177
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-12-01.webp?v=1793320648",
+      "dom_width": 0,
+      "alt": "Scorecard showing what sets the leading humanoid robotics co",
+      "skip": "HTTPSConnectionPool(host='cdn.shopify.co"
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-02-01.webp?v=1793171860",
+      "dom_width": 0,
+      "alt": "Google Trends curve of worldwide searches over five years fo",
+      "ok": true,
+      "file": "006_c289b6e2c94b.png",
+      "bytes": 819271
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-11-01.webp?v=1793191493",
+      "dom_width": 0,
+      "alt": "Table of humanoid robotics startups that shut down or strugg",
+      "ok": true,
+      "file": "007_2ca479b3873e.png",
+      "bytes": 767810
+    },
+    {
+      "image_url": "https://cdn.shopify.com/s/files/1/0871/5413/1219/files/humanoid-robotics-slide-06-01.webp?v=1793171858",
+      "dom_width": 0,
+      "alt": "Map of humanoid robotics business models with company logos:",
+      "ok": true,
+      "file": "008_f0b67555a6c5.png",
+      "bytes": 625927
+    },
+    {
+      "image_url": "https://newmarketpitch.com/cdn/shop/files/humanoid-robotics-slide-10-01.webp?v=1793337184&width=1200",
+      "dom_width": 1200,
+      "alt": "humanoid robotics market: top companies",
+      "ok": true,
+      "file": "009_82340b3142e4.png",
+      "bytes": 398426
+    }
+  ]
+}

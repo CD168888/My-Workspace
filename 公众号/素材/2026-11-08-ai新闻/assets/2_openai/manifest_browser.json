@@ -1,0 +1,33 @@
+{
+  "page": "https://openai.com/index/introducing-gpt-6-cyber/",
+  "title": "GPT‑6 Cyber：推动对齐型网络安全智能体迈向新前沿 | OpenAI",
+  "at": "2026-11-08 08:10:09",
+  "items": [
+    {
+      "image_url": "https://openai.com/_next/static/immutable/media/fallback.3al0lzp5v_h48.webp",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "http403"
+    },
+    {
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3fdDXi3KINgse06btdaYYq/b14a269201ec921b530470d9a3326b1e/partnering-with-hacktron-cover.png?w=1920&q=90&fm=webp",
+      "dom_width": 810,
+      "alt": "Partnering with Hacktron to find vulnerabilities in OpenAI’s",
+      "ok": true,
+      "file": "001_538c02c32774.jpg",
+      "bytes": 54776
+    },
+    {
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/3NOPzjiEJ3CYIUuWfexkd5/c16ef9c6350003e5f2f161245be1f78c/daybreak-red-aws-govcloud-cover.png?w=1920&q=90&fm=webp",
+      "dom_width": 810,
+      "alt": "Daybreak Red is now available in AWS GovCloud (US-East) — Co",
+      "skip": "small:23KB"
+    },
+    {
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6xmxSENf49pAUFzVokN3KG/3206934563d5b072f5a75139d6b26497/a-thousand-fewer-paths-to-root-cover.png?w=1920&q=90&fm=webp",
+      "dom_width": 1440,
+      "alt": "A thousand fewer paths to root — Cover",
+      "skip": "HTTPSConnectionPool(host='images.ctfasse"
+    }
+  ]
+}
