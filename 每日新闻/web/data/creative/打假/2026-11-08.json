@@ -1,0 +1,6 @@
+{
+  "type": "creative:打假",
+  "name": "2026-11-08",
+  "title": "谣言粉碎机 · 2026-11-08",
+  "markdown": "# 谣言粉碎机 · 2026-11-08\n\n## 原声称\nOpenAI 于 11 月 5 日发布的 GPT-6 Cyber「自动挖出 81 个此前未知的 Firefox 高危漏洞，并为 948 个 Linux 内核漏洞写出可用提权利用程序」，网络安全风险等级被 OpenAI 自己从\"高\"上调至\"关键（Critical）\"。\n\n## 核查\n- 该说法核心数字来自 OpenAI 官方博文（introducing-gpt-6-cyber），原文写明：在漏洞研究中为 81 个 Mozilla 列为高 severity 的此前未知漏洞提供了证据与可复现测试，并额外指出 30 个已知问题比先前报告更严重；复现 1724 个 Linux 内核漏洞、为其中 948 个开发出可用利用程序（GPT-5.6 Sol 同期仅 166 个，约 5.7 倍）。\n- 环球网、腾讯科技（每日经济新闻）、TLDR 多家媒体对 81 个 Firefox 高危漏洞、948 个内核利用、ExploitGym 48.5%（较 GPT-5.6 Cyber 32.1% 提升约 51%）三组数据做了转述，口径与官方一致。\n- 风险等级\"Critical\"与仅向审核过的 Daybreak Red 客户开放、配套 IP 白名单/沙箱/人工复核等护栏，亦为官方原文，非媒体夸大。\n- 需注意的边界：① 这是 OpenAI 自家披露与自家红队结论，尚未见独立第三方复现；② \"81 个\"是 Firefox 单产品、单次研究战役的数据，不代表全平台漏洞总量；③ 模型已配套强护栏并限流，能力跃迁≠已失控。\n\n## 评级\n★ ★ ★ ★（靠谱，但为厂商一手自证、第三方暂未独立复现，扣半星保守看待）\n\n## 来源\n- OpenAI 官方：https://openai.com/index/introducing-gpt-6-cyber/\n- 环球网：https://www.huanqiu.com/article/4TufeebGtJ4\n- 腾讯科技/每日经济新闻：https://new.qq.com/rain/a/20261106A03M8T00\n- TLDR：https://links.tldrnewsletter.com/AbYdzy\n"
+}
