@@ -1,0 +1,19 @@
+{
+  "date": "2026-11-08",
+  "column": "今日可领",
+  "title": "阶跃语音免费延到 11 月 17 日，ZCode 5 亿明早清零",
+  "digest": "本周新收 4 条 AI 福利，11 月 9 日晨先清零；百川 1000 万 tokens、电信 TeleAgent 每日免费。",
+  "title_type": "① 事件冲击型",
+  "title_generated_at": "2026-11-08T09:21:38+0800",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqifWTT7m3xPS57r8Kio9A-vVj8poRBxTLCLfb3ZtpIPs",
+  "cover": "素材/2026-11-08-ai-福利/cover_news.png",
+  "body_chars": 1496,
+  "entries": [
+    {"vendor": "阶跃", "benefit": "StepAudio 3 整条语音线限免", "status": "changed", "deadline": "2026-11-17 11:59:59", "source": "https://platform.stepfun.com/docs/guides/pricing/details", "image": "assets/stepaudio3_pricing.png"},
+    {"vendor": "智谱 ZCode", "benefit": "周末包第八轮 5 亿 GLM-5.3-Flash", "status": "new", "deadline": "2026-11-09 09:00 清零", "source": "客户端卡片（zcode.z.ai/cn，无公开页，多源印证）", "image": null},
+    {"vendor": "Qoder", "benefit": "Qoduck 匿名模型每日免费", "status": "new", "deadline": "2026-11-07 起，待定", "source": "https://docs.qoder.com/zh/events/qoduck-free", "image": "assets/qoduck_doc.png"},
+    {"vendor": "百川智能", "benefit": "新人 1000 万 tokens 赠金", "status": "new", "deadline": "领取起 3 个月", "source": "https://platform.baichuan-ai.com/docs/guide", "image": "assets/baichuan_guide.png"},
+    {"vendor": "中国电信", "benefit": "TeleAgent 个人版每日免费 Token", "status": "new", "deadline": "长期免费（推广期）", "source": "https://teleai.com.cn/product/teleagent（及搜狐/上观多源）", "image": "assets/teleagent_product.png"}
+  ],
+  "note": "① 事件冲击型（上期 ④ 信息差型，已避开）。头条=阶跃延期（变化），其余 4 条新/变快讯；AutoClaw/火山Auto/TRAE宝 今日 23:59 关窗但无变化仅开头提醒。封面主数字=5亿，副标补标题未提的百川/电信。生图底 1 张（~5-10 credits），脚本叠字路径 A。"
+}
