@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-09",
+  "column": "今日可领",
+  "title": "AutoClaw 双十一 5000 万开领，11月15日关窗",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-11-09T01:30:00+08:00",
+  "digest": "今晚 23:59 截止：火山 kimi 五折；AutoClaw 5000 万领到 15 日。",
+  "headline": "智谱 AutoClaw 双十一每周福利 5000 万 Tokens（11-09~11-15 国内版；国际版同周 1 亿）",
+  "items": [
+    {"vendor": "智谱", "benefit": "AutoClaw 5000万Token", "status": "changed", "deadline": "2026-11-15 23:59"},
+    {"vendor": "火山方舟", "benefit": "kimi-k3.1-pro五折", "status": "new", "deadline": "2026-11-09 23:59:59"},
+    {"vendor": "火山方舟", "benefit": "安心体验模式50万额度", "status": "new", "deadline": "长期(文档11-02更新未写到期)"}
+  ],
+  "expired_this_issue": [
+    "智谱 ZCode 周末包第八轮 5 亿（11-09 09:00 清零）",
+    "智谱 AutoClaw 上一期 5000 万（11-08 23:59 失效）",
+    "火山方舟 Auto 0.5 系数 / Coding Plan 2.5 折（11-08 23:59 结束）"
+  ],
+  "cover": {
+    "style": "neon-collage (SOP 1.4)",
+    "bg_prompt": "Cyberpunk neon tech background, deep navy #01082F, glowing circuit traces, neon cyan+orange streaks, 3D particles, calendar with highlighted square, hourglass, glass icon cards (gift/cloud/code/chart), no text/numbers/logos",
+    "bg_file": "Cyberpunk_neon_tech_background_2026-11-09T01-30-20.png",
+    "render_cmd": "python 公众号/脚本/cover_neon.py --bg 素材/2026-11-09-ai-福利/cover_bg.png --out 素材/2026-11-09-ai-福利/cover_news.png --base 40 --baseline0 168 --left 36",
+    "copy": {
+      "main": "5000万 Tokens 开领！",
+      "sub": "今晚 kimi-k3.1-pro 五折收",
+      "sub2": "火山 50 万安心额度长期领",
+      "pill": ["截止时间整理", "领取方式", "避坑提醒 >"]
+    }
+  },
+  "assets": [
+    "autoclaw_home.png",
+    "volc_k3pro_doc.png",
+    "volc_anxin_doc.png",
+    "volc_codingplan.png"
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqjFGkHEyaIJ15IPz3pzFVPX4UmahV_45Lm8HtUODt5GO"
+}
