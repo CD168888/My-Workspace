@@ -1,0 +1,55 @@
+{
+  "type": "daily",
+  "date": "2026-11-10",
+  "title": "每日 AI 动态 · 2026-11-10",
+  "items": [
+    {
+      "title": "编码智能体的\"治理与编排\"成为新前线",
+      "desc": "AWS 于 11 月 5 日将 Kiro Bots 正式可用——这是有名字、带持久记忆（\"Notes\"）、能按聊天自然语言定时调度的常驻编码智能体（例：\"每 30 分钟查一次 CI\"），定价 $20/席/月起。Meta 同期收购并行编码 agent 初创 Conductor（在隔离工作区同时跑 Claude Code / Codex / Cursor，云端 11 月 20 日关停）。Gartner 发布史上首个\"AI Agent 管理魔力象限\"，微软（Agent 365，已注册破 5000 万 agent）、IBM、ServiceNow 居领导者，治理被定义为\"发现并管控那些你没主动注册的未知、云、第三方 agent\"。",
+      "reason": "编码智能体的竞争焦点，从\"谁模型更强\"彻底转到了\"谁能管住一堆 agent\"——调度、记忆、治理成为产品主战场，也是企业采购的真实痛点。",
+      "source": "https://kdcube.tech/news/industry/ai/2026-11-07-news"
+    },
+    {
+      "title": "编码工具集体\"团队基础设施化\"：从个人聊天到可审计资产",
+      "desc": "Cursor 推出 Agent SDK，把 agent 从一段 prompt 变成可版本控制、可测试、可部署的代码（evals 进 CI 门禁、Origin Marketplace 首发 20+ 应用）；Qwen Code v0.26.5 把托管 agent 平台推到生产级（边界 SQL 历史防内存爆炸、Helm 一键部署）；Claude Code 2.1.319 支持后台 MCP 任务与 denyInsteadOfPrompting（无人值守不卡权限）；GitHub 的 @GitHub bot for Slack/Teams 正式可用（11/6），Copilot 落地 Xcode 27.3 与 JetBrains Air（ACP 正成编辑器标准插座）。",
+      "reason": "agent 不再是关掉窗口就消失的个人玩具，而是有身份、有记忆、可交接、可回滚的团队基础设施——这直接改变交付与运维的成本模型。",
+      "source": "https://terminalblog.com/blog/ai-coding-agents-became-team-infrastructure-november-2026 https://javarubberduck.com/ai/news-2026-11-08-dev-tools"
+    },
+    {
+      "title": "具身智能资本：中国厂商包揽融资榜，2026 年至今 121 笔、超 82 亿美元",
+      "desc": "RobotHub 11 月 3 日更新的全球人形机器人融资榜显示，Figure（$1.7B）居首，NEURA（$1.6B）、银河通用 Galbot（$986M）、Apptronik（$935M）、自变量 X Square（$871M）、智平方（$845M）、宇树（$843M）紧随其后，中国厂商占据多席。New Market Pitch 统计：2026 年至今具身赛道 121 笔交易、至少 82 亿美元，中国已是交易数与披露金额双第一。国内 RoboScience 完成 A2 轮数亿元融资（斯坦福创始团队、360 战投入局，单条数据成本压到 0.05 元）。",
+      "reason": "资本在商业化规模尚未对等时就重注\"身体+大脑\"，而中国厂商在融资数量与金额上同时领跑，本土供应链与场景优势正在兑现。",
+      "source": "https://www.163.com/dy/article/LAR7C8MT05568W0A.html https://www.robothub.app/en/rankings/funding"
+    },
+    {
+      "title": "国产大模型密集落地：从\"能对标\"走向\"可托付\"",
+      "desc": "腾讯混元 Hy4 正式版（11/4）参数升至 770B，首次引入视觉理解并支持 Computer Use（图形界面+命令行协同），长程智能体把任务从分钟级拉到小时级。美团 LongCat-2.5（11/3）总参数 1.6 万亿、全程国产算力训练，评测介于 Opus-4.8 与 Opus-5 之间。SuperCLUE 11 月榜（11/5）出炉：Gemini-4-Argon 73.62 居首，月之暗面 Kimi-K3.1-Pro 61.46 拿国内第一、开源模型第一。",
+      "reason": "国产旗舰同时补齐\"能看、能动手、能持续做\"三条能力线，并在中文基准上逼近闭源第一梯队，\"可托付\"正在替代\"能对标\"成为采购关键词。",
+      "source": "https://www.yidaoit.cn/news-2026-11-05-a.html https://news.qq.com/rain/a/20261107A0B9EF00"
+    },
+    {
+      "title": "AI 副业蓝海：客户不为技术付费，只为\"确定性结果\"付费",
+      "desc": "网易转载的新财富专题指出，尝试 AI 副业人群中稳定月入过万者不足 5%、近六成月收入不足 800 元；能赚钱的路径主要有四条——一人公司（用智能体替代团队）、垂直领域智能体（电商客服 2000–4000 元/单）、AI 内容个体户（设计稿 8 小时压到 10 分钟）、知识付费（提示词合集边际成本近零）。零代码平台（Coze / 百炼 / 千帆）已把门槛降到拖拽式，本地商家代运营月费 3000–5000 元/家。行业共识：客户不为 AI 技术买单，只为确定性结果买单。",
+      "reason": "副业的胜负手不是\"会不会调模型\"，而是\"能不能把 AI 接到具体行业需求与交付能力上\"——垂直、小切口、按结果收费才是普通人能吃到红利的姿势。",
+      "source": "https://dy.163.com/article/L7DKQV5605568W0A.html https://www.yuezhineng.com/?chanshi/1074.html"
+    }
+  ],
+  "blue": [
+    {
+      "title": "agent 治理与\"中立部署\"顾问",
+      "desc": "当编码 agent 从个人工具变成团队基础设施，企业急需\"发现未知 agent、定权限边界、做可审计部署\"的中立顾问，以及把 Cursor Agent SDK / Qwen Code 这类工具落到团队工作流的搭建服务。",
+      "why": "这是 2026 年最缺人、最不卷的方向——会调模型的人很多，懂\"治理+部署+审计\"的人极少，客单价高且可远程交付。",
+      "source": "KDCube / Terminal Blog 行业信号"
+    },
+    {
+      "title": "垂直智能体 + 本地商家代运营",
+      "desc": "用零代码平台为电商、餐饮、美容、健身等中小商家搭客服/线索/内容智能体，按月收费；或一人运营多个行业智能体做\"一人公司\"。",
+      "why": "门槛低、需求散、复购稳，签约 3 家即月入过万，是目前副业里确定性最高的现金流模型。",
+      "source": "网易新财富专题 / 月智能"
+    }
+  ],
+  "notes": [
+    "11-08、11-09 自动化未运行，连续观察天数需以打分脚本实际输出为准。",
+    "具身融资数据存在币种/口径差异（RobotHub 英文榜为美元、中文榜为人民币），引用时以单一来源为准。"
+  ]
+}
