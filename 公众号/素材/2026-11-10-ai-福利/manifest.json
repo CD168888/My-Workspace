@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-10",
+  "title": "蚂蚁百灵新多模态免费两周，先别急着充钱",
+  "title_type": "④ 信息差型",
+  "title_type_prev": "③ 紧迫提醒型 (2026-11-09)",
+  "title_generated_at": "2026-11-10T09:25:00+08:00",
+  "digest": "蚂蚁百灵新多模态 API 免费到约 11 月 19 日，正式价约每百万 2 至 6 元；另两笔新人福利已核。",
+  "items": [
+    {"vendor": "蚂蚁百灵", "benefit": "Ling-3.2-flash 上线前两周 API 免费", "deadline": "约 2026-11-19（11-05 起两周，以平台页面为准）", "amount": "560B/25B 激活、1M 上下文、原生图文视频，免充值调用", "status": "new"},
+    {"vendor": "智谱", "benefit": "AutoClaw 新人礼 2 亿 tokens + 本周双十一登录 5000 万", "deadline": "本周 5000 万 2026-11-15 23:59 失效", "amount": "官网明码新人 2 亿 tokens（约 120 元）+ 5000 积分", "status": "changed"},
+    {"vendor": "百度秒哒", "benefit": "每日登录送 100 秒点", "deadline": "长期（官方文档常驻），免费秒点 15 天有效", "amount": "每日 100 秒点，新用户注册 300 + 首登 App 300", "status": "new"}
+  ],
+  "expired": [
+    {"vendor": "火山方舟", "benefit": "kimi-k3.1-pro 抵扣五折", "deadline": "2026-11-09 23:59 已结束"}
+  ],
+  "dedup_note": "本期严格执行去重：天工 SkyProduction(11-11)、魔芋双十一(11-11)、国家超算新客1000万(11-10)、混元Hy4/Hy3(11-15)、华为码道(11-15)、智谱AutoClaw本周5000万、阶跃StepAudio(11-17)等近7天已覆盖且无变化的老面孔全部未回炉；本期只收新发(蚂蚁百灵、秒哒)与有变化(AutoClaw新人礼口径补全)3条。已过期进别白跑：火山kimi-k3.1-pro五折(11-09 23:59)。",
+  "assets": [
+    {"file": "assets/antling-free.png", "source": "https://developer.ant-ling.com/en/docs/models/price", "desc": "蚂蚁百灵官方定价页 · Limited-Time Benefits 公告框（Ling-3.2-flash 上线前两周免费）", "method": "shot_anchor.py 锚点定位"},
+    {"file": "assets/antling-price.png", "source": "https://developer.ant-ling.com/en/docs/models/price", "desc": "蚂蚁百灵官方定价页 · 模型标价表（上一代 Ling-3.1-flash ¥2/¥6 每百万参照）", "method": "shot_first_screen.py"},
+    {"file": "assets/autoclaw-home.png", "source": "https://autoclaw.zhipuai.cn/", "desc": "AutoClaw 官网首页 · 新用户注册福利 2 亿 tokens 价值 120 元 + Coding Plan 权益", "method": "shot_first_screen.py"},
+    {"file": "assets/miaoda-rules.png", "source": "https://cloud.baidu.com/doc/MIAODA/s/Pmih6khzs", "desc": "百度智能云文档 · 秒点获取规则表（注册300/首登App 300/每日100，15天有效）", "method": "shot_anchor.py 锚点定位"}
+  ],
+  "cover": {
+    "style": "neon_collage",
+    "bg": "cover_bg.png (ImageGen 1536x653 → 裁水印+补深蓝)",
+    "copy": {"main": "0元 蚂蚁百灵新模型测两周", "sub": "原生图文视频，多模态免费试", "tail": "旗舰新模型 · 约 11 月 19 日收", "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"},
+    "render": "cover_neon.py done → cover.png 900x383"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqi2lQ6_hH8azFa1KM4AxI6NR36KN8DYox9-ywneX-wZ-"
+}
