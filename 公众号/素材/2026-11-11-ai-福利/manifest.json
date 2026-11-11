@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-11",
+  "title": "美团 LongCat-2.5 开源，OpenCode 限时免费两周",
+  "title_type": "① 事件冲击型",
+  "title_type_prev": "④ 信息差型 (2026-11-10)",
+  "title_generated_at": "2026-11-11T09:30:00+08:00",
+  "digest": "1.6 万亿权重 MIT 可商用自部署，免费 API 每天 100 次，另收 3 条新羊毛。",
+  "items": [
+    {"vendor": "美团", "benefit": "LongCat-2.5 开源(MIT 可商用) + OpenCode 限时免费两周 API", "deadline": "OpenCode 免费档约 2026-11-24（11-10 起两周，以页面为准）", "amount": "1.6 万亿总参/480 亿激活/100 万上下文多模态；MIT 权重自部署；OpenCode 每天 100 次免费", "status": "new"},
+    {"vendor": "火山方舟", "benefit": "Agent Plan 个人版包年 5 折", "deadline": "2026-11-12 24:00", "amount": "Small 480→240、Medium 2400→1200 元/年；被邀新人再 9.5 折，Small 实付 228 元/年", "status": "new"},
+    {"vendor": "国家超算互联网", "benefit": "新客尝鲜 1000 万 Token（延期）", "deadline": "延至 2026-12-31（原 11-10），到账 30 天有效", "amount": "1000 万 GLM-5.3-Flash、1024K 上下文；仅新用户注册即领", "status": "changed"},
+    {"vendor": "MiniMax", "benefit": "H3-Image 开源 + 首周 16MP 以上生成 5 折", "deadline": "权重长期开源；5 折约至 2026-11-17", "amount": "10 秒生成 4096×4096、最多 16 张参考图；权重开放，上线 API/Code/Hailuo", "status": "new"}
+  ],
+  "expired": [
+    {"vendor": "火山方舟", "benefit": "Kimi K3.1-Pro 抵扣五折", "deadline": "2026-11-09 23:59 已结束"},
+    {"vendor": "魔芋/天工/LibTV", "benefit": "双 11 档", "deadline": "2026-11-11 24:00 今天最后一天"}
+  ],
+  "dedup_note": "本期严格执行去重：近 7 天已覆盖且无变化的老面孔（天工 SkyProduction 11-11、魔芋双十一 11-11、混元 Hy4/Hy3 11-15、华为码道 11-15、阶跃 StepAudio 11-17、蚂蚁百灵 Ling-3.2 约 11-19、百度秒哒、智谱 AutoClaw/ZCode 等）全部未回炉；本期只收新发 3 条（美团 LongCat-2.5+OpenCode、火山 Agent Plan 包年 5 折、MiniMax H3-Image）与有变化 1 条（国家超算 1000 万延期至 12-31）。已过期进别白跑：火山 kimi-k3.1-pro 五折 11-09 23:59；魔芋/天工/LibTV 双 11 档 11-11 24:00 收口。",
+  "assets": [
+    {"file": "assets/longcat_hf.png", "source": "https://huggingface.co/meituan-longcat/LongCat-2.5", "desc": "美团 LongCat-2.5 · Hugging Face 模型卡（1.6 万亿总参 / 480 亿激活 / MIT 协议 / 基准分）", "method": "shot_first_screen.py"},
+    {"file": "assets/volcano_agentplan.png", "source": "https://www.volcengine.com/docs/ark/agent-plan-personal-annual-discount", "desc": "火山方舟 · Agent Plan 个人版包年 5 折活动页（Small 240、Medium 1200 元/年，被邀 228 元）", "method": "shot_first_screen.py"},
+    {"file": "assets/scnet_maas.png", "source": "https://www.scnet.cn/ui/mall/", "desc": "超算互联网 · 算力市场首页（0.1 元秒杀为付费档，免费 1000 万需新客注册）", "method": "shot_first_screen.py"},
+    {"file": "assets/minimax_hf.png", "source": "https://huggingface.co/MiniMaxAI", "desc": "Hugging Face · MiniMaxAI 组织页（H3-Image 刚更新，确认开源）", "method": "shot_first_screen.py"}
+  ],
+  "cover": {
+    "style": "neon_collage",
+    "bg": "cover_bg.png (ImageGen 1536x653 → 裁底部水印42px + 居中等比裁到 2.35:1)",
+    "copy": {"main": "1.6万亿 模型开源", "sub": "可商用 能自己部署", "tail": "两周免费 API 先领", "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"},
+    "render": "cover_2026_11_11.py done → cover.png 900x383"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqsCHmENSby2ZtEFUeqB0_Sclq_aZzV0QPSzUzBvEvWc8"
+}
