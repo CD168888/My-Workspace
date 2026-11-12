@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-12",
+  "column": "今日可领",
+  "title": "阿里 Qwen4-Max 2折，两周预览先试旗舰",
+  "title_type": "④ 信息差型",
+  "title_generated_at": "2026-11-12T09:19:00+08:00",
+  "title_note": "前 12 字『阿里 Qwen4-Max 2』= 具体厂商 + 具体模型 + 具体折扣，无泛量词、无代词；上期(11-11)为①事件冲击型，按轮换本期用④信息差型，锚定最大羊毛 Qwen4-Max 预览两周 2 折。",
+  "digest": "今晚火山 Agent Plan 包年 5 折关窗；阿里新旗舰两周 2 折，腾讯云 Hy4 2.5 折。",
+  "digest_note": "51 字符，压在微信 45004 阈值下；不复读标题（标题用 Qwen4-Max，摘要用新旗舰），给的是今晚截止 + 两条新折扣。",
+  "word_count_cn": 1256,
+  "item_count": 4,
+  "sorted_by": "headline_first_then_deadline",
+  "cover": {
+    "file": "cover.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4）",
+    "source": "generated-images/cyberpunk_tech_background__dar_2026-11-12T01-20-37.png",
+    "method": "ImageGen 出 1536x640 科技底（带右下水印）+ 脚本 cover_2026_11_12.py 裁掉底部 76px 去水印 → 缩 900x383，叠主数字「2折」+ 三行混色标题 + 底部胶囊",
+    "copy": {
+      "main": "2折",
+      "sub": "抢先试旗舰",
+      "mid": "阿里新旗舰开放预览",
+      "tail": "夜间 0.8 折 · 11-25 下线",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_11_12.py",
+    "design_note": "深色科技底 + 3D 主数字「2折」暖橙放大 + 三行混色标题（白→白→白）+ 右下信息胶囊；无任何色块/色条/遮罩，图上无栏目标记。",
+    "credits_used": "约 5-10（底图 1 张）"
+  },
+  "assets": [
+    {
+      "file": "assets/qwen4max_anchor.png",
+      "caption": "阿里云百炼 · Token Plan 个人版页面（Qwen4-Max 预览权益：2 折 / 夜间 0.8 折 / 11-25 下线）",
+      "source": "阿里云百炼 Token Plan 价格页 / 帮助中心（锚点截图）",
+      "source_level": "一手（官方价格页/帮助中心）",
+      "note": "官方原文：预览期 2026-11-11 10:00 至 11-25 24:00；夜间 22:00-次日 08:00 再享 4 折（即原标准 0.8 折）"
+    },
+    {
+      "file": "assets/tencent_hy4_25.png",
+      "caption": "腾讯云 Token Plan · Hy4 2.5 折活动文档（11-17 12:00 截止）",
+      "source": "腾讯云 TokenHub / Token Plan 控制台活动文档（doc 1823 / 140042）",
+      "source_level": "一手（官方文档）",
+      "note": "混元 Hy4 套餐内积分 2.5 折；未命中缓存输入 30 积分/百万tokens、输出 90、缓存命中 1.5"
+    },
+    {
+      "file": "assets/volcano_25off.png",
+      "caption": "火山方舟 · Agent Plan Small/Medium 2.5 折普惠活动页（至 2027-03-31）",
+      "source": "火山方舟 Agent Plan 活动页（doc 82379 / 2525063）",
+      "source_level": "一手（官方文档，2026 更新）",
+      "note": "Small 40→9.9 元/月、Medium 200→49.9 元，首两月 2.5 折，活动至 2027-03-31，每账号最多享两月特惠"
+    },
+    {
+      "file": "assets/decision_model.png",
+      "caption": "阿里云百炼 · decision-model-preview 限时免费（调用不消耗 Credits）",
+      "source": "阿里云百炼模型页（doc 3046858）",
+      "source_level": "一手（官方模型页）",
+      "note": "决策模型预览版，限期免费，输入 64K、RPM 1200，适配路由/审核/分流等结构化判断"
+    }
+  ],
+  "verification": {
+    "expired_logged": [
+      "魔芋 AI / 天工 SkyProduction / LibTV 双 11 档 — 11-11 24:00 收口",
+      "火山方舟 Kimi-K3.1-Pro 抵扣五折 — 11-09 23:59 结束"
+    ],
+    "tonight_deadline_reminder": "火山方舟 Agent Plan 包年 5 折 — 今晚 24:00 关窗（上期已覆盖，本期仅提醒不重列）",
+    "dropped_for_no_change": [
+      "天工/千问/InferX/华为/云知声/智谱/商汤/豆包/讯飞/百度/微信/OpenAI/腾讯/超算/阶跃/Qoder/百川/电信/蚂蚁/美团/火山AgentPlan5折/MiniMax 等近 7 天无变化的老福利，按去重铁律不收录"
+    ]
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqpYXLvrNYlwjKTQSEuADB0kAb9iI_j8OYomDNLLEV0ft",
+  "pushed_at": "2026-11-12T09:32:09+08:00"
+}
