@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-12",
+  "title": "650万行证明机器四周写完，人却还在排队等号复核",
+  "digest": "今天三条离普通人更近：机器人拿5亿、Claude上表格白板、AI设计代工成副业切口",
+  "title_type": "② 悬念反转型",
+  "title_type_prev_issue": "① 事件冲击型（2026-11-11）",
+  "title_generated_at": "2026-11-12T08:40:28+08:00",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqq3ER_SWD-P1X_UnFXssdmXUeOYBBZZ7KP107iYEbDc0",
+  "draft_created_at": "2026-11-12T08:40:28+08:00",
+  "char_count": 1361,
+  "image_count": 6,
+  "cover": "素材/2026-11-12-ai新闻/cover_ai_news.png",
+  "theme": "neon",
+  "column": "每日AI新闻",
+  "cover_detail": {
+    "style": "霓虹拼贴（路径A·脚本叠字）",
+    "bg": "素材/2026-11-12-ai新闻/cover_base.png（ImageGen 1536x653，下裁52px去AI生成水印）",
+    "copy_main": "650万行 证明",
+    "copy_sub": "AI 把加密协议验了一遍",
+    "copy_tail": "代码安不安全，机器先签字",
+    "capsule": [
+      "AlphaProof",
+      "Signal 协议",
+      "人还得复核"
+    ],
+    "render_cmd": "cover_neon.py --bg cover_base.png --out cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "source_imgs": [
+      "assets/02/001_7359bc5d84b0.jpg",
+      "assets/02/002_6b319b44bd56.jpg",
+      "assets/07/001_03e45ec04199.png",
+      "assets/08/001_89e0b3097708.jpg",
+      "assets/08/002_946577c2f943.jpg",
+      "assets/08/003_1aaadc0f2839.jpg"
+    ]
+  }
+}
