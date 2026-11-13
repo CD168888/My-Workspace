@@ -1,0 +1,219 @@
+{
+  "page": "https://mistral.ai/news/mistral-large-4-oss/",
+  "title": "Mistral Large 4 (Le Chonk) is now open weight | Mistral",
+  "at": "2026-11-13 08:28:26",
+  "items": [
+    {
+      "image_url": "https://mistral.ai/images/heros/ml4-oss/cat-signal.svg?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 290,
+      "alt": "Le Chonk signal",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/images/heros/ml4-oss/desktop.svg?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 398,
+      "alt": "Le Chonk Computer",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/partners-ml4-oss_XH2km.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 1280,
+      "alt": "",
+      "ok": true,
+      "file": "001_261bbd5257c5.jpg",
+      "bytes": 33762
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/cisco-black.svg",
+      "dom_width": 500,
+      "alt": "Cisco (black)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/cisco-white.svg",
+      "dom_width": 0,
+      "alt": "Cisco (white)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/cloudflare-black.svg",
+      "dom_width": 500,
+      "alt": "Cloudflare (black)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/cloudflare-white.svg",
+      "dom_width": 0,
+      "alt": "Cloudflare (white)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/crowdstrike_ZOd3AQ.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/crowdstrike-white_14MSzg.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/elastic-co-brandmark_2w56MF.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/elastic-co-brandmark-light_2jt1Kc.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/fortinet_1UAxG1.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:1KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/fortinet-light_Zfxgft.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:0KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/logo-nvidia-color_1Siszv.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/nvidia-white.svg",
+      "dom_width": 0,
+      "alt": "Nvidia (white)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/orange-cyber_9259u.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:6KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/orange-cyber-light_2iXka1.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:6KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/rubrik_5mmnd.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/rubrik-light_Z1f74a3.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/zscaler_Z1X4UR3.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/zscaler-light_Z2r0bCX.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/abn-armo_GjFH9.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/abn-armo-light_1IoiGs.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:1KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/ASML_logo_bleu_PNG-format-1_Z18yqlK.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/asml-white_25UA4r.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:13KB"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/belfius-black.svg",
+      "dom_width": 0,
+      "alt": "Belfius (black)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/belfius-white.svg",
+      "dom_width": 0,
+      "alt": "Belfius (white)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/credit-agricole_2ss1DX.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:3KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/credit-agricole-light_Z1u43aY.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:4KB"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/esa-black.svg",
+      "dom_width": 0,
+      "alt": "ESA (black)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/esa-white.svg",
+      "dom_width": 0,
+      "alt": "ESA (white)",
+      "skip": "not-http-or-skip"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/connector-hugging-face-black_2gxwbj.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "connector-Hugging Face (black)",
+      "skip": "small:8KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/zml-1_1zreP0.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/_astro/zml-light-1_2mQFES.webp?dpl=6af4f825b2fab4b19835a5e8",
+      "dom_width": 0,
+      "alt": "",
+      "skip": "small:2KB"
+    },
+    {
+      "image_url": "https://mistral.ai/cms-media/api/media/file/big-cat-icon.svg",
+      "dom_width": 152,
+      "alt": "",
+      "skip": "not-http-or-skip"
+    }
+  ]
+}

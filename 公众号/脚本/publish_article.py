@@ -21,10 +21,10 @@ import uuid
 import markdown
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", ".."))
-# 凭据位置：skill 目录可能被迁移（最早在 .workbuddy/skills，现迁到 .codex/skills），
-# 按顺序找第一个存在 .env 的位置，避免迁移后脚本直接挂掉。
-SKILL_CANDIDATES = [os.path.join(ROOT, d, "skills", "md-to-wechat")
-                    for d in (".workbuddy", ".codex")]
+# 凭据位置：skill 已迁到用户级 ~/.workbuddy/skills（项目级目录不会被扫描，2026-11-12 迁移）。
+# 仍保留项目内旧路径作为兜底，避免历史副本还在时找不到 .env。
+SKILL_CANDIDATES = [os.path.join(os.path.expanduser("~"), ".workbuddy", "skills", "md-to-wechat")]
+SKILL_CANDIDATES += [os.path.join(ROOT, d, "skills", "md-to-wechat") for d in (".workbuddy", ".codex")]
 API = "https://api.weixin.qq.com/cgi-bin"
 
 

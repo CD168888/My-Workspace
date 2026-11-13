@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-13",
+  "title": "Mistral 万亿权重开源：你的代码 AI 不用再租",
+  "digest": "今天三条：Mistral 开源万亿权重、简智 1 亿美元做机器人数据、副业卖方案不卖课",
+  "title_type": "① 事件冲击型",
+  "title_type_prev_issue": "② 悬念反转型（2026-11-12）",
+  "title_generated_at": "2026-11-13T08:30:00+08:00",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqgIjOOqQCJsLgctxRWLgbco1JRQkaPlPscgBYojrVhw5",
+  "draft_created_at": "2026-11-13T08:38:00+08:00",
+  "char_count": 1052,
+  "image_count": 3,
+  "cover": "素材/2026-11-13-ai新闻/cover_ai_news.png",
+  "theme": "neon",
+  "column": "每日AI新闻",
+  "cover_detail": {
+    "style": "霓虹拼贴（路径A·脚本叠字）",
+    "bg": "素材/2026-11-13-ai新闻/cover_base.png（ImageGen 1536x653，下裁52px去AI生成水印）",
+    "copy_main": "万亿 参数开源",
+    "copy_sub": "做 MaaS 得另签一份许可",
+    "copy_tail": "主权 AI 企业能自己托管",
+    "capsule": [
+      "Mistral",
+      "开源权重",
+      "可私有化"
+    ],
+    "render_cmd": "cover_neon.py --bg cover_base.png --out cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "source_imgs": [
+      "assets/06/001_4307f3301f12.jpg",
+      "assets/05/001_588a049a17c8.png",
+      "assets/03/001_264a833a48eb.jpg"
+    ]
+  }
+}
