@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-13",
+  "column": "今日可领",
+  "title": "混元 Hy4 免费额度剩 3 天，11-15 关窗",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-11-13T09:30:00+08:00",
+  "title_note": "前 12 字『混元 Hy4 免费额』= 具体厂商 + 具体模型 + 具体状态（剩 3 天），无泛量词、无代词；上期(11-12)为④信息差型、上上期(11-11)为①事件冲击型，按轮换本期用③紧迫提醒型，锚定最大羊毛 Hy4 限免进入最后 3 天。",
+  "digest": "头条 Hy4 客户端 0 元限免剩 3 天关窗；国家超算 0.1 元秒 5000 万明天截止。",
+  "digest_note": "共 44 字符，压在微信 45004 阈值下；不复读标题（标题用「混元 Hy4」，摘要用「Hy4 客户端」），给的是头条截止 + 明天最后一天档。",
+  "word_count_cn": 1495,
+  "item_count": 7,
+  "sorted_by": "headline_first_then_deadline",
+  "cover": {
+    "file": "cover.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4）",
+    "source": "generated-images/cyberpunk_tech_background__dar_2026-11-13T00-27-51.png",
+    "method": "ImageGen 出 1536x640 科技底（带右下水印）+ 脚本 cover_2026_11_13.py 裁掉底部 76px 去水印 → 缩 900x383，叠主数字「0元」+ 三行混色标题 + 底部胶囊",
+    "copy": {
+      "main": "0元",
+      "sub": "混元 Hy4 限时",
+      "mid": "免费窗口剩 3 天",
+      "tail": "11-15 23:59 关窗",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_11_13.py",
+    "design_note": "深色科技底 + 3D 主数字「0元」暖橙放大 + 三行混色标题（暖→白→白）+ 右下信息胶囊；无任何色块/色条/遮罩，图上无栏目标记，与文章标题错开（封面写「免费窗口剩 3 天」，标题写「免费额度剩 3 天」）。",
+    "credits_used": "约 5-10（底图 1 张）"
+  },
+  "assets": [
+    {
+      "file": "assets/hy4_news.png",
+      "caption": "腾讯混元 Hy4 正式版发布，WorkBuddy/CodeBuddy 同期开启限时免费（财联社报道）",
+      "source": "财联社报道（免费条款援引混元官方发布稿，央广网/读特/经日报同步刊载）",
+      "source_level": "二手（媒体报道，条款源自官方发布稿）",
+      "note": "官方原文：WorkBuddy / CodeBuddy 将在 11 月 4 日至 11 月 15 日期间提供一定额度免费使用"
+    },
+    {
+      "file": "assets/scnet_0_1.png",
+      "caption": "国家超算互联网 MaaS 特惠：0.1 元秒 5000 万 Token（官方活动页）",
+      "source": "国家超算互联网官网 MaaS 特惠活动页",
+      "source_level": "一手（官方活动页）",
+      "note": "0.1 元买 5000 万 DeepSeek-V4.1-Flash-1017 或 GLM-5.3-Flash 量包，每天 10 点开抢"
+    },
+    {
+      "file": "assets/baseten.png",
+      "caption": "Baseten 官方：Sandboxes free until November 16",
+      "source": "baseten.co 官方 changelog / 文档",
+      "source_level": "一手（官方）",
+      "note": "隔离 microVM 沙箱免费期至 11-16，之后按用量计费"
+    },
+    {
+      "file": "assets/antigravity.png",
+      "caption": "Google Antigravity 模型页：Claude 4.6 标「will be removed on November 18, 2026」",
+      "source": "Google Antigravity 官方模型选择器 / 文档",
+      "source_level": "一手（官方）",
+      "note": "Free / Google AI Plus 可选 Claude Sonnet 4.6 / Opus 4.6（thinking），11-18 从免费档移除"
+    },
+    {
+      "file": "assets/wattcloud.png",
+      "caption": "Watt Cloud 模型页：Ampere Free until Nov 19",
+      "source": "watt-cloud.com 官方模型页",
+      "source_level": "一手（官方）",
+      "note": "自研多模态 Ampere 输入输出全 0 元 / 百万 tokens，OpenAI 兼容 API，11-19 后计费"
+    },
+    {
+      "file": "assets/hiapi.png",
+      "caption": "HiAPI 2026 黑五活动页：DeepSeek V4.1 Flash 免费用",
+      "source": "hiapi.ai 黑五活动页",
+      "source_level": "一手（官方活动页）",
+      "note": "11-24 起连续 7 天每天前 1000 万 tokens 免费，北京时间 16:00 重置不累计"
+    }
+  ],
+  "verification": {
+    "expired_logged": [
+      "火山方舟 Agent Plan 包年 5 折 — 11-12 24:00 关窗",
+      "魔芋 AI / 天工 SkyProduction / LibTV 双 11 档 — 11-11 收口",
+      "火山方舟 Kimi-K3.1-Pro 抵扣五折 — 11-09 23:59 结束",
+      "LLMTR Qwen3.8-Max 免费档 / Twigpine Qwen 限免 — 11-13 08:00 截止",
+      "Traycer 100 美元 Gemini 额度 03:29 / MLH Builders Week Cursor Pro、X Premium 02:00 截止",
+      "ZCode 邀请好友活动 — 11-13 结束（需拉好友才给卡）"
+    ],
+    "tonight_deadline_reminder": "国家超算 0.1 元秒 5000 万 — 11-14 23:59 最后一天（本期头条级提醒）；AutoClaw / Hy4 客户端限免 — 11-15 23:59 关窗",
+    "dropped_for_no_change": [
+      "天工/千问/InferX/阿里云/华为/云知声/魔芋/商汤/豆包/讯飞/百度/OpenAI/阶跃/Qoder/百川/电信/蚂蚁/百度秒哒/美团/MiniMax/阿里百炼 等近 7 天无变化的老福利，按去重铁律不收录；微信小程序成长计划二期（10-29）已超 14 天，从 covered.json 丢弃"
+    ]
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqlwRUeZfddGgxb7eovT_gCQGpDvHwVob7rZgH_zFQm4J",
+  "pushed_at": "2026-11-13T09:45:00+08:00"
+}
