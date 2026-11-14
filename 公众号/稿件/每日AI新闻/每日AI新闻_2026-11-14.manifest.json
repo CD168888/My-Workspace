@@ -1,0 +1,20 @@
+{
+  "title": "5 亿美元砸进思灵，软银赌的是工厂不是展台",
+  "title_type": "② 悬念反转型",
+  "title_generated_at": "2026-11-14T08:35:36.457333+08:00",
+  "title_alternatives": [
+    "④ 信息差型：软银 5 亿美元领投的思灵，凭什么值 85 亿",
+    "③ 紧迫提醒型：思灵 5 亿美元到账，人形机器人产能战提前开打"
+  ],
+  "digest": "思灵 5 亿美元软银领投估值 85 亿；曦选创智 5 亿做端侧芯片；普通人用智能体副业，从卖课转向卖方案。",
+  "word_count": 1207,
+  "image_count": 4,
+  "cover": {
+    "style": "neon-collage",
+    "bg": "公众号/素材/2026-11-14-ai新闻/cover_base_clean.png",
+    "copy": "5亿 美元 软银领投 / 估值冲上 85 亿 / 人形机器人要进工厂了",
+    "render": "python 公众号/脚本/cover_neon.py --bg <bg> --out cover_ai_news.png --base 40 --baseline0 168 --left 36"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqq06raYs5cdZ0UCmMJWMoVu3MyU3h5ecf-06r8Lae6FG",
+  "updated_at": "2026-11-14T08:35:36.457333+08:00"
+}
