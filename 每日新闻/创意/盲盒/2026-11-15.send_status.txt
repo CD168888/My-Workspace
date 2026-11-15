@@ -1,0 +1,1 @@
+[18:31] sent — 主题：莫拉维克悖论（Moravec's paradox）；SendMessage 带 skip_confirmation=true，返回 queued=true，当日配额剩余 45/50。
