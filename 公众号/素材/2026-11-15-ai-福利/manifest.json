@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-15",
+  "column": "今日可领",
+  "title": "混元 Hy4 限免今晚关窗，AutoClaw 码道同步清零",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-11-15T09:20:00+08:00",
+  "title_note": "前 12 字「混元 Hy4 限免今晚」= 真名 + 具体状态（限免）+ 具体时间（今晚），无泛量词、无代词；上期(11-14)为①事件冲击型、11-13为③、11-12为④，按轮换本期用③紧迫提醒型，锚定本期最大羊毛——腾讯混元 Hy4 客户端限免（11-15 23:59 关窗）。另草拟④/⑤型各一备选未用。",
+  "digest": "混元 Hy4 限免今晚收口，等同白用 770B 旗舰；AutoClaw 与华为云码道同步清零。",
+  "digest_note": "47 字，压在微信 45004 阈值下；不复读标题（标题用「关窗/清零」，摘要点「收口/白用 770B 旗舰」）。",
+  "word_count_cn": 1401,
+  "item_count": 4,
+  "sorted_by": "headline_first_then_deadline",
+  "cover": {
+    "file": "cover.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4）",
+    "source": "generated-images/cyberpunk_tech_background__dar_2026-11-15T01-14-09.png",
+    "method": "ImageGen 出 1536x640 科技底（带右下水印）+ 裁掉底部 55px 去水印 → resize 1536x653（bg_clean.png）→ 脚本 cover_2026_11_15.py 叠 3D 主行「今晚 23:59」+ 两行副题 + 底部胶囊",
+    "copy": {
+      "main": "今晚 23:59 最后期限",
+      "sub": "三笔 AI 免费档收口",
+      "mid": "770B 旗舰今天白用",
+      "tail": "",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 脚本/cover_2026_11_15.py",
+    "design_note": "深色科技底 + 主行「今晚 23:59」暖橙放大 + 两行白色副题（三笔AI免费档收口 / 770B旗舰今天白用）+ 右下信息胶囊；图上无栏目标记，与标题错开（封面讲「今晚最后期限/770B旗舰」，标题讲「混元Hy4关窗/AutoClaw码道清零」）。",
+    "credits_used": "约 5-10（底图 1 张）"
+  },
+  "assets": [
+    {
+      "file": "assets/hy4_launch.png",
+      "caption": "腾讯混元 Hy4 正式版发布页：11 月 4 日发布，客户端内限免至 11 月 15 日",
+      "source": "hy.tencent.com/research/hy4 官方发布页",
+      "source_level": "一手（官方）",
+      "note": "Hy4 正式版 770B MoE，WorkBuddy/CodeBuddy 限免 11/4–11/15 23:59"
+    },
+    {
+      "file": "assets/workbuddy.png",
+      "caption": "WorkBuddy 客户端 · Hy4 限免入口（0.00x 倍率）",
+      "source": "workbuddy.cn 官网",
+      "source_level": "一手（官方）",
+      "note": "模型列表选 Hy4 显示 0.00x 即不扣积分，不填 Key"
+    },
+    {
+      "file": "assets/autoclaw_m11w2.png",
+      "caption": "智谱 AutoClaw 官方博客：双十一福利已就位，登录即领 50M Tokens",
+      "source": "autoclaw.zhipuai.cn 官方博客 M11W2",
+      "source_level": "一手（官方）",
+      "note": "国内版 11/9–11/15 登录领 5000 万 Tokens，11-15 23:59 作废"
+    },
+    {
+      "file": "assets/huawei_codearts.png",
+      "caption": "华为云码道活动页：金秋码道有礼，邀请好友送积分，11 月 15 日 23:59 收口",
+      "source": "activity.huaweicloud.com/codearts_invite.html 官方活动页",
+      "source_level": "一手（官方）",
+      "note": "新用户注册 4000 积分 + 每日 100-200 + 邀友各 1000，单人上限 5 万"
+    },
+    {
+      "file": "assets/zcode.png",
+      "caption": "智谱 BigModel 平台 · ZCode 周末构建入口",
+      "source": "zcode.bigmodel.cn 平台页（周末包为客户端内活动）",
+      "source_level": "二级（AI 模型优惠速报交叉，待官方页复核）",
+      "note": "ZCode WEEKEND BUILD 周末包 5 亿 GLM-5.3-Flash，11-16 09:00 清零"
+    }
+  ],
+  "media_id": "nTPzuxPRT0j1_f2IUQZEqvf-OY4Js8TeSMZpHx7V7GAj93d3vZezcYGLxdGGu84T",
+  "draft_pushed": true,
+  "skip": false
+}
