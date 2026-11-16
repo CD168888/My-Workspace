@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-16",
+  "column": "每日AI新闻",
+  "title": "黄仁勋辞任英伟达CEO，一周3.8万亿市值蒸发",
+  "title_type": "①事件冲击型",
+  "title_generated_at": "2026-11-16T08:10:00+08:00",
+  "digest": "国产模型同日把1.6万亿参数和国产芯片施工图一起开源，机器人站上奔驰产线拣料成功率96%。三条线挤在同一天。",
+  "title_candidates": [
+    "黄仁勋辞任英伟达CEO，一周3.8万亿市值蒸发",
+    "掌舵33年说走就走，英伟达这一夜蒸发3.8万亿",
+    "英伟达换帅别只盯着谁接班，3.8万亿只是开始"
+  ],
+  "word_count_han": 1372,
+  "image_count": 4,
+  "images": [
+    {"file": "images/01_早报题图.jpg", "source": "https://news.qq.com/rain/a/20261116A03HAB00", "desc": "英伟达换帅早报题图", "note": "栏目标题图，作首图"},
+    {"file": "images/02_英伟达高管名单截图.jpg", "source": "https://www.nfnews.com/content/46NdApw7ym.html", "desc": "英伟达官网 Company Officers 页，黄仁勋已移出、仅留 Founders", "note": "含黄仁勋头像小图"},
+    {"file": "images/03_黄仁勋股权新闻截图.png", "source": "https://news.qq.com/rain/a/20261114A071Z000", "desc": "央视财经关于黄仁勋1.08亿美元未归属股权奖励的报道截图", "note": "新闻截图，含英伟达建筑与品牌标识"},
+    {"file": "images/04_AI智能体配图.jpg", "source": "https://www.toutiao.com/article/7706888705021198886", "desc": "AI/智能体霓虹概念图", "note": "副业段配图"}
+  ],
+  "image_note": "真实黄仁勋现场照片未在公开来源页抓到（南方+7张中6张为推荐位/广告/logo已剔除）；用官网截图+新闻截图+概念图替代，未生图冒充现场。",
+  "cover": {
+    "style": "neon-collage",
+    "bg": "cyberpunk_tech_background__dar_2026-11-16T00-07-01.png",
+    "bg_clean": "cover_base_clean.png",
+    "bg_note": "原图1536x640，右下有AI生成水印，下裁52px后重采样回1536x640",
+    "output": "cover_ai_news.png",
+    "copy": {
+      "main": "黄仁勋 辞任",
+      "sub": "一周 3.8 万亿市值蒸发",
+      "tail": "国产模型同日杀进生产",
+      "pill": ["英伟达换帅", "国会听证", "供应链重定价"]
+    },
+    "render_cmd": "python 公众号/脚本/cover_neon.py --bg 公众号/素材/2026-11-16-ai新闻/cover_base_clean.png --out 公众号/素材/2026-11-16-ai新闻/cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "行1字号51基线168右端262 / 行2字号35基线218右端390 / 行3字号32基线258右端356；末行基线258<胶囊上沿324，不冲突"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqrG3qwo17lJcpXBwJ7PL7iZDkS58resalADnvhWMtrFD",
+  "updated_at": "2026-11-16T08:15:00+08:00"
+}
