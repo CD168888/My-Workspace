@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-17",
+  "column": "每日AI新闻",
+  "title": "Anthropic 三天换芯片，那行脚注却只算了半段",
+  "title_type": "②悬念反转型",
+  "title_generated_at": "2026-11-17T08:15:00+08:00",
+  "title_candidates": [
+    "Anthropic 三天换芯片，那行脚注却只算了半段（②悬念反转型，本期采用）",
+    "Anthropic 三天把 Claude 搬上 AMD，英伟达的墙被撬了一下（①事件冲击型，上期已用①故弃）",
+    "三天迁移 AMD GPU 到底多神？先把脚注那行小字看完（⑤揭秘避坑型）"
+  ],
+  "digest": "招股书里季度营收涨1127%，11月19日以代码ANT挂牌。可「三天」那行脚注，只写了一个模型。",
+  "word_count_han": 1210,
+  "word_count_nonspace": 1633,
+  "image_count": 5,
+  "images": [
+    {"file": "assets/02_AI日报GPUkernels题图.jpg", "source": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-17-2026-claude-onboards-amd-gpus-in-3-days-vera-rubin-sweeps-mlperf-482n", "desc": "11月17日 AI Daily Digest 题图：GPU KERNELS / AGENT INFERENCE / AI CAPITAL", "note": "第1条Anthropic配图，原WEBP已转JPEG"},
+    {"file": "assets/01_Anthropic三天迁移图表.png", "source": "https://geekiki.com/blog/claude-mythos-amd-tres-dias-cuda?lang=en", "desc": "Anthropic 路演图：with Mythos 三天 vs 传统方式六到十二个月，AMD GPUs，底部含口径脚注", "note": "第1条核心图，锁正文容器抓取，RGBA转RGB"},
+    {"file": "assets/03_具身融资15起53亿表.jpg", "source": "https://caifuhao.eastmoney.com/news/20261115220340882639810", "desc": "机器人/具身智能融资事件汇总表：15起约53亿元、思灵5亿美元F轮、优理奇5亿Pre-A", "note": "第2条具身融资配图，body fallback抓取但核图确认正文表格"},
+    {"file": "assets/04_擎天租服务机器人实拍.jpg", "source": "https://caifuhao.eastmoney.com/news/20261115220340882639810", "desc": "擎天租服务机器人在商店货架前与顾客互动实拍", "note": "第2条场景配图，现场照片"},
+    {"file": "assets/05_TokenEconomizer题图.jpg", "source": "https://news.qq.com/rain/a/20261117A01POM00", "desc": "微软开源TokenEconomizer插件 编码智能体省钱省token 文章题图", "note": "第3条配图，锁正文容器content抓取"}
+  ],
+  "image_note": "5张均为来源页公开截图/题图，锁正文容器后取；已剔除广告图（海洋至尊护肤品）与无关推荐图。原WEBP伪装jpg已转JPEG、RGBA转RGB，5张全部上传微信图床成功。",
+  "cover": {
+    "style": "neon-collage",
+    "bg": "cyberpunk_tech_background__dar_2026-11-17T00-10-48.png",
+    "bg_clean": "cover_base_clean.png",
+    "bg_note": "原图实为1536x640（非653），右下有AI生成水印，下裁52px后重采样回1536x640",
+    "output": "cover_ai_news.png",
+    "copy": {
+      "main": "三天 换芯片",
+      "sub": "脚注却只算了半段",
+      "tail": "营收涨 1127%，本周挂牌",
+      "pill": ["三天迁移", "脚注口径", "CUDA 护城河"]
+    },
+    "render_cmd": "python 公众号/脚本/cover_neon.py --bg 公众号/素材/2026-11-17-ai新闻/cover_base_clean.png --out 公众号/素材/2026-11-17-ai新闻/cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "行1字号51基线168右端262 / 行2字号35基线218右端316 / 行3字号32基线258右端412；末行基线258<胶囊上沿324，不冲突"
+  },
+  "deai": {
+    "skill": "jiangai",
+    "ct_before": "句方差299.7、最长88字、'不是A而是B'1处、段首套模1处",
+    "method": "五层爆破法：段首变异直接细节切入、自我否定修正(起先我也信了)、88字拆4短句、破折号情绪标点；覆盖a=禁用数值重构(1127%/3天/日期原样)、覆盖b=字数只减不增(1782→1633)",
+    "ct_after": "句方差156.5、最长59字、'不是A而是B'0处、第一人称7处、字数1633≤1782"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqia4EHqLFeWqABOc4WxSP_wyh-2jAKBgBTGZUJQHm014",
+  "theme": "signal",
+  "updated_at": "2026-11-17T08:18:00+08:00"
+}
