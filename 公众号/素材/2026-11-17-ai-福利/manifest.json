@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-17",
+  "column": "今日可领",
+  "title": "Hy4 flash 免费到 30 日，套餐折扣中午到期",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-11-17T09:40:00+08:00",
+  "title_note": "上期(11-16)为①事件冲击型，按轮换避开①；本栏目优先序①→③→④，取③。27字符，前12字「Hy4 flash 免费到 30」=真名+具体状态+具体日期，无泛量词、无代词，感叹号0个，逗号前是具体信息。标题优先锚定本期最大羊毛(Hy4 flash 限免)而非条数。按③/④/①三型各写一条后择此。初稿34字符超30字编辑标准，压缩为27。",
+  "digest": "新模型 flash 免费用到月底；EdgeOne 每月 50 万 Token、Kiro 50 积分两条长期档。",
+  "digest_note": "55字符，压在45004阈值(~54-60)下；不复读标题（标题讲flash免费到30日+套餐中午收档，摘要补另两条长期档）。",
+  "word_count_cn": 1300,
+  "item_count": 4,
+  "sorted_by": "headline_first_then_deadline",
+  "headline": "腾讯混元 Hy4 flash（11-16 新发布，WorkBuddy 内限免到 2026-11-30，TokenHub API 5折）",
+  "headline_value": "224B总参/12B激活/100万token上下文；单任务成本约Hy4的1/20、preview的1/13；API刊例输入0.5元/输出2元/缓存0.02元每百万tokens，限免期内WorkBuddy文本任务0积分",
+  "dedup": {
+    "included": [
+      "腾讯混元 Hy4 flash WorkBuddy 限免（全新模型11-16发布，covered无，新一期）",
+      "腾讯云/混元 Hy4 套餐2.5折（deadline 11-17 12:00当日关窗，final_day合规回炉）",
+      "腾讯 EdgeOne Makers 内置模型50万token/月（covered无，全新条目，腾讯云官方文档一手源）",
+      "Kiro Free 50 credits/月（covered无，全新条目，kiro.dev官方定价页一手源）"
+    ],
+    "excluded_no_change": [
+      "豆包工作取消5小时限制（11-06发生，太旧且非福利）",
+      "Google Antigravity Claude 4.6 11-18移除（首见11-13，近7天无变化）",
+      "阶跃 StepAudio 3（首见11-08，final_day但已连续两期出现，不重复收）",
+      "蚂蚁百灵Ling-3.2-flash/OpenCode限时免费/MiniMax H3-Image（近期已覆盖无变化）"
+    ],
+    "expired_list": [
+      "智谱 ZCode 周末5亿包（11-16 09:00已清零）",
+      "腾讯混元 Hy4/Hy3 旧窗口（WorkBuddy/CodeBuddy，11-15 24:00已收官）",
+      "智谱 AutoClaw 双十一5000万（11-15 23:59）",
+      "Google Cloud 300美元赠金（11-16起不再覆盖Gemini/Vertex）"
+    ]
+  },
+  "cover": {
+    "file": "cover.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4）",
+    "source": "generated-images/cyberpunk_*.png",
+    "method": "ImageGen 出 1536x640 科技底（no text/no numbers）+ 下裁55px去水印 → resize 1536x653（bg_clean.png）→ 脚本 cover_2026_11_17.py 叠三行文字 + 底部胶囊",
+    "render": "python 脚本/cover_2026_11_17.py",
+    "copy": {
+      "main": "Hy4 flash 免费到 30 日",
+      "sub": "生图视频照样扣积分",
+      "mid": "EdgeOne 每月送 50 万 Token",
+      "tail": "",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "design_note": "主行暖色大字号 Hy4 flash 锚定头条；副行讲标题没讲的那句（生图扣积分的坑），尾行补另一条新福利（EdgeOne 50万），三层信息都不复读标题。胶囊固定三项。图上无栏目标记。自检字号46/33/30、无出界、末行基线284距胶囊上沿324有40px净空。",
+    "credits_used": "约5-10（底图1张）"
+  },
+  "assets": [
+    {
+      "file": "assets/hy4flash_ithome.png",
+      "caption": "IT之家 11-16 报道：Hy4 flash 发布，224B 总参/12B 激活/100 万 token 上下文，API 价格表",
+      "source": "https://www.ithome.com/1/027/630.htm 一手权威媒体原文",
+      "source_level": "一手（权威媒体，援引腾讯混元官方）"
+    },
+    {
+      "file": "assets/workbuddy_home.png",
+      "caption": "WorkBuddy 客户端首页：切到 Hy4 flash 即可用文本任务，入口示意",
+      "source": "https://www.workbuddy.cn/ 官方首页",
+      "source_level": "一手（官方）"
+    },
+    {
+      "file": "assets/edgeone_makers.png",
+      "caption": "腾讯云开发者社区：EdgeOne Makers 免费版配额表，内置模型免费额度 50 万 token/月",
+      "source": "https://cloud.tencent.com.cn/developer/article/2782776 腾讯云官方社区",
+      "source_level": "一手（腾讯云官方文档）"
+    },
+    {
+      "file": "assets/kiro_pricing.png",
+      "caption": "Kiro 官方定价页：KIRO FREE $0/月，50 credits，含 Claude Sonnet 4.5",
+      "source": "https://kiro.dev/pricing/ 官方定价页",
+      "source_level": "一手（官方）"
+    }
+  ],
+  "media_id": "nTPzuxPRT0j1_f2IUQZEqpwVjcRio3Urh1fYnWQ8yCnuMQQOVkIut_Ls6gr3Ggeh",
+  "draft_pushed": true,
+  "skip": false
+}
