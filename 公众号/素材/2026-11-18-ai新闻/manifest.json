@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-18",
+  "column": "每日AI新闻",
+  "assets": [
+    {"file": "assets/01_Ignite26主视觉.jpg", "source": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash", "desc": "微软 Ignite '26 官方主视觉"},
+    {"file": "assets/02_MAI Code2模型选择.jpg", "source": "https://news.qq.com/rain/a/20261118A043FM00", "desc": "GitHub Copilot 中 MAI Code 2 / Code 2 Flash 模型选择界面"},
+    {"file": "assets/03_基准跑分表.jpg", "source": "https://news.qq.com/rain/a/20261118A043FM00", "desc": "IT之家报道 MAI Code 2 四项编程基准对比表"},
+    {"file": "assets/04_成本40pct图表.jpg", "source": "https://news.qq.com/rain/a/20261118A043FM00", "desc": "微软官方 40% 成本对比图"},
+    {"file": "assets/05_GPT62AstraSol题图.jpg", "source": "https://www.163.com/dy/article/LC09PQ3R0511BLFD.html", "desc": "OpenAI GPT-6.2 Astra 与 Sol 发布题图"},
+    {"file": "assets/06_具身智能现场图.jpg", "source": "https://news.qq.com/rain/a/20261117A0809J00", "desc": "具身智能产业现场配图"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "cover_bg.png（ImageGen 两次 DNS 失败，按降级规则改用程序化拼贴深色科技底，无文字/logo）",
+    "note": "封面为备选方案，底图为程序化拼贴而非 ImageGen 生图，可人工替换",
+    "copy": {
+      "main": "5美分一次的AI编程",
+      "sub": "OpenAI 同日降价，两家都在算同一笔账",
+      "tail": "那个数，是打完折的"
+    },
+    "render": "cover_neon.py --base 40 --baseline0 168 --left 36"
+  },
+  "title": "微软把AI编程打到5美分一次，那个数是打过折的",
+  "digest": "同一天OpenAI也发了新版。两家一个喊便宜、一个喊降价，比的是每美元能买到多少产出，可最抓眼球的数藏在英文脚注里。",
+  "title_type": "⑤揭秘避坑型",
+  "title_generated_at": "2026-11-18T08:15:00+08:00",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqj9zAFkSQy9uo45-_8ch0NW0oZGmn7o54aG6FK5cCs94",
+  "updated_at": "2026-11-18T08:28:00+08:00"
+}
