@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-18",
+  "column": "今日可领",
+  "title": "书生新模型按 1% 收费，别急着给 API 充值",
+  "title_type": "④ 信息差型",
+  "title_generated_at": "2026-11-18T09:35:00+08:00",
+  "title_note": "上期(11-17)为③紧迫提醒型，按轮换避开③；本栏目优先序①→③→④，①需24小时内新发生事件(本期书生11-16发布已隔2天，不算当日冲击；Watt/百灵是临近到期不是新开)，故取④。前12字「书生新模型按1%收费」=真名书生+具体数字1%，无泛量词、无代词，感叹号0个，逗号前是具体信息。标题锚定本期最大羊毛(书生S2.1 Flash 1%价格)而非条数。按①/③/④三型各写一条后择此。",
+  "digest": "百灵和 Watt 云的 0 元窗口明后天关窗，书生新模型按对标价 1% 收到 12 月 9 日。",
+  "digest_note": "约47字符，压在45004阈值下；不复读标题（标题讲书生1%收费+别急着充值，摘要补另两条0元窗口明后天关+书生截止日）。",
+  "word_count_cn": 1115,
+  "item_count": 3,
+  "sorted_by": "headline_first_then_deadline",
+  "headline": "书生·端砚 Sage S2.1 Flash（11-16 发布全新模型，对标 GLM 5.3 Flash，1% 价格到 2026-12-09、10% 到 12-31，新用户送免费额度）",
+  "headline_value": "1%即对标模型价格的百分之一（一折再打一折），12-10起涨到10%翻十倍；560B总参/25B激活/1M上下文原生多模态；新用户免费额度官方未公布具体数额，以控制台为准",
+  "dedup": {
+    "included": [
+      "书生·端砚 Sage S2.1 Flash（covered无，11-16全新发布，一手源机器之心发布稿+官方产品页，头条）",
+      "蚂蚁百灵 Ling-3.2-flash（covered有，约11-19/20临近到期final_day合规回炉，相比上次进入关窗倒计时，官方定价页一手源）",
+      "Watt Cloud Ampere（covered有，11-19 final_day合规回炉，官网当天挂FREE UNTIL NOV 19，相比上次日期坐实）"
+    ],
+    "excluded_no_change": [
+      "OpenAI ChatGPT学术计划5万Plus名额（11-16官宣、11-23才开放且中国香港排除，今天领不了→放别白跑不占正文）",
+      "GPT-6.2 Astra/Sol（11-17发布，面向已付费Plus/Pro用户+API降价，非免费福利，不符合栏目范围）",
+      "小米MiMo邀请码10元/书生外其他折扣（一手源不足或属付费折扣，未收）",
+      "第10期已覆盖的ZCode每日3亿/Qoder Qoduck等（长期无变化，不回炉）"
+    ],
+    "expired_list": [
+      "MiniMax H3-Image 首周五折（11-18 00:00收口）",
+      "阶跃 StepAudio 3 语音全系限免（11-17 11:59结束）",
+      "腾讯云 Hy4 Token Plan 积分2.5折（11-17 12:00收口）",
+      "智谱 ZCode 周末5亿（11-16 09:00清零）"
+    ]
+  },
+  "cover": {
+    "file": "cover.png",
+    "size": "900x383",
+    "ratio": "2.35:1",
+    "style": "霓虹拼贴（SOP 1.4）",
+    "source": "cyberpunk_tech_background__dar_2026-11-18T01-34-28.png",
+    "method": "ImageGen 直出 1536x640 科技底（no text/no numbers/no logos），下裁55px去右下AI生成水印 → resize 1536x653（bg_clean.png）→ 脚本 cover_2026_11_18.py 叠三行文字 + 底部胶囊",
+    "render": "python 脚本/cover_2026_11_18.py",
+    "copy": {
+      "main": "书生新模型按 1% 收费",
+      "sub": "百灵与 Watt 云明后天关窗",
+      "mid": "1% 价收到 12 月 9 日",
+      "tail": "",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "design_note": "主行暖色放大1%锚定头条最大羊毛（书生S2.1 Flash 1%价格）；副行讲标题没讲的那句（另两条0元窗口明后天关窗），尾行补硬截止日12月9日，三层信息都不复读标题完整说法。胶囊固定三项。底图自带沙漏/日历/玻璃卡片，五元素齐。图上无栏目标记。自检字号46/33/30、无出界、末行基线280距胶囊上沿324有44px净空。",
+    "credits_used": "约5-10（底图1张）"
+  },
+  "assets": [
+    {
+      "file": "assets/shusheng_report.png",
+      "caption": "机器之心 11-16 报道：书生 S2.1 Flash 发布并开源，1%/10% 价格条款",
+      "source": "https://k.sina.com.cn/article_5952915705_162d248f906703thbi.html 转载机器之心 official 发布稿",
+      "source_level": "一手（权威媒体原文，上海AI实验室联合发布稿）"
+    },
+    {
+      "file": "assets/shusheng.png",
+      "caption": "书生·端砚官方产品页：科研模型 API Key 入口、OpenAI 协议 Base URL",
+      "source": "https://discovery.intern-ai.org.cn/token-plan/home 官方产品页",
+      "source_level": "一手（官方）"
+    },
+    {
+      "file": "assets/lingstudio.png",
+      "caption": "蚂蚁百灵官方体验页：Ling-3.2-flash 模型，560B 总参/25B 激活",
+      "source": "https://chat.ant-ling.com/chat 官方体验页",
+      "source_level": "一手（官方）"
+    },
+    {
+      "file": "assets/ling_free.png",
+      "caption": "Ling-3.2-flash 免费额度说明：三个入口、按天发放、窗口约到 11-20",
+      "source": "https://www.ai345.info/ai-guide/ling-3-2-flash-free-quota-how-to-get 二手整理，条款已回官方定价页交叉核实",
+      "source_level": "二手（条款已由官方定价页交叉核实）"
+    },
+    {
+      "file": "assets/wattcloud.png",
+      "caption": "Watt Cloud 官网模型表：Ampere 标 FREE UNTIL NOV 19、$0/M",
+      "source": "https://www.watt-cloud.com/ 官网首页",
+      "source_level": "一手（官方）"
+    }
+  ],
+  "assets_note": "本期新抓5张Playwright首屏截图，全部on-topic。ling_free为二手整理文章但条款已回官方定价页交叉核实。OpenAI学术页已截图(openai_academic.png)但因中国香港排除未进正文。",
+  "media_id": "nTPzuxPRT0j1_f2IUQZEqgoyO2RU3Ah6rCtlWQtTmL54wahKvAtnCNI-LgQa4wiK",
+  "draft_pushed": true,
+  "skip": false
+}
