@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-19",
+  "column": "今日可领",
+  "title": "Qoder 今天起停送免费用户，腾讯云这份还能用一年",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-11-19T09:20:00+08:00",
+  "digest": "腾讯云新人包每款模型送100万Tokens、有效期一年，另有讯飞4B模型限时免费；Qoder今天10点起停送免费用户。",
+  "headline": "腾讯云 TokenHub 新人免费体验包：语言模型每款 100 万 Tokens、有效期 1 年，活动至 12-31",
+  "headline_value": "六个文本模型各100万合计600万Tokens，有效期1年（多数羊毛仅30-90天）",
+  "items": [
+    {
+      "vendor": "腾讯云 TokenHub",
+      "benefit": "新人免费体验包",
+      "deadline": "2026-12-31",
+      "amount": "语言模型每款100万Tokens、有效期1年；6款共600万；3D各100积分、视频50积分",
+      "source_level": "一手（腾讯云官方文档 cloud.tencent.com.cn/document/product/297/130053，11-17改版）",
+      "source_url": "https://cloud.tencent.com.cn/document/product/297/130053",
+      "status": "changed",
+      "change_note": "11-17文档改版，免费额度与领取方式规则更新"
+    },
+    {
+      "vendor": "Qoder",
+      "benefit": "每日100通用Credits领取资格",
+      "deadline": "2026-11-19 10:00 起（资格收窄，活动本身结束另行公告）",
+      "amount": "每轮100通用Credits、每笔30天有效；免费用户今日起停领",
+      "source_level": "一手（Qoder官方文档 docs.qoder.com/zh/events/100credits，含11-19变更记录）",
+      "source_url": "https://docs.qoder.com/zh/events/100credits",
+      "status": "changed",
+      "change_note": "11-19 10:00起体验版免费用户不再开放领取，仅Pro试用/付费订阅可领"
+    },
+    {
+      "vendor": "讯飞星火",
+      "benefit": "Spark-X2.6-4B 端侧模型限时免费",
+      "deadline": "官方仅标限时免费，无精确日期，以页面当日显示为准",
+      "amount": "4B级端侧Dense、1M上下文、200+语言，模型广场免费领取+限时免费精调",
+      "source_level": "一手（讯飞星火官方价格页 xinghuo.xfyun.cn/sparkapi?scr=price）",
+      "source_url": "https://xinghuo.xfyun.cn/sparkapi?scr=price",
+      "status": "new"
+    },
+    {
+      "vendor": "小米 MiMo",
+      "benefit": "MiMo-V2.6 系列发布 + 缓存命中限时免费",
+      "deadline": "官方仅标限时免费，无精确日期，以页面当日显示为准",
+      "amount": "V2.6-Pro/Flash/Pro-Ultraspeed三款发布；Prompt Cache命中部分限时免费",
+      "source_level": "一手（小米MiMo官方定价页 platform.xiaomimimo.com/docs/zh-CN/pricing，11-18更新）",
+      "source_url": "https://platform.xiaomimimo.com/docs/zh-CN/pricing",
+      "status": "new"
+    }
+  ],
+  "expired_notice": [
+    "Qoder 每日100 Credits（免费用户）——11-19 10:00起停领",
+    "蚂蚁百灵 Ling-3.2-flash 上线两周全免——约11-19结束",
+    "阶跃 StepAudio 3 语音限免——11-17 12:00已转全价"
+  ],
+  "assets": [
+    {
+      "file": "assets/qoder_100credits.png",
+      "source": "Qoder 官方文档 100credits 页",
+      "note": "首屏截图，含11-19适用范围调整原文"
+    },
+    {
+      "file": "assets/tokenhub_free.png",
+      "source": "腾讯云 TokenHub 新人免费体验包文档页",
+      "note": "首屏截图，含每款100万Tokens/有效期1年表格"
+    },
+    {
+      "file": "assets/xinghuo_free.png",
+      "source": "讯飞星火官方价格页",
+      "note": "首屏截图，含X2.6-4B限时免费、X2.5-1.7B免费标价"
+    },
+    {
+      "file": "assets/mimo_pricing.png",
+      "source": "小米 MiMo 官方定价页",
+      "note": "首屏截图，含V2.6系列正式发布弹窗公告"
+    }
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "A_cinematic_cyberpunk_tech_bac_2026-11-19T01-10-25.png (ImageGen 1536x640) -> bg_clean.png (下裁55px去水印+resize 1536x653)",
+    "file": "cover.png (900x383)",
+    "copy": {
+      "main": "100万 Tokens 免费用一年",
+      "sub": "腾讯云每款模型一份，六种随便挑",
+      "tail": "Qoder 今天起停送免费用户"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_19.py --bg bg_clean.png --out cover.png --base 40 --baseline0 168 --left 36",
+    "check": "行字号46/35/32阶梯ok，右端529/561/435未出界，末行基线255距胶囊324净空69px",
+    "note": ""
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqow9bzD2Ndt_2BOGUefEkedXDIA16TPWhwiRf6vBIM-h",
+  "commit": "",
+  "email_status": ""
+}
