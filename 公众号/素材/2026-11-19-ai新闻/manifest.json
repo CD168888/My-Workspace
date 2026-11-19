@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-19",
+  "column": "每日AI新闻",
+  "assets": [
+    {"file": "assets/01_Anthropic万亿定价概念图.jpg", "source": "https://www.thepaper.cn/newsDetail_forward_34503545", "desc": "澎湃《Anthropic上市：一场1.4万亿美元的公开压力测试》题图"},
+    {"file": "assets/02_StitchLoop四步循环.jpg", "source": "https://news.sulat.com/2026/11/19/stitch-loop", "desc": "谷歌 Stitch Loop 官方产品图：一轮循环四步（suggest/solve/build/reflect）"},
+    {"file": "assets/03_StitchLoop三条循环.jpg", "source": "https://news.sulat.com/2026/11/19/stitch-loop", "desc": "谷歌 Stitch Loop 官方图：默认三条循环 安全/延迟/可访问性"},
+    {"file": "assets/04_StitchLoop插件架构.jpg", "source": "https://news.sulat.com/2026/11/19/stitch-loop", "desc": "谷歌 Stitch Loop 官方图：输入输出插件架构（GitHub/MCP/CLI）"},
+    {"file": "assets/05_具身智能周报题图.jpg", "source": "https://www.163.com/dy/article/LC2FPHOJ05118I96.html", "desc": "i黑马 AI 机器人周报题图（11-19 具身智能一周动态）"},
+    {"file": "assets/06_StitchLoop概念题图.jpg", "source": "https://news.sulat.com/2026/11/19/stitch-loop", "desc": "Stitch Loop 概念题图（备用，未入正文）"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "cover_bg.png（ImageGen 1536x640 生成，下裁52px去「AI生成」水印后重采样回1536x640）",
+    "copy": {
+      "main": "1.4万亿今天开盘",
+      "sub": "买单的三家，也是供应商",
+      "tail": "同一个价，除出三个倍数"
+    },
+    "render": "cover_neon.py --base 40 --baseline0 168 --left 36"
+  },
+  "title": "Anthropic今日开盘1.4万亿，买单的三家也是供应商",
+  "digest": "代码ANT今天在纳斯达克开始交易。发行价70到78美元，订单约六到七倍，可那近9000亿美元的算力承诺才是难题。",
+  "title_type": "①事件冲击型",
+  "title_generated_at": "2026-11-19T08:15:00+08:00",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEquX2kty6bphqKFzdn1huaOL_4vDegHRobL1ddDcrn6F5",
+  "updated_at": "2026-11-19T08:18:00+08:00"
+}
