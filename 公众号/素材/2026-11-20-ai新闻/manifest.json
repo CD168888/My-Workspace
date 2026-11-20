@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-20",
+  "column": "每日AI新闻",
+  "title": "谷歌Neon登顶编程榜，便宜三成是跟自家比的",
+  "digest": "榜首58.6分是第三方编程子榜，换个综合榜只排第三；同一周苹果被曝自研智能体，谷歌还让框架自己改自己。",
+  "title_type": "④信息差型",
+  "title_generated_at": "2026-11-20T08:18:00+08:00",
+  "asset_count": 6,
+  "assets": [
+    {"file": "assets/01_Gemini4Neon官方主视觉.jpg", "source": "https://tldrdailynews.com/news/technology/technology/google-deepmind-launches-gemini-4-neon-a-mid-tier-model-for-coding-and-enterprise-work-tmgxpy2hre", "desc": "Gemini 4 Neon 官方发布主视觉：编程智能体榜 #1"},
+    {"file": "assets/02_Gemini4家族对比表.jpg", "source": "https://www.163.com/dy/article/LC506QEE0511CMF5.html", "desc": "Gemini 4 家族三档对比表（Carbon/Hydrogen/Neon）"},
+    {"file": "assets/03_苹果零售店实景.jpg", "source": "https://news.qq.com/rain/a/20261120A03FGM00", "desc": "苹果零售店门面实景（苹果自研 AI 智能体配图）"},
+    {"file": "assets/06_苹果隐私权限提示.jpg", "source": "https://news.qq.com/rain/a/20261120A03JLF00", "desc": "Apple Code Computer Use 数据隐私提示截图"},
+    {"file": "assets/04_Harness自改进论文.jpg", "source": "https://original.ifeng.com/c/8yCGzVbQh18", "desc": "谷歌论文《Harnesses That Improve Themselves》截图"},
+    {"file": "assets/05_小鹏科技日ORIGIN海报.jpg", "source": "https://news.qq.com/rain/a/20261119A07SWJ00", "desc": "小鹏科技日 Origin 原点官方海报（IRON 人形机器人）"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "cover_bg.png（ImageGen 1536x640 生成，下裁52px去「AI生成」水印后重采样回1536x640）",
+    "copy": {
+      "main": "58.6分登顶",
+      "sub": "便宜三成，比的是自家兄弟",
+      "tail": "换个榜，只排第三"
+    },
+    "render": "cover_neon.py --base 40 --baseline0 168 --left 36（自检阶梯 48/35/32，末行基线256不压胶囊上沿324）",
+    "file": "cover_ai_news.png"
+  },
+  "jiangai": {
+    "loaded": true,
+    "ct_diagnosis": "初稿汉字821→定稿1253；初稿最长句43/方差99.6，五层爆破后最长句59/方差177.5",
+    "overrides": ["禁用第4节数值与引文重构", "字数只增不减由栏目字数区间约束（终稿1253落在1200-2000）"],
+    "toxins_cleared": ["榜首（原第一）", "摆明了要它真动手（原不是A是B句式）", "5处超长句拆分至≤60字"],
+    "self_score": {"句式混乱度": 7, "词汇稀缺度": 6, "逻辑跳跃度": 6, "口语杂糅指数": 6, "结构不规则度": 8}
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqsr5fNHiBoHwfBQxGcxXyB-VHWQouhmiA6xAcrZClefR",
+  "updated_at": "2026-11-20T08:24:00+08:00"
+}
