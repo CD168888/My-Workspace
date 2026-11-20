@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-20",
+  "column": "今日可领",
+  "dedup": "covered.json 近7天已覆盖且无变化的老面孔（AutoClaw 1亿/Hy4 flash/TokenHub 新人包/七牛云 Conatus/Qoder 每日100/讯飞4B/小米V2.6/阿里百炼等）按铁律一律不收；蚂蚁百灵 Ling-3.2-flash、火山 Coding Plan 9.5折、阶跃 StepAudio 已过期，进别白跑。",
+  "headline": "OpenCode Zen 免费模型池减员到 12 款、11-23 关池（官方文档 Deprecated 表实锤两款11-17/11-18下线）",
+  "headline_value": "12 款前沿模型零门槛免费用到 11-23，含 DeepSeek V4.1 Flash、Hy4 flash、LongCat 2.5（每天100次）；不注册不绑卡，按 API 刊例折算每天能省数十元试用费",
+  "items": [
+    {
+      "vendor": "OpenCode Zen",
+      "benefit": "免费模型池减员到12款 + 11-23关池",
+      "deadline": "2026-11-23",
+      "amount": "12款 -free 后缀模型限时免费（DeepSeek V4.1 Flash/Hy4 flash/LongCat 2.5 每天100次/MiMo V2.6 Flash/Nemotron 3.5 等），零数据留存；不注册不绑卡；部分模型提示词可能用于训练",
+      "source_level": "一手（OpenCode 官方文档 opencode.ai/docs/zen 的 Deprecated models 表 + llmperks 实时清单11款）",
+      "source_url": "https://opencode.ai/docs/zen/",
+      "status": "changed",
+      "change_note": "GLM-5.3-Flash Free 11-18、MiniMax M3.1 Flash Free 11-17 从免费池下线，池子从13款减到12款；速报口径11-23关池"
+    },
+    {
+      "vendor": "无问AI（无问芯穹社区）",
+      "benefit": "11月第二轮 3600亿免费Token + DEC兑换码",
+      "deadline": "2026-12-09 11:51（第一轮 DEC 限期包）；第二轮以页面为准",
+      "amount": "11-05首发 WUWEN_DEC_TOKEN_TICKET 兑525亿可领额度、限期包4500万、注册后每天3500万；11-17第二轮 WUWEN_DEC_2_TOKEN_TICKET 发3600亿、全模型计费倍率降30%、套餐价不变",
+      "source_level": "一手（无问社区官方原文，zone.ci/wx.secv.cc 备份，署名无问社区团队，含兑换地址 wwlib.cn/index.php/gift）",
+      "source_url": "https://www.wwlib.cn/index.php/gift",
+      "status": "new"
+    },
+    {
+      "vendor": "微软 / GitHub Copilot",
+      "benefit": "MAI Code 2 Flash 进 Copilot 免费档（Auto 路由）",
+      "deadline": "促销价到 2027-05-17；Free/Student 档长期可用（经 Auto 路由）",
+      "amount": "11-17 Ignite 发布；MAI Code 2 Flash 促销价输入$0.05/输出$0.25每百万token（原价$0.10/$0.25），缓存$0.005；Copilot Free/Student 仅经 Auto 路由可用 Flash，付费档可手动选 Code 2 与 Flash",
+      "source_level": "一手（GitHub 官方 changelog / models-and-pricing 页，limitdigest/enjoy.dev/s5labs 三源交叉，均引 GitHub 官方文档，核于11-18/19）",
+      "source_url": "https://docs.github.com/en/copilot/concepts/billing/copilot-requests",
+      "status": "new"
+    },
+    {
+      "vendor": "火山方舟 Managed Agents",
+      "benefit": "web_fetch 限时免费 + 首开赠500次",
+      "deadline": "官方仅标限时免费，未给硬日期，以价格页当日显示为准",
+      "amount": "11-18 火山把 Managed Agents 计费挂上价格页：web_fetch 限时免费、首次开通另送500次；web_search 0.02元/次、Agent运行时0.5元/小时作对照",
+      "source_level": "二级（AI模型优惠速报11-19档 + 什么值得买11-19清单交叉，均引火山官方价格页；官方页未直接抓到硬日期，按保守口径处理）",
+      "source_url": "https://www.volcengine.com/docs/82379",
+      "status": "new"
+    }
+  ],
+  "expired_notice": [
+    "云知声 U2-Flash 注册送1亿Token——多个权益清单称11-20到期，但官网已主推U2-Flash-1118付费六折版，未挂一手免费活动页，按查无实据处理、不进正文",
+    "蚂蚁百灵 Ling-3.2-flash 上线两周 API 全免——约11-19已关窗",
+    "火山 Coding Plan 邀请9.5折——11-19最后一天，已结束",
+    "腾讯云 TokenHub DeepSeek Search/Fetch 免费——11-18 00:00 起转收费（100积分/千次）"
+  ],
+  "assets": [
+    {
+      "file": "assets/opencode_freelist.png",
+      "source": "llmperks.com OpenCode Zen 免费模型实时清单（11-19更新）",
+      "note": "首屏截图，含 11 found 与 DeepSeek V4.1 Flash/Hy4 flash/MiMo V2.6 Flash 等 -free 模型，头条主图"
+    },
+    {
+      "file": "assets/opencode_deprecated.png",
+      "source": "OpenCode 官方文档 opencode.ai/docs/zen",
+      "note": "锚点截取 Deprecated models 表，GLM-5.3-Flash Free 11-18、MiniMax M3.1 Flash Free 11-17 下架，变化硬图证"
+    },
+    {
+      "file": "assets/wuwen_code.png",
+      "source": "无问社区官方公众号《无问AI-11月免费Token积分兑换码》",
+      "note": "11-05原文，含 WUWEN_DEC_TOKEN_TICKET、525亿可领额度、兑换地址"
+    },
+    {
+      "file": "assets/wuwen_code2.png",
+      "source": "无问社区《11月第二次免费Token发放》",
+      "note": "11-17原文，含3600亿Token、WUWEN_DEC_2_TOKEN_TICKET、计费降30%"
+    },
+    {
+      "file": "assets/mai_code2.png",
+      "source": "limitdigest MAI Code 2 in GitHub Copilot 指南（引 GitHub 官方文档）",
+      "note": "首屏截图，含价格表与促销期到2027-05-17"
+    }
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "A_cinematic_cyberpunk_tech_bac_2026-11-20T01-13-33.png (ImageGen 1536x640) -> bg_clean.png (下裁55px去水印+resize 1536x653)",
+    "file": "cover.png (900x383)",
+    "copy": {
+      "main": "免费池只剩 3 天关窗",
+      "sub": "GLM、MiniMax 已先后下架",
+      "tail": "11 月 23 日关池，先领先用"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_20.py --bg bg_clean.png --out cover.png --base 40 --baseline0 176 --left 36",
+    "check": "行字号48/35/32阶梯ok，右端420/493/434未出界，末行基线264距胶囊324净空60px，无水印无错字",
+    "note": ""
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqhlZ9MfSYR4I2OehE-m8gppsyr3R2rF5GsKEcK_7ETyo",
+  "commit": "",
+  "email_status": "",
+  "title": "OpenCode 不只 Hy4，12 款模型还能免费用",
+  "title_type": "④ 信息差型",
+  "title_generated_at": "2026-11-20T09:15:00+08:00",
+  "digest": "无问AI二次发放3600亿Token，Copilot免费档也能用上新模型；OpenCode池最快23日关窗，先领先用。"
+}
