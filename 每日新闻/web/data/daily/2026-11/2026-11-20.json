@@ -1,0 +1,43 @@
+{
+  "type": "daily",
+  "date": "2026-11-20",
+  "title": "每日 AI 动态 · 2026-11-20",
+  "items": [
+    {
+      "title": "谷歌发布 Gemini 4 Neon，编程智能体指数登顶、单任务成本比 Carbon 低 32%",
+      "desc": "谷歌 11 月 19 日推出 Gemini 4 Neon，卡在旗舰 Carbon 与轻量 Hydrogen 之间的中间档。100 万 token 上下文，API 输入每百万 token 3 美元、输出 15 美元、缓存输入 0.15 美元。官方称在 Artificial Analysis 编程智能体指数以 58.6 分排第一，超过 Claude Opus 5.5 与 GPT-6.2 Sol；默认 high 档下单项任务成本比 Carbon 低 32%。可在 Gemini API、AI Studio、Antigravity 里当编排器，指挥并行的 Hydrogen 子代理。短板也写进官方对比表：Terminal-Bench 4.1 仅 65.2%、FrontierCode 2.0 为 46.2%，Opus 5.5 这两项更高。",
+      "reason": "模型竞争从\"比谁最强\"转到\"比谁在高频复杂任务上更省\"，中间档成为走量关键。登顶榜单是自家或第三方设定跑分条件，成本优势只在默认 high 档成立，两个数都要拆口径看。",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/ https://www.163.com/dy/article/LC506QEE0511CMF5.html https://tldrdailynews.com/news/technology/technology/google-deepmind-launches-gemini-4-neon-a-mid-tier-model-for-coding-and-enterprise-work-tmgxpy2hre"
+    },
+    {
+      "title": "苹果被曝自研\"主动式 AI 智能体\"，可替用户编程、控设备、浏览网页",
+      "desc": "彭博社 Mark Gurman 11 月 20 日报道，苹果官网本周挂出\"Agentic AI - Proactive\"高级工程经理招聘，正组建团队做代表用户执行任务的 AI 助手：跨浏览器、文档、终端、代码编辑器切换，能规划并完成多步骤任务、协调多个子智能体，强调权限管理、沙盒隔离与隐私。项目仍早期，曾考虑最早 2027 年底推出，时间未定，苹果未回应置评。新任 CEO 特努斯被指在 pushing 软件工程负责人费德里吉加快 AI 进度。",
+      "reason": "苹果从\" equipment 里的助手\"下场做能动手的 agent，意味着 agent 竞争从创业公司与模型厂扩散到消费电子巨头。目前证据只是招聘信息，距离产品很远，别把招聘当发布。",
+      "source": "https://news.qq.com/rain/a/20261120A03JLF00 https://news.qq.com/rain/a/20261120A03FGM00"
+    },
+    {
+      "title": "谷歌研究：AI 智能体只改一处代码，软件工程任务成功率从 5% 提到 40%",
+      "desc": "谷歌论文《Harnesses That Improve Themselves》提出可自我改进的 Harness 框架。用一套 142 行代码的编程智能体 Harness，切成四个可编辑模块，每轮只允许改一个模块、用验证集筛选、设 Token 上限。在 Gemini 3.8 Flash 上、40 道未参与优化的 SWE-bench Lite 任务里，初始 Harness 只解出 5.0%，模块化优化后达 40.0%，平均每项约 4.67 万 Token。若允许整体重写，成功率 42.5%，但平均每项约 45.16 万 Token，接近十倍；只用提示词约束反而跌到 2.5%。",
+      "reason": "这轮\"harness 战争\"第一次有了严谨对照——改框架比改提示词管用，但逐模块优化在效果与算力成本之间更划算，堆复杂度不等于提效率。样本只有 40 道题、单一模型，结论方向可信、数值别当通用定论。",
+      "source": "https://original.ifeng.com/c/8yCGzVbQh18"
+    },
+    {
+      "title": "具身智能进量产拐点：原力无限三月连获四轮融资，小鹏科技日 11 月 25 日定档",
+      "desc": "中国证券报 11 月 19 日报道，具身赛道全线扩产——优必选柳州万台级工厂投产、智元多基地累计下线 2 万台、宇树科创板募 6.24 亿建年产 7.5 万台人形产线；灵巧手今年国内出货预计 6 万至 7 万台。融资端，原力无限 11 月 19 日宣布完成数千万元 Pre-B 轮（杭州资本独投），三个月内连获四轮、估值近百亿；知行机器人获柯力传感战略融资，目标三年把灵巧手核心力觉模组 BOM 成本压 35%。小鹏 11 月 25 日在广州办\"Origin 原点\"科技日，IRON 首次现场互动，计划 2026 年底量产、2027 上半年交付。",
+      "reason": "行业口号从\"造多少台\"换成\"能量产、能交付、能核算\"，量产四维度（可复制/一致性/可交付/可核算）开始成为硬指标；上游灵巧手、控制器与国资接力入局成新变量。",
+      "source": "https://epaper.cs.com.cn/zgzqb/html/2026-11/19/nw.D110000zgzqb_20261119_1-A06.htm https://news.qq.com/rain/a/20261119A07SWJ00 http://mp.weixin.qq.com/s?__biz=MzU0NzYwMzkxMA==&mid=2247483907&idx=1&sn=04a8e5419c1850fc576e90c36d9fa251"
+    }
+  ],
+  "blue": [
+    {
+      "title": "卖\"能交付的成品\"，不卖空白聊天框",
+      "desc": "AI 副业榜单 theaireceipts 11 月 19 日更新的样本里，跑出收入的都是\"成品型\"产品：notis.ai（WhatsApp 里把语音转任务，约 1.29 万美元月经常性收入）、GETebook.ai（选题到封面直接出书文件，约 1.2 万美元）、Mono（一个订阅聚合多家模型，约 1.11 万美元）。共同点是交付一个完整结果，而不是丢给用户一个空白对话框。",
+      "why": "切一个够窄、重复度高、能被工具完整吃下的环节，按\"工作台\"定价而不是\"玩具\"。反面样本同样在榜上——GETebook 靠付费广告两月冲到月入约 4.8 万美元，但多数收入不 recurring，CPM 一涨利润就被挤；爆发不等于留得住。",
+      "source": "https://theaireceipts.com/one-person-ai-businesses"
+    }
+  ],
+  "notes": [
+    "Anthropic 11 月 19 日挂牌首日冲高回落：定价 83 美元、发行 9.8 亿股、募资约 813 亿美元，开盘涨 34%、盘中市值一度破 2.1 万亿美元，收盘回落约 13% 至 97.17 美元（中央社）；11-16 至 11-19 已多次发过其估值口径，本期只作背景，不重复展开。",
+    "具身、副业两条为近 7 天反复出现的旧主线，本期换角度：具身看\"量产四维度 + 上游 BOM\"，副业看\"卖成品而非空白框\"。"
+  ]
+}
