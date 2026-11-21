@@ -1,0 +1,96 @@
+{
+  "date": "2026-11-21",
+  "column": "今日可领",
+  "dedup": "covered.json 近7天已覆盖且无变化的老面孔（OpenCode Zen/无问AI/MAI Code 2/火山 web_fetch/TokenHub 新人包/Hy4 flash/EdgeOne/Kiro/书生 Sage/Qoder 每日100/讯飞4B/小米V2.6 等）按铁律一律不收；阶跃 StepAudio 3、蚂蚁百灵 Ling-3.2-flash、Watt Cloud Ampere、Google Antigravity Claude 均已过期，进别白跑。头条腾讯云 DeepSeek 联网搜索免费属政策反转（此前11-01起收费），为本期新变化。",
+  "headline": "腾讯云 11-20 公告：DeepSeek 原厂直供模型的服务端搜索 Search/网页抓取 Fetch 不再计费，仅按 Token；11-18 12:00 后产生的联网搜索费用 11-30 23:59:59 前统一退还，无需申请",
+  "headline_value": "独立 Search/Fetch 接口此前 5 元/千次，做 Agent 的团队一天几千次调用即数百到上千元/月；这块归零且已扣费用可退，退费到 11-30 还剩 9 天，受众是所有腾讯云 DeepSeek 用户",
+  "items": [
+    {
+      "vendor": "腾讯云",
+      "benefit": "DeepSeek 原厂直供服务端联网搜索/抓取免费 + 退费",
+      "deadline": "长期免费；退费窗口 2026-11-30 23:59:59",
+      "amount": "服务端 Search/Fetch 不再计费、仅按 Token；11-18 12:00 后联网搜索费用统一退；此前独立 /v1/tools 接口 5 元/千次仍收费",
+      "source_level": "一手（腾讯云 11-20 官方公告，新华财经 cnfin.com、澎湃新闻、界面新闻原文转载；再核 cloud.tencent.com TokenHub 文档）",
+      "source_url": "https://www.cnfin.com/kx/detail/20261120/4498117_1.html",
+      "status": "changed",
+      "change_note": "DeepSeek Search/Fetch 自 2026-11-01 起收费 5 元/千次，11-20 公告改回免费并退费，属政策反转"
+    },
+    {
+      "vendor": "智谱",
+      "benefit": "ZCode WEEKEND BUILD 周末包 5 亿 GLM-5.3-Flash",
+      "deadline": "2026-11-23 09:00 清零",
+      "amount": "周末包 5 亿 Token，覆盖约 58 小时；11-20 周五 19:00 领、23:00 生效；与每日 3 亿工作日卡独立、不叠加",
+      "source_level": "二级（AI模型优惠速报 11-21 + allagent.wiki 机制详解；客户端内活动，官方页面未公布细则，以客户端公告为准，稿中已注明）",
+      "source_url": "http://mp.weixin.qq.com/s?__biz=MzI0NzczMzYyMw==&mid=2247484865&idx=1&sn=cd3b13201709b82861b5c57a2dc0efc6",
+      "status": "new",
+      "change_note": "新一期周末包（上一期 11-16 09:00 已清零），机制不变"
+    },
+    {
+      "vendor": "火山方舟",
+      "benefit": "指定模型抵扣系数折扣改版（k3.1-pro 五折+配额200% / k2.8-preview 六折 / v4.1-flash-economy 五折）",
+      "deadline": "k3.1-pro 到 2027-01-31 23:59:59；k2.8-preview、v4.1-flash-economy 标长期",
+      "amount": "文档 11-19 更新：k3.1-pro 限时五折、可用配额 200%；k2.8-preview 系数4.8（六折）从固定截止改长期；v4.1-flash-economy 系数1（五折）转长期；订阅套餐内抵扣系数折扣，非免费额度",
+      "source_level": "一手（火山方舟官方文档 ark.volcengine.com/.../agent-plan-personal-model-discount，更新时间 2026-11-19）",
+      "source_url": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "status": "changed",
+      "change_note": "推翻此前二级源转述的『k3.1-pro 11-10 恢复标准系数』；官方文档现写限时五折到 2027-01-31，k2.8-preview/economy 折扣由固定截止改为长期进行中"
+    },
+    {
+      "vendor": "AtomGit",
+      "benefit": "AtomCode CodingPlan 每日限量免费名额（Lite/Pro体验/Pro）",
+      "deadline": "长期滚动，每档按各自有效期算，名额每日重置",
+      "amount": "Lite 免费30天、每日限量1000人（deepseek-v4-flash/Qwen3-VL-8B）；Pro体验版免费7天、每日10:00限量100人（额外支持GLM-5.2）；Pro 免费30天、需在活动仓库合入PR；额度按5小时滚动窗口计量",
+      "source_level": "一手（AtomCode 官方登录文档 atomcode.atomgit.com/docs/zh/login.html，首页 v4.25.0 更新公告 /codingPlan 折进 /login）",
+      "source_url": "https://atomcode.atomgit.com/docs/zh/login.html",
+      "status": "new"
+    }
+  ],
+  "expired": [
+    "阶跃 StepAudio 3 语音线 11-17 11:59 起按会话分钟计费",
+    "蚂蚁百灵 Ling-3.2-flash 上线前两周免费约到 11-19",
+    "Watt Cloud Ampere 官网标 FREE UNTIL NOV 19",
+    "Google Antigravity 免费档 Claude 模型 11-18 已移除",
+    "OpenAI 学术 5 万 Plus 席位 11-23 才开放申请且不含中国大陆（未来项，非可领）"
+  ],
+  "assets": [
+    {
+      "file": "tencent_refund_b.png",
+      "source_page": "https://m.thepaper.cn/newsDetail_forward_34525979",
+      "note": "澎湃新闻转腾讯云 11-20 公告全文，头条主图：11-18 12:00 起服务端搜索/抓取不再计费"
+    },
+    {
+      "file": "tencent_search_free.png",
+      "source_page": "https://www.cnfin.com/kx/detail/20261120/4498117_1.html",
+      "note": "新华财经公告，含『11-18 12:00 后费用 11-30 23:59:59 前统一退还』退费条款"
+    },
+    {
+      "file": "volcano_discount.png",
+      "source_page": "https://ark.volcengine.com/region:cn-beijing/docs/agent-plan-personal-model-discount",
+      "note": "官方文档折扣表锚点截图：v4.1-flash-economy 长期五折、k2.8-preview 长期、v4.1-flash 到 2027-01-31；自定义脚本移除浮层后截取"
+    },
+    {
+      "file": "atomcode_plan.png",
+      "source_page": "https://atomcode.atomgit.com/docs/zh/login.html",
+      "note": "官方文档 CodingPlan 三档权益表：Lite 30天/Pro体验7天/Pro 30天，含 v4.25.0 更新公告"
+    }
+  ],
+  "assets_note": "4 张全部 Playwright 首屏/锚点抓取并逐张 ViewImage 核图对位。ZCode 周末卡为客户端内活动无公开页面，未配图（正文注明二级源）。已删 atomgit_home（首页被拦截）与 zcode_bigmodel（付费旗舰档，与周末卡不符）。",
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "cyberpunk_tech_background__dar_2026-11-21T01-15-34.png (ImageGen 直出 1536x640) -> bg_clean.png (下裁55px去右下水印+resize 1536x653)",
+    "copy": {
+      "main": "联网搜索 0 元还退钱",
+      "sub": "智谱周末 5 亿，周一清零",
+      "tail": "11 月 30 日退费截止，查账单",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_21.py --bg bg_clean.png --out cover.png --base 40 --baseline0 176 --left 36",
+    "note": "三行字号 48/35/32 阶梯，右端 420/428/466 无出界，末行基线264不压胶囊(上沿324)。副标讲标题没讲的智谱周末5亿，不复读。带水印原始底图未入库。"
+  },
+  "title": "DeepSeek 联网搜索免费，腾讯云 11 月底退费",
+  "title_type": "① 事件冲击型",
+  "title_type_reason": "上期 11-20 为④信息差型，按栏目优先序①→③→④且①近期未用，选①；头条为 11-20 刚发生的政策反转，是 24 小时内真事件。前12字『DeepSeek 联网搜索免费』=真名+刚发生的事，无泛量词无代词，22字。",
+  "title_generated_at": "2026-11-21T09:15:00+08:00",
+  "digest": "智谱周末 5 亿周一清零只剩两天，AtomCode 每天限量放号；腾讯云 11 月 30 日退费，别忘查账单。",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqpd6sOsghwAx7YiQfo2gxyhXCvAech-nXGNEQGBwdanb"
+}
