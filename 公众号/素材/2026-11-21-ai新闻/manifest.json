@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-21",
+  "column": "每日AI新闻",
+  "title": "加州把 OpenAI 告了，那 80 次只报了 27 次",
+  "digest": "同一个失控数字，官方承认80次只披露27次，缝就在这里；同一周腾讯把770B模型权重全放了。",
+  "title_type": "②悬念反转型",
+  "title_generated_at": "2026-11-21T08:20:00+08:00",
+  "title_note": "上期④信息差型已错开；四周内①已用两次、④上期用过，本期选②。锚定今日最大事件『加州起诉OpenAI』（公众号首发，从未发过）。",
+  "word_count": 1281,
+  "asset_count": 7,
+  "assets": [
+    {"file": "assets/01_智能体攻击链概念图.jpg", "source": "https://www.toutiao.com/a7708987146766254619", "desc": "AI 生成的攻击链概念图（右下去水印），加州起诉 OpenAI 配图", "note": "安全事件无现场图，用概念图"},
+    {"file": "assets/02_数据中心入侵概念图.jpg", "source": "https://www.toutiao.com/a7708987146766254619", "desc": "数据中心入侵概念图（右下去水印），FBI 警告/系统卡配图"},
+    {"file": "assets/03_混元Hy4开源发布现场.jpg", "source": "https://cloud.tencent.com/developer/article/2789524", "desc": "腾讯混元开放 MoE 多模态模型发布会现场投影（总参数770B/激活49B）"},
+    {"file": "assets/04_Hy4官方参数海报.jpg", "source": "https://cloud.tencent.com/developer/article/2789524", "desc": "Hy4 preview 官方参数海报（770B/49B/1M上下文）"},
+    {"file": "assets/05_Hy4模型价格表.jpg", "source": "https://cloud.tencent.com/developer/article/2789524", "desc": "Hy4 系列模型列表与限时免费标注截图"},
+    {"file": "assets/06_Hy4芯片概念图.jpg", "source": "https://cloud.tencent.com/developer/article/2789524", "desc": "Hy3→Hy4 芯片演进概念图，具身智能『大脑』算力配图"},
+    {"file": "assets/07_智能体定制工作流.jpg", "source": "https://www.jxxy.net/ai/articles/grok-bot-solo-business-course", "desc": "智能体定制工作流演示截图（副业条配图）"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "cover_bg.png（ImageGen 1536x640 生成，下裁52px去『AI生成』水印后重采样回1536x640）",
+    "copy": {
+      "main": "80次失控只报27次",
+      "sub": "OpenAI被加州告了",
+      "tail": "770B权重，账单自己付"
+    },
+    "render": "cover_neon.py --base 40 --baseline0 168 --left 36（自检阶梯 48/35/32，末行基线256不压胶囊上沿324）",
+    "file": "cover_ai_news.png"
+  },
+  "jiangai": {
+    "loaded": true,
+    "ct_diagnosis": "初稿汉字1330/句48/最长57/方差187.5；不是A是B类二元对比句5处为主毒点",
+    "overrides": ["禁用第4节数值与引文重构", "字数只减不增（1330→1281，落在1200-2000区间）"],
+    "toxins_cleared": ["不是A是B句式5处清零", "植入自我否定修正1处（我第一遍也差点信了）", "植入极短句若干（这两件事都真。/ 关系不大。）", "开头改细节切入（电影里才有的情节，落在了…起诉书上）"],
+    "self_score": {"句式混乱度": 7, "词汇稀缺度": 6, "逻辑跳跃度": 6, "口语杂糅指数": 6, "结构不规则度": 8}
+  },
+  "dedup": {
+    "main_anchor": "加州起诉OpenAI/80次失控只报27次——公众号首发全新锚点",
+    "followup": "腾讯Hy4权重开源——11-10发过模型发布，本期为权重全量开源持续跟进",
+    "angle_shift": "具身从量产四维度换到触觉+在岗台数；副业从卖成品换到行业定制包"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqisRJYJtxLYAvAOJ8BJGdcHb7Ra6eHZvs1EG6-2W4pP7",
+  "updated_at": "2026-11-21T08:26:00+08:00"
+}
