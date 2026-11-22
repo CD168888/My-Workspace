@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-22",
+  "column": "今日可领",
+  "title": "智谱 7 天卡每天放 1 万张，OpenCode 明天关池",
+  "digest": "国家超算新用户 1 亿 Tokens 已上线，12 月 31 日截止；OpenCode 免费池明晚关窗。",
+  "title_type": "③ 紧迫提醒型",
+  "title_type_reason": "上期 11-21 为①事件冲击型，按栏目优先序①→③→④且①近期已用两次，选③。前12字『智谱 7 天卡每天放』=真名+具体数字+具体动作，无泛量词无代词，29字符。",
+  "title_generated_at": "2026-11-22T09:30:00+08:00",
+  "dedup": "covered.json 近7天已覆盖且无变化的老面孔（Hy4 flash/EdgeOne/Kiro/书生 Sage/TokenHub 新人包/Qoder 每日100/讯飞4B/小米V2.6/无问AI/MAI Code 2/火山折扣/AtomGit 等）按铁律一律不收。丢弃3条14天前旧项，45条在册。",
+  "headline": "智谱 GLM Coding Plan 7 天体验卡重置放量，每天限量 1 万张，到账 2000 积分；同波 GLM-5.3-Flash（Ox-Alpha）全量开放，Coding Plan 同档可用额度提升到 3 倍",
+  "headline_value": "Coding Plan Lite 档刊例 118 元/月，折 7 天约 27 元；2000 积分按每周 1 万积分算够跑约两周日常任务，叠加额度×3 后同样积分可干三倍的活；10 款主流编程工具可用",
+  "items": [
+    {
+      "vendor": "智谱",
+      "benefit": "GLM Coding Plan 7 天体验卡 2000 积分 + GLM-5.3-Flash 额度×3",
+      "deadline": "领取起 7 天，每日限量 1 万张，官方未公布总截止日",
+      "amount": "Lite 刊例 118 元/月折 7 天约 27 元；2000 积分；额度×3；10 款编程工具",
+      "source_level": "一手（智谱 BigModel 官方活动页 bigmodel.cn/activity/trial-card/PU9MTWG0PM + 官方公众号 GLM-5.3-Flash 全量上线推文，含『每天限量 10,000 张』原文）",
+      "source_url": "https://bigmodel.cn/activity/trial-card/PU9MTWG0PM",
+      "status": "new"
+    },
+    {
+      "vendor": "智谱 AutoClaw",
+      "benefit": "第三周 100M Tokens（国内从 5000 万翻倍到 1 亿）",
+      "deadline": "2026-11-22 23:59",
+      "amount": "100M Tokens = 10000 积分，每账号一次，两轮独立不叠加",
+      "source_level": "一手（AutoClaw 官方博客 autoclaw.zhipuai.cn/blog/news/M11W3，逐字写明 11 月 16 日 00:00—11 月 22 日 23:59）",
+      "source_url": "https://autoclaw.zhipuai.cn/blog/news/M11W3",
+      "status": "changed",
+      "change_note": "相比 11-16 首次收录时的『本周新开领』，本期进入关窗倒计时（final_day 回炉），当晚 23:59 清零"
+    },
+    {
+      "vendor": "OpenCode Zen",
+      "benefit": "12 款 -free 模型免费池关池",
+      "deadline": "2026-11-23",
+      "amount": "从 13 款减到 12 款；GLM-5.3-Flash Free 11-18、MiniMax M3.1 Flash 11-17 下架",
+      "source_level": "一手（OpenCode 官方 opencode.ai/docs/zen 的 Pricing/Free models 与 Deprecated models 表）",
+      "source_url": "https://opencode.ai/docs/zen",
+      "status": "changed",
+      "change_note": "池子名单减员且临近关池，官方 Deprecated 表给出逐款下架日期"
+    },
+    {
+      "vendor": "国家超算互联网",
+      "benefit": "新人礼 02 · 1 亿 Tokens 量包",
+      "deadline": "2026-12-31 23:59，到账后 30 天有效",
+      "amount": "100,000,000 Tokens，默认 GLM-5.3-Flash，1M 上下文；用完后自动扣现金余额",
+      "source_level": "一手（scnet.cn 官方活动页新人礼 02 规则原文，多张客户端截图交叉；公众号规则详解含官方原文转录）",
+      "source_url": "https://www.scnet.cn/ui/mall/activity/newyear",
+      "status": "new"
+    },
+    {
+      "vendor": "LinkModel",
+      "benefit": "黑五注册送 1 美元 Credits + Discord 前 30 名送 2 美元",
+      "deadline": "2 美元到 2026-12-02 23:59 PST 或前 30 名领完；1 美元长期有效",
+      "amount": "1 美元约 7 元，按官方博客够生成 62 张 Seedream 图；2 美元约 14 元",
+      "source_level": "一手（LinkModel 官方博客 linkmodel.ai/blog/black-friday-ai-deals，逐字写明金额、日期、领取路径）",
+      "source_url": "https://www.linkmodel.ai/blog/black-friday-ai-deals",
+      "status": "new"
+    }
+  ],
+  "expired": [
+    "阶跃 StepAudio 3 语音线 11-17 11:59 起按会话分钟计费",
+    "蚂蚁百灵 Ling-3.2-flash 上线前两周免费约 11-19 结束",
+    "Watt Cloud Ampere 官网标 FREE UNTIL NOV 19，已过",
+    "智谱上一轮周末包 5 亿 11-16 09:00 已清零（新一轮 11-23 09:00 清零）"
+  ],
+  "assets": [
+    {
+      "file": "zhipu_trial_card.png",
+      "source_page": "https://bigmodel.cn/activity/trial-card/PU9MTWG0PM",
+      "note": "头条主图：GLM Coding Plan 7 天体验卡活动页，含立即领取按钮与领取规则"
+    },
+    {
+      "file": "autoclaw_100m.png",
+      "source_page": "https://autoclaw.zhipuai.cn/blog/news/M11W3",
+      "note": "AutoClaw 官方博客原文，写明 11 月 16 日 00:00—11 月 22 日 23:59、100M Tokens=10000 积分"
+    },
+    {
+      "file": "opencode_free.png",
+      "source_page": "https://opencode.ai/docs/zen",
+      "note": "OpenCode 官方模型清单 Free 段，DeepSeek V4.1 Flash / Hy4 flash / LongCat 2.5 等 12 款"
+    },
+    {
+      "file": "scnet_rule.png",
+      "source_page": "http://mp.weixin.qq.com/s?__biz=MjM5MDU4NjQ2MQ==&mid=2455893111&idx=1&sn=59d055aa133e7e1bb1e1df5c89d64181",
+      "note": "超算互联网 1 亿 Token 规则原文：活动时间 11 月 6 日到 12 月 31 日、新人专享入口、用完后自动扣现金余额"
+    },
+    {
+      "file": "linkmodel_bf.png",
+      "source_page": "https://www.linkmodel.ai/blog/black-friday-ai-deals",
+      "note": "LinkModel 官方黑五页：新用户注册送 1 美元 Credits、无绑卡无充值"
+    }
+  ],
+  "assets_note": "5 张全部 Playwright 首屏/锚点抓取并逐张 ViewImage 核图对位。超算首页截图（scnet_100m.png）落到首页装饰、与活动不符，已弃用；改用规则原文截图。Gemini 定价页需登录，未配图。带水印原始底图 cyberpunk_*.png 与中间 HTML 不入库。",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "bg_clean.png（ImageGen 直出 1536x640，下裁 76px 去右下 AI生成 水印后 resize 回 1536x653）",
+    "copy": {
+      "main": "智谱白送 7 天编程卡",
+      "sub": "超算新用户再领 1 亿 Token",
+      "tail": "OpenCode 免费池明天关窗",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_22.py --bg bg_clean.png --out cover.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "行1 48/168/420 ok；行2 35/217/476 ok；行3 32/256/440 ok；末行基线 256 < 胶囊上沿 324 不冲突。人眼复核三行无错字、右下水印已去除。",
+    "note": ""
+  },
+  "qa": {
+    "word_count_cn": 1133,
+    "title_chars": 29,
+    "digest_chars": 52,
+    "first_person": 5,
+    "deai": "真加载 jiangai，前置 CT 诊断（句长方差偏小、宣告式开头『先把话说清楚』、僵尸动词、虚词密度）后按五层爆破改写；第 4 节数值与引文重构整体禁用，字数 1193→1133 只减不增；skill 日志与自评分未写进稿件。"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqpn20dnengXw5wgsyAhZx56dc6wSm8qFR9S84kcs1UN3"
+}
