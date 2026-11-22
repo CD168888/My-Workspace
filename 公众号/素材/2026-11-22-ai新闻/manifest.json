@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-22",
+  "column": "每日AI新闻",
+  "title": "Claude两版只差0.1分，选之前先看推理那栏",
+  "digest": "总分只差0.1，推理却差15分；同一周Claude Code默认开auto mode，Anthropic首日破2万亿。",
+  "title_type": "⑤揭秘避坑型",
+  "title_generated_at": "2026-11-22T08:15:00+08:00",
+  "title_note": "上期②悬念反转型已错开；四周内①已用两次、②已用两次、④上期前用过，本期选⑤。锚定今日最影响选型的Claude榜单0.1分事件（公众号首发）。",
+  "word_count": 1204,
+  "asset_count": 5,
+  "assets": [
+    {"file": "assets/01_Anthropic纳斯达克敲钟现场.jpg", "source": "https://www.163.com/dy/article/LCA2SFJP0556QIDZ.html", "desc": "Anthropic 上市首日 ANT 纳斯达克敲钟现场"},
+    {"file": "assets/02_Anthropic估值表.jpg", "source": "https://www.163.com/dy/article/LCA2SFJP0556QIDZ.html", "desc": "招股书估值与财务数据对照表，估值口径拆解配图"},
+    {"file": "assets/03_科技行业峰会现场.jpg", "source": "https://paooo.com/aigc-news/42437", "desc": "科技行业峰会现场人物，SEC 查英伟达会计实务配图（人物身份未核实，图注用中性描述）"},
+    {"file": "assets/04_人形机器人本体.jpg", "source": "http://mp.weixin.qq.com/s?__biz=Mzk0MjQxMDY1Mg==&mid=2247506017&idx=1&sn=d19841e1e64a8ae0e3d0482829e78445", "desc": "人形机器人本体（茶派科技具身日报），Movens-5M 开源配图"},
+    {"file": "assets/05_人形机器人产线现场.jpg", "source": "https://paooo.com/aigc-news/42437", "desc": "人形机器人产线/展厅现场，具身供给侧配图"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "cover_bg.png（ImageGen 1536x640 底图，下裁52px去『AI生成』水印后重采样回1536x640）",
+    "copy": {
+      "main": "0.1分背后差15分",
+      "sub": "榜单名次，不等于你的活",
+      "tail": "2万亿估值，藏着三个数"
+    },
+    "render": "cover_neon.py --base 40 --baseline0 168 --left 36（自检阶梯48/35/32，末行基线256不压胶囊上沿324）",
+    "file": "cover_ai_news.png"
+  },
+  "jiangai": {
+    "loaded": true,
+    "ct_diagnosis": "初稿汉字1209/句57/最长46/方差88.5；『这意味着』1处、『压根不是一回事』『不是全绿』等二元对比为主毒点",
+    "overrides": ["禁用第4节数值与引文重构", "字数只减不增（汉字1209→1204，非空白1746→1746，落在1200-2000区间）"],
+    "toxins_cleared": ["『这意味着什么？』改为直问『变了什么？』", "二元对比清零（不是A而是B=0，压根不是/不是全绿已改写）", "植入自我否定修正1处（供给侧的账，我第一遍也以为是全线飘绿）", "植入口头禅（说穿了/但有一说一/得提醒一句）", "开头细节切入"],
+    "self_score": {"句式混乱度": 7, "词汇稀缺度": 6, "逻辑跳跃度": 6, "口语杂糅指数": 6, "结构不规则度": 8}
+  },
+  "dedup": {
+    "main_anchor": "Claude Fable 5.1/5.2 榜单0.1分口径拆解——公众号首发全新锚点（此前只在每日新闻归档提及，从未做过公众号选题）",
+    "followup": "Anthropic上市破2万亿——11-19已发上市估值口径，本期换角度到首日收盘市值与三个估值口径的差别",
+    "angle_shift": "AI coding从基建化换到auto mode默认自治；具身从触觉/在岗台数换到供给侧三组数据+阿米奥收缩；副业从行业定制包换到卖结果按工具定价"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqhkuH_2fwQ7PQecBFGbax92Kw83kniRH392NkuWoC4p5",
+  "updated_at": "2026-11-22T08:24:00+08:00"
+}
