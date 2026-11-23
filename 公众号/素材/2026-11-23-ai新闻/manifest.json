@@ -1,0 +1,48 @@
+{
+  "date": "2026-11-23",
+  "column": "每日AI新闻",
+  "title": "别急着宣布黎曼猜想获证，公开的只是1700万行代码",
+  "digest": "两位数学家独立编译跑通，但代码里的定理是否就是广义黎曼猜想，仍待比对；克雷研究所要求期刊发表加两年验证。",
+  "title_type": "④信息差型",
+  "title_generated_at": "2026-11-23T08:22:00+08:00",
+  "title_note": "上期⑤揭秘避坑型已错开；四周内①②⑤各用2次已满，④上次为11-20，本期选④。三版备选：①『1700万行Lean代码公开，黎曼猜想仍差一次比对』②『证明跑通了，数学家却说还不能下结论』④本期选定。锚定今日传播最广、最影响大众判断的黎曼猜想事件，前12字含具体锚点且无代词。",
+  "word_count": 1400,
+  "nonspace_count": 1927,
+  "asset_count": 8,
+  "assets": [
+    {"file": "assets/01_黎曼肖像.jpg", "source": "https://news.ycwb.com/ikimvjjtii/content_54353925.htm", "desc": "金羊网报道配图：德国数学家黎曼肖像（原文图注确认）"},
+    {"file": "assets/02_阿尔珀格学术海报现场.jpg", "source": "https://news.ycwb.com/ikimvjjtii/content_54353925.htm", "desc": "金羊网报道配图：阿尔珀格早年站在学术海报前（原文图注确认为 Levent Alpöge）"},
+    {"file": "assets/03_陶哲轩博客判断截图.png", "source": "https://news.qq.com/rain/a/20261121A03HD600", "desc": "腾讯新闻/IT之家报道内的陶哲轩博客截图，含『一份巨大的、仅有Lean的证明』判断"},
+    {"file": "assets/04_NBER论文页面截图.png", "source": "https://www.nber.org/papers/w35275", "desc": "NBER 工作论文 35275 页面，标题、作者与摘要可见；已去除 cookie 弹窗后重截"},
+    {"file": "assets/05_OpenAI状态页截图.png", "source": "https://status.openai.com", "desc": "OpenAI 状态页可用性面板（发稿时显示 fully operational，非事故当时截图）"},
+    {"file": "assets/06_机器人咖啡场景.jpg", "source": "https://m.thepaper.cn/newsDetail_forward_34530279", "desc": "澎湃 APEC 具身报道现场图：机器人咖啡服务场景"},
+    {"file": "assets/07_机器人产线现场.jpg", "source": "https://m.thepaper.cn/newsDetail_forward_34530279", "desc": "澎湃 APEC 具身报道现场图：机器人产线"},
+    {"file": "assets/08_人形机器人户外行走.jpg", "source": "https://m.thepaper.cn/newsDetail_forward_34530279", "desc": "澎湃 APEC 具身报道现场图：人形机器人户外行走"}
+  ],
+  "cover": {
+    "style": "霓虹拼贴",
+    "bg": "cover_bg.png（ImageGen 1536x640 底图，下裁52px去『AI生成』水印后重采样回1536x640）",
+    "copy": {
+      "main": "编译过了，比对呢？",
+      "sub": "25万页草稿，没人通读",
+      "tail": "两道门，只过了一道"
+    },
+    "render": "cover_neon.py --base 40 --baseline0 168 --left 36（自检字号44/35/32，右端376/395/324，末行基线254不压胶囊上沿324）",
+    "file": "cover_ai_news.png"
+  },
+  "jiangai": {
+    "loaded": true,
+    "ct_diagnosis": "初稿汉字1426/非空白1936/句70/均长20.4/最长57/方差94.0/最短8；僵尸词与显性逻辑词0、介词框架句0、虚词密度5.9%；毒点『从来不是同一个问题』1处、『最』2处",
+    "overrides": ["禁用第4节数值与引文重构（数字、日期、公司名、引文原话一律不动）", "字数只减不增（汉字1426→1400，仍落在1200–2000区间）"],
+    "toxins_cleared": ["『从来不是同一个问题』改『省钱？稳住？两码事。有趣得很。』", "『最』2处改『排在末位』『用量排在前10%』", "插入自我否定修正2处（我第一遍也差点…且慢／我第一遍差点把门一当门二——不，急了）", "植入问号链『发布版本呢？30%。』与破折号意外后果", "植入模糊限定『姑且慢着』『大抵是』", "段首句改为细节切入/反问质疑，长短段错落"],
+    "self_score": {"句式混乱度": 8, "词汇稀缺度": 7, "逻辑跳跃度": 7, "口语杂糅指数": 6, "结构不规则度": 8},
+    "post_check": "汉字1400/非空白1927/句79/均长17.6/最长48/最短4/方差84.3；第一人称9处（3.2/500字）；12条自检通过"
+  },
+  "dedup": {
+    "main_anchor": "黎曼猜想AI证明的验收口径拆解：编译通过≠命题对齐≠数学界认可——公众号首发全新锚点（此前只在每日新闻归档提及，公众号近14期未做）",
+    "followup": "NBER 35275 代码25.5倍/发布1.3倍、OpenAI 211分钟中断为当日新披露；具身单价腰斩与越疆影院工位为旧主线换角度到招股书单价与在岗时长",
+    "angle_shift": "副业从11-22『卖结果按工具定价』换到『OPC社区压低固定成本但交付风险不降』"
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqi1BaI_28cdylOdUY19cezXl6PomEvLRDSGx3_ZDUAZo",
+  "updated_at": "2026-11-23T08:31:00+08:00"
+}
