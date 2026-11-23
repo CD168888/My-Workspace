@@ -1,0 +1,73 @@
+{
+  "date": "2026-11-23",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqtz2y88aUgQasrtD0sSrwMQJhj7moXG3UnQmFUBeJ-eS",
+  "title": "OpenCode 传今天关池，官网仍列 11 款免费模型",
+  "digest": "HiAPI 明天开始每天送一千万 Token，连送七天；LinkModel 今天开领两美元，名额只有三十个。",
+  "title_type": "④ 信息差型",
+  "title_type_reason": "上期 11-22 为③紧迫提醒型，按栏目优先序①→③→④且①所需的『今天关池』事件只有三级源、一手源未坐实（不能当①的真事件用），选④。前12字『OpenCode 传今天』=真名+当天状态，28字符，逗号在非引子位，无冒号无感叹号，条数放后半句。",
+  "title_generated_at": "2026-11-23T09:20:00+08:00",
+  "dedup": "covered.json 近7天已覆盖且无变化的老面孔（Hy4 flash/EdgeOne/Kiro/书生 Sage/TokenHub 新人包/Qoder 每日100/讯飞4B/小米V2.6/无问AI/MAI Code 2/火山折扣/AtomGit/国家超算新人礼/智谱7天体验卡等）按铁律一律不收。丢弃4条14天前旧项（阶跃/Qoduck/百川/中国电信），42条在册。",
+  "headline": "OpenCode Zen 限时免费模型池减到 11 款，第三方速报把 11-23 标为关池日，官方 Zen 文档此刻仍列 11 款、只写 limited time 未给日期；下架表新增 LongCat-2.0(11-22)、GLM 5.2/5.1(11-19)、Gemini 3.1 Pro/Flash(11-17)",
+  "headline_value": "DeepSeek V4.1 Flash 官方刊例输入0.15美元/输出0.6美元每百万Token；多数免费模型每天50次请求，一次按1万Token算，一天50万Token约几毛到两块多，连续跑一个月省几十元调用费；相对 OpenRouter :free 每天50次、充10美元才升1000次，这一池不用先掏钱",
+  "items": [
+    {
+      "vendor": "OpenCode Zen",
+      "benefit": "限时免费模型池减到11款 + 关池日期一手源未坐实",
+      "deadline": "2026-11-23（第三方速报关池；官方 Zen 页只写 limited time 未给日期）",
+      "amount": "11款-free模型，含DeepSeek V4.1 Flash/Hy4 flash/MiMo V2.6 Flash等；多数每天50次请求",
+      "source_level": "一手（OpenCode 官方 opencode.ai/docs/zen 的 Free models 段与 Deprecated models 表，逐款核过）",
+      "source_url": "https://opencode.ai/docs/zen",
+      "status": "changed",
+      "change_note": "相比 11-22 收录的12款，本期减到11款且 LongCat-2.0 于11-22下架；速报口径的11-23关池日官方页未写，稿件两边都呈现、按保守口径当最后一天"
+    },
+    {
+      "vendor": "HiAPI",
+      "benefit": "黑五 DeepSeek V4.1 Flash 每天1000万免费",
+      "deadline": "2026-11-24 至 2026-11-30（7天）",
+      "amount": "10M tokens/天×7天=7000万，按刊例输入价约10.5美元；新账号送200 Credits；充值满50美元加赠10%",
+      "source_level": "一手（HiAPI 官方活动页 hiapi.ai/en/promotions/black-friday-2026，逐字写明 From Nov 24, for 7 days / 10M tokens a day）",
+      "source_url": "https://hiapi.ai/en/promotions/black-friday-2026",
+      "status": "changed",
+      "change_note": "相比 11-13 收录时的 Coming soon 预告，本期官方页已挂出倒计时并新增注册送200 Credits"
+    },
+    {
+      "vendor": "LinkModel",
+      "benefit": "Discord 前30名送2美元 + Build Fund 10人各5美元",
+      "deadline": "2026-12-02 23:59 PST 或领完即止",
+      "amount": "2美元约14元；5美元抽奖10人；11-23正式开放申领，24-48h到账，无需充值",
+      "source_level": "一手（LinkModel 官方博客 linkmodel.ai/blog/black-friday-ai-deals，逐字写明 Starting November 23, 2026 / first 30 verified / 10 winners receive $5 each）",
+      "source_url": "https://www.linkmodel.ai/blog/black-friday-ai-deals",
+      "status": "changed",
+      "change_note": "相比 11-22 收录时的预告，2美元额度今日正式开放；5美元 Build Fund 抽奖为本期新增"
+    }
+  ],
+  "expired": [
+    "智谱 ZCode 周末包5亿 GLM-5.3-Flash（11-23 09:00清零）",
+    "智谱 AutoClaw 第三周1亿 Token（11-22 23:59失效）",
+    "Capy DeepSeek V4.1 Flash 与 GLM-5.3-Flash 广告免费版（官方文档限美加英澳新爱IP，国内调不通）",
+    "阶跃 StepAudio 3 realtime/TTS（11-22 12:00起计费）",
+    "百度千帆双11全家桶（11-23收口）",
+    "OpenCode GLM 行动第二阶段（第三方口径11-22到期）"
+  ],
+  "assets": [
+    {"file": "assets/opencode_free.png", "source": "https://opencode.ai/docs/zen", "note": "锚点截 Free models 段，11款逐款可见"},
+    {"file": "assets/opencode_deprecated.png", "source": "https://opencode.ai/docs/zen", "note": "锚点截 Deprecated models 表，LongCat-2.0 11-22 下架可见"},
+    {"file": "assets/hiapi_blackfriday.png", "source": "https://hiapi.ai/en/promotions/black-friday-2026", "note": "首屏含 10M tokens/day 与 From Nov 24, for 7 days"},
+    {"file": "assets/linkmodel_bf.png", "source": "https://www.linkmodel.ai/blog/black-friday-ai-deals", "note": "首屏标题与 Plus Free Credits & Community Rewards"},
+    {"file": "assets/linkmodel_claim.png", "source": "https://www.linkmodel.ai/blog/black-friday-ai-deals", "note": "锚点截社区奖励段，$2 前30名与 $5×10 可见"}
+  ],
+  "assets_note": "5张全部 Playwright 首屏/锚点抓取，逐张 ViewImage 核图对位；本期为变化型头条，官方下架表是减员最硬的图证。未登录任何账号。opencode_zen.png 截到了错误分节（Console models 首页），已删除未用。",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4）",
+    "bg": "cyberpunk_tech_background__dar_2026-11-23T01-20-30.png",
+    "bg_clean": "bg_clean.png（1536x640 下裁55px去右下AI水印后重采样到1536x653）",
+    "copy": {
+      "main": "11 款免费模型还在",
+      "sub": "HiAPI 明起七天，每天一千万 Token",
+      "tail": "关池日期，两边说法对不上"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_23.py --bg 公众号/素材/2026-11-23-ai-福利/bg_clean.png --out 公众号/素材/2026-11-23-ai-福利/cover.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "行1 47px/基线168/右端403；行2 35px/216/614；行3 32px/256/420；末行基线256 < 胶囊上沿324，不冲突"
+  }
+}
