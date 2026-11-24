@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-24",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqnDpHa9XhMlk6lmPwxHAngkPfsSfyvKe0VJxFKZGlGNM",
+  "title": "HiAPI 今天开送每天一千万 Token，连送七天",
+  "digest": "最急的 Qwen4-Max 明晚 24 点关 2 折窗；Swarms 填码领 15 美元，智谱订阅加量五成。",
+  "title_type": "① 事件冲击型",
+  "title_type_reason": "上期 11-23 为④信息差型，按栏目优先序①→③→④且 HiAPI 今日（11-24）正式开领属 24 小时内真事件，选①。前 12 字『HiAPI 今天开送每天一千万』= 真名 + 今天刚发生的事 + 具体数字；26 字符，无冒号，感叹号 0，条数未当主钩子。",
+  "title_generated_at": "2026-11-24T09:10:00+08:00",
+  "dedup": "covered.json 近 7 天已覆盖且无变化的老面孔（Hy4 flash/EdgeOne/Kiro/书生 Sage/TokenHub 新人包/Qoder 每日100/讯飞4B/小米V2.6/无问AI/MAI Code 2/火山折扣/AtomGit/国家超算新人礼/智谱7天体验卡/火山 web_fetch 等）按铁律一律不收。HiAPI 由上期『预告转倒计时+注册送200』变为本期『今日 11-24 正式开领、条款坐实』属状态变化回炉；GLM-5.4 为 11-23 全新发布；Swarms 为清单核出的新条目；Qwen4-Max 进入最后一天倒计时。",
+  "headline": "HiAPI 黑五 DeepSeek V4.1 Flash 每天 1000 万 Token 免费，11-24 起连续 7 天，自动参与无需优惠码；官方活动页中文逐字写明条款",
+  "headline_value": "HiAPI 自家价格页输入 0.44 美元/百万 Token、输出 1.32 美元；一天 1000 万按输入价约 4.4 美元，7 天满打满算 30.8 美元约合 200 多元人民币；按电商文案约 2000 Token/套算，一天够写约 5000 个商品文案",
+  "items": [
+    {
+      "vendor": "HiAPI",
+      "benefit": "黑五 DeepSeek V4.1 Flash 每天 1000 万 Token 免费",
+      "deadline": "2026-11-24 至 2026-11-30（7 天，每天 24:00 清零不累计）",
+      "amount": "10M tokens/天 × 7 天；输入刊例 0.44 美元/百万、输出 1.32 美元/百万",
+      "source_level": "一手（HiAPI 官方活动页 hiapi.ai/zh/promotions/black-friday-2026 中文逐字『11月24日起，连续7天，每天1000万tokens免费』；官方电商博客另写『充值过至少一次』门槛，稿件两处口径都呈现并按更严的准备）",
+      "source_url": "https://hiapi.ai/zh/promotions/black-friday-2026",
+      "status": "changed",
+      "change_note": "相比上期收录的预告/倒计时页+注册送 200 Credits，本期 11-24 正式开领，活动页条款坐实、中文页上线，且核出『需充值至少一次』与『自动参与』的口径差异"
+    },
+    {
+      "vendor": "阿里云百炼",
+      "benefit": "Qwen4-Max 预览版调用 2 折 + 新客首购 Lite 19.5 元/月",
+      "deadline": "2026-11-25 24:00（预览窗口关闭，模型 ID 下线）",
+      "amount": "qwen4-max-preview Credits 按 2 折算，Lite 19.5 元/月含 2 万 Credits，夜间 22:00-次日 8:00 叠加折扣",
+      "source_level": "一手（阿里云开发者社区官方号 developer.aliyun.com/article/1786883 与 1788026，逐字写明 11-11 10:00 至 11-25 24:00 预览窗口）",
+      "source_url": "https://developer.aliyun.com/article/1786883",
+      "status": "changed",
+      "change_note": "首次收录于 11-12，本期进入最后一天倒计时（final_day 回炉）；付费折扣非免费额度，稿中明确标注"
+    },
+    {
+      "vendor": "Swarms Cloud",
+      "benefit": "黑五码 SWARMSFLASH 送 15 美元 Credits",
+      "deadline": "2026-12-02（太平洋时间，活动结束）",
+      "amount": "每账号一次 15 美元 Credits；新账号另送 5 美元注册额度合计 20 美元约 140 元；11-27 与 11-30 的 token 全免仅付费 Pro/Premium",
+      "source_level": "一手（Swarms 官方博客 swarms.ai/blog/black-friday-2026-swarms-cloud-deals 逐字写明 code SWARMSFLASH / $15 in free credits / through December 2 2026 Pacific time）",
+      "source_url": "https://www.swarms.ai/blog/black-friday-2026-swarms-cloud-deals",
+      "status": "new",
+      "change_note": "全新条目，covered.json 无同厂商同福利记录"
+    },
+    {
+      "vendor": "智谱",
+      "benefit": "GLM-5.4 开放 Coding Plan 全量用户 + V2/V3/团队版周额度 1.5 倍",
+      "deadline": "长期（官方未写截止）",
+      "amount": "GLM-5.4 新增视觉能力与 1M 上下文版本；周额度提至 GLM-5.3 的 1.5 倍；API 待安全评估、权重未开源；订阅内加量非免费",
+      "source_level": "一手（智谱官方研究博客 zhipuai.cn/zh/research/164 与 z.ai/blog/glm-5.4，逐字写明『向 GLM Coding Plan 全量用户开放』『额度提升至 1.5 倍』）",
+      "source_url": "https://www.zhipuai.cn/zh/research/164",
+      "status": "new",
+      "change_note": "11-23 全新发布，上一期出稿时（11-23 09:19）尚未发布，属新一期；付费订阅内加量，稿中明确标注非免费"
+    }
+  ],
+  "expired": [
+    "智谱 ZCode 周末包 5 亿（11-23 09:00 清零）",
+    "OpenCode 免费模型池 11 款（11-23 关窗，官网已下架）",
+    "百度千帆双 11 全家桶（11-23 全线收口）",
+    "AutoClaw 每周一亿 Token（11-22 23:59 失效）",
+    "讯飞星辰 10 亿 Token（官方无统一截止日，第三方推算在这两天，无一手日期按不可靠处理）",
+    "Caffeine Studio 免费一月会员（仅自媒体传播，官网首页无活动说明，绑卡口径矛盾）"
+  ],
+  "assets": [
+    {"file": "assets/hiapi_blackfriday.png", "source": "https://hiapi.ai/zh/promotions/black-friday-2026", "note": "首屏，含 1000万 tokens/天、DeepSeek V4.1 Flash、11月24日起7天、倒计时牌"},
+    {"file": "assets/qwen4_preview.png", "source": "https://developer.aliyun.com/article/1786883", "note": "首屏，正文写明 11-25 24:00 预览结束、2 折与新客 19.5 元"},
+    {"file": "assets/swarms_blackfriday.png", "source": "https://www.swarms.ai/blog/black-friday-2026-swarms-cloud-deals", "note": "首屏官方博客头图，含 ENDS DECEMBER 2 与 Swarms Black Friday Deals"},
+    {"file": "assets/zhipu_glm54.png", "source": "https://www.zhipuai.cn/zh/research/164", "note": "官方博客正文段，含『向 GLM Coding Plan 全量用户开放』『1.5倍』原文"}
+  ],
+  "assets_note": "4 张全部 Playwright 首屏抓取并逐张 ViewImage 核图对位，全部 on-topic；未登录任何账号。本期正文 4 条，配图 4 张落在 4–8 张区间。",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "ImageGen 直出 1536x640（右下带 AI生成水印），下裁 76px 后 resize 回 1536x653 → bg_clean.png",
+    "copy": {
+      "main": "1000万 Tokens 白送七天",
+      "sub": "智谱订阅额度加五成",
+      "tail": "明晚 24 点 Qwen4-Max 关窗",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_24.py --bg bg_clean.png --out cover.png --base 40 --baseline0 172 --left 36",
+    "selfcheck": "行字号 44/35/32 阶梯；右端 523/351/473 无出界；末行基线 258，胶囊上沿约 324 不冲突",
+    "note": "主数字 1000万 由文字层承担；底图左侧暗、右侧沙漏+玻璃卡片，对应时间意象与清单卡片"
+  },
+  "word_count_cn": 1060
+}
