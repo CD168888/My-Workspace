@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-26",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqlull0ET-YukZkiAel9RnT6GEaXhlzHGHbQ6bwK-02uS",
+  "title": "别原价续 Google AI，5折今天只对老用户开",
+  "digest": "七牛云每天 1 亿词元 11 月 30 日关窗，剩 4 天；秒悟 Meoo 登录送 2000 积分，新人给 5000。",
+  "title_type": "④ 信息差型",
+  "title_type_reason": "上期 11-25 为③紧迫提醒型，按栏目优先序①→③→④避开③；④上次为 11-23，空档更久。前 12 字「别原价续 Google AI」含真名 Google 锚点，无泛量词无代词；25 字符，冒号 0，感叹号 0，条数未当主钩子。另写①事件冲击型与③紧迫提醒型各一条备选未用。",
+  "title_generated_at": "2026-11-26T09:18:00+08:00",
+  "dedup": "covered.json 近 7 天已覆盖且无变化的老面孔（Kiro 4000、AutoClaw 第四周、Devin、Queryra、WPOS、HiAPI、GLM-5.4、Qwen4-Max、Swarms、LinkModel、TokenHub、OpenCode、国家超算、火山折扣等）按铁律不收。Google AI Pro 黑五 5 折全新；Antigravity 属 11-24 更新带来的模型清单变化；七牛云进入 11-30 关窗倒计时属状态变化；秒悟 Meoo 与 PixVerse 黑五均为新条目。丢弃 3 条 14 天前旧项，50 条在册。",
+  "headline": "Google AI Pro 黑五抢先场：现有 AI/存储订阅用户年付 5 折，199.99→99.99 美元，老用户美国时间 11-26 截止，新用户 11-27 黑五开放",
+  "headline_value": "头一年省 100 美元约 720 元；每月含 10 美元谷歌云赠金，一年 120 美元约 864 元覆盖年费；5TB 可 6 人分摊每人每年 16.67 美元约 110 元。按两年算：299.98 对 479.76 美元，省幅从五折缩到三成七。折后月均 8.33 美元，不到 ChatGPT Plus 20 美元的一半。",
+  "items": [
+    {
+      "vendor": "Google",
+      "benefit": "AI Pro 黑五 5 折年付",
+      "deadline": "2026-11-26（美国时间，老用户早鸟）；2026-11-27 新用户开放",
+      "amount": "199.99→99.99 美元/年，省 100 美元约 720 元；含每月 10 美元谷歌云赠金",
+      "source_level": "一手（Google Gemini 订阅负责人 Vikas Kansal 官方 X 公告，多权威媒体原文转述；Google One 官方方案页常规价可直接查看）",
+      "source_url": "https://one.google.com/about/google-ai-plans/",
+      "status": "new",
+      "note": "5 折横幅为登录态灰度，未登录仅见常规价 19.99/199.99 美元；稿中已明示未代登录核验"
+    },
+    {
+      "vendor": "Google Antigravity",
+      "benefit": "免费档 11-24 更新：新增 Gemini 4 Hydrogen + 全员额度重置",
+      "deadline": "Gemini 4 Argon / 3.8 Flash / Claude 4.6 系列 2026-11-30 移除；Hydrogen 长期免费档",
+      "amount": "个人版 0 美元，邮箱注册免绑卡",
+      "source_level": "一手（antigravity.google/pricing 官方定价页实测模型清单；官方 X 公告经权威媒体转述）",
+      "source_url": "https://antigravity.google/pricing",
+      "status": "changed",
+      "change_note": "上期记录 Claude 4.6 为 11-18 移除，本次官方定价页仍列该模型、下线日改到 11-30，稿中写明口径变化"
+    },
+    {
+      "vendor": "七牛云",
+      "benefit": "Conatus Free 认证用户每日 1 亿 Token",
+      "deadline": "2026-10-24 00:00 至 2026-11-30 23:59",
+      "amount": "每日 1 亿 Token，充值后最高 10 亿，100 万上下文；仅活动免费额度，用完即拒",
+      "source_level": "一手（qiniu.com 官方模型详情页逐字写明活动期与额度）",
+      "source_url": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "status": "changed",
+      "change_note": "相比上次收录，变化是关口从一个月外挪到本周内"
+    },
+    {
+      "vendor": "秒悟 Meoo",
+      "benefit": "每日登录 2000 积分 + 新人首月 5000 积分",
+      "deadline": "长期机制，积分每笔 7 天有效",
+      "amount": "2000 积分按 GLM-5.3-Flash 输出价约合 140 万 Token 输出",
+      "source_level": "一手（meoo.com 官网首页横幅写「注册领 5,000 积分」；官方套餐文档经多源交叉）",
+      "source_url": "https://meoo.com",
+      "status": "new",
+      "note": "网传注册送一万为早期活动，稿中按官网现值 5000 写并提示以注册页为准"
+    },
+    {
+      "vendor": "PixVerse",
+      "benefit": "黑五会员模型最高省 90% + 充值加送积分",
+      "deadline": "年付与积分加送 2026-11-30 PST；会员模型优惠 2026-12-07 PST",
+      "amount": "50 美元包加送 30%、100 美元包加送 50%；免费档初始 60 + 每日 30 积分",
+      "source_level": "一手（pixverse.ai 官方博客「2026 年免费 AI 视频生成器推荐」黑五条款段逐字列明两个 PST 截止日）",
+      "source_url": "https://pixverse.ai/zh/blog/best-free-ai-video-generator",
+      "status": "new",
+      "note": "付费会员折扣非免费额度，稿中已明确标注；PST 折合北京时间 12-01 与 12-08"
+    }
+  ],
+  "expired": [
+    "Qwen4-Max 预览版 2 折（11-25 24:00 关闭，模型 ID 下线）",
+    "AutoClaw 第三周 1 亿词元（11-22 23:59 清零）",
+    "智谱 ZCode 周末包 5 亿（11-23 09:00 清零）",
+    "Watt Cloud Ampere 零元 API（官网标至 11-19，已转计费）",
+    "fal MiniMax H3 免费生成（11-23 结束）",
+    "NanoGPT Clover 2 首周免费（11-24 结束）"
+  ],
+  "excluded_notes": [
+    "中国电信星辰 10 亿 Token：仅自媒体直播预告，无一手活动页，按规范弃用",
+    "火山 Seedream 450 张免费图：仅周报二级源，官方模型发布公告无此条款，弃用",
+    "Claude 付费账号免费重置：11-10 旧闻且限付费用户，不合新/变门槛",
+    "ChatGPT Business 5 席位首月 0 元：定向命中、需外币卡且次月原价，仅二级源，未进正文",
+    "秒悟 Meoo 注册送 1 万积分：早期活动口径，官网现为 5000，按现值写"
+  ],
+  "assets": [
+    {"file": "assets/google_ai_plans.png", "source": "https://one.google.com/about/google-ai-plans/", "note": "首屏，Google One 方案页常规价 AI Pro 月付 19.99 美元，头条价值换算基准"},
+    {"file": "assets/antigravity_pricing.png", "source": "https://antigravity.google/pricing", "note": "首屏，免费档含 Gemini 4 Hydrogen，Pro/Ultra 档模型对照"},
+    {"file": "assets/qiniu_conatus.png", "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free", "note": "首屏，活动 10-24 至 11-30 23:59、认证每日 1 亿 Token 与 API 接入信息"},
+    {"file": "assets/meoo_home.png", "source": "https://meoo.com", "note": "首屏，顶部横幅「注册领 5,000 积分」实时图证"},
+    {"file": "assets/pixverse_bf.png", "source": "https://pixverse.ai/zh/blog/best-free-ai-video-generator", "note": "锚点截黑五条款段，含 11-30 与 12-07 两个 PST 截止日"}
+  ],
+  "assets_note": "5 张全部 Playwright 公开页面抓取并逐张核图对位；未登录任何账号。Google 5 折横幅为登录态灰度，未登录只见常规价，改以官方方案页做价值换算基准并在正文说明。AutoClaw 官方博客截图已抓取但因昨日已收且无变化未采用，未入库。",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "ImageGen 直出 1536x640（右下带 AI生成 水印），下裁 55px 后 resize 回 1536x653 → bg_clean.png",
+    "copy": {
+      "main": "99.99 美元一年",
+      "sub": "省 100 美元，还含 120 美元赠金",
+      "tail": "七牛云 1 亿 11 月 30 日关窗",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_26.py --bg bg_clean.png --out cover.png --base 40 --baseline0 172 --left 36",
+    "selfcheck": "行字号 44/35/32 阶梯；右端 333/558/452 无出界；末行基线 258，胶囊上沿约 324 不冲突；裁后无残留水印",
+    "note": "主文案给标题没讲的价格数字，副标讲赠金，尾行给快讯里最急的关窗日；三层均不复读标题"
+  },
+  "word_count_cn": 1246,
+  "deai": "真加载 jiangai skill；前置 CT（句长方差 544.9 健康、无显性逻辑词、无僵尸动词、虚词「的」1.9%）后五层爆破，只动语言层；第 4 节数值重构整体禁用，字数 1338→1246 只减不增；拆 14 处超 60 字长句，注入第一人称判断与自我修正，skill 日志与自评分未写稿。"
+}
