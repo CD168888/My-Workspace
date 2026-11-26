@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-26",
+  "column": "每日AI新闻",
+  "title": "12月起ChatGPT与Codex合账，重度用户更早见底",
+  "digest": "小鹏IRON明年1月量产，ShellBench给出62.5%通过率；视频模型0.5元一秒，权重仍写着尽快开放。",
+  "word_count_han": 1311,
+  "word_count_nonspace": 2500,
+  "title_type": "③ 紧迫提醒型",
+  "title_type_prev_issue": "⑥ 极简清单型（2026-11-24，上一期《每日AI新闻》）",
+  "title_generated_at": "2026-11-26T08:14:00+08:00",
+  "title_type_candidates": [
+    "③ 紧迫提醒型：12月起ChatGPT与Codex合账，重度用户更早见底（选用；日期+真名在前12字）",
+    "① 事件冲击型：11月25日MAGI-2登顶视频榜，0.5元一秒的权重还没开（备择；冲击感强但主锚点偏小）",
+    "④ 信息差型：别急着给Codex加预算，12月起它和聊天抢同一碗饭（备择；劝退钩子好，但正文账单细节比标题更硬）"
+  ],
+  "title_type_note": "四周内①②④⑤均已用满两次，③在本栏目未用过；上一期是⑥，相邻不许同型。标题锚定 12 月合账这一有明确日期的大众向事件，正文逐条兑现。",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）/ cover_neon.py",
+    "bg": "cyberpunk_tech_background__dar_2026-11-26T00-13-47.png（ImageGen 1536x640）→ 下裁 52px 去右下「AI生成」水印 → 重采样回 1536x640 → cover_bg.png",
+    "copy": {
+      "line1": "62.5% 日常任务过关率（暖橙数字 + 白字）",
+      "line2": "0.5元一秒，权重还没开（冷青数字 + 白字）",
+      "line3": "明年1月，IRON 进门店实习（白 + 冷青）",
+      "pill": "额度合账 | 视频斩价 | 验收单 >"
+    },
+    "render": "python 公众号/脚本/cover_neon.py --bg 公众号/素材/2026-11-26-ai新闻/cover_bg.png --out 公众号/素材/2026-11-26-ai新闻/cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "字号 44/38/32 成阶梯；行1右端467、行2右端416、行3右端442，均不出界；末行基线258，胶囊上沿324，不冲突；无「AI生成」水印"
+  },
+  "images": [
+    {
+      "file": "assets/01_额度合并概念图.jpg",
+      "source_page": "https://news.sulat.com/2026/11/26/chatgpt-usage-meter",
+      "note": "正文容器内 OpenAI 标识概念图，已转真 JPEG"
+    },
+    {
+      "file": "assets/02_两本账合成一本.jpg",
+      "source_page": "https://news.sulat.com/2026/11/26/chatgpt-usage-meter",
+      "note": "正文内手绘示意图 Two meters become one，PNG 转真 JPEG"
+    },
+    {
+      "file": "assets/03_MAGI2官方样片.jpg",
+      "source_page": "https://sand.ai/blog/magi-2",
+      "note": "Sand.ai 官方博客 ARTICLE 容器内第四张样片，非广告位"
+    },
+    {
+      "file": "assets/04_IRON登台演讲.jpg",
+      "source_page": "https://www.chinanews.com/cj/2026/11-25/10737811.shtml",
+      "note": "中新社现场图，IRON 登台；人物身份未在图注确认，图注只写机器人本体"
+    },
+    {
+      "file": "assets/05_ShellBench日常任务.jpg",
+      "source_page": "https://himiao.ai/en/news/2026-11-26-openclaw-shellbench-agent-benchmark",
+      "note": "正文容器 art 内的评测概念图，无平台水印"
+    }
+  ],
+  "rejected_image_sources": [
+    "The Verge：正文容器 content 抓到 20 张全是 SpaceX/耳机/合成器等推荐位图",
+    "腾讯新闻 MAGI-2 稿：正文容器仅 1 张，为 WorkBuddy 广告",
+    "网易上海证券报稿：正文容器仅 1 张，为 vivo 广告条",
+    "BlockBeats：fallback 到 body，8 张全是 Direction/SanDisk/Nvidia 等 logo",
+    "九坤创投公众号：微信页未识别正文容器，0 张"
+  ],
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqtbpmP_4YM04_dghfUEaNr37p_EW53MgdM5qSxBf8T2V",
+  "updated_at": "2026-11-26T08:18:00+08:00"
+}
