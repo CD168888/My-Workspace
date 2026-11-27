@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-27",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqod5oMYVlbpM88UTcrqokje2bV3145jl5zvyGwgMoof1",
+  "title": "七牛云 1 亿免费写到年底，最保守还是 11 月 30 日",
+  "digest": "Amux 今早免费调 DeepSeek，12 月 1 日 07:59 收；Oumi 新号最高 50 美元额度。",
+  "title_type": "③ 紧迫提醒型",
+  "title_type_reason": "上期 11-26 为④信息差型，按栏目优先序①→③→④避开④；①近期 11-24 刚用，且今天没有比七牛云日期冲突更硬的 24h 事件，故取③。前 12 字「七牛云 1 亿免费写到年」含真名+具体数字，无泛量词无代词；29 字符，冒号 0，感叹号 0，条数未当主钩子。另写①事件冲击型「Amux 今早开送免费模型，12 月 1 日早上收」、④信息差型「别急着给 API 充值，七牛云日额度改了日期」、⑤揭秘避坑型「七牛云 1 亿免费能用到几号？两页日期打架」三条备选未用。",
+  "title_generated_at": "2026-11-27T09:08:00+08:00",
+  "dedup": "covered.json 近 7 天已覆盖且无变化的老面孔（AutoClaw 第四周、Kiro 4000、Devin、Queryra、WPOS、HiAPI、GLM-5.4、TokenHub、OpenCode、超算、火山折扣、秒悟 Meoo、PixVerse 等）按铁律不收。七牛云属变化回炉：昨天记录的截止日为 11-30，今天模型详情页和 FAQ 写 12-31、活动页顶部仍 11-30；Amux 黑五与 Oumi Free 档为全新条目。丢弃 14 天前旧项，48 条在册。",
+  "headline": "七牛云 Conatus Free 活动期在自家两个官方页出现冲突：模型详情页与 FAQ 写 2026-12-31 23:59，活动页顶部与开始段仍写 2026-11-30 23:59；实名每日 1 亿 Token",
+  "headline_value": "按每天 1 亿 Token 算，多出的一个月约合 30 亿 Token 调用空间；官方没公布 Conatus 刊例单价，未虚构人民币金额；单笔充值满 100 元可把上限提到每日 10 亿，属付费门槛不算白送。",
+  "items": [
+    {
+      "vendor": "七牛云",
+      "benefit": "Conatus Free 认证用户每日 1 亿 Token（活动期两页冲突）",
+      "deadline": "模型详情页/FAQ：2026-12-31 23:59；活动页顶部：2026-11-30 23:59（按更早的保守执行）",
+      "amount": "每日 1 亿 Token，单笔充值>100 元提升至 10 亿；1M 上下文；OpenAI 兼容接口 qiniu/conatus-free",
+      "source_level": "一手（qiniu.com 官方模型详情页 + 官方活动规则页 FAQ，两页原文互相冲突，稿件两边都摆）",
+      "source_url": "https://www.qiniu.com/ai/model/qiniu/conatus-free",
+      "status": "changed",
+      "change_note": "相比 11-26 收录时记的 11-30 23:59，模型详情页与 FAQ 今日已写 12-31 23:59，活动页顶部未同步；稿中明示未坐实延期，按 11-30 安排"
+    },
+    {
+      "vendor": "Amux AI",
+      "benefit": "黑五 DeepSeek V4.1 Flash (Free) 限时限量免费",
+      "deadline": "2026-12-01 07:59（UTC+8）；活动 2026-11-27 08:00 开始",
+      "amount": "标价 0 美元/调用，API 与 Playground 可用；并发/RPM/总配额保护，官方未公布具体免费额度",
+      "source_level": "一手（amux.ai/zh/promotions/black-friday-2026 官方活动页逐字列明起止时间、免费模型与规则 FAQ）",
+      "source_url": "https://amux.ai/zh/promotions/black-friday-2026",
+      "status": "new",
+      "note": "同页充值加赠与 11 项模型折扣属付费，稿中明确标注不算免费福利"
+    },
+    {
+      "vendor": "Oumi",
+      "benefit": "Free 档注册送最高 50 美元额度",
+      "deadline": "自注册起 3 个月，官方未公布统一截止日",
+      "amount": "Up to $50 in credits for 3 months；数据合成/评测/SFT 与 LoRA 微调；官网只写 up to，无保底承诺",
+      "source_level": "一手（oumi.ai/pricing 官方定价页 Free 档原文）",
+      "source_url": "https://oumi.ai/pricing",
+      "status": "new",
+      "note": "滚动有效期按注册日起算，稿中未把 50 美元写成一定到账"
+    }
+  ],
+  "expired": [
+    "Qwen4-Max 预览版 2 折（11-25 24:00 关窗，模型 ID 下线）",
+    "fal MiniMax H3 免费生成（11-23 结束）",
+    "AutoClaw 第三周 1 亿 Token（11-22 23:59 清零）",
+    "Watt Cloud Ampere 零元 API（官网标至 11-19）"
+  ],
+  "excluded_notes": [
+    "Google AI Pro 黑五 5 折：昨天已收录，今天新用户窗口开放属变化，但未登录只见常规价 19.99/199.99 美元，登录态横幅未代核，放别白跑段说明、不列可领",
+    "Inception Labs 新账户 1 亿 Tokens：只追到公众号与聚合站，官方定价页与文档无赠送条款，按查无实据弃",
+    "国家超算 AIGC 短视频四选一限免：官方通稿未点名型号与额度，单位字段不满足，弃",
+    "AI 视频每日重置清单里的多个免费档：仅二级源公众号整理，无逐条一手活动页，未凑数",
+    "联通云 Coding Plan 免费体验、AhAhaNowAI 注册 10 万积分：官网首页/定价页均未直接读到条款，弃"
+  ],
+  "assets": [
+    {"file": "assets/qiniu_model_detail.png", "source": "https://www.qiniu.com/ai/model/qiniu/conatus-free", "note": "首屏，活动期写 2026-10-24 00:00 至 2026-12-31 23:59，头条主图"},
+    {"file": "assets/qiniu_rules_top.png", "source": "https://www.qiniu.com/ai/free-models/conatus-2026", "note": "活动页顶部仍写 11-30 23:59，认证每日 1 亿/充值 10 亿表，冲突图证"},
+    {"file": "assets/amux_dates.png", "source": "https://amux.ai/zh/promotions/black-friday-2026", "note": "锚点截活动起止时间 11-27 08:00 至 12-01 07:59 与倒计时"},
+    {"file": "assets/amux_free_model.png", "source": "https://amux.ai/zh/promotions/black-friday-2026", "note": "锚点截 DeepSeek V4.1 Flash (Free) 标价 0 美元与限时限量条款"},
+    {"file": "assets/oumi_pricing.png", "source": "https://oumi.ai/pricing", "note": "首屏，Free 档 Up to $50 in credits for 3 months"}
+  ],
+  "assets_note": "5 张全部 Playwright 公开页抓取并逐张核图对位；未登录任何账号。Google AI 方案页也截了图但未进正文，因未登录只见常规价、无法证明 5 折，未入库。qiniu 活动页 FAQ 折叠无法截图，12-31 条款由 WebFetch 原文坐实，正文已注明两页口径。",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）",
+    "bg": "ImageGen 直出 1536x640（规律再验证）带右下 AI生成/WORKBUDDY 水印，下裁 55px 后 resize 回 1536x653 → bg_clean.png",
+    "copy": {
+      "main": "30 亿 Token 的空间",
+      "sub": "多出来的一个月，够跑多少活",
+      "tail": "Amux 免费模型 12 月 1 日收",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 公众号/脚本/cover_2026_11_27.py --bg bg_clean.png --out cover.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "行字号 45/35/32 阶梯；右端 425/491/465 无出界；末行基线 255，胶囊上沿约 324 不冲突；裁后无残留水印，三层文案均不复读标题",
+    "note": "主数字用头条价值换算里的 30 亿 Token（标题没给），副标给多出一个月，尾行给快讯里最急的 Amux 关窗日"
+  },
+  "word_count_cn": 941,
+  "deai": "真加载 jiangai skill。前置 CT：句长 61 句、均值 26.3、方差 374.8 健康，无显性逻辑词与僵尸动词，虚词「的了过着」密度 2.77%；五层爆破只动语言层：段首从细节切入、拆 3 处超 60 字长句、注入自我修正「看着像延期。细读两页，对不上」与 8 处第一人称判断、删多余虚词；第 4 节数值与引文重构整体禁用（所有日期/Credits/价格/条款原有写法未动），字数 1046→941 只减不增；skill 日志与自评分未写稿。"
+}
