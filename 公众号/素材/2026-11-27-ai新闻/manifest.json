@@ -1,0 +1,108 @@
+{
+  "date": "2026-11-27",
+  "column": "每日AI新闻",
+  "title": "11月27日Claude接口换Rust，三个数看懂这次重写",
+  "title_type": "⑥ 极简清单型",
+  "title_generated_at": "2026-11-27T08:31:00+08:00",
+  "title_candidates": [
+    {
+      "type": "① 事件冲击型",
+      "title": "Anthropic把Claude接口重写成Rust，CPU砍掉七成"
+    },
+    {
+      "type": "② 悬念反转型",
+      "title": "吻合率先跌到6.5%再回99.6%，Claude这次重写藏了什么"
+    },
+    {
+      "type": "⑥ 极简清单型",
+      "title": "11月27日Claude接口换Rust，三个数看懂这次重写",
+      "selected": true
+    }
+  ],
+  "digest": "同一批线上请求做影子比对，吻合率先掉到6.5%；Google给智能体定了2月1日的死线。",
+  "word_count": {
+    "han": 1207,
+    "nonspace": 1961
+  },
+  "image_count": 7,
+  "images": [
+    {
+      "file": "assets/01_流量1800倍曲线.jpg",
+      "source_page": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "note": "官方正文容器内流量增长曲线，WEBP 转真 JPEG"
+    },
+    {
+      "file": "assets/02_吻合率24到99.6.jpg",
+      "source_page": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "note": "官方影子比对吻合率图（24%→6.5%→99.6%），WEBP 转真 JPEG"
+    },
+    {
+      "file": "assets/03_验证回路.jpg",
+      "source_page": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "note": "官方正文容器内 agent 验证回路示意图，WEBP 转真 JPEG"
+    },
+    {
+      "file": "assets/04_DFly2架构.jpg",
+      "source_page": "http://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ==&mid=2247499116&idx=1&sn=5e8af49c48d4b3c1d7e06b98d6114160",
+      "note": "腾讯混元官方公众号 rich_media_content 容器内 KV Share / Index Share 架构图，WEBP 转真 JPEG"
+    },
+    {
+      "file": "assets/05_Agentic加速4.2倍.jpg",
+      "source_page": "http://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ==&mid=2247499116&idx=1&sn=5e8af49c48d4b3c1d7e06b98d6114160",
+      "note": "官方 Agentic 与真实任务加速对比图，WEBP 转真 JPEG"
+    },
+    {
+      "file": "assets/06_人形机器人本体.jpg",
+      "source_page": "https://gzdaily.dayoo.com/pc/html/2026-11/27/content_872_918228.htm",
+      "note": "广州日报正文容器内车企展台人形机器人本体图；图注不指定具体型号"
+    },
+    {
+      "file": "assets/07_小鹏科技日同台.jpg",
+      "source_page": "https://finance.sina.cn/2026-11-27/detail-inkaatuw8125117.d.html",
+      "note": "新浪财经正文容器内小鹏科技日现场，人与机器人同台；未核实人物身份，图注保持中性"
+    }
+  ],
+  "discarded_sources": [
+    "news.qq.com/rain DFly2 稿：正文容器内混入手机看新闻截图与 WorkBuddy 广告",
+    "chinaz.com Ling-3.2-air 稿：无正文容器，7 张全是广告条与推荐位",
+    "workspaceupdates.googleblog.com 官方稿：正文容器内 0 张可下载图",
+    "aitoolsrecap.com Volvo 稿：正文容器内 0 张可下载图",
+    "sina 小鹏稿其余图：新浪 logo、篮球赛事广告、卡通插图均已剔除"
+  ],
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）/ cover_neon.py",
+    "bg": "cyberpunk_tech_background__dar_2026-11-27T00-26-33.png（ImageGen 1536x640）→ 下裁 52px 去右下「AI生成」水印 → 重采样回 1536x640 → cover_bg.png",
+    "copy": {
+      "line1": "吻合率 6.5%，再爬回99.6%（白 + 暖橙数字）",
+      "line2": "100 多条断言被改松（冷青数字 + 白字）",
+      "line3": "Google 给智能体划下 2月1日（冷青 + 白 + 暖橙）",
+      "pill": "迁移验收 | MCP死线 | 具身分层 >"
+    },
+    "render": "python 公众号/脚本/cover_neon.py --bg 公众号/素材/2026-11-27-ai新闻/cover_bg.png --out 公众号/素材/2026-11-27-ai新闻/cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "字号 44/38/33 成阶梯；行1右端559、行2右端358、行3右端465，均不出界；末行基线259，胶囊上沿324，不冲突；无「AI生成」水印"
+  },
+  "deai": {
+    "skill": "jiangai（真加载，前置CT + 五层爆破法）",
+    "overrides": [
+      "禁用第 4 节数值与引文重构",
+      "字数只减不增"
+    ],
+    "before": {
+      "han": 1308,
+      "nonspace": 2046,
+      "longest": 106
+    },
+    "after": {
+      "han": 1207,
+      "nonspace": 1961,
+      "sentences": 90,
+      "longest": 60,
+      "variance": 156.4,
+      "logic_words": 0,
+      "binary_contrast": 0,
+      "first_person": 6
+    }
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqtmUhhNRT85GpCbnIAUmb0-cZetkMbqbBGPqM6QZxYSN",
+  "updated_at": "2026-11-27T08:35:00+08:00"
+}
