@@ -1,0 +1,88 @@
+{
+  "date": "2026-11-28",
+  "column": "今日可领",
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqoOa0w9YYhEjVwnXT7nsFmWulXQqWp-sFHt6VZWot7gW",
+  "title": "火山 450 张图免费，漏勾一个开关就开始扣费",
+  "digest": "官方单价折算约百元，11 月 30 日收口只剩两天；教师 2000 积分、复旦每周 1 亿同期开领。",
+  "title_type": "② 悬念反转型",
+  "title_type_reason": "上期 11-27 为③紧迫提醒型，按栏目优先序①→③→④且①需 24 小时内真事件（本期无）、②适合「看着免费其实有坑」的选题（头条正是漏勾开关就扣费），选②；另写①④⑤三条备选未用。",
+  "title_generated_at": "2026-11-28T09:20:00+08:00",
+  "title_candidates": [
+    "① 火山方舟今天放出 450 张图，11 月 30 日就关窗（弃：非 24 小时内真事件）",
+    "③ 火山 450 张图还剩两天，VEGA 今天关免费（弃：与上期同型）",
+    "④ 别急着买生图额度，火山 450 张按官方价折百元（备选）"
+  ],
+  "dedup": {
+    "covered_before": 48,
+    "dropped_14d": 4,
+    "new_items": 4,
+    "changed_items": 0,
+    "note": "近 7 天老面孔（七牛云 1 亿、Hy4 flash、AutoClaw M11W4、TokenHub、无问 AI、火山 k3.1-pro 等）本期无变化，全部不收。"
+  },
+  "headline": "火山方舟 Seedream 三款模型合计 450 张免费生图（5.0-lite 50 / 4.5 200 / 4.0 200）",
+  "headline_value": "按官方单价 0.13-0.30 元/张折算约 58.5-135 元；按 0.22 元中位价约 100 元。隐藏门槛：安心体验模式仅对未开通过模型服务的账号开放，漏勾则用完转按量计费。",
+  "items": [
+    {
+      "vendor": "火山方舟",
+      "benefit": "Seedream 450 张免费生图",
+      "deadline": "2026-11-30 23:59",
+      "source_level": "一级（官方产品页 volcengine.com/product/ark 免费额度表 + 官方控制台文档 free-tokens-only-mode 细则）",
+      "status": "new"
+    },
+    {
+      "vendor": "VEGA",
+      "benefit": "Autopilot 聊天与生图免费",
+      "deadline": "2026-11-28",
+      "source_level": "一级（官方博客 vega.chat/blog/autopilot-free-until-november-28-2026）",
+      "status": "new"
+    },
+    {
+      "vendor": "阿里云×支付宝",
+      "benefit": "教师权益 Qoder CN 2000 积分",
+      "deadline": "官方未写统一下线日，领取页标数量有限赠完即止",
+      "source_level": "一级（阿里云官方教师权益页 university.aliyun.com/teacher + 阿里云官方公众号发布稿）",
+      "status": "new"
+    },
+    {
+      "vendor": "复旦大学",
+      "benefit": "师生每人每周 1 亿 Token",
+      "deadline": "长期滚动，每周重置",
+      "source_level": "一级（复旦大学官方公众号公告 + 上观新闻转载全文）",
+      "status": "new"
+    }
+  ],
+  "expired": [
+    "蚂蚁 ling-3.2-flash DTMaaS 免费期 2026-11-28 10:00 结束",
+    "火山 kimi-k3 2026-11-25 14:00 停服",
+    "中国电信直播间 10 亿 Token（10 亿数字仅追到直播预告物料，按查无实据处理）"
+  ],
+  "excluded_notes": [
+    "讯飞星火 X2.6 12-20 到期口径仅见 smzdm 二级清单，maas.xfyun.cn 首页未核到条款，未进正文",
+    "合肥高新区高新星火卡面向区内企业，属定向企业福利，按栏目范围不收",
+    "百度千帆双十二 5/6 折、智谱 GLM-5.3-Flash Coding Plan 五折均为付费折扣，非免费额度",
+    "火山 Seedream 450 张的 11-30 档期来自 11-27 AI 模型优惠速报与活动页；官方产品页免费额度表只给张数未写档期，稿中按活动页口径写明"
+  ],
+  "assets": [
+    {"file": "assets/volcano_free_crop.png", "desc": "火山方舟产品页免费额度表（5.0-lite 50 / 4.5 200 / 4.0 200）", "source": "https://www.volcengine.com/product/ark", "source_level": "一级"},
+    {"file": "assets/volcano_safe.png", "desc": "官方安心体验模式细则（开启时仅消耗免费额度、超出自动暂停；未开通过模型服务的账号可开）", "source": "https://console.volcengine.com/ark/region%3Acn-beijing/docs/free-tokens-only-mode", "source_level": "一级"},
+    {"file": "assets/teacher_rights.png", "desc": "阿里云教师权益页（Qoder CN 2000 积分、千问 AI 平台 5 折、千问 App 会员 6 个月 5 折）", "source": "https://university.aliyun.com/teacher", "source_level": "一级"},
+    {"file": "assets/fudan_token.png", "desc": "复旦公告特别提醒（每人每周初始配额 1 亿 Token、不限请求次数）", "source": "https://www.jfdaily.com/staticsg/res/html/web/sgh/sghNewsDetail.html?id=4102060", "source_level": "一级（复旦官方公众号公告转载）"},
+    {"file": "assets/vega_free.png", "desc": "VEGA 官方博客（Until November 28, 2026 chat and image generation free）", "source": "https://vega.chat/blog/autopilot-free-until-november-28-2026", "source_level": "一级"}
+  ],
+  "assets_note": "5 张全部 Playwright 公开页抓取，未登录任何账号；volcano_safe 首版被官网视频弹窗遮挡，已关弹窗重截并裁掉下方无关区域；fudan_token 首屏无关键数字，改用锚点截特别提醒段。逐张 ViewImage 核图对位，图与四字段截止一一对应。",
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿风格）",
+    "bg": "Cyberpunk_tech_background_for__2026-11-28T01-17-35.png（ImageGen 1536x640，下裁 76px 去右下 AI生成 水印后重采样 1536x653 → bg_clean.png）",
+    "copy": {
+      "main": "450 张图免费",
+      "sub": "教师再领 2000 积分",
+      "tail": "11 月 30 日 23:59 收口",
+      "pill": "截止时间整理 | 领取方式 | 避坑提醒 >"
+    },
+    "render": "python 公众号/脚本/cover_neon.py --bg 公众号/素材/2026-11-28-ai-福利/bg_clean.png --out 公众号/素材/2026-11-28-ai-福利/cover.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "行1 47px 基线168 右端299 / 行2 38px 基线218 右端366 / 行3 32px 基线259 右端383；末行基线259 < 胶囊上沿324，无冲突；ViewImage 人眼确认三行清晰无错字、无残留水印",
+    "note": ""
+  },
+  "word_count_cn": 1399,
+  "deai": "真加载 jiangai skill，前置 CT 诊断（句长方差健康、无显性逻辑词、无僵尸动词、虚词密度低）后五层爆破，第 4 节数值重构整体禁用；字数 1400→1399 只减不增。skill 日志与自评分未写入稿件。"
+}
