@@ -1,0 +1,118 @@
+{
+  "date": "2026-11-28",
+  "column": "每日AI新闻",
+  "title": "质谱识别4%到97%，1万名研究者可免费用6个月",
+  "title_type": "③ 紧迫提醒型",
+  "title_generated_at": "2026-11-28T08:14:00+08:00",
+  "title_candidates": [
+    {
+      "type": "① 事件冲击型",
+      "title": "小米世界模型2.0发布，1260万段视频训练汽车与机器人"
+    },
+    {
+      "type": "② 悬念反转型",
+      "title": "质谱识别4%到97%，变量藏在工具清单里"
+    },
+    {
+      "type": "③ 紧迫提醒型",
+      "title": "质谱识别4%到97%，1万名研究者可免费用6个月",
+      "selected": true
+    }
+  ],
+  "digest": "同一批100个已知分子，三款Gemini不接工具都不到4%；机器人空间记忆把5.2公里误差压到4.72米。",
+  "word_count": {
+    "han": 1490,
+    "nonspace": 2197
+  },
+  "image_count": 8,
+  "images": [
+    {
+      "file": "assets/05_质谱工作流界面.jpg",
+      "source_page": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "note": "DeepMind 官方正文容器 page-content 内的质谱技能工作界面截图"
+    },
+    {
+      "file": "assets/06_质谱异构体对比.jpg",
+      "source_page": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "note": "官方正文容器内两个最可能异构体的并列比较图"
+    },
+    {
+      "file": "assets/02_工厂机器人现场.jpg",
+      "source_page": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651076674&idx=1&sn=b57c7e2ca9001a74d3de876bb7ce0904",
+      "note": "机器之心报道配图：工厂里的机器人本体，图注不指定具体型号"
+    },
+    {
+      "file": "assets/03_灵波注意力模式.jpg",
+      "source_page": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651076674&idx=1&sn=b57c7e2ca9001a74d3de876bb7ce0904",
+      "note": "LingBot-Map 2.0 三种运行模式下的注意力关系示意图"
+    },
+    {
+      "file": "assets/04_灵波导航架构.jpg",
+      "source_page": "http://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2651076674&idx=1&sn=b57c7e2ca9001a74d3de876bb7ce0904",
+      "note": "LingBot-Navi 空间记忆导航架构图"
+    },
+    {
+      "file": "assets/08_机器人跨任务导航.jpg",
+      "source_page": "https://news.qq.com/rain/a/20261127A07W6P00",
+      "note": "腾讯新闻正文容器内演示视频截图：室内环境中的跨任务导航"
+    },
+    {
+      "file": "assets/01_小米世界模型架构.jpg",
+      "source_page": "https://www.ithome.com/1/033/614.htm",
+      "note": "IT之家正文容器内技术报告的统一架构与配置图"
+    },
+    {
+      "file": "assets/07_SAP股价分时.jpg",
+      "source_page": "https://news.qq.com/rain/a/20261127A03ARB00",
+      "note": "腾讯新闻正文容器内 11 月 26 日 SAP 股价分时图"
+    }
+  ],
+  "discarded_sources": [
+    "news.qq.com/rain SAP 另一稿正文容器只有家居场景图，剔除",
+    "具身周报公众号正文容器仅 1 张 GIF，剔除",
+    "硬科技股权融资日报与具身之家公众号正文容器 0 张可下载图",
+    "机器之心稿中的论文标题页与密集数据表、腾讯灵波稿中的家居场景图均已剔除",
+    "IT之家小米稿 5 张均为论文表格，仅保留架构图 1 张"
+  ],
+  "cover": {
+    "style": "霓虹拼贴（SOP 1.4 定稿）/ cover_neon.py",
+    "bg": "cyberpunk_tech_background__dar_2026-11-28T00-12-34.png（ImageGen 1536x640）→ 下裁 52px 去右下「AI生成」水印 → 重采样回 1536x640 → cover_bg.png",
+    "copy": {
+      "line1": "工具一接，97%（白 + 暖橙数字）",
+      "line2": "只测了 100 个已知分子（白 + 冷青数字）",
+      "line3": "未知结构还得化学家签字（白）",
+      "pill": "技能包 | 6个月名额 | 化学复核 >"
+    },
+    "render": "python 公众号/脚本/cover_neon.py --bg 公众号/素材/2026-11-28-ai新闻/cover_bg.png --out 公众号/素材/2026-11-28-ai新闻/cover_ai_news.png --base 40 --baseline0 168 --left 36",
+    "selfcheck": "字号 47/38/32 成阶梯；行1右端342、行2右端413、行3右端388，均不出界；末行基线259，胶囊上沿324不冲突；无「AI生成」水印与内部栏目标记"
+  },
+  "deai": {
+    "skill": "jiangai（真加载，前置CT + 五层爆破法）",
+    "overrides": [
+      "禁用第 4 节数值与引文重构",
+      "字数只减不增"
+    ],
+    "before": {
+      "han": 1597,
+      "nonspace": 2334,
+      "longest": 79,
+      "avg": 31.8,
+      "variance": 304.0,
+      "not_pattern": 4,
+      "english_word": 1
+    },
+    "after": {
+      "han": 1490,
+      "nonspace": 2197,
+      "sentences": 87,
+      "longest": 58,
+      "avg": 24.9,
+      "variance": 212.8,
+      "not_pattern": 0,
+      "logic_words": 0,
+      "first_person": 5
+    }
+  },
+  "draft_media_id": "nTPzuxPRT0j1_f2IUQZEqm3r2Nb6uzg_qlUOhoFJqmIhmD1Oo8lgZrqYPD8o1rXN",
+  "updated_at": "2026-11-28T08:16:00+08:00"
+}
